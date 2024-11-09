@@ -1,0 +1,243 @@
+/* === POPUP ADD TO WISHLIST === */
+.yith-wcwl-popup {
+  display: none;
+}
+.yith-wcwl-popup-content h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+.yith-wcwl-popup-content label {
+  display: block;
+}
+.yith-wcwl-popup-content select,
+.yith-wcwl-popup-content input[type=text] {
+  padding: 10px 7px;
+}
+.yith-wcwl-popup-content .create {
+  display: none;
+}
+.yith-wcwl-popup-content .yith-wcwl-second-row {
+  display: none;
+}
+.yith-wcwl-popup-content .popup-description {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.yith-wcwl-popup-content .popup-description a.show-tab.active {
+  cursor: inherit;
+  color: inherit;
+  pointer-events: none;
+}
+.yith-wcwl-popup-content .wishlist-select {
+  box-sizing: border-box;
+}
+.yith-wcwl-popup-feedback {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.yith-wcwl-popup-feedback p.feedback {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.yith-wcwl-popup-footer {
+  margin: 15px 0;
+}
+.yith-wcwl-popup-footer .button.wishlist-submit {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.yith-wcwl-popup-content .heading-icon, .yith-wcwl-popup-feedback .heading-icon {
+  text-align: center;
+  display: block;
+  font-size: 70px;
+  color: #333;
+  margin-block: 0 15px;
+}
+.yith-wcwl-popup-content .heading-icon svg.yith-wcwl-icon-svg, .yith-wcwl-popup-content .heading-icon img, .yith-wcwl-popup-feedback .heading-icon svg.yith-wcwl-icon-svg, .yith-wcwl-popup-feedback .heading-icon img {
+  width: 70px;
+  height: 70px;
+}
+
+.pp_pic_holder.pp_woocommerce.feedback {
+  max-width: 450px !important;
+}
+.pp_pic_holder.pp_woocommerce.feedback .pp_content {
+  width: auto !important;
+}
+
+/* === DROPDOWN ADD TO WISHLIST === */
+.yith-wcwl-add-button.with-dropdown {
+  position: relative;
+  padding: 15px 0;
+}
+.yith-wcwl-add-button.show-dropdown ul.yith-wcwl-dropdown {
+  display: block;
+}
+.yith-wcwl-add-button ul.yith-wcwl-dropdown li {
+  padding: 15px;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.yith-wcwl-add-button ul.yith-wcwl-dropdown li:before {
+  font-family: FontAwesome;
+  content: "\f067";
+  margin-right: 15px;
+}
+.yith-wcwl-add-button ul.yith-wcwl-dropdown li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+.yith-wcwl-add-button ul.yith-wcwl-dropdown li a {
+  font-size: 1em !important;
+  color: inherit;
+  box-shadow: none;
+}
+.yith-wcwl-add-button ul.yith-wcwl-dropdown li a:hover {
+  color: initial;
+}
+
+.yith-wcwl-add-to-wishlist .yith-wcwl-add-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yith-wcwl-add-to-wishlist a.button:not(.theme-button-style) {
+  padding: 7px 10px;
+}
+.yith-wcwl-add-to-wishlist svg.yith-wcwl-icon-svg, .yith-wcwl-add-to-wishlist .add_to_wishlist img {
+  height: auto;
+  width: 25px;
+  color: var(--add-to-wishlist-icon-color, #000);
+}
+.yith-wcwl-add-to-wishlist.exists svg.yith-wcwl-icon-svg {
+  color: var(--added-to-wishlist-icon-color, #000);
+}
+
+.yith-wcwl-wishlistaddedbrowse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yith-wcwl-wishlistaddedbrowse .feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-wrap: balance;
+}
+
+.yith-wcwl-add-to-wishlist--single .yith-wcwl-add-button ul.yith-wcwl-dropdown {
+  left: 0;
+}
+
+.yith-wcwl-add-button ul.yith-wcwl-dropdown {
+  display: none;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 5px 25px;
+  background: #fff;
+  position: absolute;
+  z-index: 15;
+  top: 100%;
+  border: 1px solid #cdcdcd;
+  outline-offset: -10px;
+  left: 50%;
+  min-width: 200px;
+}
+
+/* === TOOLTIP ===  */
+.yith-wcwl-add-to-wishlist .separator + [data-title] {
+  display: inline-block;
+}
+.yith-wcwl-add-to-wishlist .with-tooltip {
+  position: relative;
+}
+
+.yith-wcwl-tooltip {
+  z-index: 10;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  top: calc(100% + 5px);
+  pointer-events: none;
+  cursor: initial;
+  font-size: 0.6875rem;
+  line-height: normal;
+  display: none;
+}
+
+.with-dropdown .yith-wcwl-tooltip {
+  top: auto;
+  bottom: calc(100% + 10px);
+}
+
+.with-tooltip .yith-wcwl-tooltip {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.with-tooltip .yith-wcwl-tooltip:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -95%);
+  width: 0;
+  height: 0;
+  background: transparent !important;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  border-bottom: 5px solid;
+}
+
+.with-dropdown .with-tooltip .yith-wcwl-tooltip:before {
+  bottom: -5px;
+  top: auto;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid;
+  border-bottom: none;
+}
+
+/* === POPUP MESSAGE === */
+#yith-wcwl-popup-message {
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 7px 40px;
+  z-index: 10000; /* Thanks WP -.- */
+}
+
+/* === AUTO GENERATED STYLE THAT WAS LOCALIZED === */
+.woocommerce .yith-wcwl-add-button a.button.alt:not(.theme-button-style) {
+  background-color: var(--color-add-to-wishlist-background, #333333);
+  background: var(--color-add-to-wishlist-background, #333333);
+  color: var(--color-add-to-wishlist-text, #ffffff);
+  border-color: var(--color-add-to-wishlist-border, #333333);
+  border-radius: var(--rounded-corners-radius, 16px);
+}
+.woocommerce .yith-wcwl-add-button a.button.alt:not(.theme-button-style):hover {
+  background-color: var(--color-add-to-wishlist-background-hover, #4f4f4f);
+  background: var(--color-add-to-wishlist-background-hover, #4f4f4f);
+  color: var(--color-add-to-wishlist-text-hover, #ffffff);
+  border-color: var(--color-add-to-wishlist-border-hover, #4f4f4f);
+}
+
+.yith-wcwl-tooltip,
+.with-tooltip .yith-wcwl-tooltip:before,
+.with-dropdown .with-tooltip .yith-wcwl-tooltip:before {
+  background-color: var(--tooltip-color-background, #333333);
+  border-bottom-color: var(--tooltip-color-background, #333333);
+  border-top-color: var(--tooltip-color-background, #333333);
+  color: var(--tooltip-color-text, #ffffff);
+}/*# sourceMappingURL=add-to-wishlist.css.map */

@@ -1,0 +1,53 @@
+/* === ASK AN ESTIMATE === */
+.woocommerce .ask-an-estimate-button > img {
+  max-width: 1em;
+  display: inline;
+  margin-right: 5px;
+}
+
+#ask_an_estimate_popup {
+  display: none;
+}
+
+.wishlist-ask-an-estimate-popup .ask-an-estimate-button-popup {
+  width: 100%;
+}
+.wishlist-ask-an-estimate-popup .woocommerce-error {
+  margin-bottom: 0;
+}
+.wishlist-ask-an-estimate-popup #additional_notes {
+  min-height: 150px;
+}
+
+.ask-an-estimate-confirmation {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.yith-wcwl-ask-an-estimate-button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 10px;
+}
+.yith-wcwl-ask-an-estimate-button .yith-wcwl-icon-svg, .yith-wcwl-ask-an-estimate-button img {
+  width: 25px;
+  height: 25px;
+  margin-left: -5px;
+  max-width: unset !important;
+}
+
+/* === AUTO GENERATED STYLE THAT WAS LOCALIZED === */
+.woocommerce a.button.ask-an-estimate-button:not(.yith-wcwl-ask-an-estimate-button--theme-style) {
+  background-color: var(--color-ask-an-estimate-background, #333333);
+  background: var(--color-ask-an-estimate-background, #333333);
+  color: var(--color-ask-an-estimate-text, #ffffff);
+  border-color: var(--color-ask-an-estimate-border, #333333);
+  border-radius: var(--ask-an-estimate-rounded-corners-radius, 16px);
+}
+.woocommerce a.button.ask-an-estimate-button:not(.yith-wcwl-ask-an-estimate-button--theme-style):hover {
+  background-color: var(--color-ask-an-estimate-background-hover, #4f4f4f);
+  background: var(--color-ask-an-estimate-background-hover, #4f4f4f);
+  color: var(--color-ask-an-estimate-text-hover, #ffffff);
+  border-color: var(--color-ask-an-estimate-border-hover, #4f4f4f);
+}/*# sourceMappingURL=ask-an-estimate.css.map */

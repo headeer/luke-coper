@@ -1,0 +1,5622 @@
+@import url("https://fonts.googleapis.com/css2?family=Helvetica Neue LT Pro:wght@400;700");
+@import url("https://api.fontshare.com/css?f[]=helvetica neue lt pro@400,700&display=swap");
+body ._ {
+  /* Base styling for hero containers */
+  /* Inner background image styling */
+  /* Zoom effect on hover */
+  /* Ensure content remains static on top */
+  /* Active state */
+  /* Styling the hover_container for background and text color change */
+  /* Adding the white background effect */
+  /* Text styling on hover */
+  /* Background animation on hover */
+  /* Ensuring text is above the background */
+  /* Initially hide frame-22 */
+  /* Show frame-22 */
+  /* Close button animation */
+  /* Hover border animation for buttons and links */
+  /* button::after,
+  .przeczytaj-wi-cej::after,
+  a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.106vw;
+    background-color: #231F20;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  button:hover::after,
+  .przeczytaj-wi-cej:hover::after,
+  a:hover::after {
+    transform: scaleX(1);
+  } */
+  /* Styling for hero items */
+  /* Adding the white background effect */
+  /* Text styling on hover */
+  /* Background animation on hover */
+  /* Ensuring text and elements stay above the background */
+  /* Additional styling for internal elements if needed */
+  /* Example: Changing border color of internal frames on hover */
+  /* Common styles for hover effect */
+  /* Adding the white background effect */
+  /* Text styling on hover */
+  /* Background animation on hover */
+  /* Ensuring text and elements stay above the background */
+  /* Additional styling for internal elements if needed */
+  /* Example: Changing border color of internal frames on hover */
+  /* Base styling for hero containers */
+  /* Inner background image styling */
+  /* Zoom effect on hover */
+  /* Ensure content remains static on top */
+  /* Base styling for hero containers */
+  /* Inner background image styling */
+  /* Zoom effect on hover */
+  /* Ensure content remains static on top */
+  /* Initial styles for question and answer */
+}
+body ._ div {
+  border: none;
+}
+body ._ a {
+  color: #231f20;
+  text-decoration: none;
+}
+body ._ p,
+body ._ ol,
+body ._ ul {
+  margin: 0;
+  list-style-type: none;
+}
+body ._ ._ button {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+body ._ h1 {
+  font-size: 5.085vw;
+  line-height: 5.244vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ ol,
+body ._ ul {
+  padding-inline-start: 1.271vw;
+}
+body ._ input {
+  background-image: none;
+  background-color: transparent;
+}
+body ._ .common-87,
+body ._ .frame-10,
+body ._ .frame-25,
+body ._ .frame-27,
+body ._ .frame-29,
+body ._ .frame-82,
+body ._ .frame-84,
+body ._ .frame-86 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+body ._ .common-79,
+body ._ .tttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z,
+body ._ .t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon,
+body ._ .wpisz-adres-email,
+body ._ .wybierz-co-ci-interesuje,
+body ._ .t-menu-strony-kategorie,
+body ._ .t-informacje-bezpieczna-dostawa,
+body ._ .bezpieczne-metody-patno-ci,
+body ._ .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  text-transform: uppercase;
+  letter-spacing: 0.093vw;
+  line-height: 1.112vw;
+}
+body ._ .common-80,
+body ._ .t-pi-kno-znatury,
+body ._ .t-kwantowe-flow-up,
+body ._ .t-harmonijna-energia {
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
+body ._ .common-81,
+body ._ .nasze-bestsellery,
+body ._ .component-8,
+body ._ .miedziane-bransoletki,
+body ._ .pi-kno-1,
+body ._ .pochodzi-znatury,
+body ._ .dost-pne-kategorie,
+body ._ .t-faq-pytania-iodpowiedzi {
+  text-transform: uppercase;
+  line-height: 2.913vw;
+}
+body ._ .common-82,
+body ._ .z-1,
+body ._ .z-2,
+body ._ .z-3,
+body ._ .z-4,
+body ._ .z-5,
+body ._ .przeczytaj-wi-cej,
+body ._ .ukryj-dodatkowy-opis,
+body ._ .z-6,
+body ._ .z-7,
+body ._ .z-8,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-1,
+body ._ .z-20,
+body ._ .z-21,
+body ._ .z-22,
+body ._ .z-23,
+body ._ .z-24,
+body ._ .t-frame-17tframe-17frame-17frame-17tframe,
+body ._ .czytaj-wi-cej-1,
+body ._ .czytaj-wi-cej-2,
+body ._ .czytaj-wi-cej-3,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-2,
+body ._ .zapisz-do-newslettera {
+  text-transform: uppercase;
+  line-height: 1.165vw;
+}
+body ._ .czytaj-wi-cej-1,
+body ._ .czytaj-wi-cej-2,
+body ._ .czytaj-wi-cej-3 {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .common-83,
+body ._ .najwy-szy-potencja-energetyczny,
+body ._ .mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys,
+body ._ .miedziana-bi-uteria-wstaro-ytnych-kulturach-symbolika-iukryta-moc,
+body ._ .holistyczne-waciwo-ci-miedzi-jak-wp-ywa-na-twoje-samopoczucie,
+body ._ .chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci,
+body ._ .luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji {
+  text-transform: uppercase;
+  line-height: 1.748vw;
+}
+body ._ .common-84,
+body ._ .component,
+body ._ .component-1,
+body ._ .component-2 {
+  letter-spacing: 0.051vw;
+  line-height: 1.165vw;
+}
+body ._ .common-85,
+body ._ .friendly,
+body ._ .quality,
+body ._ .bransolet-ki,
+body ._ .t-kobiece-mskie-unisex,
+body ._ .ju-od,
+body ._ .zobacz-wszystkie,
+body ._ .zobacz,
+body ._ .zobacz-wszystkie-1,
+body ._ .ju-od-1,
+body ._ .wszystkie,
+body ._ .ju-od-2,
+body ._ .ju-od-3,
+body ._ .ju-od-4,
+body ._ .zobacz-pomys-yna,
+body ._ .czytaj-wi-cej,
+body ._ .ju-od-5,
+body ._ .ju-od-6,
+body ._ .ju-od-7,
+body ._ .ju-od-8,
+body ._ .ju-od-9,
+body ._ .ju-od-10,
+body ._ .zobacz-wszystkie-2,
+body ._ .odbierz-zni-k {
+  letter-spacing: 0.093vw;
+  line-height: 1.112vw;
+}
+body ._ .zobacz,
+body ._ .bi-uteria-kwantowa {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+}
+body ._ .common-86,
+body ._ .tt-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie-tlc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny-ttlc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili,
+body ._ .element-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja,
+body ._ .tbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-wtwpisz-adres-email-frame,
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet,
+body ._ .wyra-am-zgod-na-przetwarzanie-danych-osobowych-zgodnie-zpolityk-prywatno-ci,
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  letter-spacing: 0.042vw;
+  line-height: 1.006vw;
+}
+body ._ .common-74,
+body ._ .hero-default_best,
+body ._ .hero-hover_best,
+body ._ .hero-default_best-1,
+body ._ .hero-default_best-2 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-default_best-3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+body ._ .common-75,
+body ._ .hero-2,
+body ._ .hero-17 {
+  background-position: center;
+  background-size: cover;
+}
+body ._ .hero-17 .background-image,
+body ._ .common-75,
+body ._ .hero-2 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-17.jpeg);
+  background-size: cover;
+}
+body ._ .hero-6,
+body ._ .hero-21,
+body ._ .common-76 {
+  position: relative;
+  overflow: hidden;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-21.jpeg); /* Replace with the correct image */
+  background-position: center;
+  background-size: cover;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg); /* Replace with the correct image */
+  background-position: center;
+  background-size: cover;
+}
+body ._ .hero-6 .background-image,
+body ._ .hero-21 .background-image,
+body ._ .common-76 .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-21.jpeg); /* Replace with the correct image */
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.6s ease; /* Smooth zoom effect */
+  z-index: 0; /* Behind the text */
+}
+body ._ .hero-6:hover .background-image,
+body ._ .hero-21:hover .background-image,
+body ._ .common-76:hover .background-image {
+  transform: scale(1.1); /* Zoom to 110% */
+}
+body ._ .hero-6 .content,
+body ._ .hero-21 .content,
+body ._ .common-76 .content {
+  position: relative;
+  z-index: 1;
+}
+body ._ .common-77,
+body ._ .hero-default_best-3,
+body ._ .hero-11 {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+}
+body ._ .common-78,
+body ._ .hero,
+body ._ .hero-3,
+body ._ .hero-4,
+body ._ .hero-7,
+body ._ .hero-8,
+body ._ .hero-9,
+body ._ .hero-10,
+body ._ .hero-12,
+body ._ .hero-13,
+body ._ .hero-14,
+body ._ .hero-15,
+body ._ .hero-16,
+body ._ .hero-18,
+body ._ .hero-19,
+body ._ .hero-20,
+body ._ .hero-22,
+body ._ .hero-23 {
+  background-position: center;
+  background-size: cover;
+}
+body ._ .common-70,
+body ._ .component,
+body ._ .frame-3,
+body ._ .frame-4,
+body ._ .frame-11,
+body ._ .frame-21,
+body ._ .frame-23,
+body ._ .frame-24,
+body ._ .frame-26,
+body ._ .frame-28,
+body ._ .frame-30,
+body ._ .frame-59,
+body ._ .frame-61,
+body ._ .frame-63,
+body ._ .frame-65,
+body ._ .frame-67,
+body ._ .frame-83,
+body ._ .frame-85,
+body ._ .frame-87 {
+  border-style: solid;
+  border-color: whitesmoke;
+}
+body ._ .common-71,
+body ._ .frame-5,
+body ._ .frame-115 {
+  border-style: solid;
+  border-color: lightsalmon;
+}
+body ._ .common-72,
+body ._ .frame-9,
+body ._ .frame-14,
+body ._ .frame-17,
+body ._ .frame-20,
+body ._ .frame-31,
+body ._ .frame-38,
+body ._ .frame-39,
+body ._ .frame-40,
+body ._ .frame-41,
+body ._ .frame-42,
+body ._ .frame-43,
+body ._ .frame-57,
+body ._ .frame-69,
+body ._ .frame-76,
+body ._ .frame-77,
+body ._ .frame-78,
+body ._ .frame-79,
+body ._ .frame-80,
+body ._ .frame-81,
+body ._ .frame-88,
+body ._ .frame-90,
+body ._ .frame-91,
+body ._ .frame-92,
+body ._ .frame-93,
+body ._ .frame-94,
+body ._ .frame-95,
+body ._ .frame-96,
+body ._ .frame-97,
+body ._ .frame-98,
+body ._ .frame-99,
+body ._ .frame-102,
+body ._ .frame-109,
+body ._ .frame-110,
+body ._ .frame-111,
+body ._ .frame-112,
+body ._ .frame-113,
+body ._ .frame-116,
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-1,
+body ._ .frame-117,
+body ._ .frame-119,
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-3 {
+  border-style: solid;
+  border-color: #231f20;
+}
+body ._ .common-73,
+body ._ .frame-45,
+body ._ .frame-52,
+body ._ .frame-53,
+body ._ .frame-54,
+body ._ .frame-55,
+body ._ .frame-56 {
+  border-style: solid;
+  border-color: white;
+}
+body ._ .common-40,
+body ._ .frame-3,
+body ._ .t-frame-67frame-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+body ._ .common-41,
+body ._ .frame-4,
+body ._ .frame-23 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body ._ .common-42,
+body ._ .t-frame-67frame,
+body ._ .t-frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame,
+body ._ .tt-odbierz-zni-k {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+body ._ .common-43,
+body ._ .ttttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag-t01_logo_luke_copper_vertical-1ttmiedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje-tframe,
+body ._ .t-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie,
+body ._ .t-lc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny,
+body ._ .tt-lc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili,
+body ._ .tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u,
+body ._ .tt-poznaj-nowo-ci-sezon-202425frame,
+body ._ .tt-polecane-prezenty-iwi-cej-frame,
+body ._ .tt-przegl-daj-miedziana-bi-uteria-energetyczna-frame,
+body ._ .t-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame,
+body ._ .frame-117 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body ._ .common-44,
+body ._ .ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag,
+body ._ .tt-bi-uteria-kt-ra-rezonuje-odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej-tframe-24tcu-99_lukecopper-1frame-25tbransoletki-tenergetyczne,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe,
+body ._ .t-frame-17tframe-17frame-17frame-17tframe,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body ._ .common-45,
+body ._ .tt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt,
+body ._ .t-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje,
+body ._ .tt-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie-tlc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny-ttlc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili,
+body ._ .t-hero-ttnasze-bestsellery-thero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best,
+body ._ .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny,
+body ._ .t-bi-uteria-kwantowa-polecana-dla-ciebie-frame,
+body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .ttw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame-17hero,
+body ._ .tw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame,
+body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .t-polecane-prezenty-iwi-cej,
+body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .ttt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone,
+body ._ .t-faq-pytania-iodpowiedzi,
+body ._ .frame-88,
+body ._ .frame-90,
+body ._ .frame-91,
+body ._ .frame-92,
+body ._ .frame-93,
+body ._ .frame-94,
+body ._ .frame-95,
+body ._ .frame-96,
+body ._ .frame-97,
+body ._ .frame-98,
+body ._ .t-przegl-daj-miedziana-bi-uteria-energetyczna,
+body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .ttt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet-frame,
+body ._ .t-menu-strony-kategorie,
+body ._ .t-informacje-bezpieczna-dostawa,
+body ._ .t-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-luke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body ._ .common-46,
+body ._ .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best,
+body ._ .ttt-wiedza-dedykowana-sekrety-miedzi-ienergii-odkrywamy-nieoczywiste-aspekty-miedzi-ijej-gboki-wp-yw-na-nasze-ycie-zg-biaj-tajemnice-staro-ytnych-tradycji-naukowe-fakty-oraz-energetyczne-waciwo-ci-tego-metalu-kt-re-sprawiaj-emied-jest-czym-wi-cej-ni-tylko-surowcem-poznaj-jej-rol-wmedytacji-zdrowiu-icodziennym-yciu-aby-lepiej-zrozumie-jak-dzia-ana-nasz-wiadomo-iharmoni-wewn-trzn,
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+body ._ .common-47,
+body ._ .t-bransoletki-tenergetyczne,
+body ._ .t-dzien_dobry,
+body ._ .t-frame-4,
+body ._ .t-3kategorie,
+body ._ .t-frame-22 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+body ._ .common-48,
+body ._ .t,
+body ._ .t-1,
+body ._ .t-dzie-dobry-dobrze-ejeste,
+body ._ .t-group,
+body ._ .t-group-1,
+body ._ .t-frame-1,
+body ._ .t-vector,
+body ._ .t-energetyczne,
+body ._ .t-frame-2,
+body ._ .t-ju-od,
+body ._ .tt-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon,
+body ._ .tt-nasze-bestsellery-thero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best,
+body ._ .frame-9,
+body ._ .frame-11,
+body ._ .frame-14,
+body ._ .frame-17,
+body ._ .frame-20,
+body ._ .tt-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
+body ._ .t-2,
+body ._ .frame-26,
+body ._ .frame-28,
+body ._ .frame-30,
+body ._ .ttt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-zobacz-wszystkie,
+body ._ .t-frame-51ttbransoletka-holistic-energy,
+body ._ .t-frame-51ttbransoletka-mindfulness,
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura,
+body ._ .t-frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .frame-38,
+body ._ .frame-39,
+body ._ .frame-40,
+body ._ .frame-41,
+body ._ .frame-42,
+body ._ .ttt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-zobacz,
+body ._ .ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-zobacz-wszystkie-1,
+body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy,
+body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness,
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura-1,
+body ._ .t-frame-51ttzawieszka-miedziana-apertis-oculis-1,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-1,
+body ._ .frame-52,
+body ._ .frame-53,
+body ._ .frame-54,
+body ._ .frame-55,
+body ._ .frame-56,
+body ._ .t-ju-od-1,
+body ._ .ttt-wszystkie-pier-cionki-miedziane-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-wszystkie,
+body ._ .frame-59,
+body ._ .frame-61,
+body ._ .frame-63,
+body ._ .frame-65,
+body ._ .frame-67,
+body ._ .t-ju-od-2,
+body ._ .t-ju-od-3,
+body ._ .t-ju-od-4,
+body ._ .ttt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-zobacz-pomys-yna,
+body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness-1,
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura-2,
+body ._ .t-frame-51ttbransoletka-holistic-energy-1,
+body ._ .t-frame-51ttbransoletka-miedziana-simplyone,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-2,
+body ._ .frame-76,
+body ._ .frame-77,
+body ._ .frame-78,
+body ._ .frame-79,
+body ._ .frame-80,
+body ._ .tt-wiedza-dedykowana-sekrety-miedzi-ienergii,
+body ._ .ttt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-czytaj-wi-cej,
+body ._ .frame-83,
+body ._ .frame-85,
+body ._ .frame-87,
+body ._ .t-ju-od-5,
+body ._ .t-ju-od-6,
+body ._ .t-ju-od-7,
+body ._ .t-ju-od-8,
+body ._ .t-ju-od-9,
+body ._ .t-ju-od-10,
+body ._ .t-1jakie-skorzy-ci-zdrowotne-noszenia-bi-uterii-miedzianej,
+body ._ .t-2czy-miedziane-bransoletki-pomagaj-na-ble-staw-w,
+body ._ .t-3jak-dba-obi-uteri-miedzian-aby-nie-matowia-a,
+body ._ .t-4jakie-szalety-miedzianych-pier-cionk-wwpor-wnaniu-do-innych-metali,
+body ._ .t-5dlaczego-miedziana-bi-uteria-zmienia-kolor-zczasem,
+body ._ .t-7jak-miedziana-bi-uteria-wp-ywa-na-energi-cia-a,
+body ._ .t-8czy-miedziana-bi-uteria-mo-epoprawi-kr-enie-krwi,
+body ._ .t-9jakie-wzory-miedzianej-bi-uterii-sobecnie-modne,
+body ._ .t-10jak-miedziane-pier-cionki-wp-ywaj-na-energi-kwantow-iharmoni-wciele,
+body ._ .t-11czy-bi-uteria-miedziana-mo-ewspomaga-afirmacje-imanifestacj-pozytywnych-intencji,
+body ._ .ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .t-zobacz-wszystkie-2,
+body ._ .t-frame-51ttbransoletka-holistic-energy-2,
+body ._ .t-frame-51ttbransoletka-miedziana-mindfulness,
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura-3,
+body ._ .t-frame-51ttzawieszka-miedziana-apertis-oculis-2,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-3,
+body ._ .frame-109,
+body ._ .frame-110,
+body ._ .frame-111,
+body ._ .frame-112,
+body ._ .frame-113,
+body ._ .tt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet,
+body ._ .t-frame-21,
+body ._ .tp-atno-ci-idostawa,
+body ._ .t-bezpieczne-metody-patno-ci {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body ._ .common-49,
+body ._ .t-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
+body ._ .t-na-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u,
+body ._ .t-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet,
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet,
+body ._ .tt-menu-strony-kategorie-tttstrona-gwna-nowo-ci-tsklep-bransoletki-ttwiedza-pier-cionki-tkontakt-zawieszki,
+body ._ .ttt-strona-gwna-nowo-ci-tsklep-bransoletki-ttwiedza-pier-cionki-tkontakt-zawieszki,
+body ._ .tt-strona-gwna-nowo-ci-tsklep-bransoletki,
+body ._ .tt-wiedza-pier-cionki-tkontakt-zawieszki {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body ._ .common-50,
+body ._ .tt-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag,
+body ._ .t-01_logo_luke_copper_vertical,
+body ._ .friendly,
+body ._ .frame-5,
+body ._ .t-kobiece-mskie-unisex,
+body ._ .t-lc_picto_harmony-1tharmonijna-energia,
+body ._ .t-nasze-bestsellery,
+body ._ .frame-21,
+body ._ .tt-frame,
+body ._ .frame-24,
+body ._ .frame-31,
+body ._ .tt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .tt-bransoletka-holistic-energy,
+body ._ .tt-bransoletka-mindfulness,
+body ._ .tt-zawieszka-miedziana-elegans-natura,
+body ._ .tt-zawieszka-miedziana-apertis-oculis,
+body ._ .t-frame-51frame,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-1,
+body ._ .frame-43,
+body ._ .tt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .frame-45,
+body ._ .tt-bransoletka-miedziana-holistic-energy,
+body ._ .tt-bransoletka-energetyczna-mindfulness,
+body ._ .tt-zawieszka-miedziana-elegans-natura-1,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-2,
+body ._ .t-frame-51frame-1,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-3,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .frame-57,
+body ._ .tt-wszystkie-pier-cionki-miedziane-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3,
+body ._ .frame-69,
+body ._ .tt-bransoletka-energetyczna-mindfulness-1,
+body ._ .tt-zawieszka-miedziana-elegans-natura-2,
+body ._ .tt-bransoletka-holistic-energy-1,
+body ._ .tt-bransoletka-miedziana-simplyone,
+body ._ .t-frame-51frame-2,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-4,
+body ._ .frame-81,
+body ._ .tt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .tt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6,
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7,
+body ._ .frame-102,
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .tt-bransoletka-holistic-energy-2,
+body ._ .tt-bransoletka-miedziana-mindfulness,
+body ._ .tt-zawieszka-miedziana-elegans-natura-3,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-5,
+body ._ .t-frame-51frame-3,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-6,
+body ._ .frame-115,
+body ._ .frame-119,
+body ._ .t-sklep-bransoletki,
+body ._ .t-wiedza-pier-cionki,
+body ._ .t-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector,
+body ._ .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w .t-mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  width: 100%;
+}
+body ._ .mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  margin-left: 14.4vw;
+}
+body ._ .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  text-transform: uppercase;
+  color: white;
+}
+body ._ .tt-zawieszka-miedziana-apertis-oculis-1 {
+  opacity: 0.33;
+}
+body ._ .common-51,
+body ._ .tt-group-tvector-tgroup,
+body ._ .t-vector-tgroup,
+body ._ .tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje,
+body ._ .tt-miedziane-bransoletki,
+body ._ .tt-bi-uteria-kwantowa-polecana-dla-ciebie-frame,
+body ._ .tt-frame-1,
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet,
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+body ._ .common-52,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .t-frame-6,
+body ._ .t-frame-7,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3,
+body ._ .t-frame-8,
+body ._ .t-frame-9,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5,
+body ._ .t-hero,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-8,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-9,
+body ._ .t-frame-16,
+body ._ .t-frame-17,
+body ._ .t-frame-18,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-10,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-11,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-12,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-13,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-14,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-15,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-16,
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-17,
+body ._ .t-frame-19,
+body ._ .t-frame-20 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body ._ .common-53,
+body ._ .ttt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia-telement-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja-tframe-17thero-hero-hero-hero-hero,
+body ._ .t-odbierz-zni-k,
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241wyra-am-zgod-na-przetwarzanie-danych-osobowych-zgodnie-zpolityk-prywatno-ci {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body ._ .t-odbierz-zni-k {
+  align-items: center;
+}
+body ._ .common-54,
+body ._ .tt-frame-17tkobiece-mskie-unisex-tframe,
+body ._ .t-lc_picto_nature-1pi-kno,
+body ._ .tt-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector-twi-teczne-promocje {
+  display: flex;
+  align-items: flex-start;
+}
+body ._ .common-55,
+body ._ .frame-8,
+body ._ .hero-hover_best,
+body ._ .frame-13,
+body ._ .frame-16,
+body ._ .frame-19,
+body ._ .hero-2,
+body ._ .hero-3,
+body ._ .hero-4,
+body ._ .hero-15,
+body ._ .hero-16,
+body ._ .hero-17,
+body ._ .t-regulamin-sklepu-polityka-cookies {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+body ._ .common-56,
+body ._ .hero-6,
+body ._ .hero-12,
+body ._ .hero-13,
+body ._ .hero-14,
+body ._ .hero-18,
+body ._ .hero-19,
+body ._ .hero-20,
+body ._ .hero-21,
+body ._ .hero-22,
+body ._ .hero-23 {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+body ._ .common-57,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3,
+body ._ .ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7,
+body ._ .frame-114 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body ._ .common-58,
+body ._ .tttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z,
+body ._ .t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon,
+body ._ .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
+body ._ .t-poznaj-nowo-ci-sezon,
+body ._ .ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .t-chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci-ttzapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
+  justify-content: center;
+  align-items: center;
+}
+body ._ .common-59,
+body ._ .t-hero-hero-hero,
+body ._ .t-hero-hero-hero-1,
+body ._ .t-hero-hero-hero-2,
+body ._ .t-hero-hero-hero-hero-hero-hero {
+  justify-content: center;
+  align-items: flex-end;
+}
+body ._ .common-60,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-1,
+body ._ .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  justify-content: space-between;
+  align-items: center;
+}
+body ._ .common-61,
+body ._ .t-bi-uteria-kt-ra-rezonuje-odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej,
+body ._ .t-frame-24tcu-99_lukecopper-1frame-25tbransoletki-tenergetyczne,
+body ._ .t-cu-99_lukecopper-1frame,
+body ._ .hero-default_best,
+body ._ .hero-default_best-1,
+body ._ .hero-default_best-2,
+body ._ .hero-default_best-3 {
+  display: flex;
+  flex-direction: column;
+}
+body ._ .common-62,
+body ._ .wrapper,
+body ._ .wrapper-1,
+body ._ .tt-vector,
+body ._ .ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-frame-5,
+body ._ .t-miedziane-bransoletki,
+body ._ .t-bransoletka-holistic-energy,
+body ._ .t-bransoletka-mindfulness,
+body ._ .t-zawieszka-miedziana-elegans-natura,
+body ._ .zawieszka-miedziana-elegans-natura,
+body ._ .t-zawieszka-miedziana-apertis-oculis,
+body ._ .t-zawieszka-miedziana-apertis-oculis-1,
+body ._ .t-bransoletka-miedziana-holistic-energy,
+body ._ .t-bransoletka-energetyczna-mindfulness,
+body ._ .t-zawieszka-miedziana-elegans-natura-1,
+body ._ .zawieszka-miedziana-elegans-natura-1,
+body ._ .t-zawieszka-miedziana-apertis-oculis-2,
+body ._ .t-zawieszka-miedziana-apertis-oculis-3,
+body ._ .t-frame-11,
+body ._ .t-frame-12,
+body ._ .t-frame-13,
+body ._ .t-frame-14,
+body ._ .t-frame-15,
+body ._ .t-bransoletka-energetyczna-mindfulness-1,
+body ._ .t-zawieszka-miedziana-elegans-natura-2,
+body ._ .zawieszka-miedziana-elegans-natura-2,
+body ._ .t-bransoletka-holistic-energy-1,
+body ._ .t-bransoletka-miedziana-simplyone,
+body ._ .t-zawieszka-miedziana-apertis-oculis-4,
+body ._ .czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn,
+body ._ .odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-ozdob-ale-tak-ejako-amulet-opot-nych-waciwo-ciach-poznaj-fascynuj-chistori-iznaczenie-tego-wyj-tkowego-metalu,
+body ._ .mied-sprawia-wiele-holistycznych-korzy-ci-dla-cia-aiumys-usprawd-jak-regularne-noszenie-miedzianych-pier-cionk-wmo-epoprawi-twoje-samopoczucie-ipom-cwodzyskaniu-wewn-trznej-harmonii,
+body ._ .bi-uteria-miedziana-od-lat-uwa-ana-jest-za-skuteczn-wpoprawie-kr-enia-iprzep-ywu-energii-mied-ma-tak-ewaciwo-ci-przeciwzapalne-co-sprawia-enoszenie-jej-mo-eprzynosi-ulg-wstanach-zapalnych-dodatkowo-mied-wspiera-rwnowag-energetyczn-organizmu-co-przek-ada-si-na-lepsze-samopoczucie,
+body ._ .frame-99,
+body ._ .mied-jako-naturalny-przewodnik-energii-jest-uwa-ana-za-metal-kt-ry-pomaga-wsynchronizacji-energii-cz-owieka-zcyklami-ziemi-takimi-jak-fazy-ksi-yca-czy-zmiany-prroku-noszenie-miedzianej-bi-uterii-mo-ewspiera-gbsze-po-czenie-znatur-uatwiaj-cprzep-yw-energii-zgodnie-zrytmem-rodowiska-wten-spos-bosoby-wierz-ce-wholistyczne-podej-cie-do-ycia-mog-odczuwa-wi-ksz-harmoni-ispok-jdostrajaj-cswoje-cia-oiumys-do-naturalnych-proces-wwok-nich,
+body ._ .t-bransoletka-holistic-energy-2,
+body ._ .t-bransoletka-miedziana-mindfulness,
+body ._ .t-zawieszka-miedziana-elegans-natura-3,
+body ._ .zawieszka-miedziana-elegans-natura-3,
+body ._ .t-zawieszka-miedziana-apertis-oculis-5,
+body ._ .t-zawieszka-miedziana-apertis-oculis-6,
+body ._ .ttt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet,
+body ._ .t-strona-gwna-nowo-ci,
+body ._ .t-kontakt-zawieszki {
+  display: flex;
+  align-items: center;
+}
+body ._ .common-63,
+body ._ .t-frame-3,
+body ._ .mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys,
+body ._ .miedziana-bi-uteria-wstaro-ytnych-kulturach-symbolika-iukryta-moc,
+body ._ .holistyczne-waciwo-ci-miedzi-jak-wp-ywa-na-twoje-samopoczucie,
+body ._ .do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
+  display: flex;
+  align-items: flex-start;
+}
+body ._ .common-64,
+body ._ .t-frame-10,
+body ._ .pier-cionek-wska-obr-czka,
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex,
+body ._ .tt-bezpieczne-metody-patno-ci-prezenty-iwi-cej {
+  display: flex;
+  align-items: flex-end;
+}
+body ._ .common-65,
+body ._ .hero,
+body ._ .frame-22,
+body ._ .kategorie-1,
+body ._ .frame-89,
+body ._ .frame-100,
+body ._ .frame-120 {
+  flex-direction: column;
+  justify-content: center;
+}
+body ._ .common-66,
+body ._ .t-frame,
+body ._ .t-ico_menu,
+body ._ .t-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-ico_fav,
+body ._ .t-ico_profile,
+body ._ .t-ico_bag,
+body ._ .ttt-vector,
+body ._ .tt-kwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame,
+body ._ .frame-118,
+body ._ .t-wi-teczne-promocje {
+  flex-direction: column;
+  align-items: center;
+}
+body ._ .common-67,
+body ._ ._logo_luke_copper_vertical,
+body ._ .t-kwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame,
+body ._ .hero-7,
+body ._ .hero-8,
+body ._ .hero-9,
+body ._ .hero-10,
+body ._ .hero-11,
+body ._ .t-wpisz-adres-email-frame {
+  flex-direction: column;
+  align-items: flex-start;
+}
+body ._ .common-68,
+body ._ .dzie-n_dobry,
+body ._ .frame-6,
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .dzie-n_dobry1,
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .dzie-n_dobry2 {
+  justify-content: center;
+  align-items: center;
+}
+body ._ .common-69,
+body ._ .frame-44,
+body ._ .frame-68,
+body ._ .frame-101 {
+  justify-content: center;
+  align-items: flex-end;
+}
+body ._ .common-31,
+body ._ .pi-kno-1,
+body ._ .pochodzi-znatury {
+  color: darkslategray;
+  font-size: 2.595vw;
+  font-weight: 700;
+}
+body ._ .common-32,
+body ._ .przeczytaj-wi-cej,
+body ._ .ukryj-dodatkowy-opis {
+  font-size: 0.689vw;
+  font-weight: 700;
+  text-align: center;
+}
+body ._ .common-33,
+body ._ .component-1,
+body ._ .component-2 {
+  color: white;
+  font-size: 0.689vw;
+}
+body ._ .common-34,
+body ._ .tttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z,
+body ._ .t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon,
+body ._ .wpisz-adres-email,
+body ._ .wybierz-co-ci-interesuje,
+body ._ .t-menu-strony-kategorie,
+body ._ .t-informacje-bezpieczna-dostawa,
+body ._ .bezpieczne-metody-patno-ci,
+body ._ .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  font-size: 0.583vw;
+  font-weight: 700;
+}
+body ._ .common-35,
+body ._ .najwy-szy-potencja-energetyczny,
+body ._ .chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci,
+body ._ .luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji {
+  font-size: 1.43vw;
+  font-weight: 700;
+}
+body ._ .common-36,
+body ._ .component-8,
+body ._ .miedziane-bransoletki,
+body ._ .dost-pne-kategorie,
+body ._ .t-faq-pytania-iodpowiedzi {
+  font-size: 2.595vw;
+  font-weight: 700;
+}
+body ._ .common-37,
+body ._ .t-hero-hero-hero,
+body ._ .t-frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame {
+  font-size: 0.953vw;
+  font-weight: 700;
+}
+body ._ .common-38,
+body ._ .zobacz-co-dla-siebie,
+body ._ .z-1,
+body ._ .z-2,
+body ._ .z-3,
+body ._ .z-4,
+body ._ .z-5,
+body ._ .z-6,
+body ._ .z-7,
+body ._ .z-8,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-1,
+body ._ .z-20,
+body ._ .z-21,
+body ._ .z-22,
+body ._ .z-23,
+body ._ .z-24,
+body ._ .t-frame-17tframe-17frame-17frame-17tframe,
+body ._ .czytaj-wi-cej-1,
+body ._ .czytaj-wi-cej-2,
+body ._ .czytaj-wi-cej-3,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-2 {
+  font-size: 0.689vw;
+  text-align: center;
+}
+body ._ .common-39,
+body ._ .pier-cionki-unisex,
+body ._ .prezenty-iwi-cej-1,
+body ._ .wi-teczne-promocje-1,
+body ._ .nowo-ci-1,
+body ._ .bransoletki-1,
+body ._ .zawieszki-1,
+body ._ .pier-cionki-1,
+body ._ .prezenty-iwi-cej-4,
+body ._ .wi-teczne-promocje-2 {
+  font-size: 0.953vw;
+  text-align: center;
+}
+body ._ .common-1,
+body ._ .frame,
+body ._ ._logo_luke_copper_vertical {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+body ._ .common-2,
+body ._ .t-frame,
+body ._ .ttt-vector {
+  display: flex;
+  width: 0.636vw;
+  height: 0.689vw;
+}
+body ._ .common-3,
+body ._ .t-ico_menu,
+body ._ .t-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-ico_fav,
+body ._ .t-ico_profile,
+body ._ .t-ico_bag {
+  display: flex;
+  width: 1.271vw;
+  height: 1.324vw;
+}
+body ._ .common-4,
+body ._ .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
+body ._ .frame-22 {
+  display: flex;
+  background-color: #224b33;
+  color: whitesmoke;
+}
+body ._ .frame-22.active {
+  background-color: #234431;
+}
+body ._ .common-5,
+body ._ .noszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny,
+body ._ .miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili {
+  display: flex;
+  width: 16.684vw;
+}
+body ._ .common-6,
+body ._ .hero-2,
+body ._ .hero-3,
+body ._ .hero-4,
+body ._ .hero-12,
+body ._ .hero-13,
+body ._ .hero-14,
+body ._ .hero-15,
+body ._ .hero-16,
+body ._ .hero-17 {
+  display: flex;
+  width: 32.945vw;
+}
+body ._ .common-7,
+body ._ .tt-kwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame,
+body ._ .t-kwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame {
+  display: flex;
+  width: 18.432vw;
+}
+body ._ .common-8,
+body ._ .t-wiedza-dedykowana-sekrety-miedzi-ienergii,
+body ._ .odkrywamy-nieoczywiste-aspekty-miedzi-ijej-gboki-wp-yw-na-nasze-ycie-zg-biaj-tajemnice-staro-ytnych-tradycji-naukowe-fakty-oraz-energetyczne-waciwo-ci-tego-metalu-kt-re-sprawiaj-emied-jest-czym-wi-cej-ni-tylko-surowcem-poznaj-jej-rol-wmedytacji-zdrowiu-icodziennym-yciu-aby-lepiej-zrozumie-jak-dzia-ana-nasz-wiadomo-iharmoni-wewn-trzn {
+  display: flex;
+  width: 32.468vw;
+}
+body ._ .common-9,
+body ._ .hero-18,
+body ._ .hero-19,
+body ._ .hero-20,
+body ._ .hero-21,
+body ._ .hero-22,
+body ._ .hero-23,
+body ._ .bd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w {
+  display: flex;
+  width: 16.208vw;
+}
+body ._ .common-10,
+body ._ .t-chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci-ttzapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl,
+body ._ .tbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-wtwpisz-adres-email-frame {
+  display: flex;
+  width: 48.04vw;
+}
+body ._ .common-11,
+body ._ .tt-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl,
+body ._ .t-wpisz-adres-email-frame {
+  display: flex;
+  width: 30.403vw;
+}
+body ._ .common-12,
+body ._ .frame-2,
+body ._ .t-wi-teczne-promocje {
+  display: flex;
+  height: 0.953vw;
+}
+body ._ .common-13,
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-regulamin-sklepu-polityka-cookies {
+  display: flex;
+  height: 1.165vw;
+  text-transform: uppercase;
+}
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  cursor: pointer;
+}
+body ._ .common-14,
+body ._ ._index_luke_copper,
+body ._ .frame-8,
+body ._ .frame-13,
+body ._ .frame-16,
+body ._ .frame-19,
+body ._ .kategorie,
+body ._ .kategorie-2,
+body ._ .frame-101,
+body ._ .kategorie-4,
+body ._ .frame-116 {
+  display: flex;
+  background-color: white;
+}
+body ._ .common-15,
+body ._ .dzie-n_dobry,
+body ._ .frame-118,
+body ._ .frame-120,
+body ._ .dzie-n_dobry2 {
+  display: flex;
+  background-color: #231f20;
+}
+body ._ .common-16,
+body ._ .frame-6,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3,
+body ._ .ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6,
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7 {
+  display: flex;
+  background-color: rgba(47, 79, 79, 0.6588235294);
+}
+body ._ .common-17,
+body ._ .dzie-n_dobry1,
+body ._ .frame-44,
+body ._ .kategorie-1 {
+  display: flex;
+  background-color: darkslategray;
+}
+body ._ .common-18,
+body ._ .frame-68,
+body ._ .kategorie-3,
+body ._ .frame-89,
+body ._ .frame-100,
+body ._ .frame-114 {
+  display: flex;
+  background-color: whitesmoke;
+}
+body ._ .common-19,
+body ._ .tttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z,
+body ._ .hero,
+body ._ .t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon,
+body ._ .hero-hover_best,
+body ._ .t-hero-hero-hero,
+body ._ .kwantowa-energia-miedzi,
+body ._ .t-poznaj-nowo-ci-sezon,
+body ._ .ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .hero-6,
+body ._ .hero-7,
+body ._ .hero-8,
+body ._ .hero-9,
+body ._ .hero-10,
+body ._ .hero-11,
+body ._ .t-hero-hero-hero-1,
+body ._ .t-hero-hero-hero-2,
+body ._ .t-hero-hero-hero-hero-hero-hero,
+body ._ .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  display: flex;
+  color: whitesmoke;
+}
+body ._ .common-20,
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-1 {
+  display: flex;
+  color: white;
+}
+body ._ .common-21,
+body ._ .ico_menu,
+body ._ .search_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .ico_fav,
+body ._ .ico_profile,
+body ._ .ico_bag,
+body ._ .close_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .mail_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-1,
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-2,
+body ._ .mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1,
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-3,
+body ._ .self_improvement_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .arrow_upward_alt_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  width: 1.271vw;
+  height: 1.271vw;
+}
+body ._ .common-22,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-1,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-2,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-3,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-4,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-5,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-6,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-7,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-8,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-9,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-10,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-11,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-12,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-13,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-14,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-15,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-16,
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-17 {
+  width: 0.953vw;
+  height: 0.953vw;
+}
+body ._ .common-23,
+body ._ .lc_picto_nature,
+body ._ .lc_picto_flowature,
+body ._ .lc_picto_harmony {
+  width: 3.337vw;
+  height: 3.337vw;
+}
+body ._ .common-24,
+body ._ .frame-7,
+body ._ .frame-12,
+body ._ .frame-15,
+body ._ .frame-18 {
+  width: 12.818vw;
+  height: 17.638vw;
+}
+body ._ .common-25,
+body ._ .frame-32,
+body ._ .frame-33,
+body ._ .frame-34,
+body ._ .frame-35,
+body ._ .frame-46,
+body ._ .frame-47,
+body ._ .frame-48,
+body ._ .frame-49,
+body ._ .frame-70,
+body ._ .frame-71,
+body ._ .frame-72,
+body ._ .frame-73,
+body ._ .frame-103,
+body ._ .frame-104,
+body ._ .frame-105,
+body ._ .frame-106 {
+  width: 16.208vw;
+  height: 18.114vw;
+}
+body ._ .common-26,
+body ._ .frame-36,
+body ._ .frame-50,
+body ._ .frame-74,
+body ._ .frame-107 {
+  width: 2.913vw;
+  height: 17.638vw;
+}
+body ._ .common-27,
+body ._ .hero-5,
+body ._ .hero-24 {
+  width: 32.945vw;
+  height: 25.424vw;
+}
+body ._ .common-28,
+body ._ .frame-51,
+body ._ .frame-75,
+body ._ .frame-108 {
+  width: 12.712vw;
+  height: 18.114vw;
+}
+body ._ .common-29,
+body ._ .frame-58,
+body ._ .frame-60,
+body ._ .frame-62,
+body ._ .frame-64,
+body ._ .frame-66 {
+  width: 12.818vw;
+  height: 15.89vw;
+}
+body ._ .common-30,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-1,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-2,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-3,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-4,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-5,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-6,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-7,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-8,
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-9 {
+  width: 1.695vw;
+  height: 1.695vw;
+}
+body ._ ._index_luke_copper {
+  flex-direction: column;
+  padding-bottom: 0.021vw;
+  width: 100%;
+}
+body ._ .wrapper {
+  flex-grow: 1;
+}
+body ._ .frame {
+  overflow: clip;
+  flex-direction: column;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.051vw;
+  flex-shrink: 0;
+}
+body ._ .dzie-n_dobry {
+  padding-bottom: 0.265vw;
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+  padding-top: 0.265vw;
+}
+body ._ .ttttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z {
+  flex-grow: 1;
+  padding-top: 0.159vw;
+}
+body ._ .tttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z {
+  row-gap: 0.254vw;
+  -moz-column-gap: 0.254vw;
+       column-gap: 0.254vw;
+}
+body ._ .component {
+  font-size: 0.689vw;
+  color: #231f20;
+}
+body ._ .t {
+  padding-left: 0.064vw;
+}
+body ._ .t-1 {
+  padding-left: 0.064vw;
+}
+body ._ .bi-uteria-miedziana-rcznie-tworzona-wpolsce {
+  padding-left: 0.487vw;
+  width: 39.089vw;
+  flex-shrink: 0;
+}
+body ._ .t-dzie-dobry-dobrze-ejeste {
+  padding-left: 0.064vw;
+}
+body ._ .t-frame {
+  padding-bottom: 0.106vw;
+  padding-left: 0.064vw;
+  flex-shrink: 0;
+}
+body ._ .frame-1 {
+  width: 0.583vw;
+  height: 0.583vw;
+  flex-shrink: 0;
+}
+body ._ .plz {
+  text-align: right;
+  flex-shrink: 0;
+}
+body ._ .ttttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag-t01_logo_luke_copper_vertical-1ttmiedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje-tframe {
+  row-gap: 0.318vw;
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  padding-left: 1.748vw;
+  padding-right: 1.748vw;
+  padding-top: 1.218vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .tttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag-t01_logo_luke_copper_vertical-1ttmiedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
+  flex-grow: 1;
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag {
+  row-gap: 0.636vw;
+  -moz-column-gap: 0.689vw;
+       column-gap: 0.689vw;
+}
+body ._ .tt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt {
+  row-gap: 0.583vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+}
+body ._ .t-ico_menu {
+  padding-bottom: 0.026vw;
+  flex-shrink: 0;
+}
+body ._ .ico_menu {
+  flex-shrink: 0;
+}
+body ._ .tt-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag {
+  -moz-column-gap: 0.689vw;
+       column-gap: 0.689vw;
+}
+body ._ .t-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.026vw;
+  flex-shrink: 0;
+}
+body ._ .search_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .t-ico_fav {
+  padding-bottom: 0.026vw;
+  flex-shrink: 0;
+}
+body ._ .ico_fav {
+  flex-shrink: 0;
+}
+body ._ .t-ico_profile {
+  padding-bottom: 0.026vw;
+  flex-shrink: 0;
+}
+body ._ .ico_profile {
+  flex-shrink: 0;
+}
+body ._ .t-ico_bag {
+  padding-bottom: 0.026vw;
+  flex-shrink: 0;
+}
+body ._ .ico_bag {
+  flex-shrink: 0;
+}
+body ._ .t-01_logo_luke_copper_vertical {
+  padding-left: 1.271vw;
+}
+body ._ ._logo_luke_copper_vertical {
+  overflow: clip;
+  row-gap: 0.847vw;
+  padding-bottom: 0.001vw;
+  flex-shrink: 0;
+}
+body ._ .tt-group-tvector-tgroup {
+  -moz-column-gap: 0.794vw;
+       column-gap: 0.794vw;
+}
+body ._ .t-group {
+  padding-bottom: 0.2 0.595vw;
+}
+body ._ .group {
+  width: 3.602vw;
+  height: 0.429vw;
+  flex-shrink: 0;
+}
+body ._ .t-vector-tgroup {
+  -moz-column-gap: 0.286vw;
+       column-gap: 0.286vw;
+}
+body ._ .vector {
+  width: 3.919vw;
+  height: 3.972vw;
+  flex-shrink: 0;
+}
+body ._ .t-group-1 {
+  padding-bottom: 0.052vw;
+}
+body ._ .group-1 {
+  width: 3.443vw;
+  height: 0.392vw;
+  flex-shrink: 0;
+}
+body ._ .group-2 {
+  width: 12.023vw;
+  height: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
+  padding-left: 1.271vw;
+  padding-top: 1.589vw;
+  gap: 1.43vw;
+}
+body ._ .t-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
+  row-gap: 0.583vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+}
+body ._ .t-frame-1 {
+  padding-top: 0.159vw;
+}
+body ._ .frame-2 {
+  border-bottom-left-radius: 0.477vw;
+  border-bottom-right-radius: 0.477vw;
+  align-items: center;
+  background-color: #231f20;
+  width: 0.953vw;
+  padding-bottom: 0.132vw;
+  padding-right: 0.318vw;
+  padding-top: 0.132vw;
+  border-top-left-radius: 0.477vw;
+  border-top-right-radius: 0.477vw;
+  flex-shrink: 0;
+}
+body ._ .ttt-vector {
+  padding-top: 0.106vw;
+  flex-shrink: 0;
+}
+body ._ .tt-vector {
+  width: 0.636vw;
+  height: 0.583vw;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+body ._ .t-vector {
+  width: 0.053vw;
+  align-self: stretch;
+  padding-top: 0.026vw;
+  flex-shrink: 0;
+}
+body ._ .vector-1 {
+  margin-right: 0.079vw;
+  width: 0.212vw;
+  height: 0.424vw;
+  flex-shrink: 0;
+}
+body ._ .component-3 {
+  font-size: 0.583vw;
+  color: whitesmoke;
+  line-height: 1;
+  letter-spacing: 0.093vw;
+}
+body ._ .hero {
+  row-gap: 0.477vw;
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-1.jpeg);
+  padding-left: 1.748vw;
+  padding-top: 1.43vw;
+  padding-bottom: 1.165vw;
+  margin-top: 0.583vw;
+}
+body ._ .tt-bi-uteria-kt-ra-rezonuje-odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej-tframe-24tcu-99_lukecopper-1frame-25tbransoletki-tenergetyczne {
+  row-gap: 4.237vw;
+  -moz-column-gap: 4.237vw;
+       column-gap: 4.237vw;
+  padding-right: 1.748vw;
+}
+body ._ .t-bi-uteria-kt-ra-rezonuje-odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej {
+  row-gap: 0.53vw;
+  width: 34.958vw;
+  flex-shrink: 0;
+}
+body ._ .bi-uteria-kt-ra-rezonuje {
+  font-size: 5.085vw;
+  line-height: 5.244vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej {
+  width: 22.617vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .t-frame-24tcu-99_lukecopper-1frame-25tbransoletki-tenergetyczne {
+  align-items: flex-end;
+  row-gap: 0.583vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .frame-3 {
+  border-top-width: 0.106vw;
+  border-bottom-width: 0.106vw;
+  border-left-width: 0.106vw;
+  border-right-width: 0.106vw;
+  padding-bottom: 0.477vw;
+  padding-left: 0.847vw;
+  padding-right: 0.847vw;
+  padding-top: 0.742vw;
+  text-align: center;
+}
+body ._ .eco {
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .friendly {
+  font-size: 0.583vw;
+  padding-bottom: -0.265vw;
+  height: 0.847vw;
+  flex-shrink: 0;
+}
+body ._ .t-cu-99_lukecopper-1frame {
+  row-gap: 0.583vw;
+  padding-left: 3.231vw;
+}
+body ._ .cu-99_luke-copper {
+  width: 5.244vw;
+  height: 6.727vw;
+  flex-shrink: 0;
+}
+body ._ .frame-4 {
+  border-top-width: 0.106vw;
+  border-bottom-width: 0.106vw;
+  border-left-width: 0.106vw;
+  border-right-width: 0.106vw;
+  max-width: 5.244vw;
+  padding-bottom: 0.477vw;
+  padding-left: 0.742vw;
+  padding-right: 0.742vw;
+  padding-top: 0.583vw;
+  text-align: center;
+}
+body ._ .hand-crafted {
+  align-self: stretch;
+  font-size: 0.689vw;
+  line-height: 0.847vw;
+}
+body ._ .main-text-2 {
+  text-align: center;
+}
+body ._ .quality {
+  font-size: 0.583vw;
+}
+body ._ .t-bransoletki-tenergetyczne {
+  align-items: flex-end;
+  padding-top: 0.376vw;
+  text-align: right;
+}
+body ._ .bransolet-ki {
+  font-size: 0.583vw;
+}
+body ._ .t-energetyczne {
+  height: 1.271vw;
+  flex-shrink: 0;
+}
+body ._ .energetyczne {
+  margin-top: -0.159vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+  text-align: right;
+}
+body ._ .tt-frame-17tkobiece-mskie-unisex-tframe {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  justify-content: space-between;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-frame-2 {
+  padding-bottom: 0.212vw;
+}
+body ._ .frame-5 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .zobacz-co-dla-siebie {
+  line-height: 1.165vw;
+}
+body ._ .t-kobiece-mskie-unisex {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  font-size: 0.583vw;
+}
+body ._ .t-frame-3 {
+  padding-bottom: 0.212vw;
+  padding-left: 3.655vw;
+  justify-content: flex-end;
+}
+body ._ .frame-6 {
+  padding-bottom: 0.159vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+  padding-right: 1.165vw;
+}
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+}
+body ._ .t-ju-od {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od {
+  font-size: 0.583vw;
+}
+body ._ .z {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .tt-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie-tlc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny-ttlc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili {
+  row-gap: 1.748vw;
+  -moz-column-gap: 4.078vw;
+       column-gap: 4.078vw;
+  padding-top: 1.748vw;
+  font-size: 0.689vw;
+}
+body ._ .t-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie {
+  row-gap: 1.165vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+}
+body ._ .lc_picto_nature {
+  flex-shrink: 0;
+}
+body ._ .t-pi-kno-znatury {
+  font-weight: 700;
+}
+body ._ .pi-kno {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .z-natury {
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .miedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie {
+  padding-left: 0.583vw;
+  width: 16.049vw;
+  flex-shrink: 0;
+}
+body ._ .t-lc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny {
+  row-gap: 1.165vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+}
+body ._ .lc_picto_flowature {
+  flex-shrink: 0;
+}
+body ._ .t-kwantowe-flow-up {
+  font-weight: 700;
+}
+body ._ .kwantowe {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .flow-up {
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .noszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny {
+  align-items: center;
+  padding-left: 0.583vw;
+  flex-shrink: 0;
+}
+body ._ .tt-lc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili {
+  row-gap: 1.695vw;
+  -moz-column-gap: 1.748vw;
+       column-gap: 1.748vw;
+  width: 29.449vw;
+  flex-shrink: 0;
+}
+body ._ .t-lc_picto_harmony-1tharmonijna-energia {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .lc_picto_harmony {
+  flex-shrink: 0;
+}
+body ._ .t-harmonijna-energia {
+  align-self: stretch;
+  text-align: left;
+  font-weight: 700;
+}
+body ._ .harmonijna {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .energia {
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili {
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+body ._ .t-dzien_dobry {
+  padding-top: 2.013vw;
+}
+body ._ .dzie-n_dobry1 {
+  padding-bottom: 0.265vw;
+  padding-left: 0.265vw;
+  padding-right: 0.265vw;
+  padding-top: 0.265vw;
+}
+body ._ .tt-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon {
+  padding-top: 0.159vw;
+}
+body ._ .t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon {
+  row-gap: 0.53vw;
+  -moz-column-gap: 0.53vw;
+       column-gap: 0.53vw;
+}
+body ._ .t-hero-ttnasze-bestsellery-thero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  padding-bottom: 0.159vw;
+  padding-top: 1.748vw;
+}
+body ._ .hero-1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 32.945vw;
+  height: 28.919vw;
+  flex-shrink: 0;
+}
+body ._ .tt-nasze-bestsellery-thero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best {
+  row-gap: 1.43vw;
+  font-weight: 700;
+}
+body ._ .t-nasze-bestsellery {
+  align-self: stretch;
+  max-width: 66.472vw;
+}
+body ._ .nasze-bestsellery {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2.595vw;
+}
+body ._ .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .hero-default_best {
+  row-gap: 0.477vw;
+}
+body ._ .frame-7 {
+  flex-shrink: 0;
+}
+body ._ .frame-8 {
+  row-gap: 0.477vw;
+  max-width: 11.07vw;
+  padding-bottom: 0.159vw;
+  padding-left: 0.583vw;
+  padding-right: 1.43vw;
+  padding-top: 1.059vw;
+}
+body ._ .bransoletka-klasyk {
+  align-self: stretch;
+}
+body ._ .frame-9 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-hover_best {
+  row-gap: 0.477vw;
+  width: 12.818vw;
+  padding-bottom: 1.324vw;
+  padding-left: 0.583vw;
+  padding-right: 3.178vw;
+  padding-top: 18.008vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .frame-10 {
+  height: 16.472vw;
+  flex-shrink: 0;
+}
+body ._ .bransoletka-klasyk-1 {
+  align-self: stretch;
+}
+body ._ .frame-11 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-default_best-1 {
+  row-gap: 0.477vw;
+}
+body ._ .frame-12 {
+  flex-shrink: 0;
+}
+body ._ .frame-13 {
+  row-gap: 0.477vw;
+  max-width: 11.07vw;
+  padding-bottom: 0.159vw;
+  padding-left: 0.583vw;
+  padding-right: 1.43vw;
+  padding-top: 1.059vw;
+}
+body ._ .bransoletka-klasyk-2 {
+  align-self: stretch;
+}
+body ._ .frame-14 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-default_best-2 {
+  row-gap: 0.477vw;
+}
+body ._ .frame-15 {
+  flex-shrink: 0;
+}
+body ._ .frame-16 {
+  row-gap: 0.477vw;
+  max-width: 11.07vw;
+  padding-bottom: 0.159vw;
+  padding-left: 0.583vw;
+  padding-right: 1.43vw;
+  padding-top: 1.059vw;
+}
+body ._ .bransoletka-klasyk-3 {
+  align-self: stretch;
+}
+body ._ .frame-17 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-default_best-3 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-default_best-3.jpeg);
+  max-width: 100%;
+  max-height: 100%;
+  row-gap: 0.477vw;
+}
+body ._ .frame-18 {
+  flex-shrink: 0;
+}
+body ._ .frame-19 {
+  row-gap: 0.477vw;
+  max-width: 11.07vw;
+  padding-bottom: 0.159vw;
+  padding-left: 0.583vw;
+  padding-right: 1.43vw;
+  padding-top: 1.059vw;
+}
+body ._ .bransoletka-klasyk-4 {
+  align-self: stretch;
+}
+body ._ .frame-20 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .t-frame-4 {
+  padding-top: 1.748vw;
+}
+body ._ .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame {
+  row-gap: 2.966vw;
+  -moz-column-gap: 12.659vw;
+       column-gap: 12.659vw;
+  padding-left: 1.748vw;
+  padding-right: 27.913vw;
+  padding-top: 2.331vw;
+  padding-bottom: 2.331vw;
+}
+body ._ .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny {
+  row-gap: 1.43vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+  width: 19.386vw;
+  flex-shrink: 0;
+}
+body ._ .cu-99_luke-copper-1 {
+  width: 5.191vw;
+  height: 6.674vw;
+  flex-shrink: 0;
+}
+body ._ .najwy-szy-potencja-energetyczny {
+  width: 12.765vw;
+  flex-shrink: 0;
+}
+body ._ .tt-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame {
+  padding-top: 0.053vw;
+}
+body ._ .t-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame {
+  row-gap: 1.43vw;
+  width: 38.294vw;
+}
+body ._ .bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe {
+  align-self: stretch;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .text {
+  font-weight: 700;
+  line-height: 1.324vw;
+}
+body ._ .frame-21 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .frame-22 {
+  row-gap: 1.43vw;
+  padding-bottom: 2.278vw;
+  padding-left: 1.748vw;
+  padding-right: 15.466vw;
+  padding-top: 2.331vw;
+}
+body ._ .tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  row-gap: 0.636vw;
+  -moz-column-gap: 9.593vw;
+       column-gap: 9.593vw;
+}
+body ._ .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+  row-gap: 1.43vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+  flex-grow: 1;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .frame-23 {
+  border-top-width: 0.106vw;
+  border-bottom-width: 0.106vw;
+  padding-bottom: 1.059vw;
+  padding-top: 1.059vw;
+}
+body ._ .t-2 {
+  padding-top: 0.265vw;
+}
+body ._ .nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne {
+  width: 22.828vw;
+  flex-shrink: 0;
+}
+body ._ .spacer {
+  height: 1.43vw;
+}
+body ._ .t-na-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+  row-gap: 1.43vw;
+  width: 39.407vw;
+  padding-left: 0.53vw;
+  flex-shrink: 0;
+}
+body ._ .na-temat-miedzi-swokilka-wi-cej {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+  align-self: stretch;
+}
+body ._ .spacer-1 {
+  height: 1.43vw;
+}
+body ._ .spacer-2 {
+  height: 1.43vw;
+}
+body ._ .spacer-3 {
+  height: 1.43vw;
+}
+body ._ .close_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .t-frame-5 {
+  padding-right: 7.839vw;
+}
+body ._ .frame-24 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .t-hero-hero-hero {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  padding-top: 1.748vw;
+  line-height: 1.324vw;
+}
+body ._ .hero-2 {
+  row-gap: 0.477vw;
+  padding-top: 27.383vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .frame-25 {
+  height: 25.847vw;
+  flex-shrink: 0;
+}
+body ._ .zawieszka-calmup {
+  align-self: stretch;
+}
+body ._ .frame-26 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-3 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-3.jpeg);
+  row-gap: 0.477vw;
+  padding-top: 27.383vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .frame-27 {
+  height: 25.847vw;
+  flex-shrink: 0;
+}
+body ._ .bransoletka-klasyk-5 {
+  align-self: stretch;
+}
+body ._ .frame-28 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-4 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-4.jpeg);
+  row-gap: 0.477vw;
+  padding-top: 27.383vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .frame-29 {
+  height: 25.847vw;
+  flex-shrink: 0;
+}
+body ._ .zawieszka-coppermind {
+  align-self: stretch;
+}
+body ._ .frame-30 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .tt-miedziane-bransoletki {
+  padding-top: 3.178vw;
+}
+body ._ .t-miedziane-bransoletki {
+  flex-grow: 1;
+  max-width: 67.055vw;
+}
+body ._ .miedziane-bransoletki {
+  flex-grow: 1;
+}
+body ._ .tt-bi-uteria-kwantowa-polecana-dla-ciebie-frame {
+  padding-right: 0.318vw;
+  padding-top: 0.477vw;
+}
+body ._ .t-bi-uteria-kwantowa-polecana-dla-ciebie-frame {
+  row-gap: 0.53vw;
+  -moz-column-gap: 0.53vw;
+       column-gap: 0.53vw;
+}
+body ._ .bi-uteria-kwantowa-polecana-dla-ciebie {
+  width: 50.847vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+  flex-shrink: 0;
+}
+body ._ .frame-31 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-zobacz-wszystkie {
+  padding-top: 0.053vw;
+}
+body ._ .zobacz-wszystkie {
+  font-size: 0.583vw;
+}
+body ._ .bransoletki {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-1 {
+  flex-shrink: 0;
+}
+body ._ .t-3kategorie {
+  padding-top: 1.695vw;
+}
+body ._ .kategorie {
+  row-gap: 0.477vw;
+  flex-direction: column;
+  padding-bottom: 3.231vw;
+  padding-left: 16.79vw;
+  padding-top: 1.43vw;
+  font-weight: 700;
+}
+body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  align-items: flex-start;
+}
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+}
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .t-frame-51ttbransoletka-holistic-energy {
+  row-gap: 1.059vw;
+}
+body ._ .frame-32 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-holistic-energy {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-holistic-energy {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .t-frame-51ttbransoletka-mindfulness {
+  row-gap: 1.059vw;
+}
+body ._ .frame-33 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-mindfulness {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-mindfulness {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura {
+  row-gap: 1.059vw;
+}
+body ._ .frame-34 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-elegans-natura {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-elegans-natura {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 1.059vw;
+}
+body ._ .frame-35 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis {
+  flex-grow: 1;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 1.536vw;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis .frame-38 {
+  text-align: left;
+  margin-left: 3.5vw;
+  margin-top: -0.8vw;
+  opacity: 0.33;
+}
+body ._ .t-frame-51frame {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .frame-36 {
+  flex-shrink: 0;
+}
+body ._ .frame-37 {
+  width: 12.712vw;
+  height: 17.638vw;
+  flex-shrink: 0;
+  opacity: 0.33;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-1 {
+  flex-grow: 1;
+  padding-left: 3.5vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis-1 {
+  flex-grow: 1;
+}
+body ._ .t-frame-17frame-17tframe-17frame-17tframe {
+  row-gap: 0.794vw;
+  -moz-column-gap: 3.39vw;
+       column-gap: 3.39vw;
+  padding-left: 0.583vw;
+  padding-right: 9.693vw;
+}
+body ._ .frame-38 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-9 {
+  text-align: center;
+}
+body ._ .frame-39 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-10 {
+  text-align: center;
+}
+body ._ .t-frame-6 {
+  padding-left: 0.424vw;
+}
+body ._ .frame-40 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .frame-41 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-12 {
+  text-align: center;
+}
+body ._ .t-frame-7 {
+  padding-left: 3.496vw;
+}
+body ._ .frame-42 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .ttw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame-17hero {
+  row-gap: 4.184vw;
+  -moz-column-gap: 4.184vw;
+       column-gap: 4.184vw;
+  background-color: lightsalmon;
+  padding-left: 17.638vw;
+}
+body ._ .tw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame {
+  row-gap: 1.43vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+  width: 45.286vw;
+  flex-shrink: 0;
+}
+body ._ .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem {
+  width: 25.424vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+  flex-shrink: 0;
+}
+body ._ .spacer-4 {
+  height: 1.43vw;
+}
+body ._ .spacer-5 {
+  height: 1.43vw;
+}
+body ._ .tt-kwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame {
+  height: 18.432vw;
+  padding-top: 0.053vw;
+  flex-shrink: 0;
+}
+body ._ .t-kwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame {
+  row-gap: 1.43vw;
+  height: 18.379vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+body ._ .kwantowa-energia-miedzi {
+  align-self: stretch;
+  align-items: flex-start;
+  font-size: 2.595vw;
+  line-height: 2.913vw;
+}
+body ._ .pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze {
+  align-self: stretch;
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .frame-43 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-zobacz {
+  padding-top: 0.053vw;
+}
+body ._ .zobacz {
+  font-size: 0.583vw;
+}
+body ._ .bi-uteria-kwantowa {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-2 {
+  flex-shrink: 0;
+}
+body ._ .hero-5 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  flex-shrink: 0;
+}
+body ._ .frame-44 {
+  padding-left: 17.532vw;
+  padding-right: 16.737vw;
+  padding-top: 1.748vw;
+}
+body ._ .tt-poznaj-nowo-ci-sezon-202425frame {
+  row-gap: 0.794vw;
+  -moz-column-gap: 22.669vw;
+       column-gap: 22.669vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-poznaj-nowo-ci-sezon {
+  row-gap: 0.742vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .component-9 {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .frame-45 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.5483vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-zobacz-wszystkie-1 {
+  padding-top: 0.053vw;
+}
+body ._ .zobacz-wszystkie-1 {
+  font-size: 0.583vw;
+}
+body ._ .nowo-ci {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-3 {
+  flex-shrink: 0;
+}
+body ._ .kategorie-1 {
+  row-gap: 0.477vw;
+  padding-bottom: 2.066vw;
+  padding-left: 16.79vw;
+  padding-top: 1.43vw;
+  font-weight: 700;
+}
+body ._ .ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+}
+body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy {
+  row-gap: 1.059vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .frame-46 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-miedziana-holistic-energy {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-miedziana-holistic-energy {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness {
+  row-gap: 1.059vw;
+}
+body ._ .frame-47 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-energetyczna-mindfulness {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-energetyczna-mindfulness {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura-1 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-48 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-elegans-natura-1 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-elegans-natura-1 {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-apertis-oculis-1 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-49 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-2 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis-2 {
+  flex-grow: 1;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-1 {
+  row-gap: 1.059vw;
+}
+body ._ .t-frame-51frame-1 {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .frame-50 {
+  flex-shrink: 0;
+}
+body ._ .frame-51 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-3 {
+  flex-grow: 1;
+  max-width: 13.612vw;
+  padding-left: 2.807vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis-3 {
+  flex-grow: 1;
+}
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-1 {
+  row-gap: 0.794vw;
+  -moz-column-gap: 3.39vw;
+       column-gap: 3.39vw;
+  padding-left: 0.583vw;
+  padding-right: 9.693vw;
+}
+body ._ .frame-52 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-14 {
+  text-align: center;
+}
+body ._ .frame-53 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-15 {
+  text-align: center;
+}
+body ._ .t-frame-8 {
+  padding-left: 0.424vw;
+}
+body ._ .frame-54 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .frame-55 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-17 {
+  text-align: center;
+}
+body ._ .t-frame-9 {
+  padding-left: 3.496vw;
+}
+body ._ .frame-56 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .hero-6 {
+  row-gap: 8.528vw;
+  padding-bottom: 1.377vw;
+  padding-top: 8.898vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .miedziane-pier-cionki {
+  align-self: stretch;
+  text-align: center;
+  font-size: 3.655vw;
+  line-height: 3.867vw;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-1 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-1 {
+  font-size: 0.583vw;
+}
+body ._ .z-19 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-4 {
+  flex-shrink: 0;
+}
+body ._ .kategorie-2 {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1.748vw;
+  padding-top: 1.748vw;
+  margin-top: 1.748vw;
+}
+body ._ .ttt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia-telement-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja-tframe-17thero-hero-hero-hero-hero {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .tt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia-telement-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja-tframe {
+  flex-grow: 1;
+  max-width: 30.614vw;
+}
+body ._ .t-lc_picto_nature-1pi-kno {
+  row-gap: 0.53vw;
+  -moz-column-gap: 0.53vw;
+       column-gap: 0.53vw;
+}
+body ._ .lc_picto_nature-1 {
+  width: 2.542vw;
+  height: 2.542vw;
+  flex-shrink: 0;
+}
+body ._ .pochodzi-znatury {
+  align-self: stretch;
+}
+body ._ .t-noszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia {
+  align-self: stretch;
+  max-width: 30.614vw;
+  padding-top: 1.165vw;
+}
+body ._ .noszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .t-element-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja {
+  align-self: stretch;
+  max-width: 30.614vw;
+  padding-top: 1.165vw;
+}
+body ._ .element-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja {
+  font-size: 0.689vw;
+}
+body ._ .t-frame-10 {
+  padding-top: 1.165vw;
+}
+body ._ .frame-57 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-wszystkie-pier-cionki-miedziane-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-wszystkie-pier-cionki-miedziane-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-wszystkie {
+  padding-top: 0.053vw;
+}
+body ._ .wszystkie {
+  font-size: 0.583vw;
+}
+body ._ .pier-cionki-miedziane {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-5 {
+  flex-shrink: 0;
+}
+body ._ .t-hero {
+  padding-left: 0.583vw;
+}
+body ._ .hero-7 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-7.jpeg);
+  row-gap: 0.477vw;
+  flex-grow: 1;
+  max-width: 12.818vw;
+  padding-bottom: 2.066vw;
+  font-weight: 700;
+}
+body ._ .frame-58 {
+  flex-shrink: 0;
+}
+body ._ .pier-cionek-wska-obr-czka {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+  padding-left: 1.165vw;
+  padding-top: 1.059vw;
+  align-self: stretch;
+}
+body ._ .t-frame-11 {
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+}
+body ._ .frame-59 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-8 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-8.jpeg);
+  row-gap: 0.477vw;
+  flex-grow: 1;
+  max-width: 12.818vw;
+  padding-bottom: 2.066vw;
+  font-weight: 700;
+}
+body ._ .frame-60 {
+  flex-shrink: 0;
+}
+body ._ .pier-cionek-obr-czka-okr-ga {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+  padding-left: 1.165vw;
+  padding-top: 1.059vw;
+  align-self: stretch;
+}
+body ._ .t-frame-12 {
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+}
+body ._ .frame-61 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-9 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-9.jpeg);
+  row-gap: 0.477vw;
+  flex-grow: 1;
+  max-width: 12.818vw;
+  padding-bottom: 2.066vw;
+  font-weight: 700;
+}
+body ._ .frame-62 {
+  flex-shrink: 0;
+}
+body ._ .pier-cionek-obr-czka-klasyczna {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+  padding-left: 1.165vw;
+  padding-top: 1.059vw;
+  align-self: stretch;
+}
+body ._ .t-frame-13 {
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+}
+body ._ .frame-63 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-10 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-10.jpeg);
+  row-gap: 0.477vw;
+  flex-grow: 1;
+  max-width: 12.818vw;
+  padding-bottom: 2.066vw;
+  font-weight: 700;
+}
+body ._ .frame-64 {
+  flex-shrink: 0;
+}
+body ._ .klasyczna-obr-czka-q {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+  padding-left: 1.165vw;
+  padding-top: 1.059vw;
+  align-self: stretch;
+}
+body ._ .t-frame-14 {
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+}
+body ._ .frame-65 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-11 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-11.jpeg);
+  max-width: 12.818vw;
+  max-height: 100%;
+  row-gap: 0.477vw;
+  flex-grow: 1;
+  padding-bottom: 2.066vw;
+  font-weight: 700;
+}
+body ._ .frame-66 {
+  flex-shrink: 0;
+}
+body ._ .klasyczna-obr-czka-q1 {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+  padding-left: 1.165vw;
+  padding-top: 1.059vw;
+  align-self: stretch;
+}
+body ._ .t-frame-15 {
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+}
+body ._ .frame-67 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .t-hero-hero-hero-1 {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+  max-height: 25.9vw;
+  padding-top: 1.748vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .hero-12 {
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .hero-12 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg);
+  background-size: cover;
+}
+body ._ .pier-cionki-unisex {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-2 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-2 {
+  font-size: 0.583vw;
+}
+body ._ .z-25 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-6 {
+  flex-shrink: 0;
+}
+body ._ .hero-13 {
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .hero-13 .background-image {
+  background-size: cover;
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-13.jpeg);
+}
+body ._ .prezenty-iwi-cej-1 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-3 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-3 {
+  font-size: 0.583vw;
+}
+body ._ .z-26 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-7 {
+  flex-shrink: 0;
+}
+body ._ .wi-teczne-promocje-1 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .para-77 {
+  text-align: center;
+}
+body ._ .para-78 {
+  text-align: center;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-4 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-4 {
+  font-size: 0.583vw;
+}
+body ._ .z-27 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-8 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-8 {
+  flex-shrink: 0;
+}
+body ._ .frame-68 {
+  padding-left: 1.059vw;
+  padding-top: 1.748vw;
+  margin-top: 1.748vw;
+}
+body ._ .tt-polecane-prezenty-iwi-cej-frame {
+  row-gap: 0.794vw;
+  -moz-column-gap: 19.862vw;
+       column-gap: 19.862vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-polecane-prezenty-iwi-cej {
+  row-gap: 0.742vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .component-10 {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .frame-69 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  row-gap: 0.318vw;
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-zobacz-pomys-yna {
+  padding-top: 0.053vw;
+}
+body ._ .zobacz-pomys-yna {
+  font-size: 0.583vw;
+}
+body ._ .prezenty-iwi-cej-3 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-9 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-9 {
+  flex-shrink: 0;
+}
+body ._ .kategorie-3 {
+  row-gap: 0.477vw;
+  flex-direction: column;
+  padding-bottom: 3.231vw;
+  padding-left: 16.79vw;
+  padding-top: 1.43vw;
+  font-weight: 700;
+}
+body ._ .ttt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness-1 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-70 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-energetyczna-mindfulness-1 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-energetyczna-mindfulness-1 {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura-2 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-71 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-elegans-natura-2 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-elegans-natura-2 {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttbransoletka-holistic-energy-1 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-72 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-holistic-energy-1 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-holistic-energy-1 {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttbransoletka-miedziana-simplyone {
+  row-gap: 1.059vw;
+}
+body ._ .frame-73 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-miedziana-simplyone {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-miedziana-simplyone {
+  flex-grow: 1;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-2 {
+  row-gap: 1.059vw;
+}
+body ._ .t-frame-51frame-2 {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .frame-74 {
+  flex-shrink: 0;
+}
+body ._ .frame-75 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-4 {
+  flex-grow: 1;
+  max-width: 13.612vw;
+  padding-left: 2.807vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis-4 {
+  flex-grow: 1;
+}
+body ._ .t-frame-17tframe-17frame-17frame-17tframe {
+  row-gap: 0.794vw;
+  -moz-column-gap: 3.39vw;
+       column-gap: 3.39vw;
+  padding-left: 0.583vw;
+  padding-right: 9.693vw;
+}
+body ._ .frame-76 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-28 {
+  text-align: center;
+}
+body ._ .t-frame-16 {
+  padding-left: 0.424vw;
+}
+body ._ .frame-77 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .frame-78 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-30 {
+  text-align: center;
+}
+body ._ .frame-79 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-31 {
+  text-align: center;
+}
+body ._ .t-frame-17 {
+  padding-left: 3.496vw;
+}
+body ._ .frame-80 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .ttt-wiedza-dedykowana-sekrety-miedzi-ienergii-odkrywamy-nieoczywiste-aspekty-miedzi-ijej-gboki-wp-yw-na-nasze-ycie-zg-biaj-tajemnice-staro-ytnych-tradycji-naukowe-fakty-oraz-energetyczne-waciwo-ci-tego-metalu-kt-re-sprawiaj-emied-jest-czym-wi-cej-ni-tylko-surowcem-poznaj-jej-rol-wmedytacji-zdrowiu-icodziennym-yciu-aby-lepiej-zrozumie-jak-dzia-ana-nasz-wiadomo-iharmoni-wewn-trzn {
+  row-gap: 0.53vw;
+  -moz-column-gap: 0.53vw;
+       column-gap: 0.53vw;
+  padding-bottom: 1.218vw;
+  padding-left: 1.218vw;
+  padding-right: 1.218vw;
+  padding-top: 3.178vw;
+}
+body ._ .tt-wiedza-dedykowana-sekrety-miedzi-ienergii {
+  height: 6.886vw;
+}
+body ._ .t-wiedza-dedykowana-sekrety-miedzi-ienergii {
+  margin-bottom: -1.218vw;
+  row-gap: 0.53vw;
+  flex-direction: column;
+  height: 8.104vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+body ._ .wiedza-dedykowana {
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .sekrety-miedzi-ienergii {
+  font-size: 2.595vw;
+  line-height: 2.913vw;
+}
+body ._ .odkrywamy-nieoczywiste-aspekty-miedzi-ijej-gboki-wp-yw-na-nasze-ycie-zg-biaj-tajemnice-staro-ytnych-tradycji-naukowe-fakty-oraz-energetyczne-waciwo-ci-tego-metalu-kt-re-sprawiaj-emied-jest-czym-wi-cej-ni-tylko-surowcem-poznaj-jej-rol-wmedytacji-zdrowiu-icodziennym-yciu-aby-lepiej-zrozumie-jak-dzia-ana-nasz-wiadomo-iharmoni-wewn-trzn {
+  align-items: flex-end;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+  flex-shrink: 0;
+}
+body ._ .tt-frame-1 {
+  padding-top: 0.212vw;
+}
+body ._ .t-frame-18 {
+  padding-left: 11.324vw;
+}
+body ._ .frame-81 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-czytaj-wi-cej {
+  padding-top: 0.053vw;
+}
+body ._ .czytaj-wi-cej {
+  font-size: 0.583vw;
+}
+body ._ .wiedza {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-10 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-10 {
+  flex-shrink: 0;
+}
+body ._ .t-hero-hero-hero-2 {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  padding-top: 3.125vw;
+  font-weight: 700;
+}
+body ._ .hero-15 {
+  row-gap: 0.477vw;
+  padding-bottom: 1.695vw;
+  padding-left: 1.165vw;
+  padding-right: 1.43vw;
+  padding-top: 17.585vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .hero-15 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-15.jpeg);
+  background-size: cover;
+}
+body ._ .frame-82 {
+  height: 16.049vw;
+  flex-shrink: 0;
+}
+body ._ .mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys {
+  align-self: stretch;
+  font-size: 1.43vw;
+}
+body ._ .t-czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn {
+  align-self: stretch;
+  max-width: 30.35vw;
+  padding-top: 0.106vw;
+}
+body ._ .czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .frame-83 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-16 {
+  row-gap: 0.477vw;
+  padding-bottom: 1.695vw;
+  padding-left: 1.165vw;
+  padding-right: 1.43vw;
+  padding-top: 17.585vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .hero-16 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-16.jpeg);
+  background-size: cover;
+}
+body ._ .frame-84 {
+  height: 16.049vw;
+  flex-shrink: 0;
+}
+body ._ .miedziana-bi-uteria-wstaro-ytnych-kulturach-symbolika-iukryta-moc {
+  align-self: stretch;
+  font-size: 1.43vw;
+}
+body ._ .t-odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-ozdob-ale-tak-ejako-amulet-opot-nych-waciwo-ciach-poznaj-fascynuj-chistori-iznaczenie-tego-wyj-tkowego-metalu {
+  align-self: stretch;
+  max-width: 30.35vw;
+  padding-top: 0.106vw;
+}
+body ._ .odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-ozdob-ale-tak-ejako-amulet-opot-nych-waciwo-ciach-poznaj-fascynuj-chistori-iznaczenie-tego-wyj-tkowego-metalu {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .frame-85 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .hero-17 {
+  row-gap: 0.477vw;
+  padding-bottom: 1.695vw;
+  padding-left: 1.165vw;
+  padding-right: 1.43vw;
+  padding-top: 17.585vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body ._ .frame-86 {
+  height: 16.049vw;
+  flex-shrink: 0;
+}
+body ._ .holistyczne-waciwo-ci-miedzi-jak-wp-ywa-na-twoje-samopoczucie {
+  align-self: stretch;
+  font-size: 1.43vw;
+}
+body ._ .t-mied-sprawia-wiele-holistycznych-korzy-ci-dla-cia-aiumys-usprawd-jak-regularne-noszenie-miedzianych-pier-cionk-wmo-epoprawi-twoje-samopoczucie-ipom-cwodzyskaniu-wewn-trznej-harmonii {
+  align-self: stretch;
+  max-width: 30.35vw;
+  padding-top: 0.106vw;
+}
+body ._ .mied-sprawia-wiele-holistycznych-korzy-ci-dla-cia-aiumys-usprawd-jak-regularne-noszenie-miedzianych-pier-cionk-wmo-epoprawi-twoje-samopoczucie-ipom-cwodzyskaniu-wewn-trznej-harmonii {
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .frame-87 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .dost-pne-kategorie {
+  text-align: center;
+  padding-top: 3.178vw;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+  max-height: 27.331vw;
+  padding-top: 3.178vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .hero-18 {
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .hero-18 .background-image {
+  background-size: cover;
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg);
+}
+body ._ .nowo-ci-1 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-5 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-5 {
+  font-size: 0.583vw;
+}
+body ._ .component-11 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-11 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-11 {
+  flex-shrink: 0;
+}
+body ._ .hero-19 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-19.jpeg);
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .bransoletki-1 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-6 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-6 {
+  font-size: 0.583vw;
+}
+body ._ .z-33 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-12 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-12 {
+  flex-shrink: 0;
+}
+body ._ .hero-20 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-20.jpeg);
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .zawieszki-1 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-7 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-7 {
+  font-size: 0.583vw;
+}
+body ._ .z-34 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-13 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-13 {
+  flex-shrink: 0;
+}
+body ._ .hero-21 {
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .pier-cionki-1 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-8 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-8 {
+  font-size: 0.583vw;
+}
+body ._ .z-35 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-14 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-14 {
+  flex-shrink: 0;
+}
+body ._ .hero-22 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-22.jpeg);
+  row-gap: 9.746vw;
+  align-self: stretch;
+  padding-bottom: 1.377vw;
+  padding-top: 1.377vw;
+  flex-shrink: 0;
+}
+body ._ .prezenty-iwi-cej-4 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-9 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-9 {
+  font-size: 0.583vw;
+}
+body ._ .z-36 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-15 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-15 {
+  flex-shrink: 0;
+}
+body ._ .hero-23 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-23.jpeg);
+  row-gap: 9.004vw;
+  padding-bottom: 1.377vw;
+  padding-top: 9.375vw;
+  flex-shrink: 0;
+}
+body ._ .wi-teczne-promocje-2 {
+  align-self: stretch;
+  line-height: 1.43vw;
+}
+body ._ .para-97 {
+  text-align: center;
+}
+body ._ .para-98 {
+  text-align: center;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7 {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+  padding-bottom: 0.212vw;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-ju-od-10 {
+  padding-top: 0.053vw;
+}
+body ._ .ju-od-10 {
+  font-size: 0.583vw;
+}
+body ._ .z-37 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-16 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-16 {
+  flex-shrink: 0;
+}
+body ._ .t-faq-pytania-iodpowiedzi {
+  row-gap: 0.742vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+  padding-top: 3.178vw;
+}
+body ._ .component-12 {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .t-frame-67frame {
+  padding-top: 1.43vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .frame-88 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 26.324vw;
+       column-gap: 26.324vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .jakie-skorzy-ci-zdrowotne-noszenia-bi-uterii-miedzianej {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .frame-89 {
+  padding-bottom: 1.43vw;
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+  padding-top: 1.43vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.953vw;
+  font-weight: 400;
+  line-height: 1.43vw;
+  letter-spacing: 0.053vw;
+  text-align: left;
+  text-transform: none;
+}
+body ._ .t-bi-uteria-miedziana-od-lat-uwa-ana-jest-za-skuteczn-wpoprawie-kr-enia-iprzep-ywu-energii-mied-ma-tak-ewaciwo-ci-przeciwzapalne-co-sprawia-enoszenie-jej-mo-eprzynosi-ulg-wstanach-zapalnych-dodatkowo-mied-wspiera-rwnowag-energetyczn-organizmu-co-przek-ada-si-na-lepsze-samopoczucie {
+  max-width: 64.301vw;
+  padding-bottom: 0.318vw;
+}
+body ._ .t-frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame {
+  padding-top: 1.059vw;
+  line-height: 1.43vw;
+  text-transform: uppercase;
+  width: 100%;
+}
+body ._ .t-frame-67frame > div,
+body ._ .t-frame-67frame-1 > div {
+  width: 100%;
+  max-width: 66.631vw;
+  justify-content: space-between;
+}
+body ._ .t-frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame-67frame > div {
+  width: 100%;
+  max-width: 66.631vw;
+  justify-content: space-between;
+}
+body ._ .frame-90 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 29.767vw;
+       column-gap: 29.767vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-1 {
+  flex-shrink: 0;
+}
+body ._ .frame-91 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 31.886vw;
+       column-gap: 31.886vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-2 {
+  flex-shrink: 0;
+}
+body ._ .frame-92 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 17.161vw;
+       column-gap: 17.161vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-3 {
+  flex-shrink: 0;
+}
+body ._ .frame-93 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 29.502vw;
+       column-gap: 29.502vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-4 {
+  flex-shrink: 0;
+}
+body ._ .frame-94 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 32.627vw;
+       column-gap: 32.627vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-5 {
+  flex-shrink: 0;
+}
+body ._ .frame-95 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 29.502vw;
+       column-gap: 29.502vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-6 {
+  flex-shrink: 0;
+}
+body ._ .frame-96 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 31.409vw;
+       column-gap: 31.409vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-7 {
+  flex-shrink: 0;
+}
+body ._ .frame-97 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 14.989vw;
+       column-gap: 14.989vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-8 {
+  flex-shrink: 0;
+}
+body ._ .frame-98 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.742vw;
+  -moz-column-gap: 7.309vw;
+       column-gap: 7.309vw;
+  padding-bottom: 0.424vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .arrow_insert_24dp_5f6368_fill0_wght-400_grad0_opsz-9 {
+  flex-shrink: 0;
+}
+body ._ .t-frame-67frame-1 {
+  padding-top: 2.648vw;
+  font-size: 0.953vw;
+  margin: 0 auto;
+  line-height: 1.43vw;
+}
+body ._ .frame-99 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.583vw;
+  padding-left: 0.583vw;
+  padding-right: 13.718vw;
+  padding-top: 0.636vw;
+}
+body ._ .jak-miedziana-bi-uteria-wp-ywa-na-synchronizacj-cia-aznaturalnymi-cyklami-ziemi {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .frame-100 {
+  padding-bottom: 1.43vw;
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+  padding-top: 1.43vw;
+}
+body ._ .t-mied-jako-naturalny-przewodnik-energii-jest-uwa-ana-za-metal-kt-ry-pomaga-wsynchronizacji-energii-cz-owieka-zcyklami-ziemi-takimi-jak-fazy-ksi-yca-czy-zmiany-prroku-noszenie-miedzianej-bi-uterii-mo-ewspiera-gbsze-po-czenie-znatur-uatwiaj-cprzep-yw-energii-zgodnie-zrytmem-rodowiska-wten-spos-bosoby-wierz-ce-wholistyczne-podej-cie-do-ycia-mog-odczuwa-wi-ksz-harmoni-ispok-jdostrajaj-cswoje-cia-oiumys-do-naturalnych-proces-wwok-nich {
+  max-width: 64.301vw;
+  padding-bottom: 0.318vw;
+}
+body ._ .frame-101 {
+  padding-left: 0.794vw;
+  padding-top: 1.748vw;
+  margin-top: 2.807vw;
+}
+body ._ .tt-przegl-daj-miedziana-bi-uteria-energetyczna-frame {
+  row-gap: 0.794vw;
+  -moz-column-gap: 7.468vw;
+       column-gap: 7.468vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .t-przegl-daj-miedziana-bi-uteria-energetyczna {
+  row-gap: 0.742vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+  font-size: 1.43vw;
+  line-height: 1.748vw;
+}
+body ._ .component-13 {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .frame-102 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.159vw;
+}
+body ._ .ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  padding-bottom: 0.053vw;
+}
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  flex-grow: 1;
+  max-height: 1.165vw;
+}
+body ._ .t-zobacz-wszystkie-2 {
+  padding-top: 0.053vw;
+}
+body ._ .zobacz-wszystkie-2 {
+  font-size: 0.583vw;
+}
+body ._ .nowo-ci-2 {
+  font-size: 0.689vw;
+  line-height: 1.165vw;
+}
+body ._ .t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-17 {
+  align-self: stretch;
+  padding-left: 0.265vw;
+}
+body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-17 {
+  flex-shrink: 0;
+}
+body ._ .kategorie-4 {
+  row-gap: 0.477vw;
+  flex-direction: column;
+  padding-bottom: 3.231vw;
+  padding-left: 16.79vw;
+  padding-top: 1.43vw;
+  font-weight: 700;
+}
+body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  font-size: 0.953vw;
+  line-height: 1.324vw;
+}
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttbransoletka-holistic-energy-2 {
+  row-gap: 1.059vw;
+  align-items: flex-start;
+}
+body ._ .kategorie-4 > div > div > div,
+body ._ .kategorie-4 > div > div {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .frame-103 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-holistic-energy-2 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-holistic-energy-2 {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttbransoletka-miedziana-mindfulness {
+  row-gap: 1.059vw;
+}
+body ._ .frame-104 {
+  flex-shrink: 0;
+}
+body ._ .t-bransoletka-miedziana-mindfulness {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .bransoletka-miedziana-mindfulness {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-elegans-natura-3 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-105 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-elegans-natura-3 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-elegans-natura-3 {
+  flex-grow: 1;
+}
+body ._ .t-frame-51ttzawieszka-miedziana-apertis-oculis-2 {
+  row-gap: 1.059vw;
+}
+body ._ .frame-106 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-5 {
+  flex-grow: 1;
+  max-width: 15.042vw;
+  padding-right: 0.847vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis-5 {
+  flex-grow: 1;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-3 {
+  row-gap: 1.059vw;
+}
+body ._ .t-frame-51frame-3 {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .frame-107 {
+  flex-shrink: 0;
+}
+body ._ .frame-108 {
+  flex-shrink: 0;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-6 {
+  flex-grow: 1;
+  max-width: 13.612vw;
+  padding-left: 2.807vw;
+}
+body ._ .zawieszka-miedziana-apertis-oculis-6 {
+  flex-grow: 1;
+}
+body ._ .t-frame-17frame-17tframe-17frame-17tframe-2 {
+  row-gap: 0.794vw;
+  -moz-column-gap: 3.39vw;
+       column-gap: 3.39vw;
+  padding-left: 0.583vw;
+  padding-right: 9.693vw;
+}
+body ._ .frame-109 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-38 {
+  text-align: center;
+}
+body ._ .frame-110 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-39 {
+  text-align: center;
+}
+body ._ .t-frame-19 {
+  padding-left: 0.424vw;
+}
+body ._ .frame-111 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .frame-112 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+}
+body ._ .z-41 {
+  text-align: center;
+}
+body ._ .t-frame-20 {
+  padding-left: 3.496vw;
+}
+body ._ .frame-113 {
+  border-bottom-width: 0.053vw;
+  padding-bottom: 0.106vw;
+  padding-top: 0.159vw;
+  text-align: center;
+}
+body ._ .frame-114 {
+  row-gap: 0.106vw;
+  padding-bottom: 2.331vw;
+  padding-left: 33vw;
+  padding-right: 17.638vw;
+  padding-top: 2.225vw;
+  position: relative;
+}
+body ._ .frame-114 > .hero-24 {
+  width: 32vw;
+}
+body ._ .hero-24 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  flex-shrink: 0;
+}
+body ._ .t-chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci-ttzapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
+  row-gap: 1.43vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+}
+body ._ .chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci {
+  width: 16.208vw;
+  color: lightsalmon;
+  flex-shrink: 0;
+}
+body ._ .tt-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
+  row-gap: 1.43vw;
+  flex-direction: column;
+  font-size: 0.953vw;
+  flex-shrink: 0;
+}
+body ._ .t-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame {
+  row-gap: 1.165vw;
+  -moz-column-gap: 1.165vw;
+       column-gap: 1.165vw;
+  max-width: 30.403vw;
+  font-weight: 700;
+}
+body ._ .zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy {
+  width: 17.479vw;
+  line-height: 1.324vw;
+  flex-shrink: 0;
+}
+body ._ .frame-115 {
+  border-top-width: 0.106vw;
+  border-bottom-width: 0.106vw;
+  border-left-width: 0.106vw;
+  border-right-width: 0.106vw;
+  padding-bottom: 0.477vw;
+  padding-left: 1.059vw;
+  padding-right: 1.059vw;
+  padding-top: 0.477vw;
+}
+body ._ .t-odbierz-zni-k {
+  -moz-column-gap: 0.53vw;
+       column-gap: 0.53vw;
+  width: 9.428vw;
+  color: lightsalmon;
+  text-transform: uppercase;
+}
+body ._ .odbierz-zni-k {
+  width: 3.072vw;
+  font-size: 0.583vw;
+  flex-shrink: 0;
+}
+body ._ .component-14 {
+  font-size: 2.595vw;
+  line-height: 2.913vw;
+}
+body ._ .do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
+  line-height: 1.43vw;
+}
+body ._ .tbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-wtwpisz-adres-email-frame {
+  align-items: flex-start;
+  row-gap: 1.43vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+  padding-top: 1.324vw;
+  justify-content: center;
+  font-size: 0.689vw;
+}
+body ._ .bd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w {
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+body ._ .t-wpisz-adres-email-frame {
+  row-gap: 0.159vw;
+  flex-shrink: 0;
+}
+body ._ .frame-116 {
+  border-bottom-width: 0.053vw;
+  align-items: center;
+  row-gap: 0.318vw;
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+  align-self: center;
+  padding-bottom: 0.477vw;
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+  padding-top: 0.477vw;
+}
+body ._ .mail_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .ttt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet-frame {
+  row-gap: 1.43vw;
+  -moz-column-gap: 1.43vw;
+       column-gap: 1.43vw;
+  font-size: 0.689vw;
+  justify-content: space-between;
+  width: 100%;
+}
+body ._ .tt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet {
+  padding-bottom: 0.424vw;
+}
+body ._ .t-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet {
+  row-gap: 0.636vw;
+}
+body ._ .wybierz-co-ci-interesuje {
+  align-self: stretch;
+}
+body ._ .ttt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet {
+  padding-left: 0.583vw;
+  padding-right: 0.583vw;
+}
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet {
+  row-gap: 1.112vw;
+}
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+}
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+}
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-1 {
+  border-top-width: 0.053vw;
+  border-bottom-width: 0.053vw;
+  border-left-width: 0.053vw;
+  border-right-width: 0.053vw;
+  flex-shrink: 0;
+}
+body ._ .frame-117 {
+  border-bottom-width: 0.053vw;
+  row-gap: 0.583vw;
+  -moz-column-gap: 1.96vw;
+       column-gap: 1.96vw;
+  padding-bottom: 2.172vw;
+  padding-left: 0.583vw;
+  padding-top: 1.642vw;
+  justify-content: space-between;
+  width: 64%;
+}
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241wyra-am-zgod-na-przetwarzanie-danych-osobowych-zgodnie-zpolityk-prywatno-ci {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+  flex-grow: 1;
+  max-width: 13.242vw;
+}
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-2 {
+  flex-shrink: 0;
+}
+body ._ .wyra-am-zgod-na-przetwarzanie-danych-osobowych-zgodnie-zpolityk-prywatno-ci {
+  width: 11.388vw;
+  flex-shrink: 0;
+}
+body ._ .para-124 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+body ._ .text-1 {
+  font-weight: 400;
+}
+body ._ .text-2 {
+  font-weight: 400;
+}
+body ._ .frame-118 {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+body ._ .frame-119 {
+  border-bottom-width: 0.053vw;
+  -moz-column-gap: 0.477vw;
+       column-gap: 0.477vw;
+  padding-bottom: 0.159vw;
+  padding-left: 0.025vw;
+  padding-right: 0.025vw;
+  padding-top: 0.159vw;
+  flex-shrink: 0;
+  width: 14.605vw;
+  height: 1.589vw;
+}
+body ._ .zapisz-do-newslettera {
+  color: white;
+  font-weight: 700;
+}
+body ._ .mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1 {
+  flex-shrink: 0;
+}
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  row-gap: 0.344vw;
+  -moz-column-gap: 7.68vw;
+       column-gap: 7.68vw;
+  padding-bottom: 0.318vw;
+  padding-left: 0.383vw;
+  font-size: 0.689vw;
+}
+body ._ .t-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+}
+body ._ .check_24dp_5f6368_fill0_wght-400_grad0_opsz-3 {
+  border-top-width: 0.053vw;
+  border-bottom-width: 0.053vw;
+  border-left-width: 0.053vw;
+  border-right-width: 0.053vw;
+  flex-shrink: 0;
+}
+body ._ .t-mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  width: 30.403vw;
+  height: 0.689vw;
+  flex-shrink: 0;
+}
+body ._ .mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  margin-bottom: -0.318vw;
+}
+body ._ .frame-120 {
+  align-items: flex-start;
+  color: whitesmoke;
+}
+body ._ .checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.53vw;
+  padding-left: 0.53vw;
+}
+body ._ .checkbox-item {
+  display: flex;
+  align-items: center;
+}
+body ._ .checkbox-item input[type=checkbox] {
+  display: none; /* Hide the native checkbox */
+}
+body ._ .checkbox-item label {
+  display: flex;
+  align-items: center;
+  font-size: 0.847vw;
+  color: #333;
+  cursor: pointer;
+}
+body ._ .custom-checkbox {
+  display: inline-block;
+  width: 1.271vw;
+  height: 1.324vw;
+  margin-right: 0.424vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3C/g%3E%3C/svg%3E"); /* Inactive SVG */
+}
+body ._ input[type=checkbox]:checked + label .custom-checkbox {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' fill='%23231F20'/%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3Cpath id='Vector' d='M9.54961 18.1109L3.84961 12.4109L5.27461 10.9859L9.54961 15.2609L18.7246 6.08594L20.1496 7.51094L9.54961 18.1109Z' fill='white'/%3E%3C/g%3E%3C/svg%3E"); /* Active SVG */
+}
+body ._ .luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji {
+  width: 11.864vw;
+  flex-shrink: 0;
+}
+body ._ .tt-menu-strony-kategorie-tttstrona-gwna-nowo-ci-tsklep-bransoletki-ttwiedza-pier-cionki-tkontakt-zawieszki {
+  row-gap: 0.9vw;
+  padding-left: 1.324vw;
+}
+body ._ .t-menu-strony-kategorie {
+  row-gap: 0.583vw;
+  -moz-column-gap: 4.979vw;
+       column-gap: 4.979vw;
+}
+body ._ .ttt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet-frame {
+  padding-left: 0.284vw;
+}
+body ._ .kategorie-5 {
+  width: 10.911vw;
+  flex-shrink: 0;
+}
+body ._ .ttt-strona-gwna-nowo-ci-tsklep-bransoletki-ttwiedza-pier-cionki-tkontakt-zawieszki {
+  row-gap: 0.477vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .frame-117 .checkbox-item label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .frame-117 .checkbox-text a {
+  font-weight: 700;
+}
+body ._ .frame-117 .checkbox-text p {
+  font-size: 0.689vw;
+  font-weight: 400;
+  line-height: 1.006vw;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #231f20;
+}
+body ._ .t-strona-gwna-nowo-ci {
+  -moz-column-gap: 2.966vw;
+       column-gap: 2.966vw;
+}
+body ._ .t-sklep-bransoletki {
+  -moz-column-gap: 7.362vw;
+       column-gap: 7.362vw;
+}
+body ._ .tt-wiedza-pier-cionki-tkontakt-zawieszki {
+  row-gap: 0.477vw;
+}
+body ._ .t-wiedza-pier-cionki {
+  -moz-column-gap: 6.568vw;
+       column-gap: 6.568vw;
+}
+body ._ .t-kontakt-zawieszki {
+  -moz-column-gap: 6.303vw;
+       column-gap: 6.303vw;
+}
+body ._ .t-informacje-bezpieczna-dostawa {
+  row-gap: 0.583vw;
+  -moz-column-gap: 2.648vw;
+       column-gap: 2.648vw;
+  padding-right: 0.106vw;
+}
+body ._ .informacje {
+  width: 12.129vw;
+  flex-shrink: 0;
+}
+body ._ .tp-atno-ci-idostawa {
+  padding-top: 0.742vw;
+}
+body ._ .t-regulamin-sklepu-polityka-cookies {
+  row-gap: 0.477vw;
+  flex-shrink: 0;
+}
+body ._ .tt-bezpieczne-metody-patno-ci-prezenty-iwi-cej {
+  row-gap: 0.45vw;
+  -moz-column-gap: 15.519vw;
+       column-gap: 15.519vw;
+  padding-bottom: 0.212vw;
+  padding-top: 0.212vw;
+}
+body ._ .t-bezpieczne-metody-patno-ci {
+  height: 0.9vw;
+}
+body ._ .bezpieczne-metody-patno-ci {
+  margin-bottom: -0.212vw;
+}
+body ._ .prezenty-iwi-cej-5 {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .tt-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector-twi-teczne-promocje {
+  row-gap: 0.477vw;
+  -moz-column-gap: 12.023vw;
+       column-gap: 12.023vw;
+  padding-top: 0.477vw;
+}
+body ._ .t-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector {
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .przelewy-24_logo {
+  width: 4.82vw;
+  height: 1.695vw;
+  flex-shrink: 0;
+}
+body ._ .blik-seeklogo {
+  width: 3.231vw;
+  height: 1.695vw;
+  flex-shrink: 0;
+}
+body ._ .mastercard-logo {
+  width: 2.172vw;
+  height: 1.695vw;
+  flex-shrink: 0;
+}
+body ._ .vector-2 {
+  width: 3.125vw;
+  height: 0.953vw;
+  flex-shrink: 0;
+}
+body ._ .wi-teczne-promocje-3 {
+  margin-bottom: -0.477vw;
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .dzie-n_dobry2 {
+  padding-bottom: 0.265vw;
+  padding-left: 1.165vw;
+  padding-right: 1.165vw;
+  padding-top: 0.265vw;
+}
+body ._ .ttt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  flex-grow: 1;
+  padding-top: 0.053vw;
+}
+body ._ .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  row-gap: 0.159vw;
+  -moz-column-gap: 0.159vw;
+       column-gap: 0.159vw;
+}
+body ._ .t-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  row-gap: 0.159vw;
+  -moz-column-gap: 0.159vw;
+       column-gap: 0.159vw;
+}
+body ._ .frame-121 {
+  width: 0.583vw;
+  height: 1.271vw;
+  flex-shrink: 0;
+}
+body ._ .t-luke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  row-gap: 0.583vw;
+  -moz-column-gap: 0.583vw;
+       column-gap: 0.583vw;
+}
+body ._ .tu-iteraz {
+  text-decoration: underline;
+}
+body ._ .self_improvement_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+body ._ .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  -moz-column-gap: 0.318vw;
+       column-gap: 0.318vw;
+}
+body ._ .arrow_upward_alt_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  flex-shrink: 0;
+}
+@media (min-width: 1878px) {
+  body ._ .tttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-tdzie-dobry-dobrze-ejeste-tframe-12pl-z {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag-t01_logo_luke_copper_vertical-1ttmiedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje-tframe {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-bi-uteria-kt-ra-rezonuje-odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej-tframe-24tcu-99_lukecopper-1frame-25tbransoletki-tenergetyczne {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-17tkobiece-mskie-unisex-tframe {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie-tlc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny-ttlc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-lc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-lc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii-prezent-dla-ciebie-ibliskiej-ci-osoby-sezon {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-hero-ttnasze-bestsellery-thero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-hero-hero-hero {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-bi-uteria-kwantowa-polecana-dla-ciebie-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-frame-17frame-17tframe-17frame-17tframe {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame-17hero {
+    flex-wrap: nowrap;
+  }
+  body ._ .tw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-poznaj-nowo-ci-sezon-202425frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-poznaj-nowo-ci-sezon {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-frame-17frame-17tframe-17frame-17tframe-1 {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-lc_picto_nature-1pi-kno {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-hero-hero-hero-1 {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-polecane-prezenty-iwi-cej-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-polecane-prezenty-iwi-cej {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-frame-17tframe-17frame-17frame-17tframe {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-wiedza-dedykowana-sekrety-miedzi-ienergii-odkrywamy-nieoczywiste-aspekty-miedzi-ijej-gboki-wp-yw-na-nasze-ycie-zg-biaj-tajemnice-staro-ytnych-tradycji-naukowe-fakty-oraz-energetyczne-waciwo-ci-tego-metalu-kt-re-sprawiaj-emied-jest-czym-wi-cej-ni-tylko-surowcem-poznaj-jej-rol-wmedytacji-zdrowiu-icodziennym-yciu-aby-lepiej-zrozumie-jak-dzia-ana-nasz-wiadomo-iharmoni-wewn-trzn {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-hero-hero-hero-2 {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-hero-hero-hero-hero-hero-hero {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-faq-pytania-iodpowiedzi {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-88 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-90 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-91 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-92 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-93 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-94 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-95 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-96 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-97 {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-98 {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-przegl-daj-miedziana-bi-uteria-energetyczna-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-przegl-daj-miedziana-bi-uteria-energetyczna {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-frame-17frame-17tframe-17frame-17tframe-2 {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci-ttzapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .tbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-wtwpisz-adres-email-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-116 {
+    flex-wrap: nowrap;
+  }
+  body ._ .ttt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet-frame {
+    flex-wrap: nowrap;
+  }
+  body ._ .frame-117 {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-menu-strony-kategorie {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-informacje-bezpieczna-dostawa {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-bezpieczne-metody-patno-ci-prezenty-iwi-cej {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector-twi-teczne-promocje {
+    flex-wrap: nowrap;
+  }
+  body ._ .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    flex-wrap: nowrap;
+  }
+  body ._ .t-luke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    flex-wrap: nowrap;
+  }
+}
+body ._ .text_left_nav,
+body ._ .text_middle,
+body ._ .lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body ._ .text_top_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+body ._ .text_middle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+body ._ .text_left_nav {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.583vw;
+  font-weight: 700;
+  line-height: 1.112vw;
+  letter-spacing: 0.093vw;
+  text-align: left;
+  text-transform: uppercase;
+}
+body ._ .text_middle {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.583vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.112vw;
+  letter-spacing: 0.093vw;
+  gap: 0.318vw;
+  text-align: left;
+}
+body ._ .lang {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.583vw;
+  font-weight: 700;
+  line-height: 1.112vw;
+  letter-spacing: 0.093vw;
+  text-transform: uppercase;
+  text-align: right;
+}
+body ._ .menu_nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1.43vw;
+}
+body ._ .nature_section {
+  flex-wrap: nowrap;
+}
+body ._ .nature_section > div {
+  flex-wrap: nowrap;
+}
+body ._ .hover_container {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  color: inherit; /* Ensures the initial color */
+}
+body ._ .hover_container::after {
+  content: "";
+  position: absolute;
+  bottom: -100%; /* Start below the button */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: bottom 0.3s ease;
+}
+body ._ .hero-hover_best:hover .hover_container {
+  color: #231f20; /* Changes text color on hover */
+}
+body ._ .hero-hover_best button {
+  padding: 0;
+  margin: 0;
+}
+body ._ .hero-hover_best:hover .hover_container::after {
+  bottom: 0; /* Moves the background up */
+}
+body ._ .hero-hover_best:hover .hover_container .frame-17 {
+  border-color: #231f20;
+}
+body ._ .hover_container > * {
+  position: relative;
+  z-index: 1;
+}
+body ._ .hover_container .frame-17 {
+  border-color: #f4f3f3;
+}
+body ._ .hero-hover_best {
+  padding: 17.479vw 0 0 0;
+}
+body ._ .hero-hover_best .hover_container {
+  padding: 1.059vw 3.178vw 1.536vw 0.583vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+body ._ .frame-22 {
+  display: none;
+  opacity: 0;
+  transform: translateY(-1.059vw);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+body ._ .frame-22.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+body ._ .close_24dp_5f6368_fill0_wght-400_grad0_opsz {
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+body ._ .close_24dp_5f6368_fill0_wght-400_grad0_opsz.hide {
+  opacity: 0;
+  transform: translateY(-1.059vw);
+}
+body ._ button,
+body ._ .przeczytaj-wi-cej,
+body ._ a {
+  position: relative;
+  overflow: hidden;
+}
+body ._ .hero-2 .hover,
+body ._ .hero-3 .hover,
+body ._ .hero-4 .hover {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  color: inherit; /* Initial color */
+  padding-bottom: 1.695vw;
+  padding-top: 1.695vw;
+  padding-left: 1.165vw;
+  padding-right: 1.43vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body ._ .hero-2 .hover::after,
+body ._ .hero-3 .hover::after,
+body ._ .hero-4 .hover::after {
+  content: "";
+  position: absolute;
+  bottom: -100%; /* Start from below */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: bottom 0.3s ease;
+  z-index: 0; /* Behind the content */
+}
+body ._ .hero-2:hover .hover,
+body ._ .hero-3:hover .hover,
+body ._ .hero-4:hover .hover {
+  color: #231f20; /* Change text color on hover */
+}
+body ._ .hero-2:hover .hover::after,
+body ._ .hero-3:hover .hover::after,
+body ._ .hero-4:hover .hover::after {
+  bottom: 0; /* Moves the background up */
+}
+body ._ .hero-2 .hover > *,
+body ._ .hero-3 .hover > *,
+body ._ .hero-4 .hover > * {
+  position: relative;
+  z-index: 1;
+}
+body ._ .hero-2 .frame-26,
+body ._ .hero-3 .frame-28,
+body ._ .hero-4 .frame-30 {
+  transition: border-color 0.3s ease;
+}
+body ._ .hero-2:hover .frame-26,
+body ._ .hero-3:hover .frame-28,
+body ._ .hero-4:hover .frame-30 {
+  border-color: #231f20; /* Customize as needed */
+}
+body ._ .hero-7 .hover,
+body ._ .hero-8 .hover,
+body ._ .hero-9 .hover,
+body ._ .hero-10 .hover,
+body ._ .hero-11 .hover {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  color: inherit; /* Initial color */
+  padding-bottom: 1.695vw;
+  padding-top: 1.695vw;
+  padding-left: 1.165vw;
+  padding-right: 1.43vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-start;
+}
+body ._ .hero-7 .hover > div .hero-8 .hover > div,
+body ._ .hero-9 .hover > div,
+body ._ .hero-10 .hover > div,
+body ._ .hero-11 .hover > div {
+  padding: 0;
+}
+body ._ .hero-7 .t-frame-11,
+body ._ .hero-8 .t-frame-12 {
+  padding: 0;
+}
+body ._ .hero-7 .hover::after,
+body ._ .hero-8 .hover::after,
+body ._ .hero-9 .hover::after,
+body ._ .hero-10 .hover::after,
+body ._ .hero-11 .hover::after {
+  content: "";
+  position: absolute;
+  bottom: -100%; /* Start from below */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: bottom 0.3s ease;
+  z-index: 0; /* Behind the content */
+}
+body ._ .hero-7:hover .hover,
+body ._ .hero-8:hover .hover,
+body ._ .hero-9:hover .hover,
+body ._ .hero-10:hover .hover,
+body ._ .hero-11:hover .hover {
+  color: #231f20; /* Change text color on hover */
+}
+body ._ .hero-7:hover .hover::after,
+body ._ .hero-8:hover .hover::after,
+body ._ .hero-9:hover .hover::after,
+body ._ .hero-10:hover .hover::after,
+body ._ .hero-11:hover .hover::after {
+  bottom: 0; /* Moves the background up */
+}
+body ._ .hero-7 .hover > *,
+body ._ .hero-8 .hover > *,
+body ._ .hero-9 .hover > *,
+body ._ .hero-10 .hover > *,
+body ._ .hero-11 .hover > * {
+  position: relative;
+  z-index: 1;
+}
+body ._ .hero-7 .frame-59,
+body ._ .hero-8 .frame-61,
+body ._ .hero-9 .frame-63,
+body ._ .hero-10 .frame-65,
+body ._ .hero-11 .frame-67 {
+  transition: border-color 0.3s ease;
+}
+body ._ .hero-7:hover .frame-59,
+body ._ .hero-8:hover .frame-61,
+body ._ .hero-9:hover .frame-63,
+body ._ .hero-10:hover .frame-65,
+body ._ .hero-11:hover .frame-67 {
+  border-color: #231f20; /* Customize as needed */
+}
+body ._ .t-hero-hero-hero-1 .hero-12,
+body ._ .t-hero-hero-hero-1 .hero-13,
+body ._ .t-hero-hero-hero-1 .hero-14 {
+  position: relative;
+  overflow: hidden;
+}
+body ._ .t-hero-hero-hero-1 .hero-12 .background-image,
+body ._ .t-hero-hero-hero-1 .hero-13 .background-image,
+body ._ .t-hero-hero-hero-1 .hero-14 .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease; /* Smooth zoom effect */
+  z-index: 0; /* Behind the text */
+}
+body ._ .t-hero-hero-hero-1 .hero-12:hover .background-image,
+body ._ .t-hero-hero-hero-1 .hero-13:hover .background-image,
+body ._ .t-hero-hero-hero-1 .hero-14:hover .background-image {
+  transform: scale(1.1); /* Zoom to 110% */
+}
+body ._ .hero-14 {
+  row-gap: 9.004vw;
+  padding-bottom: 1.377vw;
+  padding-top: 9.375vw;
+  flex-shrink: 0;
+}
+body ._ .hero-14 .background-image {
+  background-size: cover;
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-14.jpeg);
+}
+body ._ .t-hero-hero-hero-1 .hero-12 .pier-cionki-unisex,
+body ._ .t-hero-hero-hero-1 .hero-13 .prezenty-iwi-cej-1,
+body ._ .t-hero-hero-hero-1 .hero-14 .wi-teczne-promocje-1,
+body ._ .t-hero-hero-hero-1 .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
+body ._ .t-hero-hero-hero-1 .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2,
+body ._ .t-hero-hero-hero-1 .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3 {
+  position: relative;
+  z-index: 1;
+}
+body ._ .t-hero-hero-hero-2 .hero-15,
+body ._ .t-hero-hero-hero-2 .hero-16,
+body ._ .t-hero-hero-hero-2 .hero-17 {
+  position: relative;
+  overflow: hidden;
+}
+body ._ .t-hero-hero-hero-2 .hero-15 .background-image,
+body ._ .t-hero-hero-hero-2 .hero-16 .background-image,
+body ._ .t-hero-hero-hero-2 .hero-17 .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.6s ease; /* Smooth zoom effect */
+  z-index: 0; /* Behind the text */
+}
+body ._ .t-hero-hero-hero-2 .hero-15:hover .background-image,
+body ._ .t-hero-hero-hero-2 .hero-16:hover .background-image,
+body ._ .t-hero-hero-hero-2 .hero-17:hover .background-image {
+  transform: scale(1.1); /* Zoom to 110% */
+}
+body ._ .t-hero-hero-hero-2 .hero-15 .mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys,
+body ._ .t-hero-hero-hero-2 .hero-16 .miedziana-bi-uteria-wstaro-ytnych-kulturach-symbolika-iukryta-moc,
+body ._ .t-hero-hero-hero-2 .hero-17 .holistyczne-waciwo-ci-miedzi-jak-wp-ywa-na-twoje-samopoczucie,
+body ._ .t-hero-hero-hero-2 .frame-83,
+body ._ .t-hero-hero-hero-2 .frame-85,
+body ._ .t-hero-hero-hero-2 .frame-87 {
+  position: relative;
+  z-index: 1;
+}
+body ._ .tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone > div,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body ._ .frame-75,
+body ._ .frame-51,
+body ._ .tt-zawieszka-miedziana-apertis-oculis-4,
+body ._ .zawieszka-miedziana-apertis-oculis-3,
+body ._ .t-zawieszka-miedziana-apertis-oculis-6,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-3 .frame-108 {
+  opacity: 0.33;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-2,
+body ._ .ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+body ._ .t-zawieszka-miedziana-apertis-oculis-4,
+body ._ .t-zawieszka-miedziana-apertis-oculis-3,
+body ._ .t-zawieszka-miedziana-apertis-oculis-6 {
+  padding-left: 3.5vw;
+}
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-2 .frame-76,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-1 .frame-52,
+body ._ .tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-3 .frame-109 {
+  margin-left: 3.5vw;
+  margin-top: -0.8vw;
+  opacity: 0.33;
+}
+body ._ .qa-item {
+  margin-bottom: 10px;
+}
+body ._ .question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+body ._ .arrow-icon {
+  transition: transform 0.3s ease;
+}
+body ._ .answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 10px; /* Optional padding for spacing */
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+body ._ .qa-item.active .answer {
+  max-height: 200px; /* Adjust as needed or use a large enough value */
+  opacity: 1;
+  padding: 10px 10px; /* Revealed padding */
+}
+body ._ .qa-item.active .arrow-icon {
+  transform: rotate(-90deg); /* Rotate when active */
+}
+body ._ .frame-17,
+body ._ .frame-21,
+body ._ .hover > div {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+body ._ .ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .miedziane-pier-cionki {
+  z-index: 1;
+}
+body ._ h1 {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 5.085vw;
+  line-height: 5.244vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  color: white;
+}
+body ._ .ju-od,
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  color: white;
+}
+body ._ p {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+}
+body ._ h1,
+body ._ h2,
+body ._ h3,
+body ._ h4,
+body ._ h5,
+body ._ h6,
+body ._ h7,
+body ._ div,
+body ._ p,
+body ._ a,
+body ._ span,
+body ._ li,
+body ._ ul,
+body ._ ol,
+body ._ button,
+body ._ input,
+body ._ textarea {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+}
+body ._ .zobacz-co-dla-siebie {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+}
+body ._ .frame-23 {
+  border-left: none;
+  border-right: none;
+}
+body ._ .frame-22.active .tt-frame {
+  margin-top: 2vw;
+}
+body ._ .frame-5,
+body ._ .frame-24,
+body ._ .frame-31,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div > div,
+body ._ .frame-38,
+body ._ .frame-43,
+body ._ .frame-45,
+body ._ .frame-52,
+body ._ .frame-57,
+body ._ .frame-59 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+body ._ .nasze-bestsellery {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+}
+body ._ .hover_container p,
+body ._ .hover_container div {
+  font-weight: 700;
+}
+body ._ .t-hero-hero-hero .hover {
+  color: white;
+  font-weight: 700;
+}
+body ._ .frame-45,
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  color: #231f20;
+  font-weight: 700;
+}
+body ._ #read-more {
+  color: white;
+}
+body ._ .na-temat-miedzi-swokilka-wi-cej {
+  color: white;
+}
+body ._ .ukryj-dodatkowy-opis {
+  color: white;
+}
+body ._ .miedziane-bransoletki,
+body ._ .bi-uteria-kwantowa-polecana-dla-ciebie {
+  color: #231f20 !important;
+}
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis p,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis span,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis div {
+  color: #231f20;
+}
+body ._ .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem p {
+  font-size: 0.953vw;
+  line-height: 1.43vw;
+}
+body ._ .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem p,
+body ._ .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem span,
+body ._ .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem .w-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem div {
+  color: #231f20;
+}
+body ._ .pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze,
+body ._ .dost-pne-kategorie {
+  color: #231f20;
+}
+body ._ .tt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  font-weight: 700;
+}
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz div {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+body ._ .t-poznaj-nowo-ci-sezon div,
+body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
+  color: white;
+}
+body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+body ._ .tt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia-telement-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja-tframe {
+  color: #231f20;
+}
+body ._ .ttt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia-telement-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja-tframe-17thero-hero-hero-hero-hero > div > button > div > div,
+body ._ .frame-69,
+body ._ .frame-76,
+body ._ .frame-81 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+body ._ .ttt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier-cionk-wwspomaga-naturalny-przep-yw-energii-wprowadzaj-cspok-jibalans-do-codziennego-ycia-telement-inspirowany-harmoni-natury-mied-zapewnia-ci-goenergii-wruchu-prostota-szyk-ielegancja-tframe-17thero-hero-hero-hero-hero button {
+  font-weight: 700;
+}
+body ._ .t-hero-hero-hero-1 > div > div button,
+body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
+body ._ .t-faq-pytania-iodpowiedzi {
+  color: #231f20;
+}
+body ._ .tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone,
+body ._ .t-polecane-prezenty-iwi-cej div,
+body ._ .qa-item,
+body ._ .t-przegl-daj-miedziana-bi-uteria-energetyczna,
+body ._ .zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis,
+body ._ .ttt-wiedza-dedykowana-sekrety-miedzi-ienergii-odkrywamy-nieoczywiste-aspekty-miedzi-ijej-gboki-wp-yw-na-nasze-ycie-zg-biaj-tajemnice-staro-ytnych-tradycji-naukowe-fakty-oraz-energetyczne-waciwo-ci-tego-metalu-kt-re-sprawiaj-emied-jest-czym-wi-cej-ni-tylko-surowcem-poznaj-jej-rol-wmedytacji-zdrowiu-icodziennym-yciu-aby-lepiej-zrozumie-jak-dzia-ana-nasz-wiadomo-iharmoni-wewn-trzn {
+  color: #231f20;
+}
+body ._ .qa-item > div,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div > div,
+body ._ .frame-85,
+body ._ .frame-87,
+body ._ .frame-83,
+body ._ .frame-109,
+body ._ .frame-102,
+body ._ .frame-116,
+body ._ .frame-117 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+body ._ .t-odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-ozdob-ale-tak-ejako-amulet-opot-nych-waciwo-ciach-poznaj-fascynuj-chistori-iznaczenie-tego-wyj-tkowego-metalu {
+  z-index: 1;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero > div > div button {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
+  text-transform: uppercase;
+}
+body ._ .tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
+  padding-left: 0;
+}
+body ._ .frame-114 {
+  color: #231f20;
+}
+body ._ .frame-116 {
+  border: none;
+}
+body ._ .frame-116 input {
+  border: none;
+  width: 100%;
+  text-transform: unset;
+  font-size: 0.689vw;
+}
+body ._ .t-frame-22 a {
+  color: white;
+}
+body ._ .footer_class {
+  font-size: 0.583vw;
+  font-weight: 700;
+  line-height: 1.112vw;
+  letter-spacing: 0.11em;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+body ._ .t-frame-22 {
+  padding: 0;
+}
+body ._ .footer .frame-120 {
+  padding: 0;
+}
+body ._ .tt-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector-twi-teczne-promocje {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body ._ .frame-116 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body ._ .footer .menu-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.43vw;
+}
+body ._ .footer .menu-columns a {
+  font-size: 0.953vw;
+  font-weight: 400;
+  line-height: 1.43vw;
+  letter-spacing: 0.06em;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  text-align: left;
+}
+body ._ .footer .menu-columns ul {
+  padding: 0;
+  gap: 0.477vw;
+}
+body ._ .footer .menu-columns h3 a {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.583vw;
+  font-weight: 700;
+  line-height: 1.112vw;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  text-align: left;
+}
+body ._ .tt-odbierz-zni-k {
+  padding: 0;
+}
+body ._ .t-wpisz-adres-email-frame .frame-116 {
+  align-items: center;
+  justify-content: center;
+}
+body ._ .t-wpisz-adres-email-frame input {
+  width: 29vw;
+}
+body ._ .t-harmonijna-energia,
+body ._ .t-kwantowe-flow-up,
+body ._ .t-pi-kno-znatury {
+  color: #231f20;
+}
+body ._ .t-mied-sprawia-wiele-holistycznych-korzy-ci-dla-cia-aiumys-usprawd-jak-regularne-noszenie-miedzianych-pier-cionk-wmo-epoprawi-twoje-samopoczucie-ipom-cwodzyskaniu-wewn-trznej-harmonii,
+body ._ .t-hero-hero-hero-2 .t-czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn {
+  z-index: 1;
+}
+body ._ p,
+body ._ .bi-uteria-miedziana-rcznie-tworzona-wpolsce {
+  margin: 0;
+}
+body ._ .z-9,
+body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  font-weight: 700;
+}
+
+.bi-uteria-miedziana-rcznie-tworzona-wpolsce {
+  margin: 0;
+}
+
+body .main-content {
+  padding-right: 0;
+}
+body .underline {
+  display: inline-block;
+  position: relative;
+}
+body .underline:hover {
+  border-bottom: none;
+}
+body .underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #f49974;
+  transition: transform 0.25s ease-out;
+}
+body .underline:hover::after {
+  transform: scaleX(1);
+}
+body .underline::after {
+  transform-origin: bottom right;
+}
+body .underline:hover::after {
+  transform-origin: bottom left;
+}
+
+.hero {
+  z-index: 1;
+}
+
+.t-frame-1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.159vw;
+  align-items: center;
+}
+
+.frame-2 .ttt-vector .component-3 {
+  width: 56%;
+}
+
+.ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag {
+  align-items: flex-start !important;
+}/*# sourceMappingURL=styles.css.map */

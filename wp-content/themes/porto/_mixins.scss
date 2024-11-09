@@ -1,0 +1,123 @@
+@use "sass:math";
+
+$tablet: 768;
+$large: 1024;
+$desktop: 1280;
+$sm: "(min-width: 576px)";
+$md: "(min-width: 768px)";
+$lg: "(min-width: 992px)";
+$xl: "(min-width: 1200px)";
+$xxl: "(min-width: 1440px)";
+$xxxl: "(min-width: 1921px)";
+
+$max-breakpoint: 1920;
+@function get-vw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($max-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+
+$maxH-breakpoint: 1080;
+@function get-vh($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vh-context: ($maxH-breakpoint * 0.01) * 1px; // 1% viehport width
+  @return ($target/$vh-context) * 1vh;
+}
+$maxsH-breakpoint: 950;
+@function get-svh($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vh-context: ($maxsH-breakpoint * 0.01) * 1px; // 1% viehport width
+  @return ($target/$vh-context) * 1vh;
+}
+
+$maxm-breakpoint: 1080;
+@function get-mvw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($maxm-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+
+$maxt-breakpoint: 1024;
+@function get-tvw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($maxt-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+
+$maxl-breakpoint: 2560;
+@function get-lvw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($maxl-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+
+//figma converter from px to vw
+
+$maxmobile-breakpoint: 360;
+@function get-fmvw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($maxmobile-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+$tablet-breakpoint: 768;
+@function get-ftvw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($tablet-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+$desktop-breakpoint: 1440;
+@function get-fvw($target) {
+  // 1 vw is equal to 1% of the viewport width
+  $vw-context: ($desktop-breakpoint * 0.01) * 1px; // 1% viewport width
+  @return ($target/$vw-context) * 1vw;
+}
+
+// flexbox
+@mixin flexbox(
+  $display: flex,
+  $direction: row,
+  $placeContent: null,
+  $placeItems: null,
+  $wrap: nowrap,
+  $shrink: 0,
+  $grow: 0,
+  $alignContent: null,
+  $justifyContent: null,
+  $alignItems: null,
+  $justifyItems: null
+) {
+  display: $display;
+  flex-direction: $direction;
+
+  @if $placeContent == null {
+    @if $alignContent {
+      align-content: $alignContent;
+    }
+    @if $justifyContent {
+      justify-content: $justifyContent;
+    }
+  } @else {
+    place-content: $placeContent;
+  }
+
+  @if $placeItems == null {
+    @if $alignItems {
+      align-items: $alignItems;
+    }
+    @if $justifyItems {
+      justify-items: $justifyItems;
+    }
+  } @else {
+    place-items: $placeItems;
+  }
+
+  flex-wrap: $wrap;
+  flex-shrink: $shrink;
+  flex-grow: $grow;
+}
+
+@mixin ls-to-vw($fontSize, $spacingPercentage, $baseScreenWidth: 1440) {
+  $valueInVw: ($spacingPercentage / 100) * ($fontSize / $baseScreenWidth) *
+    100vw;
+  letter-spacing: #{$valueInVw};
+}
