@@ -10,6 +10,28 @@ html {
 }
 
 @media screen and (min-width: 789px) {
+  body .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best .product-link {
+    color: white;
+  }
+  .footer-wrapper {
+    display: none;
+  }
+  body.home .porto-block {
+    height: 0px;
+  }
+  body.home .page-top {
+    display: none;
+  }
+  body.home .container-fluid > div > div {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body.home .no-breadcrumbs .main-content {
+    padding: 0;
+  }
+  body.home .vc_custom_1712044135459 {
+    margin: 0 !important;
+  }
   body #mobile_app {
     display: none;
   }
@@ -21,6 +43,23 @@ body #mobile_app,
 body .mobile_nav_container {
   color: #231f20;
   /* Active state */
+  /* Adding the white background effect */
+  /* Show frame-22 */
+  /* Styling for hero items */
+  /* Adding the white background effect */
+  /* Text styling on hover */
+  /* Background animation on hover */
+  /* Ensuring text and elements stay above the background */
+  /* Additional styling for internal elements if needed */
+  /* Example: Changing border color of internal frames on hover */
+  /* Common styles for hover effect */
+  /* Adding the white background effect */
+  /* Text styling on hover */
+  /* Background animation on hover */
+  /* Ensuring text and elements stay above the background */
+  /* Additional styling for internal elements if needed */
+  /* Example: Changing border color of internal frames on hover */
+  /* Base styling for hero containers */
 }
 body #mobile_app p,
 body #mobile_app ol,
@@ -34,8 +73,6 @@ body #mobile_app .mobile_frame-1,
 body #mobile_app .mobile_frame-2,
 body #mobile_app .mobile_frame-3,
 body #mobile_app .mobile_frame-4,
-body #mobile_app .mobile_frame-5,
-body #mobile_app .mobile_frame-6,
 body #mobile_app .mobile_frame-7,
 body #mobile_app .mobile_frame-8,
 body #mobile_app .mobile_frame-9,
@@ -124,8 +161,6 @@ body .mobile_nav_container .mobile_frame-1,
 body .mobile_nav_container .mobile_frame-2,
 body .mobile_nav_container .mobile_frame-3,
 body .mobile_nav_container .mobile_frame-4,
-body .mobile_nav_container .mobile_frame-5,
-body .mobile_nav_container .mobile_frame-6,
 body .mobile_nav_container .mobile_frame-7,
 body .mobile_nav_container .mobile_frame-8,
 body .mobile_nav_container .mobile_frame-9,
@@ -2306,13 +2341,12 @@ body .mobile_nav_container .mobile_bar_categories {
   padding-top: 0.8333333333vw;
   flex-shrink: 0;
 }
+body #mobile_app .mobile_bar_categories,
+body .mobile_nav_container .mobile_bar_categories {
+  overflow: visible !important;
+}
 body #mobile_app .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki,
 body .mobile_nav_container .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki {
-  row-gap: 3.0555555556vw;
-  margin-right: -14.7222222222vw;
-  -moz-column-gap: 7.5vw;
-       column-gap: 7.5vw;
-  width: 111.6666666667vw;
   flex-shrink: 0;
 }
 body #mobile_app .mobile_pier-cionki,
@@ -2430,9 +2464,6 @@ body .mobile_nav_container .mobile_t-frame-24cu-99_lukecopper {
 body #mobile_app .mobile_frame-5,
 body .mobile_nav_container .mobile_frame-5 {
   border-top-width: 0.5555555556vw;
-  border-top: none;
-  border-left: none;
-  border-right: none;
   border-bottom-width: 0.5555555556vw;
   border-left-width: 0.5555555556vw;
   border-right-width: 0.5555555556vw;
@@ -2858,8 +2889,26 @@ body .mobile_nav_container .mobile_hero-2 {
   background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-2.jpeg");
   row-gap: 2.5vw;
   height: 83.3333333333vw;
-  padding-bottom: 8.8888888889vw;
-  padding-left: 6.1111111111vw;
+  padding-right: 7.5vw;
+  padding-top: 56.9444444444vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body #mobile_app .swiper-slide.mobile_hero-3,
+body .mobile_nav_container .swiper-slide.mobile_hero-3 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-3.jpeg");
+  row-gap: 2.5vw;
+  height: 83.3333333333vw;
+  padding-right: 7.5vw;
+  padding-top: 56.9444444444vw;
+  position: relative;
+  flex-shrink: 0;
+}
+body #mobile_app .swiper-slide.mobile_hero-4,
+body .mobile_nav_container .swiper-slide.mobile_hero-4 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-4.jpeg");
+  row-gap: 2.5vw;
+  height: 83.3333333333vw;
   padding-right: 7.5vw;
   padding-top: 56.9444444444vw;
   position: relative;
@@ -2882,15 +2931,6 @@ body .mobile_nav_container .mobile_frame-16 {
   border-bottom-width: 0.2777777778vw;
   padding-bottom: 0.5555555556vw;
   padding-top: 0.8333333333vw;
-}
-body #mobile_app .mobile_hero-3,
-body .mobile_nav_container .mobile_hero-3 {
-  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-3.jpeg");
-  background-size: 612% 100%;
-  max-width: 100%;
-  max-height: 100%;
-  row-gap: 2.5vw;
-  padding-bottom: 8.8888888889vw;
 }
 body #mobile_app .mobile_frame-17,
 body .mobile_nav_container .mobile_frame-17 {
@@ -3857,16 +3897,24 @@ body #mobile_app .mobile_z-16,
 body .mobile_nav_container .mobile_z-16 {
   font-size: 3.6111111111vw;
 }
-body #mobile_app .mobile_frame-52,
-body .mobile_nav_container .mobile_frame-52 {
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper .swiper-slide,
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper .swiper-slide {
+  max-width: 100%;
+}
+body #mobile_app .frame-52 > div,
+body .mobile_nav_container .frame-52 > div {
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom-width: 0.2777777778vw;
   padding-bottom: 0.5555555556vw;
-  padding-left: 3.0555555556vw;
-  padding-right: 3.0555555556vw;
   padding-top: 0.8333333333vw;
+  border-color: black;
+  border-bottom: 1px solid black;
+}
+body #mobile_app .mobile_zobacz-wszystkie,
+body .mobile_nav_container .mobile_zobacz-wszystkie {
+  white-space: nowrap;
 }
 body #mobile_app .mobile_ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1,
 body .mobile_nav_container .mobile_ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
@@ -4065,6 +4113,10 @@ body .mobile_nav_container .mobile_dost-pne-kategorie {
   font-size: 9.1666666667vw;
   line-height: 10.8333333333vw;
 }
+body #mobile_app .mobile_frame-4,
+body .mobile_nav_container .mobile_frame-4 {
+  background-color: transparent;
+}
 body #mobile_app .mobile_t-hero-frame-51hero,
 body .mobile_nav_container .mobile_t-hero-frame-51hero {
   row-gap: 3.0555555556vw;
@@ -4075,7 +4127,7 @@ body #mobile_app .mobile_hero-12,
 body .mobile_nav_container .mobile_hero-12 {
   background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg");
   row-gap: 51.1111111111vw;
-  width: 75vw;
+  width: 100%;
   align-self: stretch;
   padding-bottom: 7.2222222222vw;
   padding-top: 53.0555555556vw;
@@ -5644,6 +5696,793 @@ body #mobile_app .wpisz-adres-email-mobile::placeholder,
 body .mobile_nav_container .wpisz-adres-email-mobile::placeholder {
   color: #231f20;
 }
+body #mobile_app .mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii,
+body .mobile_nav_container .mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 0 5.5555555556vw;
+}
+body #mobile_app .mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii::before,
+body .mobile_nav_container .mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii::before {
+  content: "";
+  width: 5.5555555556vw;
+  height: 100%;
+  z-index: 2;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(270deg, rgba(34, 75, 51, 0) 0%, #224b33 77.5%);
+}
+body #mobile_app .mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii::after,
+body .mobile_nav_container .mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii::after {
+  content: "";
+  width: 5.5555555556vw;
+  z-index: 2;
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(34, 75, 51, 0) 0%, #224b33 77.5%);
+}
+body #mobile_app .tt-bransoletka-miedziana-holistic-energy.swiper-content,
+body .mobile_nav_container .tt-bransoletka-miedziana-holistic-energy.swiper-content {
+  align-items: flex-start;
+  width: 100%;
+  justify-content: flex-start;
+}
+body #mobile_app .tt-bransoletka-miedziana-holistic-energy.swiper-content .t-bransoletka-miedziana-holistic-energy,
+body .mobile_nav_container .tt-bransoletka-miedziana-holistic-energy.swiper-content .t-bransoletka-miedziana-holistic-energy {
+  max-width: 100%;
+}
+body #mobile_app .product-link .frame-52,
+body .mobile_nav_container .product-link .frame-52 {
+  align-items: flex-start;
+  padding: none;
+}
+body #mobile_app .mobile_poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii,
+body .mobile_nav_container .mobile_poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii {
+  display: inline-block;
+  white-space: nowrap;
+  transform: translateX(5%);
+  animation: marquee 10s ease-in-out infinite;
+}
+body #mobile_app .hero-hover_best,
+body .mobile_nav_container .hero-hover_best {
+  padding-top: 83.3333333333vw;
+}
+body #mobile_app .hover_container,
+body .mobile_nav_container .hover_container {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  color: inherit; /* Ensures the initial color */
+  background-color: transparent;
+  border: none;
+}
+body #mobile_app .mobile_frame-57 a,
+body .mobile_nav_container .mobile_frame-57 a {
+  width: 100%;
+}
+body #mobile_app .slider_mobile_8 img,
+body .mobile_nav_container .slider_mobile_8 img {
+  top: 43%;
+}
+body #mobile_app .hover_container::after,
+body .mobile_nav_container .hover_container::after {
+  content: "";
+  position: absolute;
+  bottom: -100%; /* Start below the button */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: bottom 0.3s ease;
+}
+body #mobile_app .hero-hover_best:hover .hover_container::after,
+body .mobile_nav_container .hero-hover_best:hover .hover_container::after {
+  bottom: 0; /* Moves the background up */
+}
+body #mobile_app .hero-hover_best:hover .hover_container .frame-17,
+body .mobile_nav_container .hero-hover_best:hover .hover_container .frame-17 {
+  border-color: #231f20;
+}
+body #mobile_app .hover_container > *,
+body .mobile_nav_container .hover_container > * {
+  position: relative;
+  z-index: 1;
+}
+body #mobile_app .hover_container .frame-17,
+body .mobile_nav_container .hover_container .frame-17 {
+  border-color: #f4f3f3;
+}
+body #mobile_app .hero-hover_best,
+body .mobile_nav_container .hero-hover_best {
+  max-width: 80vw;
+}
+body #mobile_app .hero-hover_best .hover_container,
+body .mobile_nav_container .hero-hover_best .hover_container {
+  padding: 5.5555555556vw 3.0555555556vw 3.0555555556vw 3.0555555556vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+body #mobile_app .frame-22,
+body .mobile_nav_container .frame-22 {
+  display: none;
+  opacity: 0;
+  transform: translateY(-1.059vw);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+body #mobile_app .hover_container > div span p,
+body .mobile_nav_container .hover_container > div span p {
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 6.9444444444vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: white;
+}
+body #mobile_app .swiper-slide:hover .hover_container > div span p,
+body .mobile_nav_container .swiper-slide:hover .hover_container > div span p {
+  color: #231f20;
+}
+body #mobile_app .hover_container > div > div,
+body .mobile_nav_container .hover_container > div > div {
+  font-size: 3.6111111111vw;
+  font-weight: 700;
+  line-height: 6.1111111111vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: white;
+}
+body #mobile_app .swiper-slide .wishlist img,
+body .mobile_nav_container .swiper-slide .wishlist img {
+  width: 11.1111111111vw;
+  height: 11.1111111111vw;
+}
+body #mobile_app .swiper-slide:hover .hover_container > div > div,
+body .mobile_nav_container .swiper-slide:hover .hover_container > div > div {
+  color: #231f20;
+}
+body #mobile_app .frame-22.active,
+body .mobile_nav_container .frame-22.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+body #mobile_app .hero-2 .hover,
+body #mobile_app .hero-3 .hover,
+body #mobile_app .hero-4 .hover,
+body .mobile_nav_container .hero-2 .hover,
+body .mobile_nav_container .hero-3 .hover,
+body .mobile_nav_container .hero-4 .hover {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  color: inherit; /* Initial color */
+  padding-bottom: 3.0555555556vw;
+  padding-top: 6.6666666667vw;
+  padding-left: 3.0555555556vw;
+  padding-right: 3.0555555556vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body #mobile_app .hero-2 .hover::after,
+body #mobile_app .hero-3 .hover::after,
+body #mobile_app .hero-4 .hover::after,
+body .mobile_nav_container .hero-2 .hover::after,
+body .mobile_nav_container .hero-3 .hover::after,
+body .mobile_nav_container .hero-4 .hover::after {
+  content: "";
+  position: absolute;
+  bottom: -100%; /* Start from below */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: bottom 0.3s ease;
+  z-index: 0; /* Behind the content */
+}
+body #mobile_app .hero-2:hover .hover,
+body #mobile_app .hero-3:hover .hover,
+body #mobile_app .hero-4:hover .hover,
+body .mobile_nav_container .hero-2:hover .hover,
+body .mobile_nav_container .hero-3:hover .hover,
+body .mobile_nav_container .hero-4:hover .hover {
+  color: #231f20; /* Change text color on hover */
+}
+body #mobile_app .hero-2:hover .hover::after,
+body #mobile_app .hero-3:hover .hover::after,
+body #mobile_app .hero-4:hover .hover::after,
+body .mobile_nav_container .hero-2:hover .hover::after,
+body .mobile_nav_container .hero-3:hover .hover::after,
+body .mobile_nav_container .hero-4:hover .hover::after {
+  bottom: 0; /* Moves the background up */
+}
+body #mobile_app .hero-2 .hover > *,
+body #mobile_app .hero-3 .hover > *,
+body #mobile_app .hero-4 .hover > *,
+body .mobile_nav_container .hero-2 .hover > *,
+body .mobile_nav_container .hero-3 .hover > *,
+body .mobile_nav_container .hero-4 .hover > * {
+  position: relative;
+  z-index: 1;
+}
+body #mobile_app .hero-2 .frame-26,
+body #mobile_app .hero-3 .frame-28,
+body #mobile_app .hero-4 .frame-30,
+body .mobile_nav_container .hero-2 .frame-26,
+body .mobile_nav_container .hero-3 .frame-28,
+body .mobile_nav_container .hero-4 .frame-30 {
+  transition: border-color 0.3s ease;
+}
+body #mobile_app .hero-2:hover .frame-26,
+body #mobile_app .hero-3:hover .frame-28,
+body #mobile_app .hero-4:hover .frame-30,
+body .mobile_nav_container .hero-2:hover .frame-26,
+body .mobile_nav_container .hero-3:hover .frame-28,
+body .mobile_nav_container .hero-4:hover .frame-30 {
+  border-color: #231f20; /* Customize as needed */
+}
+body #mobile_app .hero-7 .hover,
+body #mobile_app .hero-8 .hover,
+body #mobile_app .hero-9 .hover,
+body #mobile_app .hero-10 .hover,
+body #mobile_app .hero-11 .hover,
+body .mobile_nav_container .hero-7 .hover,
+body .mobile_nav_container .hero-8 .hover,
+body .mobile_nav_container .hero-9 .hover,
+body .mobile_nav_container .hero-10 .hover,
+body .mobile_nav_container .hero-11 .hover {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  color: inherit; /* Initial color */
+  padding-bottom: 3.0555555556vw;
+  padding-top: 6.6666666667vw;
+  padding-left: 3.0555555556vw;
+  padding-right: 3.0555555556vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-end;
+}
+body #mobile_app .hero-7 .hover > div .hero-8 .hover > div,
+body #mobile_app .hero-9 .hover > div,
+body #mobile_app .hero-10 .hover > div,
+body #mobile_app .hero-11 .hover > div,
+body .mobile_nav_container .hero-7 .hover > div .hero-8 .hover > div,
+body .mobile_nav_container .hero-9 .hover > div,
+body .mobile_nav_container .hero-10 .hover > div,
+body .mobile_nav_container .hero-11 .hover > div {
+  padding: 0;
+}
+body #mobile_app .hero-7 .t-frame-11,
+body #mobile_app .hero-8 .t-frame-12,
+body .mobile_nav_container .hero-7 .t-frame-11,
+body .mobile_nav_container .hero-8 .t-frame-12 {
+  padding: 0;
+}
+body #mobile_app .hero-7 .hover::after,
+body #mobile_app .hero-8 .hover::after,
+body #mobile_app .hero-9 .hover::after,
+body #mobile_app .hero-10 .hover::after,
+body #mobile_app .hero-11 .hover::after,
+body .mobile_nav_container .hero-7 .hover::after,
+body .mobile_nav_container .hero-8 .hover::after,
+body .mobile_nav_container .hero-9 .hover::after,
+body .mobile_nav_container .hero-10 .hover::after,
+body .mobile_nav_container .hero-11 .hover::after {
+  content: "";
+  position: absolute;
+  bottom: -100%; /* Start from below */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: bottom 0.3s ease;
+  z-index: 0; /* Behind the content */
+}
+body #mobile_app .mobile_t-luke-copper-quantum-jewelry div,
+body .mobile_nav_container .mobile_t-luke-copper-quantum-jewelry div {
+  white-space: nowrap;
+}
+body #mobile_app .hero-7:hover .hover,
+body #mobile_app .hero-8:hover .hover,
+body #mobile_app .hero-9:hover .hover,
+body #mobile_app .hero-10:hover .hover,
+body #mobile_app .hero-11:hover .hover,
+body .mobile_nav_container .hero-7:hover .hover,
+body .mobile_nav_container .hero-8:hover .hover,
+body .mobile_nav_container .hero-9:hover .hover,
+body .mobile_nav_container .hero-10:hover .hover,
+body .mobile_nav_container .hero-11:hover .hover {
+  color: #231f20; /* Change text color on hover */
+}
+body #mobile_app .hero-7:hover .hover::after,
+body #mobile_app .hero-8:hover .hover::after,
+body #mobile_app .hero-9:hover .hover::after,
+body #mobile_app .hero-10:hover .hover::after,
+body #mobile_app .hero-11:hover .hover::after,
+body .mobile_nav_container .hero-7:hover .hover::after,
+body .mobile_nav_container .hero-8:hover .hover::after,
+body .mobile_nav_container .hero-9:hover .hover::after,
+body .mobile_nav_container .hero-10:hover .hover::after,
+body .mobile_nav_container .hero-11:hover .hover::after {
+  bottom: 0; /* Moves the background up */
+}
+body #mobile_app .hero-7 .hover > *,
+body #mobile_app .hero-8 .hover > *,
+body #mobile_app .hero-9 .hover > *,
+body #mobile_app .hero-10 .hover > *,
+body #mobile_app .hero-11 .hover > *,
+body .mobile_nav_container .hero-7 .hover > *,
+body .mobile_nav_container .hero-8 .hover > *,
+body .mobile_nav_container .hero-9 .hover > *,
+body .mobile_nav_container .hero-10 .hover > *,
+body .mobile_nav_container .hero-11 .hover > * {
+  position: relative;
+  z-index: 1;
+}
+body #mobile_app .hero-7 .frame-59,
+body #mobile_app .hero-8 .frame-61,
+body #mobile_app .hero-9 .frame-63,
+body #mobile_app .hero-10 .frame-65,
+body #mobile_app .hero-11 .frame-67,
+body .mobile_nav_container .hero-7 .frame-59,
+body .mobile_nav_container .hero-8 .frame-61,
+body .mobile_nav_container .hero-9 .frame-63,
+body .mobile_nav_container .hero-10 .frame-65,
+body .mobile_nav_container .hero-11 .frame-67 {
+  transition: border-color 0.3s ease;
+}
+body #mobile_app .hero-7:hover .frame-59,
+body #mobile_app .hero-8:hover .frame-61,
+body #mobile_app .hero-9:hover .frame-63,
+body #mobile_app .hero-10:hover .frame-65,
+body #mobile_app .hero-11:hover .frame-67,
+body .mobile_nav_container .hero-7:hover .frame-59,
+body .mobile_nav_container .hero-8:hover .frame-61,
+body .mobile_nav_container .hero-9:hover .frame-63,
+body .mobile_nav_container .hero-10:hover .frame-65,
+body .mobile_nav_container .hero-11:hover .frame-67 {
+  border-color: #231f20; /* Customize as needed */
+}
+body #mobile_app .t-hero-hero-hero-1 .hero-12,
+body #mobile_app .t-hero-hero-hero-1 .hero-13,
+body #mobile_app .t-hero-hero-hero-1 .hero-14,
+body .mobile_nav_container .t-hero-hero-hero-1 .hero-12,
+body .mobile_nav_container .t-hero-hero-hero-1 .hero-13,
+body .mobile_nav_container .t-hero-hero-hero-1 .hero-14 {
+  position: relative;
+  overflow: hidden;
+}
+body #mobile_app .mobile_t-hero-hero .swiper-slide,
+body .mobile_nav_container .mobile_t-hero-hero .swiper-slide {
+  padding-bottom: 0;
+  padding-left: 0;
+}
+body #mobile_app .mobile_t-hero-hero .hover,
+body .mobile_nav_container .mobile_t-hero-hero .hover {
+  background: transparent;
+  border: none;
+}
+body #mobile_app .mobile_t-hero-hero .hover .frame-26 .z-6,
+body #mobile_app .mobile_t-hero-hero .hover .frame-28 .z-7,
+body #mobile_app .mobile_t-hero-hero .hover .frame-30 .z-8,
+body .mobile_nav_container .mobile_t-hero-hero .hover .frame-26 .z-6,
+body .mobile_nav_container .mobile_t-hero-hero .hover .frame-28 .z-7,
+body .mobile_nav_container .mobile_t-hero-hero .hover .frame-30 .z-8 {
+  font-size: 3.6111111111vw;
+  font-weight: 700;
+  line-height: 6.1111111111vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .default_products,
+body .mobile_nav_container .default_products {
+  margin-top: 5.5555555556vw;
+}
+body #mobile_app .common-25,
+body #mobile_app .frame-32,
+body #mobile_app .frame-33,
+body #mobile_app .frame-34,
+body #mobile_app .frame-35,
+body #mobile_app .frame-46,
+body #mobile_app .frame-47,
+body #mobile_app .frame-48,
+body #mobile_app .frame-49,
+body #mobile_app .frame-70,
+body #mobile_app .frame-71,
+body #mobile_app .frame-72,
+body #mobile_app .frame-73,
+body #mobile_app .frame-103,
+body #mobile_app .frame-104,
+body #mobile_app .frame-105,
+body #mobile_app .frame-106,
+body .mobile_nav_container .common-25,
+body .mobile_nav_container .frame-32,
+body .mobile_nav_container .frame-33,
+body .mobile_nav_container .frame-34,
+body .mobile_nav_container .frame-35,
+body .mobile_nav_container .frame-46,
+body .mobile_nav_container .frame-47,
+body .mobile_nav_container .frame-48,
+body .mobile_nav_container .frame-49,
+body .mobile_nav_container .frame-70,
+body .mobile_nav_container .frame-71,
+body .mobile_nav_container .frame-72,
+body .mobile_nav_container .frame-73,
+body .mobile_nav_container .frame-103,
+body .mobile_nav_container .frame-104,
+body .mobile_nav_container .frame-105,
+body .mobile_nav_container .frame-106 {
+  width: 100%;
+  height: 100%;
+}
+body #mobile_app .mobile_swiper_hero-6,
+body .mobile_nav_container .mobile_swiper_hero-6 {
+  justify-content: flex-end;
+  min-height: 126.6666666667vw;
+}
+body #mobile_app .mobile_swiper_hero-6 .swiper-slide,
+body .mobile_nav_container .mobile_swiper_hero-6 .swiper-slide {
+  justify-content: flex-end;
+}
+body #mobile_app .herooo .product-link,
+body .mobile_nav_container .herooo .product-link {
+  color: white;
+}
+body #mobile_app .slider_mobile_2 .frame-52 > div,
+body #mobile_app .slider_mobile_2 .frame-52 > div,
+body .mobile_nav_container .slider_mobile_2 .frame-52 > div,
+body .mobile_nav_container .slider_mobile_2 .frame-52 > div {
+  border-bottom: 1px solid white;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9.1666666667vw 3.0555555556vw;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .przeczytaj-wi-cej,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .przeczytaj-wi-cej {
+  font-size: 3.6111111111vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui;
+  font-weight: 700;
+  margin-top: 7.5vw;
+  line-height: 6.1111111111vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background: transparent;
+  color: white;
+  border: none;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny {
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny img,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny img {
+  width: 27.2222222222vw;
+  height: 33.6111111111vw;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame {
+  width: 100%;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .najwy-szy-potencja-energetyczny,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .najwy-szy-potencja-energetyczny {
+  max-width: 54.4444444444vw;
+  font-size: 6.1111111111vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 7.5vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe span p,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe span p {
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 6.9444444444vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe span p .text,
+body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe span p .text {
+  font-weight: 700;
+}
+
+body .mobile_frame-82 {
+  padding-bottom: 0 !important;
+}
+body .slider_mobile_1,
+body .slider_mobile_2,
+body .slider_mobile_3,
+body .slider_mobile_4,
+body .default_products2,
+body .slider_mobile_8 {
+  padding-left: 3.3333333333vw;
+  width: 100%;
+}
+body .slider_mobile_1 .swiper-slide > div > div,
+body .slider_mobile_2 .swiper-slide > div > div,
+body .slider_mobile_3 .swiper-slide > div > div,
+body .slider_mobile_4 .swiper-slide > div > div,
+body .default_products2 .swiper-slide > div > div,
+body .slider_mobile_8 .swiper-slide > div > div {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 700;
+  line-height: 6.1111111111vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body .slider_mobile_1 .swiper-slide > div > div,
+body .slider_mobile_2 .swiper-slide > div > div,
+body .slider_mobile_3 .swiper-slide > div > div,
+body .slider_mobile_4 .swiper-slide > div > div,
+body .default_products2 .swiper-slide > div > div,
+body .slider_mobile_8 .swiper-slide > div > div {
+  max-width: 100%;
+}
+body .slider_mobile_1 .fixed-arrow,
+body .slider_mobile_2 .fixed-arrow,
+body .slider_mobile_3 .fixed-arrow,
+body .slider_mobile_4 .fixed-arrow,
+body .default_products2 .fixed-arrow,
+body .slider_mobile_8 .fixed-arrow {
+  top: 30%;
+  right: 26%;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+}
+body .slider_mobile_1 img,
+body .slider_mobile_2 img,
+body .slider_mobile_3 img,
+body .slider_mobile_4 img,
+body .default_products2 img,
+body .slider_mobile_8 img {
+  margin-top: 5.5555555556vw;
+}
+body .slider_mobile_1 .swiper-content,
+body .slider_mobile_2 .swiper-content,
+body .slider_mobile_3 .swiper-content,
+body .slider_mobile_4 .swiper-content,
+body .default_products2 .swiper-content,
+body .slider_mobile_8 .swiper-content {
+  padding: 5.5555555556vw 3.0555555556vw;
+  border: none;
+}
+body .slider_mobile_1 .swiper-slide div div span,
+body .slider_mobile_2 .swiper-slide div div span,
+body .slider_mobile_3 .swiper-slide div div span,
+body .slider_mobile_4 .swiper-slide div div span,
+body .default_products2 .swiper-slide div div span,
+body .slider_mobile_8 .swiper-slide div div span {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 6.9444444444vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body .slider_mobile_2 .fixed-arrow {
+  top: 30%;
+  right: 24%;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+}
+body .slider_mobile_2 .product-link {
+  color: white;
+}
+body .slider_mobile_2 .product-link .z-14 {
+  border-bottom: 1px solid white;
+}
+body .mobile_zobacz-wszystkie-1,
+body .mobile_tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  color: white;
+}
+body .mobile_hero-12 {
+  width: 100% !important;
+}
+body .new_products .swiper-wrapper,
+body .new_products2 .swiper-wrapper,
+body .new_products3 .swiper-wrapper,
+body .new_products5 .swiper-wrapper,
+body .slider_mobile_1 .swiper-wrapper,
+body .slider_mobile_2 .swiper-wrapper,
+body .slider_mobile_3 .swiper-wrapper,
+body .slider_mobile_4 .swiper-wrapper,
+body .default_products2 .swiper-wrapper,
+body .slider_mobile_8 .swiper-wrapper {
+  position: relative;
+}
+body .new_products .swiper-wrapper > :last-child,
+body .new_products2 .swiper-wrapper > :last-child,
+body .new_products3 .swiper-wrapper > :last-child,
+body .new_products5 .swiper-wrapper > :last-child,
+body .slider_mobile_1 .swiper-wrapper > :last-child,
+body .slider_mobile_2 .swiper-wrapper > :last-child,
+body .slider_mobile_3 .swiper-wrapper > :last-child,
+body .slider_mobile_4 .swiper-wrapper > :last-child,
+body .default_products2 .swiper-wrapper > :last-child,
+body .slider_mobile_8 .swiper-wrapper > :last-child {
+  max-width: 16.2vw;
+  margin-left: 30px;
+  opacity: 0.33;
+}
+@media screen and (max-width: 768px) {
+  body .new_products .swiper-wrapper > :last-child,
+  body .new_products2 .swiper-wrapper > :last-child,
+  body .new_products3 .swiper-wrapper > :last-child,
+  body .new_products5 .swiper-wrapper > :last-child,
+  body .slider_mobile_1 .swiper-wrapper > :last-child,
+  body .slider_mobile_2 .swiper-wrapper > :last-child,
+  body .slider_mobile_3 .swiper-wrapper > :last-child,
+  body .slider_mobile_4 .swiper-wrapper > :last-child,
+  body .default_products2 .swiper-wrapper > :last-child,
+  body .slider_mobile_8 .swiper-wrapper > :last-child {
+    max-width: 66.6666666667vw;
+  }
+}
+body .new_products .swiper-slide,
+body .new_products2 .swiper-slide,
+body .new_products3 .swiper-slide,
+body .new_products5 .swiper-slide,
+body .slider_mobile_1 .swiper-slide,
+body .slider_mobile_2 .swiper-slide,
+body .slider_mobile_3 .swiper-slide,
+body .slider_mobile_4 .swiper-slide,
+body .default_products2 .swiper-slide,
+body .slider_mobile_8 .swiper-slide {
+  max-width: 16.155vw;
+  align-items: flex-start;
+  justify-items: flex-start;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+  body .new_products .swiper-slide,
+  body .new_products2 .swiper-slide,
+  body .new_products3 .swiper-slide,
+  body .new_products5 .swiper-slide,
+  body .slider_mobile_1 .swiper-slide,
+  body .slider_mobile_2 .swiper-slide,
+  body .slider_mobile_3 .swiper-slide,
+  body .slider_mobile_4 .swiper-slide,
+  body .default_products2 .swiper-slide,
+  body .slider_mobile_8 .swiper-slide {
+    max-width: 63.8888888889vw;
+  }
+}
+body .fixed-arrow {
+  position: absolute;
+  top: 38%;
+  right: 17vw;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  width: 1.271vw;
+  height: 1.271vw;
+}
+body .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div,
+body .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div {
+  position: relative;
+}
+body .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div .wishlist,
+body .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div .wishlist {
+  position: absolute;
+  top: 0.636vw;
+  right: 0.636vw;
+}
+body .wishlist {
+  position: absolute;
+  top: 1.271vw;
+  right: 1.271vw;
+  cursor: pointer;
+}
+body .smaller_wishlist .wishlist {
+  top: 0.636vw;
+  right: 0.636vw;
+}
+body .wishlist img {
+  display: none; /* Hide all icons by default */
+  width: 2.119vw; /* Adjust size as needed */
+}
+body .wishlist .icon-default {
+  display: inline-block; /* Show the default icon */
+}
+body .wishlist:hover .icon-default {
+  display: none; /* Hide the default icon on hover */
+}
+body .wishlist:hover .icon-hover {
+  display: inline-block; /* Show the hover icon */
+}
+body .wishlist.active .icon-hover {
+  display: none; /* Hide hover icon when active */
+}
+body .wishlist.active .icon-default {
+  display: none;
+}
+body .wishlist.active .icon-active {
+  display: inline-block; /* Show the active icon */
+}
+@media screen and (max-width: 768px) {
+  body #mini-cart .cart-items {
+    background-color: #231f20;
+    right: -4.7222222222vw;
+    top: -0.2777777778vw;
+  }
+  body #mini-cart .minicart-icon-default {
+    width: 3.6111111111vw;
+    height: 3.3333333333vw;
+  }
+}
+body .search-container .search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .search-container .search-form .t-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  background-color: transparent;
+  border: none;
+  width: 6.6666666667vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  height: 6.6666666667vw;
+  padding: 0;
+  margin-left: 0.4166666667vw;
+}
+@media screen and (min-width: 768px) {
+  body .search-container .search-form .t-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    width: 1.25vw;
+    height: 1.4583333333vw;
+  }
+}
+body.home .container-fluid {
+  padding: 0;
+}
+body:not(.home) .row.main-content-wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body.home .page-wrapper #main .footer-wrapper {
+  display: none;
+}
 
 @keyframes moveText {
   0% {
@@ -5654,5 +6493,130 @@ body .mobile_nav_container .wpisz-adres-email-mobile::placeholder {
   }
   100% {
     transform: translateX(0);
+  }
+}
+/* Keyframes for the marquee effect */
+@keyframes marquee {
+  0% {
+    transform: translateX(5%);
+  }
+  50% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+body #mobile_app .frame-22.active {
+  padding: 9.1666666667vw 3.0555555556vw;
+}
+body #mobile_app .frame-22.active .frame-23 {
+  border-left: none;
+  border-right: none;
+}
+body #mobile_app .frame-22.active .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u img {
+  width: 30.5555555556vw;
+  height: 28.8888888889vw;
+}
+body #mobile_app .frame-22.active .text_mo {
+  margin-bottom: 9.1666666667vw;
+}
+body #mobile_app .frame-22.active .top-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7.5vw;
+  justify-content: flex-start;
+}
+body #mobile_app .frame-22.active .top-content .nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne {
+  max-width: 48.3333333333vw;
+}
+body #mobile_app .frame-22.active .tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  flex-direction: column;
+}
+body #mobile_app .frame-22.active .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+  flex-direction: column;
+}
+body #mobile_app .frame-22.active .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u,
+body #mobile_app .frame-22.active .nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne,
+body #mobile_app .frame-22.active .t-na-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+  width: 100%;
+}
+body #mobile_app .frame-22.active .t-na-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+body #mobile_app .frame-22.active .t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u .frame-23 .component-8 {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 13.6111111111vw;
+  font-weight: 700;
+  line-height: 15.2777777778vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .frame-22.active .close {
+  position: absolute;
+  top: 4.4444444444vw;
+  right: 4.4444444444vw;
+  background: transparent;
+  border: none;
+}
+body #mobile_app .frame-22.active .desktop {
+  display: none;
+}
+body #mobile_app .frame-22.active .na-temat-miedzi-swokilka-wi-cej {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 7.5vw;
+  color: white;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .frame-22.active .nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne span,
+body #mobile_app .frame-22.active .wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u span,
+body #mobile_app .frame-22.active .text_mo {
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 7.5vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+}
+body #mobile_app .frame-22.active .tt-frame {
+  justify-content: flex-start;
+}
+body #mobile_app .frame-22.active .tt-frame .t-frame-5 .frame-24 {
+  border: none;
+  border-bottom: 1px solid white;
+}
+body #mobile_app .frame-22.active .tt-frame .t-frame-5 .ukryj-dodatkowy-opis {
+  font-size: 3.6111111111vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui;
+  font-weight: 700;
+  margin-top: 7.5vw;
+  line-height: 6.1111111111vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  body.home .page-wrapper {
+    display: none;
   }
 }/*# sourceMappingURL=mobile.css.map */

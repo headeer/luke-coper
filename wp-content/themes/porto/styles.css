@@ -1096,6 +1096,10 @@ body ._ .t-ico_bag {
   width: 1.271vw;
   height: 1.324vw;
 }
+body ._ .lc_picto_harmony-link .lc_picto_harmony {
+  width: 3.337vw;
+  height: 3.337vw;
+}
 body ._ .common-4,
 body ._ .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame,
 body ._ .frame-22 {
@@ -1105,6 +1109,11 @@ body ._ .frame-22 {
 }
 body ._ .frame-22.active {
   background-color: #234431;
+}
+@media screen and (min-width: 768px) {
+  body ._ .frame-22.active .mobile {
+    display: none;
+  }
 }
 body ._ .common-5,
 body ._ .noszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny,
@@ -1329,8 +1338,8 @@ body ._ .frame-103,
 body ._ .frame-104,
 body ._ .frame-105,
 body ._ .frame-106 {
-  width: 16.208vw;
-  height: 18.114vw;
+  width: 100%;
+  height: 100%;
 }
 body ._ .common-26,
 body ._ .frame-36,
@@ -1546,9 +1555,12 @@ body ._ .group-2 {
   flex-shrink: 0;
 }
 body ._ .tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
-  padding-left: 1.271vw;
+  padding: 0;
   padding-top: 1.589vw;
   gap: 1.43vw;
+}
+body ._ .tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
+  margin: 0 !important;
 }
 body ._ .t-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
   row-gap: 0.583vw;
@@ -1603,7 +1615,7 @@ body ._ .hero {
   row-gap: 0.477vw;
   background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-1.jpeg);
   padding-left: 1.748vw;
-  padding-top: 1.43vw;
+  padding-top: 0;
   padding-bottom: 1.165vw;
   margin-top: 0.583vw;
 }
@@ -2285,6 +2297,7 @@ body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfu
 }
 body ._ .ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis {
   align-items: flex-start;
+  justify-content: flex-start;
 }
 body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
   row-gap: 0.583vw;
@@ -2417,6 +2430,14 @@ body ._ .z-10 {
 }
 body ._ .t-frame-6 {
   padding-left: 0.424vw;
+}
+body ._ .zobacz-wszystkie-2,
+body ._ .zobacz-pomys-yna,
+body ._ .wszystkie,
+body ._ .zobacz-wszystkie,
+body ._ .zobacz-wszystkie-3,
+body ._ .zobacz-wszystkie-1 {
+  white-space: nowrap;
 }
 body ._ .frame-40 {
   border-bottom-width: 0.053vw;
@@ -2867,9 +2888,38 @@ body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-5 {
 }
 body ._ .t-hero {
   padding-left: 0.583vw;
+  gap: 20px;
+}
+body ._ .t-hero .hero-container {
+  gap: 20px;
+}
+body ._ .t-hero .hero-container .hover {
+  color: white;
+}
+body ._ .t-hero .hero-container .hover .t-frame-11 {
+  padding: 0;
+}
+body ._ .hero-7,
+body ._ .hero-8,
+body ._ .hero-9,
+body ._ .hero-10,
+body ._ .hero-11 {
+  justify-content: flex-end;
+  position: relative;
+  min-height: 21vw;
+}
+body ._ .hero-7 button,
+body ._ .hero-8 button,
+body ._ .hero-9 button,
+body ._ .hero-10 button,
+body ._ .hero-11 button {
+  justify-content: flex-end !important;
+}
+body ._ .tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone > div,
+body ._ .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div {
+  position: relative;
 }
 body ._ .hero-7 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-7.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -2896,7 +2946,6 @@ body ._ .frame-59 {
   padding-top: 0.159vw;
 }
 body ._ .hero-8 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-8.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -2923,7 +2972,6 @@ body ._ .frame-61 {
   padding-top: 0.159vw;
 }
 body ._ .hero-9 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-9.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -2950,7 +2998,6 @@ body ._ .frame-63 {
   padding-top: 0.159vw;
 }
 body ._ .hero-10 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-10.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -2977,7 +3024,6 @@ body ._ .frame-65 {
   padding-top: 0.159vw;
 }
 body ._ .hero-11 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-11.jpeg);
   max-width: 12.818vw;
   max-height: 100%;
   row-gap: 0.477vw;
@@ -3015,6 +3061,7 @@ body ._ .t-hero-hero-hero-1 {
   text-transform: uppercase;
 }
 body ._ .hero-12 {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg);
   row-gap: 9.746vw;
   align-self: stretch;
   padding-bottom: 1.377vw;
@@ -3022,7 +3069,6 @@ body ._ .hero-12 {
   flex-shrink: 0;
 }
 body ._ .hero-12 .background-image {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg);
   background-size: cover;
 }
 body ._ .pier-cionki-unisex {
@@ -3202,7 +3248,7 @@ body ._ .kategorie-3 {
   row-gap: 0.477vw;
   flex-direction: column;
   padding-bottom: 3.231vw;
-  padding-left: 16.79vw;
+  padding-left: 16.155vw;
   padding-top: 1.43vw;
   font-weight: 700;
 }
@@ -4750,6 +4796,44 @@ body ._ .arrow_upward_alt_24dp_5f6368_fill0_wght-400_grad0_opsz {
   body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
     flex-wrap: nowrap;
   }
+  body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy .product-link {
+    color: white;
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy .product-link .swiper-content {
+    border: none;
+  }
+  body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy .product-link .swiper-content .z-14 {
+    border-bottom: 1px solid white;
+  }
+  body ._ .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best .product-link {
+    min-height: 6.71vw;
+  }
+  body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness-1 .product-link,
+  body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy-2 .product-link {
+    color: #231f20;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness-1 .product-link .swiper-content,
+  body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy-2 .product-link .swiper-content {
+    border: none;
+  }
+  body ._ .t-frame-51ttbransoletka-energetyczna-mindfulness-1 .product-link .swiper-content .z-14,
+  body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy-2 .product-link .swiper-content .z-14 {
+    border-bottom: 1px solid #231f20;
+  }
+  body ._ .hero-hover_best_content .product_link {
+    color: white;
+  }
   body ._ .t-frame-17frame-17tframe-17frame-17tframe-1 {
     flex-wrap: nowrap;
   }
@@ -5078,7 +5162,7 @@ body ._ .hero-11 .hover {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 body ._ .hero-7 .hover > div .hero-8 .hover > div,
 body ._ .hero-9 .hover > div,
@@ -5592,6 +5676,30 @@ body .underline::after {
   background-color: #f49974;
   transition: transform 0.25s ease-out;
 }
+body .product-image,
+body .product-image-zoom {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 3.33s ease;
+}
+body .product-image-zoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(1);
+}
+body .onsale {
+  --porto-sale-color: #ffa07a;
+}
+body .wishlist,
+body .product-link {
+  z-index: 5;
+}
+body .swiper-slide:hover .product-image-zoom {
+  transform: scale(1.2);
+}
 body .underline:hover::after {
   transform: scaleX(1);
 }
@@ -5600,6 +5708,53 @@ body .underline::after {
 }
 body .underline:hover::after {
   transform-origin: bottom left;
+}
+body .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis > div .wishlist {
+  top: get-fvw(12px);
+  right: get-fvw(12px);
+}
+body .swiper-slide.hero-hover_best,
+body .t-hero .hero-container {
+  min-height: 25vw;
+}
+
+.product-image-container {
+  position: absolute;
+  top: 0;
+  min-height: 25vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.product-image,
+.product-image-zoom {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 3.33s ease;
+}
+
+.product-image-zoom {
+  z-index: -1;
+}
+
+.t-hero-hero-hero .swiper-slide {
+  min-height: 33.61vw;
+}
+.t-hero-hero-hero .swiper-slide .product-image-container {
+  min-height: 33.61vw;
+}
+
+.product-image-zoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(1);
+}
+
+.swiper-slide:hover .product-image-zoom {
+  transform: scale(1.2);
 }
 
 .hero {

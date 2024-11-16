@@ -1,3 +1,17 @@
+<div class="_ desktop_app">
+
+	<?php include get_template_directory() . '/footer_desktop.php'; ?>
+</div>
+<div id="mobile_app">
+	<div class="mobile__index_luke_copper_mobile">
+		<div class="mobile_wrapper">
+			<div class="mobile_frame">
+				<?php include get_template_directory() . '/footer_mobile.php'; ?>
+
+			</div>
+		</div>
+	</div>
+</div>
 <?php
 global $porto_settings, $porto_layout, $porto_block_template;
 

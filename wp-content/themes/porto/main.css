@@ -1592,10 +1592,16 @@ input {
   height: 1.377vw;
   flex-shrink: 0;
 }
-
+body ._ {
+  color: #231f20;
+}
+body a {
+  color: #231f20;
+}
 .tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje {
   padding-left: 1.271vw;
-  padding-top: 1.589vw;
+  padding-top: 0.6vw;
+  margin: 0;
   gap: 1.43vw;
 }
 
@@ -1661,7 +1667,7 @@ input {
   padding-left: 1.748vw;
   padding-top: 1.43vw;
   padding-bottom: 1.165vw;
-  margin-top: 0.583vw;
+  margin-top: 0;
 }
 
 .tt-bi-uteria-kt-ra-rezonuje-odkryj-wyj-tkow-moc-iwaciwo-ci-bi-uterii-kwantowej-tframe-24tcu-99_lukecopper-1frame-25tbransoletki-tenergetyczne {
@@ -3157,7 +3163,6 @@ input {
 }
 
 .hero-7 {
-  background-image: url(https://sienna-capybara-262344.hostingersite.com/wp-content/themes/wp-empty-theme-main/public/assets/hero-7.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -3189,7 +3194,6 @@ input {
 }
 
 .hero-8 {
-  background-image: url(https://sienna-capybara-262344.hostingersite.com/wp-content/themes/wp-empty-theme-main/public/assets/hero-8.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -3221,7 +3225,6 @@ input {
 }
 
 .hero-9 {
-  background-image: url(https://sienna-capybara-262344.hostingersite.com/wp-content/themes/wp-empty-theme-main/public/assets/hero-9.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -3253,7 +3256,6 @@ input {
 }
 
 .hero-10 {
-  background-image: url(https://sienna-capybara-262344.hostingersite.com/wp-content/themes/wp-empty-theme-main/public/assets/hero-10.jpeg);
   row-gap: 0.477vw;
   flex-grow: 1;
   max-width: 12.818vw;
@@ -3285,7 +3287,6 @@ input {
 }
 
 .hero-11 {
-  background-image: url(https://sienna-capybara-262344.hostingersite.com/wp-content/themes/wp-empty-theme-main/public/assets/hero-11.jpeg);
   max-width: 12.818vw;
   max-height: 100%;
   row-gap: 0.477vw;
@@ -3335,7 +3336,6 @@ input {
   flex-shrink: 0;
 }
 .hero-12 .background-image {
-  background-image: url(https://sienna-capybara-262344.hostingersite.com/wp-content/themes/wp-empty-theme-main/public/assets/hero-12.jpeg);
   background-size: cover;
 }
 .pier-cionki-unisex {

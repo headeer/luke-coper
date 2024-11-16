@@ -1,27 +1,58 @@
 // Select necessary elements
-const frame22 = document.querySelector(".frame-22");
-const readMoreBtn = document.getElementById("read-more");
-const closeBtn = document.getElementById("close-btn");
-const hideDescriptionBtn = document.querySelector(".ukryj-dodatkowy-opis");
-
+const frames = document.querySelectorAll(".frame-22");
+const readMoreBtns = document.querySelectorAll(".read-more");
+const closeBtns = document.querySelectorAll(".close-btn");
+const hideDescriptionBtns = document.querySelectorAll(".ukryj-dodatkowy-opis");
 // Function to open the frame-22 container
-function openFrame() {
-  frame22.classList.add("active");
+function openFrame(index) {
+  frames[index].classList.add("active");
 }
+const slides = document.querySelectorAll(
+  ".swiper-slide, .t-hero .hero-container"
+);
 
+slides.forEach((slide) => {
+  slide.addEventListener("mouseenter", function () {
+    const zoomImage = slide.querySelector(".product-image-zoom");
+    if (zoomImage) {
+      zoomImage.style.transform = "scale(1.2)";
+      zoomImage.style.opacity = "1";
+      zoomImage.style.zIndex = "2";
+    }
+  });
+
+  slide.addEventListener("mouseleave", function () {
+    const zoomImage = slide.querySelector(".product-image-zoom");
+    if (zoomImage) {
+      zoomImage.style.transform = "scale(1)";
+      zoomImage.style.opacity = "0";
+      zoomImage.style.zIndex = "-1  ";
+    }
+  });
+});
 // Function to close the frame-22 container
-function closeFrame() {
-  frame22.classList.remove("active");
-  closeBtn.classList.add("hide");
+function closeFrame(index) {
+  frames[index].classList.remove("active");
+  closeBtns[index].classList.add("hide");
   setTimeout(() => {
-    closeBtn.classList.remove("hide");
+    closeBtns[index].classList.remove("hide");
   }, 300); // Matches CSS transition duration
 }
 
-// Event listeners
-readMoreBtn.addEventListener("click", openFrame);
-closeBtn.addEventListener("click", closeFrame);
-hideDescriptionBtn.addEventListener("click", closeFrame);
+// Add event listeners to all read-more buttons
+readMoreBtns.forEach((btn, index) => {
+  btn.addEventListener("click", () => openFrame(index));
+});
+
+// Add event listeners to all close buttons
+closeBtns.forEach((btn, index) => {
+  btn.addEventListener("click", () => closeFrame(index));
+});
+
+// Add event listeners to all hide description buttons
+hideDescriptionBtns.forEach((btn, index) => {
+  btn.addEventListener("click", () => closeFrame(index));
+});
 
 document.querySelectorAll(".qa-item").forEach((item) => {
   item.addEventListener("click", function () {
@@ -45,5 +76,50 @@ scrollToTopBtn.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     behavior: "smooth",
+  });
+});
+document.body.addEventListener("click", function (event) {
+  const clickedIcon = event.target.closest(".wishlist");
+
+  if (clickedIcon) {
+    // Remove 'active' class from all wishlist icons
+    document.querySelectorAll(".wishlist").forEach((icon) => {
+      if (icon !== clickedIcon) {
+        icon.classList.remove("active");
+      }
+    });
+
+    // Toggle 'active' class on the clicked icon
+    clickedIcon.classList.toggle("active");
+  }
+});
+var ajaxUrl = document.getElementById("ajax-url").value;
+
+document.querySelectorAll(".wishlist").forEach(function (wishlist) {
+  wishlist.addEventListener("click", function () {
+    var productId = this.dataset.productId;
+    var action = this.classList.contains("active") ? "remove" : "add";
+
+    var data = {
+      action: "update_wishlist",
+      product_id: productId,
+      wishlist_action: action,
+    };
+
+    fetch(ajaxUrl, {
+      // Use the ajaxUrl from the hidden input
+      method: "POST",
+      credentials: "same-origin",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams(data).toString(),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.success) {
+          // this.classList.toggle("active");
+        }
+      });
   });
 });

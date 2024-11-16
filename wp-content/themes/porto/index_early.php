@@ -179,240 +179,25 @@ get_header();
 					<div class="t-nasze-bestsellery">
 						<h2 class="nasze-bestsellery">Nasze Bestsellery</h2>
 					</div>
+
 					<div
 						class="t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best">
-						<div class="hero-hover_best">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame2.svg"
-								class="frame-10"></img>
-							<button class="hover_container">
-								<div class="bransoletka-klasyk-3">
-									<span>
-										<p>Bransoletka</p>
-										<p>Klasyk21</p>
-									</span>
-								</div>
-								<div class="frame-17">
-									<div class="z-4">88 zł</div>
-								</div>
-							</button>
-						</div>
-						<div class="hero-hover_best">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame2.svg"
-								class="frame-10"></img>
-							<button class="hover_container">
-								<div class="bransoletka-klasyk-3">
-									<span>
-										<p>Bransoletka</p>
-										<p>Klasyk21</p>
-									</span>
-								</div>
-								<div class="frame-17">
-									<div class="z-4">88 zł</div>
-								</div>
-							</button>
-						</div>
-						<div class="hero-hover_best">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame2.svg"
-								class="frame-10"></img>
-							<button class="hover_container">
-								<div class="bransoletka-klasyk-3">
-									<span>
-										<p>Bransoletka</p>
-										<p>Klasyk21</p>
-									</span>
-								</div>
-								<div class="frame-17">
-									<div class="z-4">88 zł</div>
-								</div>
-							</button>
-						</div>
-						<div class="hero-hover_best">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame2.svg"
-								class="frame-10"></img>
-							<button class="hover_container">
-								<div class="bransoletka-klasyk-3">
-									<span>
-										<p>Bransoletka</p>
-										<p>Klasyk21</p>
-									</span>
-								</div>
-								<div class="frame-17">
-									<div class="z-4">88 zł</div>
-								</div>
-							</button>
-						</div>
-						<div class="hero-hover_best">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame2.svg"
-								class="frame-10"></img>
-							<button class="hover_container">
-								<div class="bransoletka-klasyk-3">
-									<span>
-										<p>Bransoletka</p>
-										<p>Klasyk21</p>
-									</span>
-								</div>
-								<div class="frame-17">
-									<div class="z-4">88 zł</div>
-								</div>
-							</button>
-						</div>
+
+						<?php
+
+						include get_template_directory() . '/product-basic-display.php';
+
+						?>
 					</div>
 				</div>
 			</div>
-			<div class="t-frame-4">
-				<div
-					class="tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame">
-					<div class="t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Cu99_LukeCopper1.svg"
-							class="cu-99_luke-copper-1"></img>
-						<div class="najwy-szy-potencja-energetyczny">
-							<span>
-								<p>Najwyższy</p>
-								<p>potencjał</p>
-								<p>energetyczny</p>
-							</span>
-						</div>
-					</div>
-					<div
-						class="tt-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame">
-						<div
-							class="t-bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame">
-							<div
-								class="bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe">
-								<span>
-									<p>
-										<span class="text">Biżuteria Luke Copper </span>tworzona jest z miedzi
-										najwyższej jakości,
-									</p>
-									<p>
-										dzięki czemu zachowuje komplementarne właściwości
-										energetyczno-kwantowe.
-									</p>
-								</span>
-							</div>
-							<div class="frame-21 underline">
-								<button id="read-more" class="przeczytaj-wi-cej">
-									Przeczytaj więcej
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="frame-22">
-				<div
-					class="tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-					<div
-						class="t-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u">
-						<div class="frame-23">
-							<div class="t-2">
-								<p class="component-8">99%</p>
-							</div>
-						</div>
-						<div
-							class="nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne">
-							<span>
-								<p>
-									Nasza biżuteria tworzona jest z miedzi najwyższej próby.
-								</p>
-								<div class="spacer"></div>
-								<p>
-									Aż 99% masy stopu, który stosujemy, stanowi miedź, co
-									nadaje mu wyjątkowe właściwości funkcjonalne i
-									energetyczne.
-								</p>
-							</span>
-						</div>
-						<div
-							class="t-na-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u">
-							<h4 class="na-temat-miedzi-swokilka-wi-cej">
-								na temat MIEDZI słów o kilka więcej
-							</h4>
-							<div
-								class="wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-u">
-								<span>
-									<p>
-										Według danych statystycznych na milion atomów skorupy
-										ziemskiej,
-									</p>
-									<p>60 to atomy miedzi (0,0060%).</p>
-									<div class="spacer-1"></div>
-									<p>
-										Nieprzypadkowe miejsce na tablicy Mendelejewa można
-										interpretować
-									</p>
-									<p>
-										jako wskazówkę, zasianą jak ziarno 6 marca 1869 roku,
-										czyli dokładnie
-									</p>
-									<p>150 lat temu.</p>
-									<div class="spacer-2"></div>
-									<p>
-										Miedź, podobnie jak srebro i złoto, znajduje się w 11.
-										grupie układu okresowego,
-									</p>
-									<p>
-										co symbolizuje jej wyjątkowe właściwości w
-										towarzystwie metali szlachetnych.
-									</p>
-									<div class="spacer-3"></div>
-									<p>
-										Wspierana doskonałym przewodnictwem elektrycznym
-										miedzi, nasza biżuteria
-									</p>
-									<p>
-										ceniona jest za energetyczne właściwości, wspierając
-										harmonię ciała i umysłu.
-									</p>
-								</span>
-							</div>
-						</div>
-					</div>
-					<button class="close">
-						<img id="close-btn" src="<?php echo get_template_directory_uri(); ?>/assets/close.svg" />
-					</button>
-				</div>
-				<div class="tt-frame">
-					<div class="t-frame-5">
-						<div class="frame-24">
-							<button class="ukryj-dodatkowy-opis">
-								ukryj dodatkowy opis
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php
+			include get_template_directory() . '/readmore_content.php';
+			?>
 			<div class="t-hero-hero-hero">
-				<div class="hero-2">
-					<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame6.svg"
-						class="frame-25"></object>
-					<button class="hover">
-						<div class="zawieszka-calmup">Zawieszka CalmUp</div>
-						<div class="frame-26">
-							<div class="z-6">67 zł</div>
-						</div>
-					</button>
-				</div>
-				<div class="hero-3">
-					<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame6.svg"
-						class="frame-27"></object>
-					<button class="hover">
-						<div class="bransoletka-klasyk-5">Bransoletka Klasyk21</div>
-						<div class="frame-28">
-							<div class="z-7">88 zł</div>
-						</div>
-					</button>
-				</div>
-				<div class="hero-4">
-					<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame6.svg"
-						class="frame-29"></object>
-					<button class="hover">
-						<div class="zawieszka-coppermind">Zawieszka CopperMind</div>
-						<div class="frame-30">
-							<div class="z-8">77 zł</div>
-						</div>
-					</button>
-				</div>
+				<?php
+				include get_template_directory() . '/hero_products.php';
+				?>
 			</div>
 			<div class="tt-miedziane-bransoletki">
 				<div class="t-miedziane-bransoletki">
@@ -446,94 +231,11 @@ get_header();
 				<div class="kategorie">
 					<div
 						class="ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-						<div
-							class="tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis">
-							<div class="t-frame-51ttbransoletka-holistic-energy">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_1.png"
-									class="frame-32"></img>
-								<div class="tt-bransoletka-holistic-energy">
-									<div class="t-bransoletka-holistic-energy">
-										<div class="bransoletka-holistic-energy">
-											<span>
-												<p>Bransoletka</p>
-												<p>Holistic Energy</p>
-											</span>
-										</div>
-									</div>
-								</div>
-								<button class="frame-38">
-									<div class="z-9">118 zł</div>
-								</button>
+						<div class="slider-container">
+							<div class="swiper new_products"><?php
+							include get_template_directory() . '/products-arrow-slider.php';
+							?>
 							</div>
-							<div class="t-frame-51ttbransoletka-mindfulness">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_2.png"
-									class="frame-33"></img>
-								<div class="tt-bransoletka-mindfulness">
-									<div class="t-bransoletka-mindfulness">
-										<div class="bransoletka-mindfulness">
-											<span>
-												<p>Bransoletka</p>
-												<p>Mindfulness</p>
-											</span>
-										</div>
-									</div>
-								</div>
-								<button class="frame-38">
-									<div class="z-9">118 zł</div>
-								</button>
-							</div>
-							<div class="t-frame-51ttzawieszka-miedziana-elegans-natura">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_3.png"
-									class="frame-34"></img>
-								<div class="tt-zawieszka-miedziana-elegans-natura">
-									<div class="t-zawieszka-miedziana-elegans-natura">
-										<div class="zawieszka-miedziana-elegans-natura">
-											<p>Zawieszka miedziana Elegans Natura</p>
-										</div>
-									</div>
-								</div>
-								<button class="frame-38">
-									<div class="z-9">118 zł</div>
-								</button>
-							</div>
-							<div class="t-frame-51ttzawieszka-miedziana-apertis-oculis">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_4.png"
-									class="frame-35"></img>
-								<div class="tt-zawieszka-miedziana-apertis-oculis">
-									<div class="t-zawieszka-miedziana-apertis-oculis">
-										<div class="zawieszka-miedziana-apertis-oculis">
-											<span>
-												<p>Zawieszka miedziana</p>
-												<p>Apertis Oculis</p>
-											</span>
-										</div>
-									</div>
-								</div>
-								<button class="frame-38">
-									<div class="z-9">118 zł</div>
-								</button>
-							</div>
-						</div>
-						<div class="tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis">
-							<div class="t-frame-51frame">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame11.svg"
-									class="frame-36"></img><img
-									src="<?php echo get_template_directory_uri(); ?>/assets/brans_4.png"
-									class="frame-37"></img>
-							</div>
-							<div class="tt-zawieszka-miedziana-apertis-oculis-1">
-								<div class="t-zawieszka-miedziana-apertis-oculis-1">
-									<div class="zawieszka-miedziana-apertis-oculis-1">
-										<span>
-											<p>Zawieszka miedziana</p>
-											<p>Apertis Oculis</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<button class="frame-38">
-								<div class="z-9">118 zł</div>
-							</button>
 						</div>
 					</div>
 				</div>
@@ -627,93 +329,10 @@ get_header();
 			<div class="kategorie-1">
 				<div
 					class="ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-					<div
-						class="tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis">
-						<div class="t-frame-51ttbransoletka-miedziana-holistic-energy">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_1.png"
-								class="frame-46"></img>
-							<div class="tt-bransoletka-miedziana-holistic-energy">
-								<div class="t-bransoletka-miedziana-holistic-energy">
-									<div class="bransoletka-miedziana-holistic-energy">
-										<span>
-											<p>Bransoletka miedziana</p>
-											<p>Holistic Energy</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-52">
-								<div class="z-14">118 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttbransoletka-energetyczna-mindfulness">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_2.png"
-								class="frame-47"></img>
-							<div class="tt-bransoletka-energetyczna-mindfulness">
-								<div class="t-bransoletka-energetyczna-mindfulness">
-									<div class="bransoletka-energetyczna-mindfulness">
-										<span>
-											<p>Bransoletka energetyczna</p>
-											<p>Mindfulness</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-52">
-								<div class="z-14">118 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttzawieszka-miedziana-elegans-natura-1">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_3.png"
-								class="frame-48"></img>
-							<div class="tt-zawieszka-miedziana-elegans-natura-1">
-								<div class="t-zawieszka-miedziana-elegans-natura-1">
-									<div class="zawieszka-miedziana-elegans-natura-1">
-										<p>Zawieszka miedziana Elegans Natura</p>
-									</div>
-								</div>
-							</div>
-							<div class="frame-52">
-								<div class="z-14">118 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttzawieszka-miedziana-apertis-oculis-1">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_4.png"
-								class="frame-49"></img>
-							<div class="tt-zawieszka-miedziana-apertis-oculis-2">
-								<div class="t-zawieszka-miedziana-apertis-oculis-2">
-									<div class="zawieszka-miedziana-apertis-oculis-2">
-										<span>
-											<p>Zawieszka miedziana</p>
-											<p>Apertis Oculis</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-52">
-								<div class="z-14">118 zł</div>
-							</div>
-						</div>
-					</div>
-					<div class="tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-1">
-						<div class="t-frame-51frame-1">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame17.svg"
-								class="frame-50"></img><img
-								src="<?php echo get_template_directory_uri(); ?>/assets/brans_4.png"
-								class="frame-51"></img>
-						</div>
-						<div class="tt-zawieszka-miedziana-apertis-oculis-3">
-							<div class="t-zawieszka-miedziana-apertis-oculis-3">
-								<div class="zawieszka-miedziana-apertis-oculis-3">
-									<span>
-										<p>Zawieszka miedziana</p>
-										<p>Apertis Oculis</p>
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="frame-52">
-							<div class="z-14">118 zł</div>
+					<div class="slider-container">
+						<div class="swiper new_products2"><?php
+						include get_template_directory() . '/hero_products_black.php';
+						?>
 						</div>
 					</div>
 				</div>
@@ -798,79 +417,58 @@ get_header();
 						</div>
 					</div>
 					<div class="t-hero">
-						<div class="hero-7">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame19.svg"
-								class="frame-58"></img>
-							<button class="pier-cionek-wska-obr-czka hover">
-								<p>Pierścionek Wąska obrączka</p>
-								<div class="t-frame-11">
-									<div class="frame-59">
-										<div class="z-20">58 zł</div>
-									</div>
-								</div>
-							</button>
-						</div>
-					</div>
+						<?php
+						// Custom query to fetch the latest products
+						$args = array(
+							'post_type' => 'product',
+							'posts_per_page' => 5, // Number of products to display
+							'orderby' => 'date',
+							'order' => 'DESC'
+						);
+						$loop = new WP_Query($args);
 
-					<div class="hero-8">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame20.svg"
-							class="frame-60"></img>
-						<button class="pier-cionek-obr-czka-okr-ga hover">
-							<span>
-								<p>Pierścionek</p>
-								<p>Obrączka okrągła</p>
-							</span>
-							<div class="t-frame-12">
-								<div class="frame-61">
-									<div class="z-21">58 zł</div>
+						while ($loop->have_posts()):
+							$loop->the_post();
+							global $product;
+							$product_id = $product->get_id();
+							$product_image = wp_get_attachment_image_src(get_post_thumbnail_id($product_id), 'single-post-thumbnail');
+							$product_price = $product->get_price_html();
+							$product_gallery = $product->get_gallery_image_ids();
+							$second_image = isset($product_gallery[0]) ? wp_get_attachment_image_src($product_gallery[0], 'single-post-thumbnail') : '';
+							$product_title = $product->get_title();
+							$product_link = get_permalink($product_id);
+							?>
+							<div class="hero-container hero-<?php echo $loop->current_post + 7; ?>"
+								style="background-image: url('<?php echo $product_image[0]; ?>');">
+								<div class="product-image-container">
+									<div class="product-image"
+										style="background-image: url('<?php echo $product_image[0]; ?>');"></div>
+									<?php if ($second_image): ?>
+										<div class="product-image-zoom"
+											style="background-image: url('<?php echo $second_image[0]; ?>');"></div>
+									<?php endif; ?>
 								</div>
-							</div>
-						</button>
-					</div>
-					<div class="hero-9">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame21.svg"
-							class="frame-62"></img>
-						<button class="pier-cionek-obr-czka-klasyczna hover">
-							<span>
-								<p>Pierścionek</p>
-								<p>Obrączka klasyczna</p>
-							</span>
-							<div class="t-frame-13">
-								<div class="frame-63">
-									<div class="z-22">58 zł</div>
+								<div class="wishlist" data-product-id="<?php echo $product_id; ?>">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/like.svg"
+										class="icon-default" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/hover_on_icon.svg"
+										class="icon-hover" />
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/like_after_click.svg"
+										class="icon-active" />
 								</div>
+								<a href="<?php echo esc_url($product_link); ?>" class="product-link">
+									<button class="pier-cionek-wska-obr-czka hover">
+										<p><?php echo $product_title; ?></p>
+										<div class="t-frame-11">
+											<div class="frame-59">
+												<div class="z-20"><?php echo $product_price; ?></div>
+											</div>
+										</div>
+									</button>
+								</a>
 							</div>
-						</button>
-					</div>
-					<div class="hero-10">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame22.svg"
-							class="frame-64"></img>
-						<button class="klasyczna-obr-czka-q hover">
-							<span>
-								<p>Klasyczna</p>
-								<p>Obrączka Q</p>
-							</span>
-							<div class="t-frame-14">
-								<div class="frame-65">
-									<div class="z-23">58 zł</div>
-								</div>
-							</div>
-						</button>
-					</div>
-					<div class="hero-11">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame23.svg"
-							class="frame-66"></img>
-						<button class="klasyczna-obr-czka-q1 hover">
-							<span>
-								<p>Klasyczna</p>
-								<p>Obrączka Q</p>
-							</span>
-							<div class="t-frame-15">
-								<div class="frame-67">
-									<div class="z-24">58 zł</div>
-								</div>
-							</div>
-						</button>
+						<?php endwhile; ?>
+						<?php wp_reset_query(); ?>
 					</div>
 				</div>
 			</div>
@@ -957,93 +555,10 @@ get_header();
 			<div class="kategorie-3">
 				<div
 					class="ttt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-					<div
-						class="tt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone">
-						<div class="t-frame-51ttbransoletka-energetyczna-mindfulness-1">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/polecane_1.png"
-								class="frame-70"></img>
-							<div class="tt-bransoletka-energetyczna-mindfulness-1">
-								<div class="t-bransoletka-energetyczna-mindfulness-1">
-									<div class="bransoletka-energetyczna-mindfulness-1">
-										<span>
-											<p>Bransoletka energetyczna</p>
-											<p>Mindfulness</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-76">
-								<div class="z-28">94 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttzawieszka-miedziana-elegans-natura-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/polecane_2.png"
-								class="frame-71"></img>
-							<div class="tt-zawieszka-miedziana-elegans-natura-2">
-								<div class="t-zawieszka-miedziana-elegans-natura-2">
-									<div class="zawieszka-miedziana-elegans-natura-2">
-										<p>Zawieszka miedziana Elegans Natura</p>
-									</div>
-								</div>
-							</div>
-							<div class="frame-76">
-								<div class="z-28">94 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttbransoletka-holistic-energy-1">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/polecane_3.png"
-								class="frame-72"></img>
-							<div class="tt-bransoletka-holistic-energy-1">
-								<div class="t-bransoletka-holistic-energy-1">
-									<div class="bransoletka-holistic-energy-1">
-										<span>
-											<p>Bransoletka</p>
-											<p>Holistic Energy</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-76">
-								<div class="z-28">94 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttbransoletka-miedziana-simplyone">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/polecane_4.png"
-								class="frame-73"></img>
-							<div class="tt-bransoletka-miedziana-simplyone">
-								<div class="t-bransoletka-miedziana-simplyone">
-									<div class="bransoletka-miedziana-simplyone">
-										<span>
-											<p>Bransoletka miedziana</p>
-											<p>SimplyONe</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-76">
-								<div class="z-28">94 zł</div>
-							</div>
-						</div>
-					</div>
-					<div class="tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-2">
-						<div class="t-frame-51frame-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame11.svg"
-								class="frame-74"></img><img
-								src="<?php echo get_template_directory_uri(); ?>/assets/polecane_5.png"
-								class="frame-75"></img>
-						</div>
-						<div class="tt-zawieszka-miedziana-apertis-oculis-4">
-							<div class="t-zawieszka-miedziana-apertis-oculis-4">
-								<div class="zawieszka-miedziana-apertis-oculis-4">
-									<span>
-										<p>Zawieszka miedziana</p>
-										<p>Apertis Oculis</p>
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="frame-76">
-							<div class="z-28">94 zł</div>
+					<div class="slider-container">
+						<div class="swiper new_products3"><?php
+						include get_template_directory() . '/gifts_and_more.php';
+						?>
 						</div>
 					</div>
 				</div>
@@ -1096,7 +611,6 @@ get_header();
 			<div class="t-hero-hero-hero-2">
 				<div class="hero-15">
 					<div class="background-image"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame29.svg" class="frame-82"></img>
 					<div class="mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys">
 						<p>
 							Miedź i jej wpływ na energię życiową – jak ona działa na
@@ -1121,7 +635,6 @@ get_header();
 				</div>
 				<div class="hero-16">
 					<div class="background-image"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame29.svg" class="frame-84"></img>
 					<div class="miedziana-bi-uteria-wstaro-ytnych-kulturach-symbolika-iukryta-moc">
 						<p>
 							Miedziana biżuteria w starożytnych kulturach – symbolika i
@@ -1146,7 +659,6 @@ get_header();
 				</div>
 				<div class="hero-17">
 					<div class="background-image"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame29.svg" class="frame-86"></img>
 					<div class="holistyczne-waciwo-ci-miedzi-jak-wp-ywa-na-twoje-samopoczucie">
 						<p>
 							Holistyczne właściwości miedzi – jak wpływa na Twoje
@@ -1530,356 +1042,18 @@ get_header();
 			<div class="kategorie-4">
 				<div
 					class="ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-					<div
-						class="tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis">
-						<div class="t-frame-51ttbransoletka-holistic-energy-2">
-							<object data="<?php echo get_template_directory_uri(); ?>/assets/brans_1.png"
-								class="frame-103"></object>
-							<div class="tt-bransoletka-holistic-energy-2">
-								<div class="t-bransoletka-holistic-energy-2">
-									<div class="bransoletka-holistic-energy-2">
-										<span>
-											<p>Bransoletka</p>
-											<p>Holistic Energy</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-109">
-								<div class="z-38">118 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttbransoletka-miedziana-mindfulness">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_2.png"
-								class="frame-104"></img>
-							<div class="tt-bransoletka-miedziana-mindfulness">
-								<div class="t-bransoletka-miedziana-mindfulness">
-									<div class="bransoletka-miedziana-mindfulness">
-										<span>
-											<p>Bransoletka miedziana</p>
-											<p>Mindfulness</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-109">
-								<div class="z-38">118 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttzawieszka-miedziana-elegans-natura-3">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_3.png"
-								class="frame-105"></img>
-							<div class="tt-zawieszka-miedziana-elegans-natura-3">
-								<div class="t-zawieszka-miedziana-elegans-natura-3">
-									<div class="zawieszka-miedziana-elegans-natura-3">
-										<p>Zawieszka miedziana Elegans Natura</p>
-									</div>
-								</div>
-							</div>
-							<div class="frame-109">
-								<div class="z-38">118 zł</div>
-							</div>
-						</div>
-						<div class="t-frame-51ttzawieszka-miedziana-apertis-oculis-2">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/brans_4.png"
-								class="frame-106"></img>
-							<div class="tt-zawieszka-miedziana-apertis-oculis-5">
-								<div class="t-zawieszka-miedziana-apertis-oculis-5">
-									<div class="zawieszka-miedziana-apertis-oculis-5">
-										<span>
-											<p>Zawieszka miedziana</p>
-											<p>Apertis Oculis</p>
-										</span>
-									</div>
-								</div>
-							</div>
-							<div class="frame-109">
-								<div class="z-38">118 zł</div>
-							</div>
-						</div>
-					</div>
-					<div class="tt-frame-51frame-51ttzawieszka-miedziana-apertis-oculis-3">
-						<div class="t-frame-51frame-3">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame11.svg"
-								class="frame-107"></img><img
-								src="<?php echo get_template_directory_uri(); ?>/assets/brans_4.png"
-								class="frame-108"></img>
-						</div>
-						<div class="tt-zawieszka-miedziana-apertis-oculis-6">
-							<div class="t-zawieszka-miedziana-apertis-oculis-6">
-								<div class="zawieszka-miedziana-apertis-oculis-6">
-									<span>
-										<p>Zawieszka miedziana</p>
-										<p>Apertis Oculis</p>
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="frame-109">
-							<div class="z-38">118 zł</div>
+					<div class="slider-container">
+						<div class="swiper new_products5"><?php
+						include get_template_directory() . '/products-arrow-slider.php';
+						?>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="frame-114">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/hero-24.jpeg" loading="lazy"
-					class="hero-24" />
-				<div
-					class="t-chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci-ttzapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl">
-					<div class="chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci">
-						<span>
-							<p>Chcesz odkryć</p>
-							<p>moc miedzianej</p>
-							<p>biżuterii i zyskać</p>
-							<p>wyjątkowe</p>
-							<p>korzyści?</p>
-						</span>
-					</div>
-					<div
-						class="tt-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl">
-						<div class="t-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame">
-							<div class="zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy">
-								<span>
-									<p>Zapisz się do newslettera</p>
-									<p>i otrzymaj aż 24% rabatu</p>
-									<p>na jeszcze lepsze zakupy!</p>
-								</span>
-							</div>
-							<div class="frame-115">
-								<div class="tt-odbierz-zni-k">
-									<div class="t-odbierz-zni-k">
-										<div class="odbierz-zni-k">
-											<span>
-												<p>Odbierz</p>
-												<p>zniżkę</p>
-											</span>
-										</div>
-										<div class="component-14">24%</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div
-							class="do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl">
-							<p>
-								Dołącz już teraz i zyskaj dostęp do limitowanych promocji,
-								które podkreślą Twój unikalny styl!
-							</p>
-						</div>
-					</div>
-				</div>
-				<div
-					class="tbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-wtwpisz-adres-email-frame">
-					<div
-						class="bd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w">
-						<p>
-							Bądź na bieżąco z najnowszymi kolekcjami, inspirującymi
-							historiami i specjalnymi ofertami tylko dla subskrybentów.
-						</p>
-					</div>
-					<div class="t-wpisz-adres-email-frame">
-						<div class="frame-116">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-								class="mail_24dp_5f6368_fill0_wght-400_grad0_opsz"></img>
-							<input type="email" class="wpisz-adres-email" placeholder="Twój adres @ e-mail"
-								aria-label="Wpisz adres e-mail" />
-						</div>
-					</div>
-				</div>
-				<div
-					class="ttt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet-frame">
-					<div
-						class="tt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet">
-						<div
-							class="t-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet">
-							<div class="wybierz-co-ci-interesuje">
-								Wybierz co Cię interesuje
-							</div>
-							<div class="checkbox-container">
-								<div class="checkbox-item">
-									<input type="checkbox" id="unisex" name="category" value="unisex" />
-									<label for="unisex">
-										<span class="custom-checkbox"></span>
-										Biżuteria UNISEX
-									</label>
-								</div>
 
-								<div class="checkbox-item">
-									<input type="checkbox" id="women" name="category" value="women" />
-									<label for="women">
-										<span class="custom-checkbox"></span>
-										Biżuteria dla Kobiet
-									</label>
-								</div>
-
-								<div class="checkbox-item">
-									<input type="checkbox" id="men" name="category" value="men" />
-									<label for="men">
-										<span class="custom-checkbox"></span>
-										Biżuteria dla Mężczyzn
-									</label>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					<div class="frame-117">
-						<div class="checkbox-item">
-							<input type="checkbox" id="privacy-consent" name="privacy-consent" />
-							<label for="privacy-consent">
-								<span class="custom-checkbox"></span>
-								<div class="checkbox-text">
-									<p>Wyrażam zgodę na przetwarzanie</p>
-									<p>danych osobowych, zgodnie</p>
-									<p class="para-124">
-										<span class="text-1">z </span><a href="#">Polityką prywatności</a><span
-											class="text-2">.</span>
-									</p>
-								</div>
-							</label>
-						</div>
-
-						<button class="t-frame-21">
-							<div class="frame-118">
-								<div class="frame-119">
-									<div class="zapisz-do-newslettera">
-										Zapisz do newslettera
-									</div>
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz1.svg"
-										class="mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1"></img>
-								</div>
-							</div>
-						</button>
-					</div>
-				</div>
-				<div
-					class="tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
-
-					<div class="t-mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
-						<div class="mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
-							&nbsp;Możesz zrezygnować z subskrypcji w dowolnym momencie
-							bez żadnych kosztów.
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="t-frame-22">
-				<div class="frame-120">
-					<div
-						class="footer t-luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji-ttmenu-strony-kategorie-tttstrona-gwna-nowo-ci-tsklep-bransoletki-ttwiedza-pier-cionki-tkontakt-zawieszki-ttinformacje-bezpieczna-dostawa-ttttpatno-ci-idostawa-inpost_logotype_2024_black_bg-1tregulamin-sklepu-polityka-cookies-polityka-prywatno-ci">
-
-						<!-- Header Text -->
-						<div class="luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji">
-							<span>
-								<p><a href="#">luke cØpper</a></p>
-								<p><a href="#">to Biżuteria</a></p>
-								<p><a href="#">tworzona</a></p>
-								<p><a href="#">w najlepszej</a></p>
-								<p><a href="#">intencji</a></p>
-							</span>
-						</div>
-
-						<!-- Menu Links -->
-						<div class="t-frame-22">
-							<div class="frame-120">
-								<div class="menu-columns">
-									<!-- First Column -->
-									<div class="menu-column" style="max-width: 155vw;">
-										<h3><a href="#">Menu strony</a></h3>
-										<ul>
-											<li><a href="#">Strona Główna</a></li>
-											<li><a href="#">Sklep</a></li>
-											<li><a href="#">Wiedza</a></li>
-											<li><a href="#">Kontakt</a></li>
-										</ul>
-									</div>
-
-									<!-- Second Column -->
-									<div class="menu-column" style="max-width: 206vw;">
-										<h3><a href="#">Kategorie</a></h3>
-										<ul>
-											<li class="underline"><a href="#">Nowości</a></li>
-											<li class="underline"><a href="#">Bransoletki</a></li>
-											<li class="underline"><a href="#">Pierścionki</a></li>
-											<li class="underline"><a href="#">Zawieszki</a></li>
-											<li class="underline"><a href="#">Prezenty i więcej</a></li>
-											<li class="underline"><a href="#">Świąteczne Promocje</a></li>
-										</ul>
-									</div>
-
-									<!-- Third Column -->
-									<div class="menu-column" style="max-width: 289vw;">
-										<h3><a href="#">Informacje</a></h3>
-										<ul>
-											<li><a href="#">Płatności i Dostawa</a></li>
-											<li><a href="#">Regulamin sklepu</a></li>
-											<li><a href="#">Polityka cookies</a></li>
-											<li><a href="#">Polityka prywatności</a></li>
-										</ul>
-									</div>
-									<div class="dostawca menu-column">
-										<h3><a href="">Bezpieczna dostawa</a></h3>
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/InPost_logotype_2024_black_bg.svg"
-											class="inpost_logotype_20_24_black_bg-1"></img>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-
-					<!-- Logos and Promotions -->
-					<div class="tt-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector-twi-teczne-promocje">
-						<h4 class="footer_class">Bezpieczne metody płatności</h4>
-						<div class="t-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Przelewy24_logo.svg"
-								class="przelewy-24_logo"></img>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/BlikSeeklogo.svg"
-								class="blik-seeklogo"></img>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/MastercardLogo.svg"
-								class="mastercard-logo"></img>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Vector2.svg"
-								class="vector-2"></img>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="dzie-n_dobry2">
-				<div
-					class="ttt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-					<div
-						class="tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-						<div
-							class="t-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Frame30.svg"
-								class="frame-121"></img>
-							<div
-								class="t-luke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-								<div>&nbsp;luke copper</div>
-								<div>✦</div>
-								<div>quantum jewelry</div>
-								<div>✦</div>
-								<div>dla uważnych i świadomych</div>
-								<div>✦</div>
-								<div class="tu-iteraz">tu i teraz</div>
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/Self_improvement_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-									class="self_improvement_24dp_5f6368_fill0_wght-400_grad0_opsz"></img>
-							</div>
-						</div>
-						<button class="t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz"
-							id="scrollToTopBtn">
-							<div>na górę strony</div>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_upward_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-								class="arrow_upward_alt_24dp_5f6368_fill0_wght-400_grad0_opsz"></img>
-						</button>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
+	<?php get_footer(); ?>
 </div>
 <div id="mobile_app">
 	<div class="mobile__index_luke_copper_mobile">
@@ -2018,17 +1192,13 @@ get_header();
 				</div>
 				<div class="mobile_t-dzien_dobry">
 					<div class="mobile_dzie-n_dobry1">
-						<div class="mobile_wrapper-3">
-							<div class="mobile_rectangle-2"></div>
-						</div>
+
 						<div class="mobile_t-poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii">
 							<div class="mobile_poczuj-korzy-ci-wynikaj-ce-znoszenia-miedzianej-bi-uterii">
 								poczuj korzyści wynikające z noszenia miedzianej biżuterii
 							</div>
 						</div>
-						<div class="mobile_t-rectangle-1">
-							<div class="mobile_rectangle-3"></div>
-						</div>
+
 					</div>
 				</div>
 				<div
@@ -2051,99 +1221,26 @@ get_header();
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/hero-1.jpeg" loading="lazy"
 						class="mobile_hero-1" />
 				</div>
-				<div class="mobile_t-hero-hover_best-hero-default_best">
-					<div class="mobile_hero-hover_best">
-						<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame2.svg"
-							class="mobile_frame-8"></object>
-						<div class="mobile_bransoletka-klasyk">
-							<span>
-								<p>Bransoletka</p>
-								<p>Klasyk21</p>
-							</span>
-						</div>
-						<div class="mobile_frame-9">
-							<div class="mobile_z-1">88 zł</div>
-						</div>
-					</div>
-					<div class="mobile_hero-default_best">
-						<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame3.svg"
-							class="mobile_frame-10"></object>
-						<div class="mobile_t-frame">
-							<div class="mobile_frame-11">
-								<div class="mobile_bransoletka-klasyk-1">
-									<span>
-										<p>Bransoletka</p>
-										<p>Klasyk21</p>
-									</span>
-								</div>
-								<div class="mobile_frame-12">
-									<div class="mobile_z-2">88 zł</div>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="swiper default_products">
+					<?php
+					include get_template_directory() . '/product-basic-display.php';
+					?>
+
 				</div>
-				<div class="mobile_t-frame-1">
-					<div class="mobile_frame-13">
-						<div class="mobile_t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny">
-							<object data="<?php echo get_template_directory_uri(); ?>/assets/Cu99_LukeCopper1.svg"
-								class="mobile_cu-99_luke-copper-1"></object>
-							<div class="mobile_najwy-szy-potencja-energetyczny">
-								<span>
-									<p>Najwyższy</p>
-									<p>potencjał</p>
-									<p>energetyczny</p>
-								</span>
-							</div>
-						</div>
-						<div
-							class="mobile_bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe">
-							<span>
-								<p>
-									<span class="mobile_text">Biżuteria Luke Copper </span>tworzona jest z miedzi
-									najwyższej jakości,
-								</p>
-								<p>
-									dzięki czemu zachowuje komplementarne właściwości
-									energetyczno-kwantowe.
-								</p>
-							</span>
-						</div>
-						<div class="mobile_t-frame-2">
-							<div class="mobile_frame-14">
-								<div class="mobile_przeczytaj-wi-cej">
-									Przeczytaj więcej
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+
+				<?php
+
+				include get_template_directory() . '/readmore_content.php';
+
+				?>
 				<div class="mobile_wrapper-4">
 					<div class="mobile_kategorie">
 						<div class="mobile_t-hero-hero">
-							<div class="mobile_hero-2">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame4.svg"
-									class="mobile_frame-15"></object>
-								<div class="mobile_zawieszka-calmup">Zawieszka CalmUp</div>
-								<div class="mobile_frame-16">
-									<div class="mobile_z-3">67 zł</div>
-								</div>
-							</div>
-							<div class="mobile_hero-3">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/Frame5.svg"
-									class="mobile_frame-17"></object>
-								<div class="mobile_t-bransoletka-klasyk">
-									<div class="mobile_bransoletka-klasyk-2">
-										Bransoletka Klasyk21
-									</div>
-								</div>
-								<div class="mobile_t-frame-3">
-									<div class="mobile_frame-18">
-										<div class="mobile_t-88z">
-											<div class="mobile_z-4">88 zł</div>
-										</div>
-									</div>
-								</div>
+							<div class="swiper hero_products">
+								<?php
+								include get_template_directory() . '/hero_products.php';
+								?>
+
 							</div>
 						</div>
 					</div>
@@ -2160,48 +1257,14 @@ get_header();
 						<p>dla Ciebie</p>
 					</span>
 				</div>
-				<div class="mobile_wrapper-5">
-					<div class="mobile_frame-19">
-						<div class="mobile_tt-frame-51tframe-51frame">
-							<div class="mobile_t-frame-51tframe-51frame">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/brans_1.png"
-									class="mobile_frame-20"></object>
-								<div class="mobile_t-frame-51frame">
-									<object data="<?php echo get_template_directory_uri(); ?>/assets/block7.svg"
-										class="mobile_frame-21"></object>
-									<div class="mobile_frame-22"></div>
-								</div>
-							</div>
-						</div>
-						<div
-							class="mobile_tt-zawieszka-miedziana-elegans-natura-frame-17tzawieszka-miedziana-apertis-oculis-frame">
-							<div class="mobile_t-zawieszka-miedziana-elegans-natura-frame">
-								<div class="mobile_zawieszka-miedziana-elegans-natura">
-									<p>Zawieszka miedziana Elegans Natura</p>
-								</div>
-								<div class="mobile_frame-23">
-									<div class="mobile_z-5">126 zł</div>
-								</div>
-							</div>
-							<div class="mobile_t-zawieszka-miedziana-apertis-oculis-frame">
-								<div>
-									<span>
-										<p>Zawieszka miedziana</p>
-										<p>Apertis Oculis</p>
-									</span>
-								</div>
-								<div class="mobile_frame-24">
-									<div class="mobile_t-132z">
-										<div class="mobile_z-6">132 zł</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="swiper slider_mobile_1"> <?php
+				include get_template_directory() . '/products-arrow-slider.php';
+				?>
 				</div>
+
 				<div class="mobile_tt-frame">
 					<div class="mobile_t-frame-4">
-						<div class="mobile_frame-25">
+						<a href="/bransoletki" class="mobile_frame-25">
 							<div
 								class="mobile_ttt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 								<div
@@ -2219,7 +1282,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 				<div class="mobile_frame-26">
@@ -2235,7 +1298,7 @@ get_header();
 									<p>na Twoje wnętrze</p>
 								</span>
 							</div>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/hero-4.jpeg" loading="lazy"
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/hero-5.jpeg" loading="lazy"
 								class="mobile_hero-4" />
 						</div>
 						<div
@@ -2263,7 +1326,7 @@ get_header();
 									</p>
 								</span>
 							</div>
-							<div class="mobile_frame-27">
+							<a href="/bizuteria-kwantowa" class="mobile_frame-27">
 								<div
 									class="mobile_ttt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 									<div
@@ -2281,7 +1344,7 @@ get_header();
 										</div>
 									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -2293,46 +1356,11 @@ get_header();
 					</div>
 				</div>
 				<div class="mobile_frame-29">
-					<div class="mobile_wrapper-6">
-						<div class="mobile_frame-30">
-							<div class="mobile_tt-frame-51tframe-51frame-1">
-								<div class="mobile_t-frame-51tframe-51frame-1">
-									<object data="<?php echo get_template_directory_uri(); ?>/assets/brans_1.png"
-										class="mobile_frame-31"></object>
-									<div class="mobile_t-frame-51frame-1">
-										<object data="<?php echo get_template_directory_uri(); ?>/assets/block9.svg"
-											class="mobile_frame-32"></object>
-										<div class="mobile_frame-33"></div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="mobile_tt-zawieszka-miedziana-elegans-natura-frame-17tzawieszka-miedziana-apertis-oculis-frame-1">
-								<div class="mobile_t-zawieszka-miedziana-elegans-natura-frame-1">
-									<div class="mobile_zawieszka-miedziana-elegans-natura-1">
-										<p>Zawieszka miedziana Elegans Natura</p>
-									</div>
-									<div class="mobile_frame-34">
-										<div class="mobile_z-7">126 zł</div>
-									</div>
-								</div>
-								<div class="mobile_t-zawieszka-miedziana-apertis-oculis-frame-1">
-									<div>
-										<span>
-											<p>Zawieszka miedziana</p>
-											<p>Apertis Oculis</p>
-										</span>
-									</div>
-									<div class="mobile_frame-35">
-										<div class="mobile_t-132z1">
-											<div class="mobile_z-8">132 zł</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="swiper slider_mobile_2"> <?php
+					include get_template_directory() . '/hero_products_black.php';
+					?>
 					</div>
-					<div class="mobile_frame-36">
+					<a href="/shop" class="mobile_frame-36">
 						<div
 							class="mobile_ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<div
@@ -2350,7 +1378,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="mobile_hero-5">
 					<div class="mobile_miedziane-pier-cionki">
@@ -2400,31 +1428,13 @@ get_header();
 							</span>
 						</div>
 						<div class="mobile_t-hero-hero-1">
-							<div class="mobile_hero-6">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/block11.svg"
-									class="mobile_frame-39"></object>
-								<div class="mobile_pier-cionek-wska-obr-czka">
-									<p>Pierścionek Wąska obrączka</p>
-								</div>
-								<div class="mobile_t-frame-5">
-									<div class="mobile_frame-40">
-										<div class="mobile_z-10">58 zł</div>
-									</div>
-								</div>
+							<div class="swiper default_products2">
+								<?php
+								include get_template_directory() . '/product-basic-rings.php';
+								?>
+
 							</div>
-							<div class="mobile_hero-7">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/block12.svg"
-									class="mobile_frame-41"></object>
-								<div class="mobile_pier-cionek-obr-czka-okr-ga">
-									<span>
-										<p>Pierścionek</p>
-										<p>Obrączka okrągła</p>
-									</span>
-								</div>
-								<div class="mobile_frame-42">
-									<div class="mobile_z-11">58 zł</div>
-								</div>
-							</div>
+
 						</div>
 						<div class="mobile_t-frame-6">
 							<div class="mobile_frame-43">
@@ -2516,47 +1526,9 @@ get_header();
 					</div>
 				</div>
 				<div class="mobile_frame-45">
-					<div class="mobile_wrapper-8">
-						<div class="mobile_frame-46">
-							<div class="mobile_tt-frame-51tframe-51frame-2">
-								<div class="mobile_t-frame-51tframe-51frame-2">
-									<object data="<?php echo get_template_directory_uri(); ?>/assets/polecane_1.png"
-										class="mobile_frame-47"></object>
-									<div class="mobile_t-frame-51frame-2">
-										<object data="<?php echo get_template_directory_uri(); ?>/assets/block7.svg"
-											class="mobile_frame-48"></object>
-										<div class="mobile_frame-49"></div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="mobile_tt-bransoletka-energetyczna-mindfulness-frame-17tzawieszka-miedziana-apertis-oculis-frame">
-								<div class="mobile_t-bransoletka-energetyczna-mindfulness-frame">
-									<div class="mobile_bransoletka-energetyczna-mindfulness">
-										<span>
-											<p>Bransoletka energetyczna</p>
-											<p>Mindfulness</p>
-										</span>
-									</div>
-									<div class="mobile_frame-50">
-										<div class="mobile_z-15">126 zł</div>
-									</div>
-								</div>
-								<div class="mobile_t-zawieszka-miedziana-apertis-oculis-frame-2">
-									<div>
-										<span>
-											<p>Zawieszka miedziana</p>
-											<p>Apertis Oculis</p>
-										</span>
-									</div>
-									<div class="mobile_frame-51">
-										<div class="mobile_t-132z2">
-											<div class="mobile_z-16">132 zł</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="swiper slider_mobile_3"> <?php
+					include get_template_directory() . '/products-arrow-slider.php';
+					?>
 					</div>
 					<div class="mobile_frame-52">
 						<div
@@ -2605,7 +1577,7 @@ get_header();
 						<div class="mobile_kategorie-1">
 							<div class="mobile_t-hero-frame">
 								<div class="mobile_hero-11">
-									<object data="<?php echo get_template_directory_uri(); ?>/assets/block14.svg"
+									<object data=" <?php echo get_template_directory_uri(); ?>/assets/block14.svg"
 										class="mobile_frame-53"></object>
 									<div class="mobile_mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys">
 										<p>
@@ -2663,29 +1635,9 @@ get_header();
 									<p>kategorie</p>
 								</span>
 							</div>
-							<div class="mobile_t-hero-frame-51hero">
-								<div class="mobile_hero-12">
-									<div class="mobile_nowo-ci-2">NOWOŚCI</div>
-									<div
-										class="mobile_ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-										<div
-											class="mobile_tt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-											<div class="mobile_t-ju-od-5">
-												<div class="mobile_ju-od-5">już od</div>
-											</div>
-											<div class="mobile_component-8">55</div>
-											<div
-												class="mobile_t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-11">
-												<object
-													data="<?php echo get_template_directory_uri(); ?>/assets/arrow_white_right.svg"
-													class="mobile_arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-11"></object>
-											</div>
-										</div>
-									</div>
-								</div>
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/block16.svg"
-									class="mobile_frame-58"></object>
-								<div class="mobile_hero-13"></div>
+							<div class="swiper slider_mobile_8"> <?php
+							include get_template_directory() . '/products-arrow-slider-category.php';
+							?>
 							</div>
 						</div>
 					</div>
@@ -2953,47 +1905,9 @@ get_header();
 					</div>
 				</div>
 				<div class="mobile_frame-74">
-					<div class="mobile_wrapper-11">
-						<div class="mobile_frame-75">
-							<div class="mobile_tt-frame-51tframe-51frame-3">
-								<div class="mobile_t-frame-51tframe-51frame-3">
-									<object data="<?php echo get_template_directory_uri(); ?>/assets/brans_1.png"
-										class="mobile_frame-76"></object>
-									<div class="mobile_t-frame-51frame-3">
-										<object data="<?php echo get_template_directory_uri(); ?>/assets/block7.svg"
-											class="mobile_frame-77"></object>
-										<div class="mobile_frame-78"></div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="mobile_tt-bransoletka-energetyczna-mindfulness-frame-17tzawieszka-miedziana-apertis-oculis-frame-1">
-								<div class="mobile_t-bransoletka-energetyczna-mindfulness-frame-1">
-									<div class="mobile_bransoletka-energetyczna-mindfulness-1">
-										<span>
-											<p>Bransoletka energetyczna</p>
-											<p>Mindfulness</p>
-										</span>
-									</div>
-									<div class="mobile_frame-79">
-										<div class="mobile_z-17">126 zł</div>
-									</div>
-								</div>
-								<div class="mobile_t-zawieszka-miedziana-apertis-oculis-frame-3">
-									<div>
-										<span>
-											<p>Zawieszka miedziana</p>
-											<p>Apertis Oculis</p>
-										</span>
-									</div>
-									<div class="mobile_frame-80">
-										<div class="mobile_t-132z3">
-											<div class="mobile_z-18">132 zł</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="swiper slider_mobile_4"> <?php
+					include get_template_directory() . '/products-arrow-slider.php';
+					?>
 					</div>
 					<a class="mobile_frame-81" href="#">
 						<div
@@ -3015,249 +1929,55 @@ get_header();
 						</div>
 					</a>
 				</div>
-				<div class="mobile_frame-82">
-					<div class="mobile_chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci">
-						<span>
-							<p>Chcesz odkryć</p>
-							<p>moc miedzianej</p>
-							<p>biżuterii i zyskać</p>
-							<p>wyjątkowe</p>
-							<p>korzyści?</p>
-						</span>
-					</div>
-					<div class="mobile_t-frame-95zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy">
-						<div class="mobile_frame-83">
-							<div class="mobile_odbierz-zni-k">
-								<span>
-									<p>Odbierz</p>
-									<p>zniżkę</p>
-								</span>
-							</div>
-							<div class="mobile_component-11">24%</div>
-						</div>
-						<div class="mobile_zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy">
-							<span>
-								<p>Zapisz się</p>
-								<p>do newslettera</p>
-								<p>
-									i otrzymaj aż 24% rabatu na jeszcze lepsze zakupy!
-								</p>
-							</span>
-						</div>
-					</div>
-					<div
-						class="mobile_t-do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl">
-						<div
-							class="mobile_do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl">
-							<p>
-								Dołącz już teraz i zyskaj dostęp do limitowanych promocji,
-								które podkreślą Twój unikalny styl!
-							</p>
-						</div>
-					</div>
-					<div class="mobile_t-hero-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/hero-24.jpeg" loading="lazy"
-							class="mobile_hero-14" />
-					</div>
-					<div
-						class="mobile_ttbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w">
-						<div
-							class="mobile_bd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w">
-							<p>
-								Bądź na bieżąco z najnowszymi kolekcjami, inspirującymi
-								historiami i specjalnymi ofertami tylko dla subskrybentów.
-							</p>
-						</div>
-					</div>
-					<div class="mobile_t-wpisz-adres-email">
-						<div class="mobile_wpisz-adres-email">wpisz adres e-mail</div>
-					</div>
-					<div class="mobile_t-frame-13">
-						<div class="mobile_frame-84">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-								class="mobile_mail_24dp_5f6368_fill0_wght-400_grad0_opsz"></img>
-							<input type="email" class="mobile_tw-jadres-email wpisz-adres-email-mobile"
-								placeholder="Twój adres @ e-mail" aria-label="Wpisz adres e-mail" />
-						</div>
-					</div>
-					<div class="mobile_t-frame-14">
-						<div class="mobile_frame-85">
-							<div class="mobile_wybierz-co-ci-interesuje">
-								Wybierz co Cię interesuje
-							</div>
-							<div class="checkbox-container">
-								<div class="checkbox-item">
-									<input type="checkbox" id="unisex" name="category" value="unisex" />
-									<label for="unisex">
-										<span class="custom-checkbox"></span>
-										Biżuteria UNISEX
-									</label>
-								</div>
+				<?php include get_template_directory() . '/footer_mobile.php'; ?>
 
-								<div class="checkbox-item">
-									<input type="checkbox" id="women" name="category" value="women" />
-									<label for="women">
-										<span class="custom-checkbox"></span>
-										Biżuteria dla Kobiet
-									</label>
-								</div>
-
-								<div class="checkbox-item">
-									<input type="checkbox" id="men" name="category" value="men" />
-									<label for="men">
-										<span class="custom-checkbox"></span>
-										Biżuteria dla Mężczyzn
-									</label>
-								</div>
-
-							</div>
-							<div class="checkbox-item">
-								<input type="checkbox" id="privacy-consent" name="privacy-consent" />
-								<label for="privacy-consent">
-									<span class="custom-checkbox"></span>
-									<div class="checkbox-text">
-										<p>Wyrażam zgodę na przetwarzanie</p>
-										<p>danych osobowych, zgodnie</p>
-										<p class="para-124">
-											<span class="text-1">z </span><a href="#">Polityką prywatności</a><span
-												class="text-2">.</span>
-										</p>
-									</div>
-								</label>
-							</div>
-							<button class="mobile_t-frame-15">
-								<div class="mobile_frame-86">
-									<div class="mobile_frame-87">
-										<div class="mobile_zapisz-do-newslettera">
-											Zapisz do newslettera
-										</div>
-										<object
-											data="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz1.svg"
-											class="mobile_mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1"></object>
-									</div>
-								</div>
-							</button>
-						</div>
-					</div>
-					<div class="mobile_t-mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
-						<div class="mobile_mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
-							<p>
-								&nbsp;Możesz zrezygnować z subskrypcji w dowolnym momencie
-								bez żadnych kosztów.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="mobile_frame-88">
-					<div class="mobile_luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji">
-						<span>
-							<p>luke cØpper</p>
-							<p>to Biżuteria</p>
-							<p>tworzona</p>
-							<p>w najlepszej</p>
-							<p>intencji</p>
-						</span>
-					</div>
-					<div class="mobile_t-bezpieczne-metody-patno-ci">
-						<div class="mobile_bezpieczne-metody-patno-ci">
-							Bezpieczne metody płatności
-						</div>
-					</div>
-					<div class="mobile_t-przelewy-24_logo-1blik-seeklogo-1mastercard-logo-1vector">
-						<object data="<?php echo get_template_directory_uri(); ?>/assets/Przelewy24_logo.svg"
-							class="mobile_przelewy-24_logo"></object><object
-							data="<?php echo get_template_directory_uri(); ?>/assets/BlikSeeklogo.svg"
-							class="mobile_blik-seeklogo"></object><object
-							data="<?php echo get_template_directory_uri(); ?>/assets/MastercardLogo.svg"
-							class="mobile_mastercard-logo"></object><object
-							data="<?php echo get_template_directory_uri(); ?>/assets/Vector2.svg"
-							class="mobile_vector-2"></object>
-					</div>
-					<div class="mobile_t-menu-strony">
-						<a href="#" class="mobile_menu-strony">Menu strony</a>
-					</div>
-					<div class="mobile_t-strona-gwna">
-						<a href="#" class="mobile_strona-gwna">Strona Główna</a>
-					</div>
-					<div class="mobile_t-sklep">
-						<a href="#" class="mobile_sklep">Sklep</a>
-					</div>
-					<div class="mobile_t-wiedza">
-						<a href="#" class="mobile_wiedza-1">Wiedza</a>
-					</div>
-					<div class="mobile_t-kontakt">
-						<a href="#" class="mobile_kontakt">Kontakt</a>
-					</div>
-					<div class="mobile_kategorie-2">
-						<a href="#" class="mobile_kategorie-link">Kategorie</a>
-					</div>
-					<div class="mobile_t-nowo-ci">
-						<a href="#" class="mobile_nowo-ci">Nowości</a>
-					</div>
-					<div class="mobile_t-bransoletki">
-						<a href="#" class="mobile_bransoletki-1">Bransoletki</a>
-					</div>
-					<div class="mobile_t-pier-cionki">
-						<a href="#" class="mobile_pier-cionki-1">Pierścionki</a>
-					</div>
-					<div class="mobile_t-zawieszki">
-						<a href="#" class="mobile_zawieszki">Zawieszki</a>
-					</div>
-					<div class="mobile_t-prezenty-iwi-cej-1">
-						<a href="#" class="mobile_prezenty-iwi-cej-2">Prezenty i więcej</a>
-					</div>
-					<div class="mobile_t-wi-teczne-promocje">
-						<a href="#" class="mobile_wi-teczne-promocje-1">Świąteczne Promocje</a>
-					</div>
-
-					<div
-						class="mobile_ttt-informacje-tpatno-ci-idostawa-regulamin-sklepu-polityka-cookies-polityka-prywatno-ci-tbezpieczna-dostawa-inpost_logotype_2024_black_bg">
-						<div
-							class="mobile_tt-informacje-tpatno-ci-idostawa-regulamin-sklepu-polityka-cookies-polityka-prywatno-ci-tbezpieczna-dostawa-inpost_logotype_2024_black_bg">
-							<div
-								class="mobile_t-informacje-tpatno-ci-idostawa-regulamin-sklepu-polityka-cookies-polityka-prywatno-ci">
-								<div class="mobile_informacje">Informacje</div>
-								<a href="#" class="mobile_p-atno-ci-idostawa">Płatności i Dostawa</a>
-								<a href="#" class="mobile_regulamin-sklepu">Regulamin sklepu</a>
-								<a href="#" class="mobile_polityka-cookies">Polityka cookies</a>
-								<a href="#" class="mobile_polityka-prywatnosci">Polityka prywatności</a>
-
-							</div>
-							<div class="mobile_t-bezpieczna-dostawa-inpost_logotype_2024_black_bg">
-								<div class="mobile_bezpieczna-dostawa">
-									<span>
-										<p class="mobile_para-106">Bezpieczna</p>
-										<p class="mobile_para-107">dostawa</p>
-									</span>
-								</div>
-								<object
-									data="<?php echo get_template_directory_uri(); ?>/assets/InPost_logotype_2024_black_bg.svg"
-									class="mobile_in-post_logotype_2024_black_bg"></object>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mobile_dzie-n_dobry2">
-					<div class="mobile_t-frame-39tluke-copper-quantum-jewelry">
-						<object data="<?php echo get_template_directory_uri(); ?>/assets/block17.svg"
-							class="mobile_frame-89"></object>
-						<div class="mobile_t-luke-copper-quantum-jewelry">
-							<div>&nbsp;luke copper</div>
-							<div>✦</div>
-							<div>quantum jewelry</div>
-						</div>
-					</div>
-					<object data="<?php echo get_template_directory_uri(); ?>/assets/block18.svg"
-						class="mobile_frame-90"></object>
-				</div>
-				<div class="mobile_dzie-n_dobry3">
-					<div class="mobile_tu-iteraz">tu i teraz</div>
-					<object
-						data="<?php echo get_template_directory_uri(); ?>/assets/Self_improvement_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-						class="mobile_self_improvement_24dp_5f6368_fill0_wght-400_grad0_opsz"></object>
-				</div>
 			</div>
 		</div>
+
 	</div>
 </div>
+<input type="hidden" id="ajax-url" value="<?php echo admin_url('admin-ajax.php'); ?>">
 <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/basic_slider.js"></script>
+<script>
+	document.getElementById('newsletter-submit').addEventListener('click', function (event) {
+		event.preventDefault();
+
+		var email = document.getElementById('email').value;
+		var unisex = document.getElementById('unisex').checked ? 'unisex' : '';
+		var women = document.getElementById('women').checked ? 'women' : '';
+		var men = document.getElementById('men').checked ? 'men' : '';
+		var privacyConsent = document.getElementById('privacy-consent').checked;
+		var messageElement = document.getElementById('form-message');
+
+		if (!privacyConsent) {
+			messageElement.textContent = 'Musisz wyrazić zgodę na przetwarzanie danych osobowych.';
+			messageElement.style.color = 'red';
+			return;
+		}
+
+		var data = new FormData();
+		data.append('email', email);
+		data.append('unisex', unisex);
+		data.append('women', women);
+		data.append('men', men);
+		data.append('privacyConsent', privacyConsent);
+
+		var xhr = new XMLHttpRequest();
+		xhr.open('POST', '<?php echo get_template_directory_uri(); ?>/newsletter-submit.php', true);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState === 4) {
+				var response = JSON.parse(xhr.responseText);
+				if (xhr.status === 200 && response.status === 'success') {
+					messageElement.textContent = response.message;
+					messageElement.style.color = 'green';
+				} else {
+					messageElement.textContent = response.message;
+					messageElement.style.color = 'red';
+				}
+			}
+		};
+		xhr.send(data);
+	});
+</script>

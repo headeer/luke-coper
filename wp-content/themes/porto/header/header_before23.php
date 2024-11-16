@@ -108,7 +108,6 @@ do_action('porto_before_wrapper');
 					if (isset($porto_header_escaped)) {
 						echo porto_filter_output($porto_header_escaped);
 					} else {
-						get_template_part('header/header');
 					}
 					?>
 
