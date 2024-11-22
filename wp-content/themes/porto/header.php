@@ -18,6 +18,7 @@ if (empty($porto_block_template)):
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/main.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/mobile.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 		<?php wp_head(); ?>
 	</head>
 

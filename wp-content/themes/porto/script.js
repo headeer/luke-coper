@@ -123,3 +123,17 @@ document.querySelectorAll(".wishlist").forEach(function (wishlist) {
       });
   });
 });
+document
+  .querySelector(
+    ".mobile_t-nasze-best-sell-ery-tarrow_right_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz"
+  )
+  .addEventListener("click", function (e) {
+    e.preventDefault(); // Prevent the default anchor click behavior
+
+    // Find the target element
+    const target = document.getElementById("products");
+    if (target) {
+      // Smoothly scroll to the target
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  });

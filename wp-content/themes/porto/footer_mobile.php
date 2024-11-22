@@ -149,7 +149,7 @@
 					class="mobile_vector-2"></object>
 			</div>
 			<div class="mobile_t-menu-strony">
-				<a href="<?php echo home_url('/menu-strony'); ?>" class="mobile_menu-strony">Menu strony</a>
+				Menu strony
 			</div>
 			<div class="mobile_t-strona-gwna">
 				<a href="<?php echo home_url('/'); ?>" class="mobile_strona-gwna">Strona Główna</a>
@@ -158,32 +158,35 @@
 				<a href="<?php echo home_url('/shop'); ?>" class="mobile_sklep">Sklep</a>
 			</div>
 			<div class="mobile_t-wiedza">
-				<a href="<?php echo home_url('/wiedza'); ?>" class="mobile_wiedza-1">Wiedza</a>
+				<a href="<?php echo home_url('/blog'); ?>" class="mobile_wiedza-1">Wiedza</a>
 			</div>
 			<div class="mobile_t-kontakt">
-				<a href="<?php echo home_url('/kontakt'); ?>" class="mobile_kontakt">Kontakt</a>
+				<a href="<?php echo home_url('/contact'); ?>" class="mobile_kontakt">Kontakt</a>
 			</div>
 			<div class="mobile_kategorie-2">
-				<a href="<?php echo home_url('/kategorie'); ?>" class="mobile_kategorie-link">Kategorie</a>
+				<a href="<?php echo home_url('/shop'); ?>" class="mobile_kategorie-link">Kategorie</a>
 			</div>
 			<div class="mobile_t-nowo-ci">
-				<a href="<?php echo home_url('/nowosci'); ?>" class="mobile_nowo-ci">Nowości</a>
+				<a href="<?php echo home_url('/shop'); ?>" class="mobile_nowo-ci">Nowości</a>
 			</div>
 			<div class="mobile_t-bransoletki">
-				<a href="<?php echo home_url('/bransoletki'); ?>" class="mobile_bransoletki-1">Bransoletki</a>
+				<a href="<?php echo home_url('/kategoria-produktu/bransoletki/'); ?>"
+					class="mobile_bransoletki-1">Bransoletki</a>
 			</div>
 			<div class="mobile_t-pier-cionki">
-				<a href="<?php echo home_url('/pierscionki'); ?>" class="mobile_pier-cionki-1">Pierścionki</a>
+				<a href="<?php echo home_url('/kategoria-produktu/pierscionki'); ?>"
+					class="mobile_pier-cionki-1">Pierścionki</a>
 			</div>
 			<div class="mobile_t-zawieszki">
-				<a href="<?php echo home_url('/zawieszki'); ?>" class="mobile_zawieszki">Zawieszki</a>
+				<a href="<?php echo home_url('/kategoria-produktu/naszyjniki'); ?>"
+					class="mobile_zawieszki">Zawieszki</a>
 			</div>
 			<div class="mobile_t-prezenty-iwi-cej-1">
-				<a href="<?php echo home_url('/prezenty-i-wiecej'); ?>" class="mobile_prezenty-iwi-cej-2">Prezenty i
+				<a href="<?php echo home_url('/shop'); ?>" class="mobile_prezenty-iwi-cej-2">Prezenty i
 					więcej</a>
 			</div>
 			<div class="mobile_t-wi-teczne-promocje">
-				<a href="<?php echo home_url('/swiateczne-promocje'); ?>" class="mobile_wi-teczne-promocje-1">Świąteczne
+				<a href="<?php echo home_url('/shop'); ?>" class="mobile_wi-teczne-promocje-1">Świąteczne
 					Promocje</a>
 			</div>
 
@@ -196,7 +199,7 @@
 						<div class="mobile_informacje">Informacje</div>
 						<a href="<?php echo home_url('/platnosci-i-dostawa'); ?>"
 							class="mobile_p-atno-ci-idostawa">Płatności i Dostawa</a>
-						<a href="<?php echo home_url('/regulamin-sklepu'); ?>" class="mobile_regulamin-sklepu">Regulamin
+						<a href="<?php echo home_url('/regulamin'); ?>" class="mobile_regulamin-sklepu">Regulamin
 							sklepu</a>
 						<a href="<?php echo home_url('/polityka-cookies'); ?>" class="mobile_polityka-cookies">Polityka
 							cookies</a>

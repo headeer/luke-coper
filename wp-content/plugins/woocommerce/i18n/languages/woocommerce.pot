@@ -20826,7 +20826,7 @@ msgstr ""
 
 #: includes/class-wc-embed.php:103
 #: assets/client/admin/app/index.js:2
-msgid "Buy now"
+msgid "Kup teraz"
 msgstr ""
 
 #. translators: %s: average rating

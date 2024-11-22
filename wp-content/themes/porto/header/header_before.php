@@ -47,8 +47,8 @@
 					</a>
 				</li>
 				<li><a class="underline" href="/shop">Miedziana biżuteria</a></li>
-				<li><a class="underline" href="/product-category/manufaktura">Manufaktura</a></li>
-				<li><a class="underline" href="/shop">Wiedza o miedzi</a></li>
+				<li><a class="underline" href="/manufaktura">Manufaktura</a></li>
+				<li><a class="underline" href="/wiedza">Wiedza o miedzi</a></li>
 				<li><a class="underline" href="/contact">Kontakt</a></li>
 			</ul>
 			<div class="tt-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag">
@@ -110,12 +110,14 @@
 			<ul class="tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje">
 				<li><a class="underline" href="/shop">Miedziane NOWOŚCI</a>
 				</li>
-				<li><a class="underline" href="/category/bransoletki">Bransoletki</a></li>
-				<li><a class="underline" href="/category/pierscionki">Pierścionki</a></li>
-				<li><a class="underline" href="/category/zawieszki">Zawieszki</a></li>
-				<li><a class="underline" href="/category/prezenty-i-wiecej">Prezenty i więcej</a>
+				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/bransoletki/">Bransoletki</a>
 				</li>
-				<li><a class="underline" href="/category/swiateczne-promocje">Świąteczne
+				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/pierscionki/">Pierścionki</a>
+				</li>
+				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/naszyjniki/">Zawieszki</a></li>
+				<li><a class="underline" href="https://lukecopper.com/shop/">Prezenty i więcej</a>
+				</li>
+				<li><a class="underline" href="https://lukecopper.com/shop/">Świąteczne
 						promocje</a></li>
 			</ul>
 		</div>
@@ -204,14 +206,14 @@
 				<div class="mobile_ttt-group-tvector-tgroup">
 					<a class="mobile_tt-group-tvector-tgroup" href="/">
 						<div class="mobile_t-group">
-							<object data="<?php echo get_template_directory_uri(); ?>/assets/Group1.svg"
+							<object data="<?php echo get_template_directory_uri(); ?>/assets/Group1_mobile.svg"
 								class="mobile_group"></object>
 						</div>
 						<div class="mobile_t-vector-tgroup">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg"
 								class="mobile_vector-1" />
 							<div class="mobile_t-group-1">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/Group2.svg"
+								<object data="<?php echo get_template_directory_uri(); ?>/assets/Group2_mobile.svg"
 									class="mobile_group-1"></object>
 							</div>
 						</div>
@@ -227,22 +229,22 @@
 								<a href="/shop">Miedziane NOWOŚCI</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="/category/bransoletki">Bransoletki</a>
+								<a href="https://lukecopper.com/kategoria-produktu/bransoletki/">Bransoletki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="/category/pierscionki">Pierścionki</a>
+								<a href="https://lukecopper.com/kategoria-produktu/pierscionki/">Pierścionki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="/category/naszyjniki">Naszyjniki</a>
+								<a href="https://lukecopper.com/kategoria-produktu/naszyjniki/">Naszyjniki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="/category/kolczyki">Kolczyki</a>
+								<a href="https://lukecopper.com/shop/">Kolczyki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="/category/zawieszki">Zawieszki</a>
+								<a href="https://lukecopper.com/shop/">Zawieszki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="/category/akcesoria">Akcesoria</a>
+								<a href="https://lukecopper.com/shop/">Akcesoria</a>
 							</div>
 						</div>
 					</div>
@@ -302,8 +304,8 @@
 									</a>
 								</li>
 								<li><a class="underline" href="/shop">Miedziana biżuteria</a></li>
-								<li><a class="underline" href="/shop">Manufaktura</a></li>
-								<li><a class="underline" href="/shop">Wiedza o miedzi</a></li>
+								<li><a class="underline" href="/manufaktura">Manufaktura</a></li>
+								<li><a class="underline" href="/wiedza">Wiedza o miedzi</a></li>
 								<li><a class="underline" href="/shop">Kontakt</a></li>
 							</ul>
 							<div
@@ -382,9 +384,9 @@
 							<ul
 								class="tt-miedziane-nowo-ci-bransoletki-pier-cionki-zawieszki-prezenty-iwi-cej-wi-teczne-promocje">
 								<li><a class="underline" href="/shop">Miedziane NOWOŚCI</a></li>
-								<li><a class="underline" href="/shop">Bransoletki</a></li>
-								<li><a class="underline" href="/shop">Pierścionki</a></li>
-								<li><a class="underline" href="/shop">Zawieszki</a></li>
+								<li><a class="underline" href="/kategoria-produktu/bransoletki/">Bransoletki</a></li>
+								<li><a class="underline" href="/kategoria-produktu/pierscionki/">Pierścionki</a></li>
+								<li><a class="underline" href="/kategoria-produktu/naszyjniki/">Zawieszki</a></li>
 								<li><a class="underline" href="/shop">Prezenty i więcej</a></li>
 								<li><a class="underline" href="/shop">Świąteczne promocje</a></li>
 							</ul>

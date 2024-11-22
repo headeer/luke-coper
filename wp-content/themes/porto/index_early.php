@@ -57,9 +57,9 @@ get_header();
 				<div class="tt-frame-17tkobiece-mskie-unisex-tframe">
 					<div class="t-frame-2">
 						<div class="frame-5 underline">
-							<a class="zobacz-co-dla-siebie" href="#">
+							<button class="zobacz-co-dla-siebie" id="cos-dla-siebie">
 								Zobacz coś dla siebie
-							</a>
+							</button>
 						</div>
 					</div>
 					<div class="t-kobiece-mskie-unisex">
@@ -70,7 +70,7 @@ get_header();
 						<p>unisex</p>
 					</div>
 					<div class="t-frame-3">
-						<button class="frame-6">
+						<a class="frame-6" href="/shop">
 							<div class="ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 								<div class="tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 									<div class="t-ju-od">
@@ -83,11 +83,11 @@ get_header();
 									</div>
 								</div>
 							</div>
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
-			<section
+			<section id="nature"
 				class="nature_section tt-lc_picto_nature-1tpi-kno-znatury-tmiedziana-bi-uteria-to-wi-cej-ni-ozdoba-to-wyra-enie-blisko-ci-znatur-iczerpanie-kwantowej-energii-kt-ra-jest-wsz-dzie-wok-ciebie-tlc_picto_flowature-1tkwantowe-flow-up-tnoszenie-miedzi-wspiera-naturalny-przep-yw-energii-iharmonizuje-rytm-cia-awzmacniaj-ctwoje-wewn-trzne-flow-organizm-zyskuje-balans-fizyczny-ienergetyczny-ttlc_picto_harmony-1tharmonijna-energia-miedziana-bi-uteria-to-swego-rodzaju-klucz-do-spokoju-ducha-irwnowagi-poczuj-jak-energia-przep-ywa-przez-ciebie-wprowadzaj-charmoni-wka-dej-chwili">
 				<!-- Nature Section -->
 				<div
@@ -209,7 +209,7 @@ get_header();
 					<div class="bi-uteria-kwantowa-polecana-dla-ciebie">
 						Biżuteria kwantowa polecana dla Ciebie
 					</div>
-					<div class="frame-31 underline">
+					<a href="/kategoria-produktu/bransoletki/" class="frame-31 underline">
 						<div
 							class="ttt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<button
@@ -224,15 +224,15 @@ get_header();
 								</div>
 							</button>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="t-3kategorie">
 				<div class="kategorie">
 					<div
 						class="ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-						<div class="slider-container">
-							<div class="swiper new_products"><?php
+						<div class="slider-container splide splide4">
+							<div class="swiper new_products splide__track"><?php
 							include get_template_directory() . '/products-arrow-slider.php';
 							?>
 							</div>
@@ -309,7 +309,7 @@ get_header();
 						<div>sezon 2024/25</div>
 					</div>
 					<div class="frame-45 underline">
-						<div
+						<a href="/shop"
 							class="ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<button
 								class="tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
@@ -322,15 +322,15 @@ get_header();
 										class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-3"></img>
 								</div>
 								</bytt>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="kategorie-1">
 				<div
 					class="ttt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-					<div class="slider-container">
-						<div class="swiper new_products2"><?php
+					<div class="splide splide3">
+						<div class="splide__track new_products2"><?php
 						include get_template_directory() . '/hero_products_black.php';
 						?>
 						</div>
@@ -341,7 +341,7 @@ get_header();
 				<div class="background-image"></div>
 				<!-- New inner div for background image -->
 				<div class="miedziane-pier-cionki">miedziane Pierścionki</div>
-				<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
+				<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz btn_green">
 					<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 						<div class="t-ju-od-1">
 							<div class="ju-od-1">już od</div>
@@ -396,7 +396,7 @@ get_header();
 							</div>
 						</div>
 						<div class="t-frame-10">
-							<div class="frame-57 underline">
+							<a class="frame-57 underline" href="/kategoria-produktu/pierscionki">
 								<div
 									class="ttt-wszystkie-pier-cionki-miedziane-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 									<button
@@ -413,7 +413,7 @@ get_header();
 										</div>
 									</button>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 					<div class="t-hero">
@@ -421,9 +421,16 @@ get_header();
 						// Custom query to fetch the latest products
 						$args = array(
 							'post_type' => 'product',
-							'posts_per_page' => 5, // Number of products to display
+							'posts_per_page' => 4, // Number of products to display
 							'orderby' => 'date',
-							'order' => 'DESC'
+							'order' => 'DESC',
+							'tax_query' => array(
+								array(
+									'taxonomy' => 'product_cat',
+									'field' => 'name',
+									'terms' => 'Pierścionki'
+								)
+							)
 						);
 						$loop = new WP_Query($args);
 
@@ -438,7 +445,8 @@ get_header();
 							$product_title = $product->get_title();
 							$product_link = get_permalink($product_id);
 							?>
-							<div class="hero-container hero-<?php echo $loop->current_post + 7; ?>"
+							<a href="<?php echo esc_url($product_link); ?>"
+								class="hero-container hero-<?php echo $loop->current_post + 7; ?>"
 								style="background-image: url('<?php echo $product_image[0]; ?>');">
 								<div class="product-image-container">
 									<div class="product-image"
@@ -456,7 +464,7 @@ get_header();
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/like_after_click.svg"
 										class="icon-active" />
 								</div>
-								<a href="<?php echo esc_url($product_link); ?>" class="product-link">
+								<div class="product-link">
 									<button class="pier-cionek-wska-obr-czka hover">
 										<p><?php echo $product_title; ?></p>
 										<div class="t-frame-11">
@@ -465,18 +473,18 @@ get_header();
 											</div>
 										</div>
 									</button>
-								</a>
-							</div>
+								</div>
+							</a>
 						<?php endwhile; ?>
 						<?php wp_reset_query(); ?>
 					</div>
 				</div>
 			</div>
 			<div class="t-hero-hero-hero-1">
-				<div class="hero-12">
+				<a href="/kategoria-produktu/pierscionki/" class="hero-12">
 					<div class="background-image"></div>
 					<div class="pier-cionki-unisex">pierścionki unisex</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
 							<div class="t-ju-od-2">
 								<div class="ju-od-2">już od</div>
@@ -488,11 +496,11 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-13">
+				</a>
+				<a href="/kategoria-produktu/prezenty-i-wiecej" class="hero-13">
 					<div class="background-image"></div>
 					<div class="prezenty-iwi-cej-1">prezenty i więcej</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
 							<div class="t-ju-od-3">
 								<div class="ju-od-3">już od</div>
@@ -504,8 +512,8 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-14">
+				</a>
+				<a href="/shop" class="hero-14">
 					<div class="background-image"></div>
 					<div class="wi-teczne-promocje-1">
 						<span>
@@ -513,7 +521,7 @@ get_header();
 							<p class="para-78">promocje</p>
 						</span>
 					</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3">
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3">
 							<div class="t-ju-od-4">
 								<div class="ju-od-4">już od</div>
@@ -525,7 +533,7 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="frame-68">
 				<div class="tt-polecane-prezenty-iwi-cej-frame">
@@ -537,7 +545,7 @@ get_header();
 					<div class="frame-69">
 						<div
 							class="ttt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-							<button
+							<a href="/kategoria-produktu/prezenty-i-wiecej"
 								class="tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 								<div class="t-zobacz-pomys-yna">
 									<div class="zobacz-pomys-yna">zobacz pomysły na</div>
@@ -547,7 +555,7 @@ get_header();
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz1.svg"
 										class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-9"></img>
 								</div>
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -555,8 +563,8 @@ get_header();
 			<div class="kategorie-3">
 				<div
 					class="ttt-frame-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-simplyone-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-					<div class="slider-container">
-						<div class="swiper new_products3"><?php
+					<div class="slider-container splide splide2">
+						<div class="swiper splide__track  new_products3"><?php
 						include get_template_directory() . '/gifts_and_more.php';
 						?>
 						</div>
@@ -591,7 +599,7 @@ get_header();
 			</div>
 			<div class="tt-frame-1">
 				<div class="t-frame-18">
-					<div class="frame-81 underline">
+					<a href="/wiedza" target="_blank" class="frame-81 underline">
 						<div class="ttt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<button
 								class="tt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
@@ -605,88 +613,19 @@ get_header();
 								</div>
 							</button>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
-			<div class="t-hero-hero-hero-2">
-				<div class="hero-15">
-					<div class="background-image"></div>
-					<div class="mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys">
-						<p>
-							Miedź i jej wpływ na energię życiową – jak ona działa na
-							ciało i umysł?
-						</p>
-					</div>
-					<div
-						class="t-czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn">
-						<div
-							class="czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn">
-							<p>
-								Czy wiesz, że miedź od wieków była używana do wzmacniania
-								energii życiowej? Dowiedz się, jak noszenie miedzianej
-								biżuterii może wspierać Twoje zdrowie, witalność i
-								równowagę wewnętrzną.
-							</p>
-						</div>
-					</div>
-					<div class="frame-83">
-						<button class="czytaj-wi-cej-1">czytaj więcej</button>
-					</div>
-				</div>
-				<div class="hero-16">
-					<div class="background-image"></div>
-					<div class="miedziana-bi-uteria-wstaro-ytnych-kulturach-symbolika-iukryta-moc">
-						<p>
-							Miedziana biżuteria w starożytnych kulturach – symbolika i
-							ukryta moc
-						</p>
-					</div>
-					<div
-						class="t-odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-ozdob-ale-tak-ejako-amulet-opot-nych-waciwo-ciach-poznaj-fascynuj-chistori-iznaczenie-tego-wyj-tkowego-metalu">
-						<div
-							class="odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-ozdob-ale-tak-ejako-amulet-opot-nych-waciwo-ciach-poznaj-fascynuj-chistori-iznaczenie-tego-wyj-tkowego-metalu">
-							<p>
-								Odkryj, jak starożytne cywilizacje wykorzystywały miedź
-								nie tylko jako ozdobę, ale także jako amulet o potężnych
-								właściwościach. Poznaj fascynującą historię i znaczenie
-								tego wyjątkowego metalu.
-							</p>
-						</div>
-					</div>
-					<div class="frame-85">
-						<button class="czytaj-wi-cej-1">czytaj więcej</button>
-					</div>
-				</div>
-				<div class="hero-17">
-					<div class="background-image"></div>
-					<div class="holistyczne-waciwo-ci-miedzi-jak-wp-ywa-na-twoje-samopoczucie">
-						<p>
-							Holistyczne właściwości miedzi – jak wpływa na Twoje
-							samopoczucie?
-						</p>
-					</div>
-					<div
-						class="t-mied-sprawia-wiele-holistycznych-korzy-ci-dla-cia-aiumys-usprawd-jak-regularne-noszenie-miedzianych-pier-cionk-wmo-epoprawi-twoje-samopoczucie-ipom-cwodzyskaniu-wewn-trznej-harmonii">
-						<div
-							class="mied-sprawia-wiele-holistycznych-korzy-ci-dla-cia-aiumys-usprawd-jak-regularne-noszenie-miedzianych-pier-cionk-wmo-epoprawi-twoje-samopoczucie-ipom-cwodzyskaniu-wewn-trznej-harmonii">
-							<p>
-								Miedź sprawia wiele holistycznych korzyści dla ciała i
-								umysłu. Sprawdź, jak regularne noszenie miedzianych
-								pierścionków może poprawić Twoje samopoczucie i pomóc w
-								odzyskaniu wewnętrznej harmonii.
-							</p>
-						</div>
-					</div>
-					<div class="frame-87">
-						<button class="czytaj-wi-cej-1">czytaj więcej</button>
-					</div>
-				</div>
-			</div>
+			<?php
+			include get_template_directory() . '/blogs_desktop.php';
+			?>
+
 			<div class="dost-pne-kategorie">dostępne kategorie</div>
 			<div class="t-hero-hero-hero-hero-hero-hero">
-				<div class="hero-18">
-					<div class="nowo-ci-1">NOWOŚCI</div>
-					<div class="ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
+				<a href="/shop" class="hero-18">
+					<div class="background-image"></div>
+					<div class="nowo-ci-1 text_content">NOWOŚCI</div>
+					<div class="ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz btn_green">
 						<button class="tt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<div class="t-ju-od-5">
 								<div class="ju-od-5">już od</div>
@@ -698,10 +637,11 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-19">
-					<div class="bransoletki-1">Bransoletki</div>
-					<div class="ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
+				</a>
+				<a href="/kategoria-produktu/bransoletki/" class="hero-19">
+					<div class="background-image"></div>
+					<div class="bransoletki-1 text_content">Bransoletki</div>
+					<div class="ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 btn_green">
 						<button class="tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
 							<div class="t-ju-od-6">
 								<div class="ju-od-6">już od</div>
@@ -713,10 +653,11 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-20">
-					<div class="zawieszki-1">Zawieszki</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4">
+				</a>
+				<a href="/kategoria-produktu/naszyjniki/" class="hero-20">
+					<div class="background-image"></div>
+					<div class="zawieszki-1 text_content">Zawieszki</div>
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4">
 							<div class="t-ju-od-7">
 								<div class="ju-od-7">już od</div>
@@ -728,10 +669,11 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-21">
-					<div class="pier-cionki-1">Pierścionki</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5">
+				</a>
+				<a href="/kategoria-produktu/pierscionki/" class="hero-21">
+					<div class="background-image"></div>
+					<div class="pier-cionki-1 text_content">Pierścionki</div>
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5">
 							<div class="t-ju-od-8">
 								<div class="ju-od-8">już od</div>
@@ -743,10 +685,11 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-22">
-					<div class="prezenty-iwi-cej-4">Prezenty i więcej</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6">
+				</a>
+				<a href="/shop" class="hero-22">
+					<div class="background-image"></div>
+					<div class="prezenty-iwi-cej-4 text_content">Prezenty i więcej</div>
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6">
 							<div class="t-ju-od-9">
 								<div class="ju-od-9">już od</div>
@@ -758,15 +701,16 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
-				<div class="hero-23">
-					<div class="wi-teczne-promocje-2">
+				</a>
+				<a href="/shop" class="hero-23">
+					<div class="background-image"></div>
+					<div class="wi-teczne-promocje-2 text_content">
 						<span>
 							<p class="para-97">Świąteczne</p>
 							<p class="para-98">promocje</p>
 						</span>
 					</div>
-					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7">
+					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7">
 							<div class="t-ju-od-10">
 								<div class="ju-od-10">już od</div>
@@ -778,7 +722,7 @@ get_header();
 							</div>
 						</button>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="t-faq-pytania-iodpowiedzi">
 				<div>FAQ</div>
@@ -1022,7 +966,7 @@ get_header();
 						<div>miedziana biżuteria energetyczna</div>
 					</div>
 					<div class="frame-102 underline">
-						<div
+						<a href="/shop"
 							class="ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
 							<button
 								class="tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
@@ -1035,15 +979,15 @@ get_header();
 										class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-17"></img>
 								</div>
 							</button>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="kategorie-4">
 				<div
 					class="ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
-					<div class="slider-container">
-						<div class="swiper new_products5"><?php
+					<div class="slider-container splide splide5">
+						<div class="swiper new_products5 splide__track"><?php
 						include get_template_directory() . '/products-arrow-slider.php';
 						?>
 						</div>
@@ -1213,15 +1157,14 @@ get_header();
 							</span>
 						</div>
 						<div class="mobile_t-arrow_right_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-							<object
-								data="<?php echo get_template_directory_uri(); ?>/assets/Arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-								class="mobile_arrow_right_alt_24dp_5f6368_fill0_wght-400_grad0_opsz"></object>
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
+								class="mobile_arrow_right_alt_24dp_5f6368_fill0_wght-400_grad0_opsz" />
 						</div>
 					</div>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/hero-1.jpeg" loading="lazy"
 						class="mobile_hero-1" />
 				</div>
-				<div class="swiper default_products">
+				<div class="swiper default_products" id="products">
 					<?php
 					include get_template_directory() . '/product-basic-display.php';
 					?>
@@ -1264,7 +1207,7 @@ get_header();
 
 				<div class="mobile_tt-frame">
 					<div class="mobile_t-frame-4">
-						<a href="/bransoletki" class="mobile_frame-25">
+						<a href="/kategoria-produktu/bransoletki/" class="mobile_frame-25">
 							<div
 								class="mobile_ttt-zobacz-wszystkie-bransoletki-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 								<div
@@ -1437,7 +1380,7 @@ get_header();
 
 						</div>
 						<div class="mobile_t-frame-6">
-							<div class="mobile_frame-43">
+							<a href="/kategoria-produktu/pierscionki" class="mobile_frame-43">
 								<div
 									class="mobile_ttt-wszystkie-pier-cionki-miedziane-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 									<div
@@ -1455,11 +1398,11 @@ get_header();
 										</div>
 									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
-				<div class="mobile_t-hero">
+				<a href="/kategoria-produktu/pierscionki/" class="mobile_t-hero">
 					<div class="mobile_hero-8">
 						<div class="mobile_pier-cionki-unisex">pierścionki unisex</div>
 						<div class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
@@ -1476,8 +1419,8 @@ get_header();
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="mobile_t-hero-1">
+				</a>
+				<a href="/kategoria-produktu/prezenty-i-wiecej" class="mobile_t-hero-1">
 					<div class="mobile_hero-9">
 						<div class="mobile_prezenty-iwi-cej">prezenty i więcej</div>
 						<div class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
@@ -1494,8 +1437,8 @@ get_header();
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="mobile_t-hero-2">
+				</a>
+				<a href="/shop" class="mobile_t-hero-2">
 					<div class="mobile_hero-10">
 						<div class="mobile_wi-teczne-promocje">
 							<span>
@@ -1517,7 +1460,7 @@ get_header();
 							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 				<div class="mobile_frame-44">
 					<div>Polecane</div>
 					<div class="mobile_t-prezenty-iwi-cej">
@@ -1531,7 +1474,7 @@ get_header();
 					?>
 					</div>
 					<div class="mobile_frame-52">
-						<div
+						<a href="/shop"
 							class="mobile_ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
 							<div
 								class="mobile_tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
@@ -1547,7 +1490,7 @@ get_header();
 										class="mobile_arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-9"></object>
 								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 				<div class="mobile_tt-wiedza-dedykowana">
@@ -1572,44 +1515,13 @@ get_header();
 						zrozumieć, jak działa na naszą świadomość i harmonię wewnętrzną.
 					</p>
 				</div>
-				<div class="mobile_t-3kategorie">
-					<div class="mobile_wrapper-9">
-						<div class="mobile_kategorie-1">
-							<div class="mobile_t-hero-frame">
-								<div class="mobile_hero-11">
-									<object data=" <?php echo get_template_directory_uri(); ?>/assets/block14.svg"
-										class="mobile_frame-53"></object>
-									<div class="mobile_mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys">
-										<p>
-											Miedź i jej wpływ na energię życiową – jak ona działa
-											na ciało i umysł?
-										</p>
-									</div>
-									<div
-										class="mobile_t-czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn">
-										<div
-											class="mobile_czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn">
-											<p>
-												Czy wiesz, że miedź od wieków była używana do
-												wzmacniania energii życiowej? Dowiedz się, jak
-												noszenie miedzianej biżuterii może wspierać Twoje
-												zdrowie, witalność i równowagę wewnętrzną.
-											</p>
-										</div>
-									</div>
-									<div class="mobile_frame-54">
-										<div class="mobile_czytaj-wi-cej">czytaj więcej</div>
-									</div>
-								</div>
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/block15.svg"
-									class="mobile_frame-55"></object>
-							</div>
-						</div>
-					</div>
-				</div>
+				<?php
+				include get_template_directory() . '/blogs_mobile.php';
+				?>
+
 				<div class="mobile_t-frame-7">
 					<div class="mobile_frame-56">
-						<div
+						<a href="/wiedza" target="_blank"
 							class="mobile_ttt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<div
 								class="mobile_tt-czytaj-wi-cej-wiedza-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
@@ -1623,7 +1535,7 @@ get_header();
 										class="mobile_arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-10"></object>
 								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 				<div class="mobile_t-frame-8">
@@ -1909,7 +1821,7 @@ get_header();
 					include get_template_directory() . '/products-arrow-slider.php';
 					?>
 					</div>
-					<a class="mobile_frame-81" href="#">
+					<a class="mobile_frame-81" href="/shop">
 						<div
 							class="mobile_ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
 							<div
@@ -1938,6 +1850,9 @@ get_header();
 </div>
 <input type="hidden" id="ajax-url" value="<?php echo admin_url('admin-ajax.php'); ?>">
 <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/basic_slider.js"></script>
 <script>
@@ -1979,5 +1894,8 @@ get_header();
 			}
 		};
 		xhr.send(data);
+	});
+	document.getElementById('cos-dla-siebie').addEventListener('click', function () {
+		document.getElementById('nature').scrollIntoView({ behavior: 'smooth' });
 	});
 </script>

@@ -194,7 +194,7 @@ if ( ! function_exists( 'wpcbn_init' ) ) {
 
 					if ( $product && self::is_valid_product( $product ) ) {
 						$atts['id'] = $product_id = $product->get_id();
-						$btn_text   = apply_filters( 'wpcbn_btn_archive_text', self::localization( 'button_text', esc_html__( 'Buy now', 'wpc-buy-now-button' ) ), $atts );
+						$btn_text   = apply_filters( 'wpcbn_btn_archive_text', self::localization( 'button_text', esc_html__( 'Kup teraz', 'wpc-buy-now-button' ) ), $atts );
 						$btn_class  = apply_filters( 'wpcbn_btn_archive_class', 'wpcbn-btn wpcbn-btn-archive button product_type_simple add_to_cart_button', $atts );
 						$btn_href   = apply_filters( 'wpcbn_redirect', self::get_setting( 'redirect', 'checkout' ) ) === 'cart' ? wc_get_cart_url() : wc_get_checkout_url();
 						$output     .= sprintf( '<a href="%s?' . self::$param . '=%s" data-quantity="1" class="%s" data-product_id="%s" rel="nofollow">%s</a>', esc_url( $btn_href ), esc_attr( $product_id ), esc_attr( $btn_class ), esc_attr( $product_id ), esc_html( $btn_text ) );
@@ -218,7 +218,7 @@ if ( ! function_exists( 'wpcbn_init' ) ) {
 
 					if ( $product && self::is_valid_product( $product, 'single' ) ) {
 						$atts['id'] = $product_id = $product->get_id();
-						$btn_text   = apply_filters( 'wpcbn_btn_single_text', self::localization( 'button_text', esc_html__( 'Buy now', 'wpc-buy-now-button' ) ), $atts );
+						$btn_text   = apply_filters( 'wpcbn_btn_single_text', self::localization( 'button_text', esc_html__( 'Kup teraz', 'wpc-buy-now-button' ) ), $atts );
 						$btn_class  = apply_filters( 'wpcbn_btn_single_class', 'wpcbn-btn wpcbn-btn-single wpcbn-btn-' . $product->get_type() . ' single_add_to_cart_button button alt', $atts );
 						$output     .= sprintf( '<button type="submit" name="' . esc_attr( self::$param ) . '" value="%d" class="%s" data-product_id="%s">%s</button>', esc_attr( $product_id ), esc_attr( $btn_class ), esc_attr( $product_id ), esc_html( $btn_text ) );
 					}
@@ -518,7 +518,7 @@ if ( ! function_exists( 'wpcbn_init' ) ) {
                                             <th><?php esc_html_e( 'Button text', 'wpc-buy-now-button' ); ?></th>
                                             <td>
                                                 <label>
-                                                    <input type="text" class="regular-text" name="wpcbn_localization[button_text]" value="<?php echo esc_attr( self::localization( 'button_text' ) ); ?>" placeholder="<?php esc_attr_e( 'Buy now', 'wpc-buy-now-button' ); ?>"/>
+                                                    <input type="text" class="regular-text" name="wpcbn_localization[button_text]" value="<?php echo esc_attr( self::localization( 'button_text' ) ); ?>" placeholder="<?php esc_attr_e( 'Kup teraz', 'wpc-buy-now-button' ); ?>"/>
                                                 </label>
                                             </td>
                                         </tr>

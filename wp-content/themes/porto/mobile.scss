@@ -5,6 +5,9 @@
   body .desktop_app {
     display: none;
   }
+  .page-wrapper .footer-wrapper {
+    display: none;
+  }
 }
 html {
   margin-top: 0 !important;
@@ -13,8 +16,11 @@ html {
   body
     .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best {
     .product-link {
-      color: white;
+      color: #f4f3f3;
     }
+  }
+  .splide {
+    overflow: hidden;
   }
   .footer-wrapper {
     display: none;
@@ -347,7 +353,7 @@ body .mobile_nav_container {
   .mobile_frame-83,
   .mobile_dzie-n_dobry3 {
     border-style: solid;
-    border-color: lightsalmon;
+    border-color: #f49974;
   }
 
   .common-75,
@@ -1035,7 +1041,7 @@ body .mobile_nav_container {
   .mobile_frame-28,
   .mobile_frame-29 {
     display: flex;
-    background-color: darkslategray;
+    background-color: #224b33;
     color: whitesmoke;
   }
 
@@ -1342,11 +1348,11 @@ body .mobile_nav_container {
   }
 
   .mobile_component-1 {
-    color: white;
+    color: #f4f3f3;
   }
 
   .mobile_component-2 {
-    color: white;
+    color: #f4f3f3;
   }
 
   .mobile_ttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-trectangle {
@@ -1563,12 +1569,41 @@ body .mobile_nav_container {
   .mobile_bar_categories {
     overflow: clip;
     align-items: center;
+    .swiper-slide {
+      white-space: nowrap;
+    }
     padding-left: get-fmvw(11px);
     padding-top: get-fmvw(3px);
     flex-shrink: 0;
   }
   .mobile_bar_categories {
     overflow: visible !important;
+  }
+  .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories {
+    max-width: 190vw;
+  }
+  .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide {
+    &:nth-child(1) {
+      max-width: 42vw;
+    }
+    &:nth-child(2) {
+      max-width: 27vw;
+    }
+    &:nth-child(3) {
+      max-width: 25vw;
+    }
+    &:nth-child(4) {
+      max-width: 23vw;
+    }
+    &:nth-child(5) {
+      max-width: 19vw;
+    }
+    &:nth-child(6) {
+      max-width: 21vw;
+    }
+    &:nth-child(7) {
+      max-width: 22vw;
+    }
   }
   .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki {
     flex-shrink: 0;
@@ -1742,6 +1777,13 @@ body .mobile_nav_container {
   .mobile_odkryj-moc-bi-uterii-kwantowej {
     align-self: stretch;
     font-size: get-fmvw(15px);
+    font-weight: 400;
+    line-height: get-fmvw(22px);
+    text-transform: none;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
   }
 
   .mobile_btn {
@@ -1771,6 +1813,8 @@ body .mobile_nav_container {
     line-height: get-fmvw(12px);
     text-align: center;
     flex-shrink: 0;
+    position: absolute;
+    right: 3vw;
   }
 
   .mobile_hand-crafted {
@@ -1885,7 +1929,7 @@ body .mobile_nav_container {
 
   .mobile_dzie-n_dobry1 {
     align-items: flex-end;
-    background-color: darkslategray;
+    background-color: #224b33;
     padding-bottom: get-fmvw(4px);
     padding-top: get-fmvw(3px);
   }
@@ -2346,7 +2390,7 @@ body .mobile_nav_container {
 
   .mobile_frame-26 {
     row-gap: get-fmvw(27px);
-    background-color: lightsalmon;
+    background-color: #f49974;
     padding-top: get-fmvw(33px);
     padding-bottom: get-fmvw(32px);
     margin-top: get-fmvw(21px);
@@ -2667,7 +2711,7 @@ body .mobile_nav_container {
 
   .mobile_pi-kno-pochodzi-znatury {
     width: get-fmvw(268px);
-    color: darkslategray;
+    color: #224b33;
     flex-shrink: 0;
   }
 
@@ -3895,7 +3939,7 @@ body .mobile_nav_container {
   }
 
   .mobile_chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci {
-    color: lightsalmon;
+    color: #f49974;
     padding-left: get-fmvw(11px);
     padding-right: get-fmvw(43px);
     align-self: stretch;
@@ -3921,7 +3965,7 @@ body .mobile_nav_container {
     padding-left: get-fmvw(20px);
     padding-right: get-fmvw(20px);
     padding-top: get-fmvw(20px);
-    color: lightsalmon;
+    color: #f49974;
     text-transform: uppercase;
     flex-shrink: 0;
   }
@@ -4159,7 +4203,7 @@ body .mobile_nav_container {
   }
 
   .mobile_zapisz-do-newslettera {
-    color: white;
+    color: #f4f3f3;
     font-weight: 700;
   }
 
@@ -4812,7 +4856,7 @@ body .mobile_nav_container {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: white;
+    color: #f4f3f3;
   }
   .swiper-slide:hover .hover_container > div span p {
     color: #231f20;
@@ -4826,7 +4870,7 @@ body .mobile_nav_container {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: white;
+    color: #f4f3f3;
   }
   .swiper-slide .wishlist img {
     width: get-fmvw(40px);
@@ -5066,7 +5110,7 @@ body .mobile_nav_container {
   }
   .herooo {
     .product-link {
-      color: white;
+      color: #f4f3f3;
     }
   }
   .slider_mobile_2 {
@@ -5093,7 +5137,7 @@ body .mobile_nav_container {
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         background: transparent;
-        color: white;
+        color: #f4f3f3;
         border: none;
       }
       .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny {
@@ -5198,7 +5242,7 @@ body {
       height: get-fmvw(24px);
     }
     .product-link {
-      color: white;
+      color: #f4f3f3;
       .z-14 {
         border-bottom: 1px solid white;
       }
@@ -5206,10 +5250,17 @@ body {
   }
   .mobile_zobacz-wszystkie-1,
   .mobile_tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
-    color: white;
+    color: #f4f3f3;
   }
   .mobile_hero-12 {
     width: 100% !important;
+  }
+  .new_products2 {
+    .swiper-wrapper {
+    }
+    .swiper-slide {
+      min-width: 300px;
+    }
   }
   .new_products,
   .new_products2,
@@ -5223,7 +5274,7 @@ body {
   .slider_mobile_8 {
     .swiper-wrapper {
       position: relative;
-      > :last-child {
+      > :nth-child(5) {
         max-width: 16.2vw;
         margin-left: 30px;
         opacity: 0.33;
@@ -5245,7 +5296,7 @@ body {
   .fixed-arrow {
     position: absolute;
     top: 38%;
-    right: 17vw;
+    right: 18vw;
     transform: translateY(-50%);
     z-index: 10;
     cursor: pointer;
@@ -5336,9 +5387,16 @@ body {
     padding: 0;
   }
   &:not(.home) .row.main-content-wrap {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
+    .main-content {
+      #content {
+        margin: 0 auto;
+        max-width: 1440px;
+      }
+    }
   }
+
   &.home {
     .page-wrapper #main .footer-wrapper {
       display: none;
@@ -5441,7 +5499,7 @@ body #mobile_app {
       font-size: get-fmvw(18px);
       font-weight: 700;
       line-height: get-fmvw(27px);
-      color: white;
+      color: #f4f3f3;
       letter-spacing: 0.06em;
       text-align: left;
       text-underline-position: from-font;
@@ -5480,7 +5538,7 @@ body #mobile_app {
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         background: transparent;
-        color: white;
+        color: #f4f3f3;
         border: none;
       }
     }

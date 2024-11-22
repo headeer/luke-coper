@@ -1,5 +1,179 @@
 @import url("https://fonts.googleapis.com/css2?family=Helvetica Neue LT Pro:wght@400;700");
 @import url("https://api.fontshare.com/css?f[]=helvetica neue lt pro@400,700&display=swap");
+body #geodir-wrapper [type=button],
+body #geodir-wrapper [type=submit],
+body .button,
+body .geodir-search [type=button],
+body .geodir-search [type=submit],
+body [type=submit],
+body input.submit,
+body .cart-popup .button.checkout,
+body html .btn-v-dark {
+  background-color: #224b33;
+}
+body #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,
+body #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton,
+body #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,
+body #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton {
+  border-radius: 0;
+}
+body #geodir-wrapper [type=button]:hover,
+body #geodir-wrapper [type=submit]:hover,
+body .button:hover,
+body .geodir-search [type=button]:hover,
+body .geodir-search [type=submit]:hover,
+body [type=submit]:hover,
+body input.submit:hover,
+body .cart-popup .button.checkout:hover,
+body html .btn-v-dark:hover {
+  background-color: #234431;
+}
+body:not(.home) .page-wrapper #main .porto-block {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+body:not(.home) #main .row.main-content-wrap {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+body .blog_page_content {
+  margin: 0 auto;
+}
+body .post-image.single {
+  display: none;
+}
+body .wp-block-cover__inner-container h1 {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: white;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+@media screen and (max-width: 768px) {
+  body .wp-block-cover__inner-container h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+body.page-id-4321 main,
+body .porto-u-main-heading main {
+  margin: 20px auto;
+  max-width: 750px;
+}
+@media screen and (max-width: 768px) {
+  body.page-id-4321 main, body.page-template-blog_page-php main {
+    padding: 12px;
+  }
+}
+body #cos-dla-siebie {
+  font-size: get-vw(13px);
+  font-weight: 700;
+  line-height: get-vw(22px);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mini-cart .minicart-icon-default {
+  color: #4c4557;
+}
+body .summary-before .labels .onnew,
+body .product-image .labels .onnew {
+  background: #8d61c7;
+}
+body .product-image .labels .onhot,
+body .summary-before .labels .onhot {
+  background: #d13239;
+}
+body .single-add-to-cart .type-product .view-cart-btn,
+body .single-product .product-summary-wrap .view-cart-btn {
+  display: none;
+}
+body .woocommerce-message {
+  margin-bottom: 30px;
+  background: #fbf7ed !important;
+  padding: 20px;
+}
+body .dokan-message:before,
+body .woocommerce-message:before {
+  color: #231f20;
+}
+body .product-summary-wrap > form > .single_add_to_cart_button {
+  background: #f49974;
+}
+body .product-summary-wrap > form > .single_add_to_cart_button:hover {
+  background: rgba(244, 153, 116, 0.88) !important;
+}
+body.page-id-4340 .page-wrapper #content, body.page-id-4321 .page-wrapper #content, body.post-template-default .page-wrapper #main .porto-block {
+  max-width: 100%;
+}
+body.page-id-4340 .page-wrapper #content div p, body.page-id-4321 .page-wrapper #content div p, body.post-template-default .page-wrapper #main .porto-block div p {
+  color: black;
+}
+body.page-id-4340 .page-wrapper #content div p a, body.page-id-4321 .page-wrapper #content div p a, body.post-template-default .page-wrapper #main .porto-block div p a {
+  text-decoration: underline;
+}
+body.page-id-4340 .page-wrapper #content div p a:hover, body.page-id-4321 .page-wrapper #content div p a:hover, body.post-template-default .page-wrapper #main .porto-block div p a:hover {
+  color: #f49974;
+}
+body.page-id-4340 #main .row.main-content-wrap, body.page-id-4321 #main .row.main-content-wrap, body.page-template-blog_page-php #main .row.main-content-wrap, body.search #main .row.main-content-wrap, body.woocommerce-checkout #main .row.main-content-wrap, body.error404 #main .row.main-content-wrap {
+  max-width: 100%;
+}
+body #topcontrol {
+  background: rgba(34, 75, 51, 0.66) !important;
+}
+body #topcontrol i {
+  color: white !important;
+}
+body #topcontrol:hover {
+  background: #224b33 !important;
+}
+body .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  opacity: 0;
+}
+body.search #main .row.main-content-wrap #content, body.woocommerce-checkout #main .row.main-content-wrap #content {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+body .porto-blog-sidebar {
+  display: none;
+}
+body #mini-cart .cart-items,
+body .gutenberg-hb .compare-count,
+body .my-wishlist .wishlist-count,
+body header .compare-count {
+  background: #f49974;
+}
+body.page-id-4340 #main .row.main-content-wrap, body.page-id-4321 #main .row.main-content-wrap, body.page-template-blog_page-php #main .row.main-content-wrap, body.error404 #main .row.main-content-wrap, body.search #main .row.main-content-wrap, body.single-post #main .row.main-content-wrap, body.blog #main .row.main-content-wrap {
+  max-width: 100%;
+}
+body.page-id-4340 #main .row.main-content-wrap .main-content.col-lg-9, body.page-id-4321 #main .row.main-content-wrap .main-content.col-lg-9, body.page-template-blog_page-php #main .row.main-content-wrap .main-content.col-lg-9, body.error404 #main .row.main-content-wrap .main-content.col-lg-9, body.search #main .row.main-content-wrap .main-content.col-lg-9, body.single-post #main .row.main-content-wrap .main-content.col-lg-9, body.blog #main .row.main-content-wrap .main-content.col-lg-9 {
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+body.page-id-4340 #main .row.main-content-wrap .main-content.col-lg-12, body.page-id-4321 #main .row.main-content-wrap .main-content.col-lg-12, body.page-template-blog_page-php #main .row.main-content-wrap .main-content.col-lg-12, body.error404 #main .row.main-content-wrap .main-content.col-lg-12, body.search #main .row.main-content-wrap .main-content.col-lg-12, body.single-post #main .row.main-content-wrap .main-content.col-lg-12, body.blog #main .row.main-content-wrap .main-content.col-lg-12 {
+  padding: 0;
+}
+body .kategorie-1 .last-visible,
+body .splide5 .last-visible,
+body .splide4 .last-visible,
+body .splide2 .last-visible {
+  opacity: 0.33;
+  padding-left: 30px;
+}
+body .splide__slide {
+  transition: opacity 0.3s ease;
+  transition: padding 0.3s ease;
+}
+
 body ._ {
   /* Base styling for hero containers */
   /* Inner background image styling */
@@ -58,6 +232,10 @@ body ._ {
   /* Zoom effect on hover */
   /* Ensure content remains static on top */
   /* Initial styles for question and answer */
+}
+body ._ .splide__arrows.splide__arrows--ltr,
+body ._ .splide__sr {
+  display: none;
 }
 body ._ div {
   border: none;
@@ -165,7 +343,7 @@ body ._ .zapisz-do-newslettera {
 body ._ .czytaj-wi-cej-1,
 body ._ .czytaj-wi-cej-2,
 body ._ .czytaj-wi-cej-3 {
-  color: white;
+  color: #f4f3f3;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -237,6 +415,11 @@ body ._ .hero-default_best-2 {
   background-position: center;
   background-size: cover;
 }
+body ._ .hero-17 div,
+body ._ .hero-16 div,
+body ._ .hero-15 div {
+  color: #f4f3f3;
+}
 body ._ .common-75,
 body ._ .hero-2,
 body ._ .hero-17 {
@@ -276,7 +459,7 @@ body ._ .common-76 .background-image {
   background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-21.jpeg); /* Replace with the correct image */
   background-position: center;
   background-size: cover;
-  transition: transform 0.6s ease; /* Smooth zoom effect */
+  transition: transform 3.3s ease; /* Smooth zoom effect */
   z-index: 0; /* Behind the text */
 }
 body ._ .hero-6:hover .background-image,
@@ -344,7 +527,7 @@ body ._ .common-71,
 body ._ .frame-5,
 body ._ .frame-115 {
   border-style: solid;
-  border-color: lightsalmon;
+  border-color: #f49974;
 }
 body ._ .common-72,
 body ._ .frame-9,
@@ -711,7 +894,7 @@ body ._ .mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w {
 }
 body ._ .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
   text-transform: uppercase;
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .tt-zawieszka-miedziana-apertis-oculis-1 {
   opacity: 0.33;
@@ -845,6 +1028,10 @@ body ._ .t-hero-hero-hero-2,
 body ._ .t-hero-hero-hero-hero-hero-hero {
   justify-content: center;
   align-items: flex-end;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero a,
+body ._ .t-hero-hero-hero-hero-hero-hero button {
+  color: #f4f3f3;
 }
 body ._ .common-60,
 body ._ .t-frame-17frame-17tframe-17frame-17tframe-1,
@@ -984,7 +1171,7 @@ body ._ .frame-101 {
 body ._ .common-31,
 body ._ .pi-kno-1,
 body ._ .pochodzi-znatury {
-  color: darkslategray;
+  color: #224b33;
   font-size: 2.595vw;
   font-weight: 700;
 }
@@ -998,7 +1185,7 @@ body ._ .ukryj-dodatkowy-opis {
 body ._ .common-33,
 body ._ .component-1,
 body ._ .component-2 {
-  color: white;
+  color: #f4f3f3;
   font-size: 0.689vw;
 }
 body ._ .common-34,
@@ -1106,6 +1293,7 @@ body ._ .frame-22 {
   display: flex;
   background-color: #224b33;
   color: whitesmoke;
+  transition: 0.33s ease-in-out all;
 }
 body ._ .frame-22.active {
   background-color: #234431;
@@ -1227,7 +1415,7 @@ body ._ .dzie-n_dobry1,
 body ._ .frame-44,
 body ._ .kategorie-1 {
   display: flex;
-  background-color: darkslategray;
+  background-color: #224b33;
 }
 body ._ .common-18,
 body ._ .frame-68,
@@ -1264,7 +1452,7 @@ body ._ .common-20,
 body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
 body ._ .t-frame-17frame-17tframe-17frame-17tframe-1 {
   display: flex;
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .common-21,
 body ._ .ico_menu,
@@ -1594,7 +1782,7 @@ body ._ .tt-vector {
   flex-shrink: 0;
 }
 body ._ .t-vector {
-  width: 0.053vw;
+  width: 0.153vw;
   align-self: stretch;
   padding-top: 0.026vw;
   flex-shrink: 0;
@@ -1764,7 +1952,7 @@ body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
        column-gap: 0.318vw;
 }
 body ._ .t-ju-od {
-  padding-top: 0.053vw;
+  padding-top: 0.153vw;
 }
 body ._ .ju-od {
   font-size: 0.583vw;
@@ -2466,7 +2654,7 @@ body ._ .ttw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-am
   row-gap: 4.184vw;
   -moz-column-gap: 4.184vw;
        column-gap: 4.184vw;
-  background-color: lightsalmon;
+  background-color: #f49974;
   padding-left: 17.638vw;
 }
 body ._ .tw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame {
@@ -2892,9 +3080,10 @@ body ._ .t-hero {
 }
 body ._ .t-hero .hero-container {
   gap: 20px;
+  min-width: 9vw;
 }
 body ._ .t-hero .hero-container .hover {
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .t-hero .hero-container .hover .t-frame-11 {
   padding: 0;
@@ -3110,6 +3299,10 @@ body ._ .hero-13 {
   padding-bottom: 1.377vw;
   padding-top: 1.377vw;
   flex-shrink: 0;
+}
+body ._ .hero-12 .background-image {
+  background-size: cover;
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg);
 }
 body ._ .hero-13 .background-image {
   background-size: cover;
@@ -3355,6 +3548,8 @@ body ._ .frame-76 {
   border-bottom-width: 0.053vw;
   padding-bottom: 0.106vw;
   padding-top: 0.159vw;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 body ._ .z-28 {
   text-align: center;
@@ -3600,7 +3795,6 @@ body ._ .hero-18 {
 }
 body ._ .hero-18 .background-image {
   background-size: cover;
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg);
 }
 body ._ .nowo-ci-1 {
   align-self: stretch;
@@ -3636,7 +3830,6 @@ body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-11 {
   flex-shrink: 0;
 }
 body ._ .hero-19 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-19.jpeg);
   row-gap: 9.746vw;
   align-self: stretch;
   padding-bottom: 1.377vw;
@@ -3677,7 +3870,6 @@ body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-12 {
   flex-shrink: 0;
 }
 body ._ .hero-20 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-20.jpeg);
   row-gap: 9.746vw;
   align-self: stretch;
   padding-bottom: 1.377vw;
@@ -3758,7 +3950,6 @@ body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-14 {
   flex-shrink: 0;
 }
 body ._ .hero-22 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-22.jpeg);
   row-gap: 9.746vw;
   align-self: stretch;
   padding-bottom: 1.377vw;
@@ -3799,7 +3990,6 @@ body ._ .arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-15 {
   flex-shrink: 0;
 }
 body ._ .hero-23 {
-  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-23.jpeg);
   row-gap: 9.004vw;
   padding-bottom: 1.377vw;
   padding-top: 9.375vw;
@@ -4291,7 +4481,7 @@ body ._ .t-chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci-ttzap
 }
 body ._ .chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci {
   width: 16.208vw;
-  color: lightsalmon;
+  color: #f49974;
   flex-shrink: 0;
 }
 body ._ .tt-zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy-frame-95do-cz-ju-teraz-izyskaj-dost-pdo-limitowanych-promocji-kt-re-podkre-ltw-junikalny-styl {
@@ -4326,7 +4516,7 @@ body ._ .t-odbierz-zni-k {
   -moz-column-gap: 0.53vw;
        column-gap: 0.53vw;
   width: 9.428vw;
-  color: lightsalmon;
+  color: #f49974;
   text-transform: uppercase;
 }
 body ._ .odbierz-zni-k {
@@ -4466,7 +4656,7 @@ body ._ .frame-119 {
   height: 1.589vw;
 }
 body ._ .zapisz-do-newslettera {
-  color: white;
+  color: #f4f3f3;
   font-weight: 700;
 }
 body ._ .mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1 {
@@ -4797,7 +4987,7 @@ body ._ .arrow_upward_alt_24dp_5f6368_fill0_wght-400_grad0_opsz {
     flex-wrap: nowrap;
   }
   body ._ .t-frame-51ttbransoletka-miedziana-holistic-energy .product-link {
-    color: white;
+    color: #f4f3f3;
     display: flex;
     z-index: 5;
     flex-direction: column;
@@ -4832,7 +5022,7 @@ body ._ .arrow_upward_alt_24dp_5f6368_fill0_wght-400_grad0_opsz {
     border-bottom: 1px solid #231f20;
   }
   body ._ .hero-hover_best_content .product_link {
-    color: white;
+    color: #f4f3f3;
   }
   body ._ .t-frame-17frame-17tframe-17frame-17tframe-1 {
     flex-wrap: nowrap;
@@ -4972,7 +5162,7 @@ body ._ .text_top_bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .text_middle {
   position: absolute;
@@ -5231,6 +5421,51 @@ body ._ .t-hero-hero-hero-1 .hero-14 {
   position: relative;
   overflow: hidden;
 }
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg);
+  background-size: cover;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-19 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-19.jpeg);
+  background-size: cover;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-20 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-20.jpeg);
+  background-size: cover;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-21.jpeg);
+  background-size: cover;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-22 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-22.jpeg);
+  background-size: cover;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-23 .background-image {
+  background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-23.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18 .text_content,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18 .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-19 .text_content,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-19 .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-20 .text_content,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-20 .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21 .text_content,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21 .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-22 .text_content,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-22 .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-23 .text_content,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-23 .btn_green {
+  z-index: 1;
+}
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18 .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-19 .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-20 .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21 .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-22 .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-23 .background-image,
 body ._ .t-hero-hero-hero-1 .hero-12 .background-image,
 body ._ .t-hero-hero-hero-1 .hero-13 .background-image,
 body ._ .t-hero-hero-hero-1 .hero-14 .background-image {
@@ -5239,13 +5474,57 @@ body ._ .t-hero-hero-hero-1 .hero-14 .background-image {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: transform 0.6s ease; /* Smooth zoom effect */
+  transition: transform 3.3s ease; /* Smooth zoom effect */
   z-index: 0; /* Behind the text */
 }
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18:hover .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-19:hover .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-20:hover .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21:hover .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-22:hover .background-image,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-23:hover .background-image,
 body ._ .t-hero-hero-hero-1 .hero-12:hover .background-image,
 body ._ .t-hero-hero-hero-1 .hero-13:hover .background-image,
 body ._ .t-hero-hero-hero-1 .hero-14:hover .background-image {
   transform: scale(1.1); /* Zoom to 110% */
+}
+body ._ .hero-6 .btn_green,
+body ._ .hero .frame-6,
+body ._ .t-hero-hero-hero-hero-hero-hero .btn_green,
+body ._ .t-hero-hero-hero-1 .hero-12 .btn_green,
+body ._ .t-hero-hero-hero-1 .hero-13 .btn_green,
+body ._ .t-hero-hero-hero-1 .hero-14 .btn_green {
+  transition: 0.33s ease-in-out all;
+  background: rgba(34, 75, 51, 0.66);
+}
+body ._ .hero:hover .frame-6,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-18:hover .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-19:hover .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-20:hover .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-21:hover .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-22:hover .btn_green,
+body ._ .t-hero-hero-hero-hero-hero-hero .hero-23:hover .btn_green,
+body ._ .hero-6:hover .btn_green,
+body ._ .t-hero-hero-hero-1 .hero-12:hover .btn_green,
+body ._ .t-hero-hero-hero-1 .hero-13:hover .btn_green,
+body ._ .t-hero-hero-hero-1 .hero-14:hover .btn_green {
+  background: #224b33;
+}
+body ._ .menu-column h3 {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.583vw;
+  font-weight: 700;
+  line-height: 1.112vw;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #f4f3f3;
+}
+body ._ .dostawca.menu-column img {
+  height: 7vw;
 }
 body ._ .hero-14 {
   row-gap: 9.004vw;
@@ -5282,7 +5561,7 @@ body ._ .t-hero-hero-hero-2 .hero-17 .background-image {
   height: 100%;
   background-position: center;
   background-size: cover;
-  transition: transform 0.6s ease; /* Smooth zoom effect */
+  transition: transform 3.3s ease; /* Smooth zoom effect */
   z-index: 0; /* Behind the text */
 }
 body ._ .t-hero-hero-hero-2 .hero-15:hover .background-image,
@@ -5376,12 +5655,12 @@ body ._ h1 {
   font-weight: 700;
   text-transform: uppercase;
   text-align: left;
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .ju-od,
 body ._ .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
   font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
-  color: white;
+  color: #f4f3f3;
 }
 body ._ p {
   font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
@@ -5409,7 +5688,7 @@ body ._ .zobacz-co-dla-siebie {
   border-top: none;
   border-left: none;
   border-right: none;
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .frame-23 {
   border-left: none;
@@ -5441,22 +5720,43 @@ body ._ .hover_container div {
   font-weight: 700;
 }
 body ._ .t-hero-hero-hero .hover {
-  color: white;
+  color: #f4f3f3;
   font-weight: 700;
+}
+body ._ .t-hero-hero-hero-1 a,
+body ._ .t-hero-hero-hero-1 button {
+  color: #f4f3f3;
 }
 body ._ .frame-45,
 body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
   color: #231f20;
   font-weight: 700;
 }
+body ._ .new_products2 .fixed-arrow {
+  top: 35%;
+  right: 14.7vw;
+}
+body ._ .new_products3 .fixed-arrow {
+  top: 36%;
+  right: 16vw;
+}
 body ._ #read-more {
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .na-temat-miedzi-swokilka-wi-cej {
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .ukryj-dodatkowy-opis {
-  color: white;
+  color: #f4f3f3;
+}
+body ._ .ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+body ._ .menu-column ul {
+  display: flex;
+  flex-direction: column;
 }
 body ._ .miedziane-bransoletki,
 body ._ .bi-uteria-kwantowa-polecana-dla-ciebie {
@@ -5485,15 +5785,15 @@ body ._ .tt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-40
 }
 body ._ .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz div {
   font-weight: 700;
-  color: white;
+  color: #f4f3f3;
   text-transform: uppercase;
 }
 body ._ .t-poznaj-nowo-ci-sezon div,
 body ._ .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
-  color: white;
+  color: #f4f3f3;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -5514,7 +5814,7 @@ body ._ .ttt-lc_picto_nature-1pi-kno-pochodzi-znatury-tnoszenie-miedzianych-pier
 body ._ .t-hero-hero-hero-1 > div > div button,
 body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
   font-weight: 700;
-  color: white;
+  color: #f4f3f3;
   text-transform: uppercase;
 }
 body ._ .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
@@ -5547,7 +5847,7 @@ body ._ .t-odkryj-jak-staro-ytne-cywilizacje-wykorzystywa-ymied-nie-tylko-jako-o
   z-index: 1;
 }
 body ._ .t-hero-hero-hero-hero-hero-hero > div > div button {
-  color: white;
+  color: #f4f3f3;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -5570,7 +5870,7 @@ body ._ .frame-116 input {
   font-size: 0.689vw;
 }
 body ._ .t-frame-22 a {
-  color: white;
+  color: #f4f3f3;
 }
 body ._ .footer_class {
   font-size: 0.583vw;
@@ -5578,7 +5878,7 @@ body ._ .footer_class {
   line-height: 1.112vw;
   letter-spacing: 0.11em;
   text-align: left;
-  color: white;
+  color: #f4f3f3;
   text-transform: uppercase;
 }
 body ._ .t-frame-22 {
@@ -5676,13 +5976,29 @@ body .underline::after {
   background-color: #f49974;
   transition: transform 0.25s ease-out;
 }
-body .product-image,
-body .product-image-zoom {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: transform 3.33s ease;
+@media screen and (max-width: 768px) {
+  body .product-image-zoom {
+    display: none;
+  }
+  body .slider_mobile_8 .product-image-container {
+    display: none;
+  }
+  body .slider_mobile_4 .product-image-container,
+  body .slider_mobile_2 .product-image-container,
+  body .slider_mobile_1 .product-image-container,
+  body .slider_mobile_3 .product-image-container {
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .product-image,
+  body .product-image-zoom {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 3.33s ease;
+  }
 }
 body .product-image-zoom {
   position: absolute;
@@ -5693,12 +6009,68 @@ body .product-image-zoom {
 body .onsale {
   --porto-sale-color: #ffa07a;
 }
-body .wishlist,
-body .product-link {
-  z-index: 5;
-}
-body .swiper-slide:hover .product-image-zoom {
-  transform: scale(1.2);
+@media screen and (min-width: 768px) {
+  body ._ .new_products3 .frame-76 .z-28 {
+    border-bottom: 1px solid black;
+  }
+  body .swiper-slide {
+    margin-right: 0.583vw;
+  }
+  body .new_products5 .frame-76,
+  body .new_products5 .frame-52.swiper-content,
+  body ._ .new_products3 .frame-76,
+  body .new_products2 .frame-52.swiper-content {
+    border-bottom: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  body .new_products5 a.swiper-slide .product-image-container,
+  body .new_products3 a.swiper-slide .product-image-container,
+  body .new_products a.swiper-slide .product-image-container,
+  body .new_products2 a.swiper-slide .product-image-container {
+    position: relative;
+  }
+  body .product-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .new_products5 .swiper-slide,
+  body .new_products3 .swiper-slide,
+  body .new_products .swiper-slide,
+  body .new_products2 .swiper-slide {
+    min-height: 18vw;
+  }
+  body .new_products5 .swiper-slide .product-image-container,
+  body .new_products3 .swiper-slide .product-image-container,
+  body .new_products .swiper-slide .product-image-container,
+  body .new_products2 .swiper-slide .product-image-container {
+    min-height: 18vw;
+  }
+  body .new_products5 .swiper-slide .product-image-container img,
+  body .new_products3 .swiper-slide .product-image-container img,
+  body .new_products .swiper-slide .product-image-container img,
+  body .new_products2 .swiper-slide .product-image-container img {
+    min-height: 18vw;
+  }
+  body .new_products2 .product-link span p,
+  body .new_products2 .product-link span,
+  body .new_products2 .product-link .z-14 {
+    color: #f4f3f3;
+  }
+  body .tt-bransoletka-miedziana-holistic-energy.swiper-content,
+  body .frame-52.swiper-content {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  body .wishlist,
+  body .product-link {
+    z-index: 10;
+  }
+  body .swiper-slide:hover .product-image-zoom {
+    transform: scale(1.2);
+  }
 }
 body .underline:hover::after {
   transform: scaleX(1);
@@ -5713,9 +6085,11 @@ body .tt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-
   top: get-fvw(12px);
   right: get-fvw(12px);
 }
-body .swiper-slide.hero-hover_best,
-body .t-hero .hero-container {
-  min-height: 25vw;
+@media screen and (min-width: 768px) {
+  body .swiper-slide.hero-hover_best,
+  body .t-hero .hero-container {
+    min-height: 25vw;
+  }
 }
 
 .product-image-container {

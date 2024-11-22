@@ -1,6 +1,223 @@
 @import url("https://fonts.googleapis.com/css2?family=Helvetica Neue LT Pro:wght@400;700");
 @import url("https://api.fontshare.com/css?f[]=helvetica neue lt pro@400,700&display=swap");
+body {
+  #geodir-wrapper [type="button"],
+  #geodir-wrapper [type="submit"],
+  .button,
+  .geodir-search [type="button"],
+  .geodir-search [type="submit"],
+  [type="submit"],
+  input.submit,
+  .cart-popup .button.checkout,
+  html .btn-v-dark {
+    background-color: #224b33;
+  }
+  #moove_gdpr_cookie_info_bar
+    .moove-gdpr-info-bar-container
+    .moove-gdpr-info-bar-content
+    a.mgbutton,
+  #moove_gdpr_cookie_info_bar
+    .moove-gdpr-info-bar-container
+    .moove-gdpr-info-bar-content
+    button.mgbutton,
+  #moove_gdpr_cookie_modal
+    .moove-gdpr-modal-content
+    .moove-gdpr-modal-footer-content
+    .moove-gdpr-button-holder
+    a.mgbutton,
+  #moove_gdpr_cookie_modal
+    .moove-gdpr-modal-content
+    .moove-gdpr-modal-footer-content
+    .moove-gdpr-button-holder
+    button.mgbutton {
+    border-radius: 0;
+  }
+  #geodir-wrapper [type="button"]:hover,
+  #geodir-wrapper [type="submit"]:hover,
+  .button:hover,
+  .geodir-search [type="button"]:hover,
+  .geodir-search [type="submit"]:hover,
+  [type="submit"]:hover,
+  input.submit:hover,
+  .cart-popup .button.checkout:hover,
+  html .btn-v-dark:hover {
+    background-color: #234431;
+  }
+  &:not(.home) .page-wrapper #main .porto-block {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  &:not(.home) #main .row.main-content-wrap {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  .blog_page_content {
+    margin: 0 auto;
+  }
+  .post-image.single {
+    display: none;
+  }
+  .wp-block-cover__inner-container h1 {
+    font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 45px;
+    }
+  }
+  &.page-id-4321 main,
+  .porto-u-main-heading main {
+    margin: 20px auto;
+    max-width: 750px;
+  }
+  @media screen and (max-width: 768px) {
+    &.page-id-4321 main,
+    &.page-template-blog_page-php main {
+      padding: 12px;
+    }
+  }
+  #cos-dla-siebie {
+    font-size: get-vw(13px);
+    font-weight: 700;
+    line-height: get-vw(22px);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  #mini-cart .minicart-icon-default {
+    color: #4c4557;
+  }
+  .summary-before .labels .onnew,
+  .product-image .labels .onnew {
+    background: #8d61c7;
+  }
+  .product-image .labels .onhot,
+  .summary-before .labels .onhot {
+    background: #d13239;
+  }
+  // .product-summary-wrap input[name="add-to-cart"] {
+  //   background-color: #f49874af;
+  // }
+  // .product-summary-wrap input[name="add-to-cart"]:hover {
+  //   background-color: #f49974;
+  // }
+
+  .single-add-to-cart .type-product .view-cart-btn,
+  .single-product .product-summary-wrap .view-cart-btn {
+    display: none;
+  }
+  .woocommerce-message {
+    margin-bottom: 30px;
+    background: #fbf7ed !important;
+    padding: 20px;
+  }
+  .dokan-message:before,
+  .woocommerce-message:before {
+    color: #231f20;
+  }
+  // .product-summary-wrap > form > .single_add_to_cart_button {
+  //   background-color: #f49974;
+  // }
+  // .product-summary-wrap > form > .single_add_to_cart_button:hover {
+  //   background-color: #dd8666;
+  // }
+  .product-summary-wrap > form > .single_add_to_cart_button {
+    background: #f49974;
+  }
+  .product-summary-wrap > form > .single_add_to_cart_button:hover {
+    background: rgba(244, 153, 116, 0.88) !important;
+  }
+  &.page-id-4340 .page-wrapper #content,
+  &.page-id-4321 .page-wrapper #content,
+  &.post-template-default .page-wrapper #main .porto-block {
+    max-width: 100%;
+    div p {
+      a {
+        &:hover {
+          color: #f49974;
+        }
+        text-decoration: underline;
+      }
+      color: black;
+    }
+  }
+  &.page-id-4340 #main .row.main-content-wrap,
+  &.page-id-4321 #main .row.main-content-wrap,
+  &.page-template-blog_page-php #main .row.main-content-wrap,
+  &.search #main .row.main-content-wrap,
+  &.woocommerce-checkout #main .row.main-content-wrap,
+  &.error404 #main .row.main-content-wrap {
+    max-width: 100%;
+  }
+  #topcontrol {
+    background: rgba(34, 75, 51, 0.66) !important;
+    i {
+      color: white !important;
+    }
+    &:hover {
+      background: #224b33 !important;
+    }
+  }
+  .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    opacity: 0;
+  }
+  &.search #main .row.main-content-wrap #content,
+  &.woocommerce-checkout #main .row.main-content-wrap #content {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  .porto-blog-sidebar {
+    display: none;
+  }
+  #mini-cart .cart-items,
+  .gutenberg-hb .compare-count,
+  .my-wishlist .wishlist-count,
+  header .compare-count {
+    background: #f49974;
+  }
+  &.page-id-4340 #main .row.main-content-wrap,
+  &.page-id-4321 #main .row.main-content-wrap,
+  &.page-template-blog_page-php #main .row.main-content-wrap,
+  &.error404 #main .row.main-content-wrap,
+  &.search #main .row.main-content-wrap,
+  &.single-post #main .row.main-content-wrap,
+  &.blog #main .row.main-content-wrap {
+    max-width: 100%;
+    .main-content.col-lg-9 {
+      max-width: 100%;
+      padding: 0;
+      width: 100%;
+    }
+    .main-content.col-lg-12 {
+      padding: 0;
+    }
+  }
+  .kategorie-1 .last-visible,
+  .splide5 .last-visible,
+  .splide4 .last-visible,
+  .splide2 .last-visible {
+    opacity: 0.33;
+    padding-left: 30px;
+  }
+  .splide__slide {
+    transition: opacity 0.3s ease;
+    transition: padding 0.3s ease;
+  }
+}
 body ._ {
+  .splide__arrows.splide__arrows--ltr,
+  .splide__sr {
+    display: none;
+  }
   div {
     border: none;
   }
@@ -114,7 +331,7 @@ body ._ {
   .czytaj-wi-cej-1,
   .czytaj-wi-cej-2,
   .czytaj-wi-cej-3 {
-    color: white;
+    color: #f4f3f3;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -164,6 +381,7 @@ body ._ {
     letter-spacing: 0.093vw;
     line-height: 1.112vw;
   }
+
   .zobacz,
   .bi-uteria-kwantowa {
     font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
@@ -189,7 +407,13 @@ body ._ {
     background-position: center;
     background-size: cover;
   }
-
+  .hero-17,
+  .hero-16,
+  .hero-15 {
+    div {
+      color: #f4f3f3;
+    }
+  }
   .common-75,
   .hero-2,
   .hero-17 {
@@ -231,7 +455,7 @@ body ._ {
     background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-21.jpeg); /* Replace with the correct image */
     background-position: center;
     background-size: cover;
-    transition: transform 0.6s ease; /* Smooth zoom effect */
+    transition: transform 3.3s ease; /* Smooth zoom effect */
     z-index: 0; /* Behind the text */
   }
 
@@ -307,7 +531,7 @@ body ._ {
   .frame-5,
   .frame-115 {
     border-style: solid;
-    border-color: lightsalmon;
+    border-color: #f49974;
   }
 
   .common-72,
@@ -688,7 +912,7 @@ body ._ {
   }
   .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
     text-transform: uppercase;
-    color: white;
+    color: #f4f3f3;
   }
   .tt-zawieszka-miedziana-apertis-oculis-1 {
     opacity: 0.33;
@@ -831,6 +1055,10 @@ body ._ {
     align-items: flex-end;
   }
 
+  .t-hero-hero-hero-hero-hero-hero a,
+  .t-hero-hero-hero-hero-hero-hero button {
+    color: #f4f3f3;
+  }
   .common-60,
   .t-frame-17frame-17tframe-17frame-17tframe-1,
   .tt-frame-39tluke-copper-quantum-jewelry-dla-uwa-nych-iwiadomych-tu-iteraz-self_improvement_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tna-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
@@ -979,7 +1207,7 @@ body ._ {
   .common-31,
   .pi-kno-1,
   .pochodzi-znatury {
-    color: darkslategray;
+    color: #224b33;
     font-size: 2.595vw;
     font-weight: 700;
   }
@@ -995,7 +1223,7 @@ body ._ {
   .common-33,
   .component-1,
   .component-2 {
-    color: white;
+    color: #f4f3f3;
     font-size: 0.689vw;
   }
 
@@ -1112,6 +1340,7 @@ body ._ {
     display: flex;
     background-color: #224b33;
     color: whitesmoke;
+    transition: 0.33s ease-in-out all;
   }
   .frame-22.active {
     background-color: #234431;
@@ -1244,7 +1473,7 @@ body ._ {
   .frame-44,
   .kategorie-1 {
     display: flex;
-    background-color: darkslategray;
+    background-color: #224b33;
   }
 
   .common-18,
@@ -1284,7 +1513,7 @@ body ._ {
   .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
   .t-frame-17frame-17tframe-17frame-17tframe-1 {
     display: flex;
-    color: white;
+    color: #f4f3f3;
   }
 
   .common-21,
@@ -1661,7 +1890,7 @@ body ._ {
   }
 
   .t-vector {
-    width: 0.053vw;
+    width: 0.153vw;
     align-self: stretch;
     padding-top: 0.026vw;
     flex-shrink: 0;
@@ -1858,7 +2087,7 @@ body ._ {
   }
 
   .t-ju-od {
-    padding-top: 0.053vw;
+    padding-top: 0.153vw;
   }
 
   .ju-od {
@@ -2686,7 +2915,7 @@ body ._ {
   .ttw-luke-copper-wierzymy-eka-dy-element-wiata-ma-swoj-unikaln-energi-amied-bdcjej-przewodnikiem-jest-kluczem-do-holistycznej-harmonii-mied-jeden-znajstarszych-metali-czy-wsobie-energi-ziemi-iponadczasowy-urok-zainspiruj-si-jej-naturalnymi-waciwo-ciami-znasz-rcznie-wykonan-bi-uteri-odkryj-moc-miedzi-ipozw-lby-energia-kwantowa-towarzyszy-aci-ka-dego-dnia-poczuj-jak-natura-czy-si-ztwoim-stylem-ttkwantowa-energia-miedzi-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-frame-17hero {
     row-gap: 4.184vw;
     column-gap: 4.184vw;
-    background-color: lightsalmon;
+    background-color: #f49974;
     padding-left: 17.638vw;
   }
 
@@ -3191,8 +3420,9 @@ body ._ {
     gap: 20px;
     .hero-container {
       gap: 20px;
+      min-width: 9vw;
       .hover {
-        color: white;
+        color: #f4f3f3;
         .t-frame-11 {
           padding: 0;
         }
@@ -3440,6 +3670,10 @@ body ._ {
     padding-bottom: 1.377vw;
     padding-top: 1.377vw;
     flex-shrink: 0;
+  }
+  .hero-12 .background-image {
+    background-size: cover;
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg);
   }
   .hero-13 .background-image {
     background-size: cover;
@@ -3733,6 +3967,8 @@ body ._ {
     border-bottom-width: 0.053vw;
     padding-bottom: 0.106vw;
     padding-top: 0.159vw;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .z-28 {
@@ -4019,7 +4255,6 @@ body ._ {
   }
   .hero-18 .background-image {
     background-size: cover;
-    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg);
   }
   .nowo-ci-1 {
     align-self: stretch;
@@ -4062,7 +4297,6 @@ body ._ {
   }
 
   .hero-19 {
-    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-19.jpeg);
     row-gap: 9.746vw;
     align-self: stretch;
     padding-bottom: 1.377vw;
@@ -4111,7 +4345,6 @@ body ._ {
   }
 
   .hero-20 {
-    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-20.jpeg);
     row-gap: 9.746vw;
     align-self: stretch;
     padding-bottom: 1.377vw;
@@ -4208,7 +4441,6 @@ body ._ {
   }
 
   .hero-22 {
-    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-22.jpeg);
     row-gap: 9.746vw;
     align-self: stretch;
     padding-bottom: 1.377vw;
@@ -4257,7 +4489,6 @@ body ._ {
   }
 
   .hero-23 {
-    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-23.jpeg);
     row-gap: 9.004vw;
     padding-bottom: 1.377vw;
     padding-top: 9.375vw;
@@ -4821,7 +5052,7 @@ body ._ {
 
   .chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci {
     width: 16.208vw;
-    color: lightsalmon;
+    color: #f49974;
     flex-shrink: 0;
   }
 
@@ -4859,7 +5090,7 @@ body ._ {
   .t-odbierz-zni-k {
     column-gap: 0.53vw;
     width: 9.428vw;
-    color: lightsalmon;
+    color: #f49974;
     text-transform: uppercase;
   }
 
@@ -5020,7 +5251,7 @@ body ._ {
   }
 
   .zapisz-do-newslettera {
-    color: white;
+    color: #f4f3f3;
     font-weight: 700;
   }
 
@@ -5389,7 +5620,7 @@ body ._ {
     }
     .t-frame-51ttbransoletka-miedziana-holistic-energy {
       .product-link {
-        color: white;
+        color: #f4f3f3;
         display: flex;
         z-index: 5;
         flex-direction: column;
@@ -5427,7 +5658,7 @@ body ._ {
     }
     .hero-hover_best_content {
       .product_link {
-        color: white;
+        color: #f4f3f3;
       }
     }
     .t-frame-17frame-17tframe-17frame-17tframe-1 {
@@ -5570,7 +5801,7 @@ body ._ {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+    color: #f4f3f3;
   }
   .text_middle {
     position: absolute;
@@ -5896,9 +6127,49 @@ a:hover::after {
     position: relative;
     overflow: hidden;
   }
-  .miedziane-pier-cionki {
+  .t-hero-hero-hero-hero-hero-hero .hero-18 .background-image {
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg);
+    background-size: cover;
+  }
+  .t-hero-hero-hero-hero-hero-hero .hero-19 .background-image {
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-19.jpeg);
+    background-size: cover;
+  }
+  .t-hero-hero-hero-hero-hero-hero .hero-20 .background-image {
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-20.jpeg);
+    background-size: cover;
+  }
+  .t-hero-hero-hero-hero-hero-hero .hero-21 .background-image {
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-21.jpeg);
+    background-size: cover;
+  }
+  .t-hero-hero-hero-hero-hero-hero .hero-22 .background-image {
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-22.jpeg);
+    background-size: cover;
+  }
+  .t-hero-hero-hero-hero-hero-hero .hero-23 .background-image {
+    background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-23.jpeg);
+    background-size: cover;
+    background-position: center;
   }
   /* Inner background image styling */
+  .t-hero-hero-hero-hero-hero-hero .hero-18,
+  .t-hero-hero-hero-hero-hero-hero .hero-19,
+  .t-hero-hero-hero-hero-hero-hero .hero-20,
+  .t-hero-hero-hero-hero-hero-hero .hero-21,
+  .t-hero-hero-hero-hero-hero-hero .hero-22,
+  .t-hero-hero-hero-hero-hero-hero .hero-23 {
+    .text_content,
+    .btn_green {
+      z-index: 1;
+    }
+  }
+  .t-hero-hero-hero-hero-hero-hero .hero-18 .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-19 .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-20 .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-21 .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-22 .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-23 .background-image,
   .t-hero-hero-hero-1 .hero-12 .background-image,
   .t-hero-hero-hero-1 .hero-13 .background-image,
   .t-hero-hero-hero-1 .hero-14 .background-image {
@@ -5907,15 +6178,65 @@ a:hover::after {
     left: 0;
     width: 100%;
     height: 100%;
-    transition: transform 0.6s ease; /* Smooth zoom effect */
+    transition: transform 3.3s ease; /* Smooth zoom effect */
     z-index: 0; /* Behind the text */
   }
 
   /* Zoom effect on hover */
+  .t-hero-hero-hero-hero-hero-hero .hero-18:hover .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-19:hover .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-20:hover .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-21:hover .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-22:hover .background-image,
+  .t-hero-hero-hero-hero-hero-hero .hero-23:hover .background-image,
   .t-hero-hero-hero-1 .hero-12:hover .background-image,
   .t-hero-hero-hero-1 .hero-13:hover .background-image,
   .t-hero-hero-hero-1 .hero-14:hover .background-image {
     transform: scale(1.1); /* Zoom to 110% */
+  }
+
+  .hero-6 .btn_green,
+  .hero .frame-6,
+  .t-hero-hero-hero-hero-hero-hero .btn_green,
+  .t-hero-hero-hero-1 .hero-12 .btn_green,
+  .t-hero-hero-hero-1 .hero-13 .btn_green,
+  .t-hero-hero-hero-1 .hero-14 .btn_green {
+    transition: 0.33s ease-in-out all;
+    background: rgba(34, 75, 51, 0.66);
+  }
+
+  .hero:hover .frame-6,
+  .t-hero-hero-hero-hero-hero-hero .hero-18:hover .btn_green,
+  .t-hero-hero-hero-hero-hero-hero .hero-19:hover .btn_green,
+  .t-hero-hero-hero-hero-hero-hero .hero-20:hover .btn_green,
+  .t-hero-hero-hero-hero-hero-hero .hero-21:hover .btn_green,
+  .t-hero-hero-hero-hero-hero-hero .hero-22:hover .btn_green,
+  .t-hero-hero-hero-hero-hero-hero .hero-23:hover .btn_green,
+  .hero-6:hover .btn_green,
+  .t-hero-hero-hero-1 .hero-12:hover .btn_green,
+  .t-hero-hero-hero-1 .hero-13:hover .btn_green,
+  .t-hero-hero-hero-1 .hero-14:hover .btn_green {
+    background: #224b33;
+  }
+  .menu-column {
+    h3 {
+      //styleName: item_counter;
+      font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.583vw;
+      font-weight: 700;
+      line-height: 1.112vw;
+      text-transform: uppercase;
+      letter-spacing: 0.11em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #f4f3f3;
+    }
+  }
+  .dostawca.menu-column {
+    img {
+      height: 7vw;
+    }
   }
   .hero-14 {
     row-gap: 9.004vw;
@@ -5960,7 +6281,7 @@ a:hover::after {
     height: 100%;
     background-position: center;
     background-size: cover;
-    transition: transform 0.6s ease; /* Smooth zoom effect */
+    transition: transform 3.3s ease; /* Smooth zoom effect */
     z-index: 0; /* Behind the text */
   }
 
@@ -6073,12 +6394,12 @@ a:hover::after {
     font-weight: 700;
     text-transform: uppercase;
     text-align: left;
-    color: white;
+    color: #f4f3f3;
   }
   .ju-od,
   .tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
     font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
-    color: white;
+    color: #f4f3f3;
   }
   p {
     font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
@@ -6106,7 +6427,7 @@ a:hover::after {
     border-top: none;
     border-left: none;
     border-right: none;
-    color: white;
+    color: #f4f3f3;
   }
   .frame-23 {
     border-left: none;
@@ -6140,22 +6461,44 @@ a:hover::after {
     font-weight: 700;
   }
   .t-hero-hero-hero .hover {
-    color: white;
+    color: #f4f3f3;
     font-weight: 700;
+  }
+  .t-hero-hero-hero-1 a,
+  .t-hero-hero-hero-1 button {
+    color: #f4f3f3;
   }
   .frame-45,
   .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 {
     color: #231f20;
     font-weight: 700;
   }
+
+  .new_products2 .fixed-arrow {
+    top: 35%;
+    right: 14.7vw;
+  }
+  .new_products3 .fixed-arrow {
+    top: 36%;
+    right: 16vw;
+  }
   #read-more {
-    color: white;
+    color: #f4f3f3;
   }
   .na-temat-miedzi-swokilka-wi-cej {
-    color: white;
+    color: #f4f3f3;
   }
   .ukryj-dodatkowy-opis {
-    color: white;
+    color: #f4f3f3;
+  }
+  .ttt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+  .menu-column ul {
+    display: flex;
+    flex-direction: column;
   }
   .miedziane-bransoletki,
   .bi-uteria-kwantowa-polecana-dla-ciebie {
@@ -6194,15 +6537,15 @@ a:hover::after {
   .tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz
     div {
     font-weight: 700;
-    color: white;
+    color: #f4f3f3;
     text-transform: uppercase;
   }
   .t-poznaj-nowo-ci-sezon div,
   .tt-frame-51ttbransoletka-miedziana-holistic-energy-tframe-51ttbransoletka-energetyczna-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis {
-    color: white;
+    color: #f4f3f3;
   }
   .tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
-    color: white;
+    color: #f4f3f3;
     text-transform: uppercase;
     font-weight: 700;
   }
@@ -6228,7 +6571,7 @@ a:hover::after {
   .t-hero-hero-hero-1 > div > div button,
   .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
     font-weight: 700;
-    color: white;
+    color: #f4f3f3;
     text-transform: uppercase;
   }
   .tt-zobacz-pomys-yna-prezenty-iwi-cej-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
@@ -6263,7 +6606,7 @@ a:hover::after {
     z-index: 1;
   }
   .t-hero-hero-hero-hero-hero-hero > div > div button {
-    color: white;
+    color: #f4f3f3;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -6286,7 +6629,7 @@ a:hover::after {
     }
   }
   .t-frame-22 a {
-    color: white;
+    color: #f4f3f3;
   }
   .footer_class {
     font-size: 0.583vw;
@@ -6295,7 +6638,7 @@ a:hover::after {
     letter-spacing: 0.11em;
     text-align: left;
 
-    color: white;
+    color: #f4f3f3;
     text-transform: uppercase;
   }
   .t-frame-22 {
@@ -6397,16 +6740,35 @@ body {
     background-color: #f49974;
     transition: transform 0.25s ease-out;
   }
-
-  .product-image,
-  .product-image-zoom {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: transform 3.33s ease;
+  @media screen and (max-width: 768px) {
+    .product-image-zoom {
+      display: none;
+    }
+    .swiper-slide {
+      // margin-right: 3.056vw;
+    }
+    .slider_mobile_8 {
+      .product-image-container {
+        display: none;
+      }
+    }
+    .slider_mobile_4 .product-image-container,
+    .slider_mobile_2 .product-image-container,
+    .slider_mobile_1 .product-image-container,
+    .slider_mobile_3 .product-image-container {
+      position: relative;
+    }
   }
-
+  @media screen and (min-width: 768px) {
+    .product-image,
+    .product-image-zoom {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      transition: transform 3.33s ease;
+    }
+  }
   .product-image-zoom {
     position: absolute;
     top: 0;
@@ -6416,17 +6778,71 @@ body {
   .onsale {
     --porto-sale-color: #ffa07a;
   }
-  .wishlist,
-  .product-link {
-    z-index: 5;
-  }
-  .swiper-slide:hover .product-image-zoom {
-    transform: scale(1.2);
+  @media screen and (min-width: 768px) {
+    ._ .new_products3 .frame-76 .z-28 {
+      border-bottom: 1px solid black;
+    }
+    .swiper-slide {
+      margin-right: 0.583vw;
+    }
+    .new_products5 .frame-76,
+    .new_products5 .frame-52.swiper-content,
+    ._ .new_products3 .frame-76,
+    .new_products2 .frame-52.swiper-content {
+      border-bottom: none;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .new_products5 a.swiper-slide .product-image-container,
+    .new_products3 a.swiper-slide .product-image-container,
+    .new_products a.swiper-slide .product-image-container,
+    .new_products2 a.swiper-slide .product-image-container {
+      position: relative;
+    }
+    .product-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .new_products5 .swiper-slide,
+    .new_products3 .swiper-slide,
+    .new_products .swiper-slide,
+    .new_products2 .swiper-slide {
+      min-height: 18vw;
+    }
+    .new_products5 .swiper-slide .product-image-container,
+    .new_products3 .swiper-slide .product-image-container,
+    .new_products .swiper-slide .product-image-container,
+    .new_products2 .swiper-slide .product-image-container {
+      min-height: 18vw;
+      img {
+        min-height: 18vw;
+      }
+    }
+    .new_products2 .product-link {
+      span p,
+      span,
+      .z-14 {
+        color: #f4f3f3;
+      }
+    }
+    .tt-bransoletka-miedziana-holistic-energy.swiper-content,
+    .frame-52.swiper-content {
+      text-align: left;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .wishlist,
+    .product-link {
+      z-index: 10;
+    }
+    .swiper-slide:hover .product-image-zoom {
+      transform: scale(1.2);
+    }
   }
   .underline:hover::after {
     transform: scaleX(1);
   }
-
   .underline::after {
     transform-origin: bottom right;
   }
@@ -6440,9 +6856,11 @@ body {
     top: get-fvw(12px);
     right: get-fvw(12px);
   }
-  .swiper-slide.hero-hover_best,
-  .t-hero .hero-container {
-    min-height: 25vw;
+  @media screen and (min-width: 768px) {
+    .swiper-slide.hero-hover_best,
+    .t-hero .hero-container {
+      min-height: 25vw;
+    }
   }
 }
 .product-image-container {

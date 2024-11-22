@@ -1,11 +1,18 @@
-<div class="swiper-wrapper smaller_wishlist">
+<div class="swiper-wrapper smaller_wishlist splide__list">
     <?php
     // Custom query to fetch the latest products
     $args = array(
         'post_type' => 'product',
         'posts_per_page' => 5, // Number of products to display
         'orderby' => 'date',
-        'order' => 'DESC'
+        'order' => 'DESC',
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'product_cat',
+                'field' => 'name',
+                'terms' => 'Naszyjniki'
+            )
+        )
     );
     $loop = new WP_Query($args);
 
@@ -21,7 +28,7 @@
         $product_link = get_permalink($product_id);
         ?>
         <a href="<?php echo esc_url($product_link); ?>"
-            class="swiper-slide t-frame-51ttbransoletka-energetyczna-mindfulness-1">
+            class="splide__slide swiper-slide t-frame-51ttbransoletka-energetyczna-mindfulness-1">
             <div class="product-image-container">
                 <img src="<?php echo $product_image[0]; ?>" class="frame-70" data-image="<?php echo $product_image[0]; ?>">
                 <?php if ($second_image): ?>
@@ -39,7 +46,6 @@
                         <div class="bransoletka-energetyczna-mindfulness-1">
                             <span>
                                 <p><?php echo $product_title; ?></p>
-                                <p>Mindfulness</p>
                             </span>
                         </div>
                     </div>

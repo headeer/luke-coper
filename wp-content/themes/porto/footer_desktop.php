@@ -146,11 +146,11 @@
 					<!-- Header Text -->
 					<div class="luke-cpper-to-bi-uteria-tworzona-wnajlepszej-intencji">
 						<span>
-							<p><a href="#">luke cØpper</a></p>
-							<p><a href="#">to Biżuteria</a></p>
-							<p><a href="#">tworzona</a></p>
-							<p><a href="#">w najlepszej</a></p>
-							<p><a href="#">intencji</a></p>
+							<p>luke cØpper</p>
+							<p>to Biżuteria</p>
+							<p>tworzona</p>
+							<p>w najlepszej</p>
+							<p>intencji</p>
 						</span>
 					</div>
 
@@ -160,12 +160,12 @@
 							<div class="menu-columns">
 								<!-- First Column -->
 								<div class="menu-column" style="max-width: 155vw;">
-									<h3><a href="#">Menu strony</a></h3>
+									<h3>Menu strony</h3>
 									<ul>
-										<li><a href="#">Strona Główna</a></li>
-										<li><a href="#">Sklep</a></li>
-										<li><a href="#">Wiedza</a></li>
-										<li><a href="#">Kontakt</a></li>
+										<li class="underline"><a href="/">Strona Główna</a></li>
+										<li class="underline"><a href="/shop">Sklep</a></li>
+										<li class="underline"><a href="/blog">Wiedza</a></li>
+										<li class="underline"><a href="/contact">Kontakt</a></li>
 									</ul>
 								</div>
 
@@ -173,27 +173,30 @@
 								<div class="menu-column" style="max-width: 206vw;">
 									<h3><a href="#">Kategorie</a></h3>
 									<ul>
-										<li class="underline"><a href="#">Nowości</a></li>
-										<li class="underline"><a href="#">Bransoletki</a></li>
-										<li class="underline"><a href="#">Pierścionki</a></li>
-										<li class="underline"><a href="#">Zawieszki</a></li>
-										<li class="underline"><a href="#">Prezenty i więcej</a></li>
-										<li class="underline"><a href="#">Świąteczne Promocje</a></li>
+										<li class="underline"><a href="/shop">Nowości</a></li>
+										<li class="underline"><a href="/kategoria-produktu/bransoletki/">Bransoletki</a>
+										</li>
+										<li class="underline"><a href="/kategoria-produktu/pierscionki/">Pierścionki</a>
+										</li>
+										<li class="underline"><a href="/kategoria-produktu/naszyjniki/">Zawieszki</a>
+										</li>
+										<li class="underline"><a href="/shop">Prezenty i więcej</a></li>
+										<li class="underline"><a href="/shop">Świąteczne Promocje</a></li>
 									</ul>
 								</div>
 
 								<!-- Third Column -->
 								<div class="menu-column" style="max-width: 289vw;">
-									<h3><a href="#">Informacje</a></h3>
+									<h3>Informacje</h3>
 									<ul>
-										<li><a href="#">Płatności i Dostawa</a></li>
-										<li><a href="#">Regulamin sklepu</a></li>
-										<li><a href="#">Polityka cookies</a></li>
-										<li><a href="#">Polityka prywatności</a></li>
+										<li class="underline"><a href="#">Płatności i Dostawa</a></li>
+										<li class="underline"><a href="/regulamin">Regulamin sklepu</a></li>
+										<li class="underline"><a href="#">Polityka cookies</a></li>
+										<li class="underline"><a href="#">Polityka prywatności</a></li>
 									</ul>
 								</div>
 								<div class="dostawca menu-column">
-									<h3><a href="">Bezpieczna dostawa</a></h3> <img
+									<h3>Bezpieczna dostawa</h3> <img
 										src="<?php echo get_template_directory_uri(); ?>/assets/InPost_logotype_2024_black_bg.svg"
 										class="inpost_logotype_20_24_black_bg-1"></img>
 								</div>

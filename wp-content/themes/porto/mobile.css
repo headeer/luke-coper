@@ -4,6 +4,9 @@
   body .desktop_app {
     display: none;
   }
+  .page-wrapper .footer-wrapper {
+    display: none;
+  }
 }
 html {
   margin-top: 0 !important;
@@ -11,7 +14,10 @@ html {
 
 @media screen and (min-width: 789px) {
   body .t-hero-default_best-hero-hover_best-hero-default_best-hero-default_best-hero-default_best .product-link {
-    color: white;
+    color: #f4f3f3;
+  }
+  .splide {
+    overflow: hidden;
   }
   .footer-wrapper {
     display: none;
@@ -570,7 +576,7 @@ body .mobile_nav_container .mobile_btn,
 body .mobile_nav_container .mobile_frame-83,
 body .mobile_nav_container .mobile_dzie-n_dobry3 {
   border-style: solid;
-  border-color: lightsalmon;
+  border-color: #f49974;
 }
 body #mobile_app .common-75,
 body #mobile_app .mobile_frame-12,
@@ -1675,7 +1681,7 @@ body .mobile_nav_container .mobile_frame-13,
 body .mobile_nav_container .mobile_frame-28,
 body .mobile_nav_container .mobile_frame-29 {
   display: flex;
-  background-color: darkslategray;
+  background-color: #224b33;
   color: whitesmoke;
 }
 body #mobile_app .common-6,
@@ -2113,11 +2119,11 @@ body .mobile_nav_container .mobile_t {
 }
 body #mobile_app .mobile_component-1,
 body .mobile_nav_container .mobile_component-1 {
-  color: white;
+  color: #f4f3f3;
 }
 body #mobile_app .mobile_component-2,
 body .mobile_nav_container .mobile_component-2 {
-  color: white;
+  color: #f4f3f3;
 }
 body #mobile_app .mobile_ttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-trectangle,
 body .mobile_nav_container .mobile_ttt-bi-uteria-miedziana-rcznie-tworzona-wpolsce-trectangle {
@@ -2341,9 +2347,45 @@ body .mobile_nav_container .mobile_bar_categories {
   padding-top: 0.8333333333vw;
   flex-shrink: 0;
 }
+body #mobile_app .mobile_bar_categories .swiper-slide,
+body .mobile_nav_container .mobile_bar_categories .swiper-slide {
+  white-space: nowrap;
+}
 body #mobile_app .mobile_bar_categories,
 body .mobile_nav_container .mobile_bar_categories {
   overflow: visible !important;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories,
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories {
+  max-width: 190vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(1),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(1) {
+  max-width: 42vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(2),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(2) {
+  max-width: 27vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(3),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(3) {
+  max-width: 25vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(4),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(4) {
+  max-width: 23vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(5),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(5) {
+  max-width: 19vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(6),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(6) {
+  max-width: 21vw;
+}
+body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(7),
+body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(7) {
+  max-width: 22vw;
 }
 body #mobile_app .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki,
 body .mobile_nav_container .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki {
@@ -2518,6 +2560,14 @@ body #mobile_app .mobile_odkryj-moc-bi-uterii-kwantowej,
 body .mobile_nav_container .mobile_odkryj-moc-bi-uterii-kwantowej {
   align-self: stretch;
   font-size: 4.1666666667vw;
+  font-weight: 400;
+  line-height: 6.1111111111vw;
+  text-transform: none;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 body #mobile_app .mobile_btn,
 body .mobile_nav_container .mobile_btn {
@@ -2547,6 +2597,8 @@ body .mobile_nav_container .mobile_frame-6 {
   line-height: 3.3333333333vw;
   text-align: center;
   flex-shrink: 0;
+  position: absolute;
+  right: 3vw;
 }
 body #mobile_app .mobile_hand-crafted,
 body .mobile_nav_container .mobile_hand-crafted {
@@ -2665,7 +2717,7 @@ body .mobile_nav_container .mobile_t-dzien_dobry {
 body #mobile_app .mobile_dzie-n_dobry1,
 body .mobile_nav_container .mobile_dzie-n_dobry1 {
   align-items: flex-end;
-  background-color: darkslategray;
+  background-color: #224b33;
   padding-bottom: 1.1111111111vw;
   padding-top: 0.8333333333vw;
 }
@@ -3129,7 +3181,7 @@ body .mobile_nav_container .mobile_arrow_forward_24dp_5f6368_fill0_wght-400_grad
 body #mobile_app .mobile_frame-26,
 body .mobile_nav_container .mobile_frame-26 {
   row-gap: 7.5vw;
-  background-color: lightsalmon;
+  background-color: #f49974;
   padding-top: 9.1666666667vw;
   padding-bottom: 8.8888888889vw;
   margin-top: 5.8333333333vw;
@@ -3460,7 +3512,7 @@ body .mobile_nav_container .mobile_t-pi-kno-pochodzi-znatury-frame {
 body #mobile_app .mobile_pi-kno-pochodzi-znatury,
 body .mobile_nav_container .mobile_pi-kno-pochodzi-znatury {
   width: 74.4444444444vw;
-  color: darkslategray;
+  color: #224b33;
   flex-shrink: 0;
 }
 body #mobile_app .mobile_frame-38,
@@ -4715,7 +4767,7 @@ body .mobile_nav_container .mobile_frame-82 {
 }
 body #mobile_app .mobile_chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci,
 body .mobile_nav_container .mobile_chcesz-odkry-moc-miedzianej-bi-uterii-izyska-wyj-tkowe-korzy-ci {
-  color: lightsalmon;
+  color: #f49974;
   padding-left: 3.0555555556vw;
   padding-right: 11.9444444444vw;
   align-self: stretch;
@@ -4742,7 +4794,7 @@ body .mobile_nav_container .mobile_frame-83 {
   padding-left: 5.5555555556vw;
   padding-right: 5.5555555556vw;
   padding-top: 5.5555555556vw;
-  color: lightsalmon;
+  color: #f49974;
   text-transform: uppercase;
   flex-shrink: 0;
 }
@@ -4989,7 +5041,7 @@ body .mobile_nav_container .mobile_frame-87 {
 }
 body #mobile_app .mobile_zapisz-do-newslettera,
 body .mobile_nav_container .mobile_zapisz-do-newslettera {
-  color: white;
+  color: #f4f3f3;
   font-weight: 700;
 }
 body #mobile_app .mobile_mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1,
@@ -5826,7 +5878,7 @@ body .mobile_nav_container .hover_container > div span p {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  color: white;
+  color: #f4f3f3;
 }
 body #mobile_app .swiper-slide:hover .hover_container > div span p,
 body .mobile_nav_container .swiper-slide:hover .hover_container > div span p {
@@ -5842,7 +5894,7 @@ body .mobile_nav_container .hover_container > div > div {
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
-  color: white;
+  color: #f4f3f3;
 }
 body #mobile_app .swiper-slide .wishlist img,
 body .mobile_nav_container .swiper-slide .wishlist img {
@@ -6145,7 +6197,7 @@ body .mobile_nav_container .mobile_swiper_hero-6 .swiper-slide {
 }
 body #mobile_app .herooo .product-link,
 body .mobile_nav_container .herooo .product-link {
-  color: white;
+  color: #f4f3f3;
 }
 body #mobile_app .slider_mobile_2 .frame-52 > div,
 body #mobile_app .slider_mobile_2 .frame-52 > div,
@@ -6174,7 +6226,7 @@ body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-en
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   background: transparent;
-  color: white;
+  color: #f4f3f3;
   border: none;
 }
 body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .t-cu-99_lukecopper-1najwy-szy-potencja-energetyczny,
@@ -6309,17 +6361,20 @@ body .slider_mobile_2 .fixed-arrow {
   height: 6.6666666667vw;
 }
 body .slider_mobile_2 .product-link {
-  color: white;
+  color: #f4f3f3;
 }
 body .slider_mobile_2 .product-link .z-14 {
   border-bottom: 1px solid white;
 }
 body .mobile_zobacz-wszystkie-1,
 body .mobile_tt-zobacz-wszystkie-nowo-ci-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
-  color: white;
+  color: #f4f3f3;
 }
 body .mobile_hero-12 {
   width: 100% !important;
+}
+body .new_products2 .swiper-slide {
+  min-width: 300px;
 }
 body .new_products .swiper-wrapper,
 body .new_products2 .swiper-wrapper,
@@ -6333,31 +6388,31 @@ body .default_products2 .swiper-wrapper,
 body .slider_mobile_8 .swiper-wrapper {
   position: relative;
 }
-body .new_products .swiper-wrapper > :last-child,
-body .new_products2 .swiper-wrapper > :last-child,
-body .new_products3 .swiper-wrapper > :last-child,
-body .new_products5 .swiper-wrapper > :last-child,
-body .slider_mobile_1 .swiper-wrapper > :last-child,
-body .slider_mobile_2 .swiper-wrapper > :last-child,
-body .slider_mobile_3 .swiper-wrapper > :last-child,
-body .slider_mobile_4 .swiper-wrapper > :last-child,
-body .default_products2 .swiper-wrapper > :last-child,
-body .slider_mobile_8 .swiper-wrapper > :last-child {
+body .new_products .swiper-wrapper > :nth-child(5),
+body .new_products2 .swiper-wrapper > :nth-child(5),
+body .new_products3 .swiper-wrapper > :nth-child(5),
+body .new_products5 .swiper-wrapper > :nth-child(5),
+body .slider_mobile_1 .swiper-wrapper > :nth-child(5),
+body .slider_mobile_2 .swiper-wrapper > :nth-child(5),
+body .slider_mobile_3 .swiper-wrapper > :nth-child(5),
+body .slider_mobile_4 .swiper-wrapper > :nth-child(5),
+body .default_products2 .swiper-wrapper > :nth-child(5),
+body .slider_mobile_8 .swiper-wrapper > :nth-child(5) {
   max-width: 16.2vw;
   margin-left: 30px;
   opacity: 0.33;
 }
 @media screen and (max-width: 768px) {
-  body .new_products .swiper-wrapper > :last-child,
-  body .new_products2 .swiper-wrapper > :last-child,
-  body .new_products3 .swiper-wrapper > :last-child,
-  body .new_products5 .swiper-wrapper > :last-child,
-  body .slider_mobile_1 .swiper-wrapper > :last-child,
-  body .slider_mobile_2 .swiper-wrapper > :last-child,
-  body .slider_mobile_3 .swiper-wrapper > :last-child,
-  body .slider_mobile_4 .swiper-wrapper > :last-child,
-  body .default_products2 .swiper-wrapper > :last-child,
-  body .slider_mobile_8 .swiper-wrapper > :last-child {
+  body .new_products .swiper-wrapper > :nth-child(5),
+  body .new_products2 .swiper-wrapper > :nth-child(5),
+  body .new_products3 .swiper-wrapper > :nth-child(5),
+  body .new_products5 .swiper-wrapper > :nth-child(5),
+  body .slider_mobile_1 .swiper-wrapper > :nth-child(5),
+  body .slider_mobile_2 .swiper-wrapper > :nth-child(5),
+  body .slider_mobile_3 .swiper-wrapper > :nth-child(5),
+  body .slider_mobile_4 .swiper-wrapper > :nth-child(5),
+  body .default_products2 .swiper-wrapper > :nth-child(5),
+  body .slider_mobile_8 .swiper-wrapper > :nth-child(5) {
     max-width: 66.6666666667vw;
   }
 }
@@ -6393,7 +6448,7 @@ body .slider_mobile_8 .swiper-slide {
 body .fixed-arrow {
   position: absolute;
   top: 38%;
-  right: 17vw;
+  right: 18vw;
   transform: translateY(-50%);
   z-index: 10;
   cursor: pointer;
@@ -6477,8 +6532,12 @@ body.home .container-fluid {
   padding: 0;
 }
 body:not(.home) .row.main-content-wrap {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
+}
+body:not(.home) .row.main-content-wrap .main-content #content {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 body.home .page-wrapper #main .footer-wrapper {
   display: none;
@@ -6572,7 +6631,7 @@ body #mobile_app .frame-22.active .na-temat-miedzi-swokilka-wi-cej {
   font-size: 5vw;
   font-weight: 700;
   line-height: 7.5vw;
-  color: white;
+  color: #f4f3f3;
   letter-spacing: 0.06em;
   text-align: left;
   text-underline-position: from-font;
@@ -6611,7 +6670,7 @@ body #mobile_app .frame-22.active .tt-frame .t-frame-5 .ukryj-dodatkowy-opis {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   background: transparent;
-  color: white;
+  color: #f4f3f3;
   border: none;
 }
 

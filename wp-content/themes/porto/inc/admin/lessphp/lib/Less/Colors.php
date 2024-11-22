@@ -4,7 +4,8 @@
  *
  * @private
  */
-class Less_Colors {
+class Less_Colors
+{
 
 	private const COLORS = [
 		'aliceblue' => '#f0f8ff',
@@ -43,8 +44,8 @@ class Less_Colors {
 		'darksalmon' => '#e9967a',
 		'darkseagreen' => '#8fbc8f',
 		'darkslateblue' => '#483d8b',
-		'darkslategray' => '#2f4f4f',
-		'darkslategrey' => '#2f4f4f',
+		'darkslategray' => '#224B33',
+		'darkslategrey' => '#224B33',
 		'darkturquoise' => '#00ced1',
 		'darkviolet' => '#9400d3',
 		'deeppink' => '#ff1493',
@@ -160,8 +161,9 @@ class Less_Colors {
 	 * @param string $color
 	 * @return bool
 	 */
-	public static function hasOwnProperty( string $color ): bool {
-		return isset( self::COLORS[$color] );
+	public static function hasOwnProperty(string $color): bool
+	{
+		return isset(self::COLORS[$color]);
 	}
 
 	/**
@@ -169,7 +171,8 @@ class Less_Colors {
 	 *   checked via hasOwnProperty()
 	 * @return string the corresponding hexadecimal representation
 	 */
-	public static function color( string $color ): string {
+	public static function color(string $color): string
+	{
 		return self::COLORS[$color];
 	}
 
