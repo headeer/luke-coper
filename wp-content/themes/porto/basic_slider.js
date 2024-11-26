@@ -268,7 +268,7 @@
   }
 
   var swiper11 = new Swiper(".mobile_wrapper-2", {
-    slidesPerView: "2.3",
+    slidesPerView: "auto",
     spaceBetween: 10,
     freeMode: true, // Allows draggable scrolling
   });

@@ -40,12 +40,7 @@
 			class="ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag">
 			<!-- Menu items here -->
 			<ul class="ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt menu_nav">
-				<li class="t-ico_menu">
-					<a href="#">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Ico_menu.svg"
-							class="ico_menu"></img>
-					</a>
-				</li>
+
 				<li><a class="underline" href="/shop">Miedziana biżuteria</a></li>
 				<li><a class="underline" href="/manufaktura">Manufaktura</a></li>
 				<li><a class="underline" href="/wiedza">Wiedza o miedzi</a></li>
@@ -59,7 +54,7 @@
 						<label>
 							<span class="screen-reader-text"><?php echo _x('Search for:', 'label'); ?></span>
 							<input type="search" class="search-field"
-								placeholder="<?php echo esc_attr_x('Search …', 'placeholder'); ?>"
+								placeholder="<?php echo esc_attr_x('Wyszukaj …', 'placeholder'); ?>"
 								value="<?php echo get_search_query(); ?>" name="s" />
 						</label>
 						<button type="submit" class="t-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
@@ -114,10 +109,12 @@
 				</li>
 				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/pierscionki/">Pierścionki</a>
 				</li>
-				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/naszyjniki/">Zawieszki</a></li>
-				<li><a class="underline" href="https://lukecopper.com/shop/">Prezenty i więcej</a>
+				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/naszyjniki/">Naszyjniki</a>
 				</li>
-				<li><a class="underline" href="https://lukecopper.com/shop/">Świąteczne
+				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/prezenty-i-wiecej">Prezenty i
+						więcej</a>
+				</li>
+				<li><a class="underline" href="https://lukecopper.com/kategoria-produktu/swiateczne-promocje">Świąteczne
 						promocje</a></li>
 			</ul>
 		</div>
@@ -238,13 +235,10 @@
 								<a href="https://lukecopper.com/kategoria-produktu/naszyjniki/">Naszyjniki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/shop/">Kolczyki</a>
+								<a href="https://lukecopper.com/kategoria-produktu/kolczyki/">Kolczyki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/shop/">Zawieszki</a>
-							</div>
-							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/shop/">Akcesoria</a>
+								<a href="https://lukecopper.com/kategoria-produktu/akcesoria">Akcesoria</a>
 							</div>
 						</div>
 					</div>
@@ -297,16 +291,10 @@
 							class="ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt-ttsearch_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag">
 							<!-- Menu items here -->
 							<ul class="ttt-ico_menu-miedziana-bi-uteria-manufaktura-wiedza-omiedzi-kontakt menu_nav">
-								<li class="t-ico_menu">
-									<a href="/shop">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/Ico_menu.svg"
-											class="ico_menu"></img>
-									</a>
-								</li>
 								<li><a class="underline" href="/shop">Miedziana biżuteria</a></li>
 								<li><a class="underline" href="/manufaktura">Manufaktura</a></li>
 								<li><a class="underline" href="/wiedza">Wiedza o miedzi</a></li>
-								<li><a class="underline" href="/shop">Kontakt</a></li>
+								<li><a class="underline" href="/kontakt">Kontakt</a></li>
 							</ul>
 							<div
 								class="tt-search_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241tico_fav-tico_profile-tico_bag">
@@ -319,7 +307,7 @@
 											<span
 												class="screen-reader-text"><?php echo _x('Search for:', 'label'); ?></span>
 											<input type="search" class="search-field"
-												placeholder="<?php echo esc_attr_x('Search …', 'placeholder'); ?>"
+												placeholder="<?php echo esc_attr_x('Wyszukaj …', 'placeholder'); ?>"
 												value="<?php echo get_search_query(); ?>" name="s" />
 										</label>
 										<button type="submit"
@@ -386,9 +374,11 @@
 								<li><a class="underline" href="/shop">Miedziane NOWOŚCI</a></li>
 								<li><a class="underline" href="/kategoria-produktu/bransoletki/">Bransoletki</a></li>
 								<li><a class="underline" href="/kategoria-produktu/pierscionki/">Pierścionki</a></li>
-								<li><a class="underline" href="/kategoria-produktu/naszyjniki/">Zawieszki</a></li>
-								<li><a class="underline" href="/shop">Prezenty i więcej</a></li>
-								<li><a class="underline" href="/shop">Świąteczne promocje</a></li>
+								<li><a class="underline" href="/kategoria-produktu/naszyjniki/">Naszyjniki</a></li>
+								<li><a class="underline" href="/kategoria-produktu/prezenty-i-wiecej">Prezenty i
+										więcej</a></li>
+								<li><a class="underline" href="/kategoria-produktu/swiateczne-promocje">Świąteczne
+										promocje</a></li>
 							</ul>
 						</div>
 					</div>

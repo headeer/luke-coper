@@ -1584,25 +1584,22 @@ body .mobile_nav_container {
   }
   .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide {
     &:nth-child(1) {
-      max-width: 42vw;
+      width: 42vw !important;
     }
     &:nth-child(2) {
-      max-width: 27vw;
+      width: 27vw !important;
     }
     &:nth-child(3) {
-      max-width: 25vw;
+      width: 25vw !important;
     }
     &:nth-child(4) {
-      max-width: 23vw;
+      width: 23vw !important;
     }
     &:nth-child(5) {
-      max-width: 19vw;
+      width: 19vw !important;
     }
     &:nth-child(6) {
-      max-width: 21vw;
-    }
-    &:nth-child(7) {
-      max-width: 22vw;
+      width: 24vw !important;
     }
   }
   .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki {

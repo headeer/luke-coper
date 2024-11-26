@@ -17,14 +17,14 @@
 						<p>zniżkę</p>
 					</span>
 				</div>
-				<div class="mobile_component-11">24%</div>
+				<div class="mobile_component-11">22%</div>
 			</div>
-			<div class="mobile_zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy">
+			<div class="mobile_zapisz-si-do-newslettera-iotrzymaj-a2rabatu-na-jeszcze-lepsze-zakupy">
 				<span>
 					<p>Zapisz się</p>
 					<p>do newslettera</p>
 					<p>
-						i otrzymaj aż 24% rabatu na jeszcze lepsze zakupy!
+						i otrzymaj aż 22% rabatu na jeszcze lepsze zakupy!
 					</p>
 				</span>
 			</div>
@@ -244,44 +244,3 @@
 
 
 </div>
-<script>
-	document.getElementById('newsletter-submit').addEventListener('click', function (event) {
-		event.preventDefault();
-
-		var email = document.getElementById('email').value;
-		var unisex = document.getElementById('unisex').checked ? 'unisex' : '';
-		var women = document.getElementById('women').checked ? 'women' : '';
-		var men = document.getElementById('men').checked ? 'men' : '';
-		var privacyConsent = document.getElementById('privacy-consent').checked;
-		var messageElement = document.getElementById('form-message');
-
-		if (!privacyConsent) {
-			messageElement.textContent = 'Musisz wyrazić zgodę na przetwarzanie danych osobowych.';
-			messageElement.style.color = 'red';
-			return;
-		}
-
-		var data = new FormData();
-		data.append('email', email);
-		data.append('unisex', unisex);
-		data.append('women', women);
-		data.append('men', men);
-		data.append('privacyConsent', privacyConsent);
-
-		var xhr = new XMLHttpRequest();
-		xhr.open('POST', '<?php echo get_template_directory_uri(); ?>/newsletter-submit.php', true);
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4) {
-				var response = JSON.parse(xhr.responseText);
-				if (xhr.status === 200 && response.status === 'success') {
-					messageElement.textContent = response.message;
-					messageElement.style.color = 'green';
-				} else {
-					messageElement.textContent = response.message;
-					messageElement.style.color = 'red';
-				}
-			}
-		};
-		xhr.send(data);
-	});
-</script>

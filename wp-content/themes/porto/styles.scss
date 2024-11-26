@@ -12,6 +12,20 @@ body {
   html .btn-v-dark {
     background-color: #224b33;
   }
+  #shipping_method {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .easypack_show_geowidget {
+    box-shadow: none !important;
+    color: #231f20;
+    font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif !important;
+    font-weight: 700;
+    font-size: 16px !important;
+  }
   #moove_gdpr_cookie_info_bar
     .moove-gdpr-info-bar-container
     .moove-gdpr-info-bar-content
@@ -32,6 +46,16 @@ body {
     button.mgbutton {
     border-radius: 0;
   }
+  .woocommerce-product-rating {
+    display: none;
+  }
+  .page-wrapper .porto-gb-1dc583f41b1e5236970fd5b8de5848e3 {
+    background: #f49974;
+  }
+
+  .page-wrapper .porto-gb-1dc583f41b1e5236970fd5b8de5848e3:hover {
+    background: rgba(244, 153, 116, 0.88) !important;
+  }
   #geodir-wrapper [type="button"]:hover,
   #geodir-wrapper [type="submit"]:hover,
   .button:hover,
@@ -43,10 +67,17 @@ body {
   html .btn-v-dark:hover {
     background-color: #234431;
   }
+  .porto-radio {
+    label,
+    input {
+      cursor: pointer;
+    }
+  }
   &:not(.home) .page-wrapper #main .porto-block {
     margin: 0 auto;
     max-width: 1440px;
   }
+
   &:not(.home) #main .row.main-content-wrap {
     margin: 0 auto;
     max-width: 1440px;
@@ -83,6 +114,9 @@ body {
       padding: 12px;
     }
   }
+  &.single-product .woocommerce-variation-availability .stock:before {
+    background-color: #224b33;
+  }
   #cos-dla-siebie {
     font-size: get-vw(13px);
     font-weight: 700;
@@ -115,7 +149,8 @@ body {
   .single-product .product-summary-wrap .view-cart-btn {
     display: none;
   }
-  .woocommerce-message {
+  .woocommerce-message,
+  .woocommerce-error {
     margin-bottom: 30px;
     background: #fbf7ed !important;
     padding: 20px;
@@ -130,12 +165,57 @@ body {
   // .product-summary-wrap > form > .single_add_to_cart_button:hover {
   //   background-color: #dd8666;
   // }
-  .product-summary-wrap > form > .single_add_to_cart_button {
-    background: #f49974;
+  .button,
+  .after-loading-success-message .success-message-container .continue_shopping,
+  .product-summary-wrap > form > .single_add_to_cart_button,
+  .woocommerce-variation-add-to-cart .single_add_to_cart_button {
+    border: none;
+    background: #f49974 !important;
+    font-weight: 700;
+    font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase;
+    color: white !important;
   }
-  .product-summary-wrap > form > .single_add_to_cart_button:hover {
+  #mp_form_below_posts1 form.mailpoet_form {
+    padding: 0;
+  }
+  #newsletter-submit {
+    background: black;
+  }
+  .mailpoet_form {
+    .mailpoet_paragraph {
+      display: none;
+      &.last {
+        position: absolute;
+        bottom: 38vw;
+        left: 67vw;
+        width: 17vw;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .woocommerce-form-register .register-btn {
+      margin-top: 25px;
+    }
+  }
+  .button:hover,
+  .after-loading-success-message
+    .success-message-container
+    .continue_shopping:hover,
+  .product-summary-wrap > form > .single_add_to_cart_button:hover,
+  .woocommerce-variation-add-to-cart .single_add_to_cart_button:hover {
     background: rgba(244, 153, 116, 0.88) !important;
+    border: none;
   }
+
+  .woocommerce-customer-details .woocommerce-button.button {
+    background: var(--porto-gray-3) !important;
+  }
+
+  .woocommerce-customer-details .woocommerce-button.button:hover {
+    background: #f4f4f4ce !important;
+  }
+
   &.page-id-4340 .page-wrapper #content,
   &.page-id-4321 .page-wrapper #content,
   &.post-template-default .page-wrapper #main .porto-block {
@@ -150,6 +230,7 @@ body {
       color: black;
     }
   }
+  &.page-template-default #main .row.main-content-wrap,
   &.page-id-4340 #main .row.main-content-wrap,
   &.page-id-4321 #main .row.main-content-wrap,
   &.page-template-blog_page-php #main .row.main-content-wrap,
@@ -158,6 +239,7 @@ body {
   &.error404 #main .row.main-content-wrap {
     max-width: 100%;
   }
+
   #topcontrol {
     background: rgba(34, 75, 51, 0.66) !important;
     i {
@@ -184,6 +266,7 @@ body {
   header .compare-count {
     background: #f49974;
   }
+  &.page-template-default #main .row.main-content-wrap,
   &.page-id-4340 #main .row.main-content-wrap,
   &.page-id-4321 #main .row.main-content-wrap,
   &.page-template-blog_page-php #main .row.main-content-wrap,
@@ -1343,6 +1426,7 @@ body ._ {
     transition: 0.33s ease-in-out all;
   }
   .frame-22.active {
+    transition: 0.33s ease-in-out all;
     background-color: #234431;
     .mobile {
       @media screen and (min-width: 768px) {
@@ -2466,10 +2550,14 @@ body ._ {
 
   .frame-22 {
     row-gap: 1.43vw;
-    padding-bottom: 2.278vw;
+    padding: 0;
     padding-left: 1.748vw;
     padding-right: 15.466vw;
-    padding-top: 2.331vw;
+    &.active {
+      padding-bottom: 2.278vw;
+      transition: 0.33s all ease-in-out;
+      padding-top: 2.331vw;
+    }
   }
 
   .tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
@@ -5907,15 +5995,19 @@ body ._ {
   }
   /* Initially hide frame-22 */
   .frame-22 {
-    display: none;
+    display: block;
+    min-height: 0;
     opacity: 0;
+    max-height: 0;
     transform: translateY(-1.059vw);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: all 0.33s ease;
   }
 
   /* Show frame-22 */
   .frame-22.active {
+    min-height: 29vw;
     display: block;
+    max-height: 30vw;
     opacity: 1;
     transform: translateY(0);
   }

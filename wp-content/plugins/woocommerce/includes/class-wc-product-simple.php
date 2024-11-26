@@ -7,21 +7,23 @@
  * @package WooCommerce\Classes\Products
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 /**
  * Simple product class.
  */
-class WC_Product_Simple extends WC_Product {
+class WC_Product_Simple extends WC_Product
+{
 
 	/**
 	 * Initialize simple product.
 	 *
 	 * @param WC_Product|int $product Product instance or ID.
 	 */
-	public function __construct( $product = 0 ) {
+	public function __construct($product = 0)
+	{
 		$this->supports[] = 'ajax_add_to_cart';
-		parent::__construct( $product );
+		parent::__construct($product);
 	}
 
 	/**
@@ -29,7 +31,8 @@ class WC_Product_Simple extends WC_Product {
 	 *
 	 * @return string
 	 */
-	public function get_type() {
+	public function get_type()
+	{
 		return 'simple';
 	}
 
@@ -38,17 +41,18 @@ class WC_Product_Simple extends WC_Product {
 	 *
 	 * @return string
 	 */
-	public function add_to_cart_url() {
+	public function add_to_cart_url()
+	{
 		$url = $this->is_purchasable() && $this->is_in_stock() ? remove_query_arg(
 			'added-to-cart',
 			add_query_arg(
 				array(
 					'add-to-cart' => $this->get_id(),
 				),
-				( function_exists( 'is_feed' ) && is_feed() ) || ( function_exists( 'is_404' ) && is_404() ) ? $this->get_permalink() : ''
+				(function_exists('is_feed') && is_feed()) || (function_exists('is_404') && is_404()) ? $this->get_permalink() : ''
 			)
 		) : $this->get_permalink();
-		return apply_filters( 'woocommerce_product_add_to_cart_url', $url, $this );
+		return apply_filters('woocommerce_product_add_to_cart_url', $url, $this);
 	}
 
 	/**
@@ -56,10 +60,11 @@ class WC_Product_Simple extends WC_Product {
 	 *
 	 * @return string
 	 */
-	public function add_to_cart_text() {
-		$text = $this->is_purchasable() && $this->is_in_stock() ? __( 'Add to cart', 'woocommerce' ) : __( 'Read more', 'woocommerce' );
+	public function add_to_cart_text()
+	{
+		$text = $this->is_purchasable() && $this->is_in_stock() ? __('Add to cart', 'woocommerce') : __('Read more', 'woocommerce');
 
-		return apply_filters( 'woocommerce_product_add_to_cart_text', $text, $this );
+		return apply_filters('woocommerce_product_add_to_cart_text', $text, $this);
 	}
 
 	/**
@@ -68,11 +73,12 @@ class WC_Product_Simple extends WC_Product {
 	 * @since 3.3.0
 	 * @return string
 	 */
-	public function add_to_cart_description() {
+	public function add_to_cart_description()
+	{
 		/* translators: %s: Product title */
-		$text = $this->is_purchasable() && $this->is_in_stock() ? __( 'Add to cart: &ldquo;%s&rdquo;', 'woocommerce' ) : __( 'Read more about &ldquo;%s&rdquo;', 'woocommerce' );
+		$text = $this->is_purchasable() && $this->is_in_stock() ? __('Add to cart: &ldquo;%s&rdquo;', 'woocommerce') : __('Read more about &ldquo;%s&rdquo;', 'woocommerce');
 
-		return apply_filters( 'woocommerce_product_add_to_cart_description', sprintf( $text, $this->get_name() ), $this );
+		return apply_filters('woocommerce_product_add_to_cart_description', sprintf($text, $this->get_name()), $this);
 	}
 
 	/**
@@ -80,13 +86,14 @@ class WC_Product_Simple extends WC_Product {
 	 *
 	 * @return string
 	 */
-	public function add_to_cart_success_message() {
+	public function add_to_cart_success_message()
+	{
 		$text = '';
 
-		if ( $this->is_purchasable() && $this->is_in_stock() ) {
+		if ($this->is_purchasable() && $this->is_in_stock()) {
 			/* translators: %s: Product title */
-			$text = __( '&ldquo;%s&rdquo; has been added to your cart', 'woocommerce' );
-			$text = sprintf( $text, $this->get_name() );
+			$text = __('&ldquo;%s&rdquo; został dodany do koszyka', 'woocommerce');
+			$text = sprintf($text, $this->get_name());
 		}
 
 		/**
@@ -96,6 +103,6 @@ class WC_Product_Simple extends WC_Product {
 		 * @param string $text The success message when a product is added to the cart.
 		 * @param WC_Product_Simple $this Reference to the current WC_Product_Simple instance.
 		 */
-		return apply_filters( 'woocommerce_product_add_to_cart_success_message', $text, $this );
+		return apply_filters('woocommerce_product_add_to_cart_success_message', $text, $this);
 	}
 }

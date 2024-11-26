@@ -11,11 +11,34 @@ body .cart-popup .button.checkout,
 body html .btn-v-dark {
   background-color: #224b33;
 }
+body #shipping_method {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+body .easypack_show_geowidget {
+  box-shadow: none !important;
+  color: #231f20;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif !important;
+  font-weight: 700;
+  font-size: 16px !important;
+}
 body #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,
 body #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton,
 body #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,
 body #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton {
   border-radius: 0;
+}
+body .woocommerce-product-rating {
+  display: none;
+}
+body .page-wrapper .porto-gb-1dc583f41b1e5236970fd5b8de5848e3 {
+  background: #f49974;
+}
+body .page-wrapper .porto-gb-1dc583f41b1e5236970fd5b8de5848e3:hover {
+  background: rgba(244, 153, 116, 0.88) !important;
 }
 body #geodir-wrapper [type=button]:hover,
 body #geodir-wrapper [type=submit]:hover,
@@ -27,6 +50,10 @@ body input.submit:hover,
 body .cart-popup .button.checkout:hover,
 body html .btn-v-dark:hover {
   background-color: #234431;
+}
+body .porto-radio label,
+body .porto-radio input {
+  cursor: pointer;
 }
 body:not(.home) .page-wrapper #main .porto-block {
   margin: 0 auto;
@@ -70,6 +97,9 @@ body .porto-u-main-heading main {
     padding: 12px;
   }
 }
+body.single-product .woocommerce-variation-availability .stock:before {
+  background-color: #224b33;
+}
 body #cos-dla-siebie {
   font-size: get-vw(13px);
   font-weight: 700;
@@ -96,7 +126,8 @@ body .single-add-to-cart .type-product .view-cart-btn,
 body .single-product .product-summary-wrap .view-cart-btn {
   display: none;
 }
-body .woocommerce-message {
+body .woocommerce-message,
+body .woocommerce-error {
   margin-bottom: 30px;
   background: #fbf7ed !important;
   padding: 20px;
@@ -105,11 +136,49 @@ body .dokan-message:before,
 body .woocommerce-message:before {
   color: #231f20;
 }
-body .product-summary-wrap > form > .single_add_to_cart_button {
-  background: #f49974;
+body .button,
+body .after-loading-success-message .success-message-container .continue_shopping,
+body .product-summary-wrap > form > .single_add_to_cart_button,
+body .woocommerce-variation-add-to-cart .single_add_to_cart_button {
+  border: none;
+  background: #f49974 !important;
+  font-weight: 700;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  color: white !important;
 }
-body .product-summary-wrap > form > .single_add_to_cart_button:hover {
+body #mp_form_below_posts1 form.mailpoet_form {
+  padding: 0;
+}
+body #newsletter-submit {
+  background: black;
+}
+body .mailpoet_form .mailpoet_paragraph {
+  display: none;
+}
+body .mailpoet_form .mailpoet_paragraph.last {
+  position: absolute;
+  bottom: 38vw;
+  left: 67vw;
+  width: 17vw;
+}
+@media screen and (max-width: 768px) {
+  body .woocommerce-form-register .register-btn {
+    margin-top: 25px;
+  }
+}
+body .button:hover,
+body .after-loading-success-message .success-message-container .continue_shopping:hover,
+body .product-summary-wrap > form > .single_add_to_cart_button:hover,
+body .woocommerce-variation-add-to-cart .single_add_to_cart_button:hover {
   background: rgba(244, 153, 116, 0.88) !important;
+  border: none;
+}
+body .woocommerce-customer-details .woocommerce-button.button {
+  background: var(--porto-gray-3) !important;
+}
+body .woocommerce-customer-details .woocommerce-button.button:hover {
+  background: rgba(244, 244, 244, 0.8078431373) !important;
 }
 body.page-id-4340 .page-wrapper #content, body.page-id-4321 .page-wrapper #content, body.post-template-default .page-wrapper #main .porto-block {
   max-width: 100%;
@@ -123,7 +192,7 @@ body.page-id-4340 .page-wrapper #content div p a, body.page-id-4321 .page-wrappe
 body.page-id-4340 .page-wrapper #content div p a:hover, body.page-id-4321 .page-wrapper #content div p a:hover, body.post-template-default .page-wrapper #main .porto-block div p a:hover {
   color: #f49974;
 }
-body.page-id-4340 #main .row.main-content-wrap, body.page-id-4321 #main .row.main-content-wrap, body.page-template-blog_page-php #main .row.main-content-wrap, body.search #main .row.main-content-wrap, body.woocommerce-checkout #main .row.main-content-wrap, body.error404 #main .row.main-content-wrap {
+body.page-template-default #main .row.main-content-wrap, body.page-id-4340 #main .row.main-content-wrap, body.page-id-4321 #main .row.main-content-wrap, body.page-template-blog_page-php #main .row.main-content-wrap, body.search #main .row.main-content-wrap, body.woocommerce-checkout #main .row.main-content-wrap, body.error404 #main .row.main-content-wrap {
   max-width: 100%;
 }
 body #topcontrol {
@@ -151,15 +220,15 @@ body .my-wishlist .wishlist-count,
 body header .compare-count {
   background: #f49974;
 }
-body.page-id-4340 #main .row.main-content-wrap, body.page-id-4321 #main .row.main-content-wrap, body.page-template-blog_page-php #main .row.main-content-wrap, body.error404 #main .row.main-content-wrap, body.search #main .row.main-content-wrap, body.single-post #main .row.main-content-wrap, body.blog #main .row.main-content-wrap {
+body.page-template-default #main .row.main-content-wrap, body.page-id-4340 #main .row.main-content-wrap, body.page-id-4321 #main .row.main-content-wrap, body.page-template-blog_page-php #main .row.main-content-wrap, body.error404 #main .row.main-content-wrap, body.search #main .row.main-content-wrap, body.single-post #main .row.main-content-wrap, body.blog #main .row.main-content-wrap {
   max-width: 100%;
 }
-body.page-id-4340 #main .row.main-content-wrap .main-content.col-lg-9, body.page-id-4321 #main .row.main-content-wrap .main-content.col-lg-9, body.page-template-blog_page-php #main .row.main-content-wrap .main-content.col-lg-9, body.error404 #main .row.main-content-wrap .main-content.col-lg-9, body.search #main .row.main-content-wrap .main-content.col-lg-9, body.single-post #main .row.main-content-wrap .main-content.col-lg-9, body.blog #main .row.main-content-wrap .main-content.col-lg-9 {
+body.page-template-default #main .row.main-content-wrap .main-content.col-lg-9, body.page-id-4340 #main .row.main-content-wrap .main-content.col-lg-9, body.page-id-4321 #main .row.main-content-wrap .main-content.col-lg-9, body.page-template-blog_page-php #main .row.main-content-wrap .main-content.col-lg-9, body.error404 #main .row.main-content-wrap .main-content.col-lg-9, body.search #main .row.main-content-wrap .main-content.col-lg-9, body.single-post #main .row.main-content-wrap .main-content.col-lg-9, body.blog #main .row.main-content-wrap .main-content.col-lg-9 {
   max-width: 100%;
   padding: 0;
   width: 100%;
 }
-body.page-id-4340 #main .row.main-content-wrap .main-content.col-lg-12, body.page-id-4321 #main .row.main-content-wrap .main-content.col-lg-12, body.page-template-blog_page-php #main .row.main-content-wrap .main-content.col-lg-12, body.error404 #main .row.main-content-wrap .main-content.col-lg-12, body.search #main .row.main-content-wrap .main-content.col-lg-12, body.single-post #main .row.main-content-wrap .main-content.col-lg-12, body.blog #main .row.main-content-wrap .main-content.col-lg-12 {
+body.page-template-default #main .row.main-content-wrap .main-content.col-lg-12, body.page-id-4340 #main .row.main-content-wrap .main-content.col-lg-12, body.page-id-4321 #main .row.main-content-wrap .main-content.col-lg-12, body.page-template-blog_page-php #main .row.main-content-wrap .main-content.col-lg-12, body.error404 #main .row.main-content-wrap .main-content.col-lg-12, body.search #main .row.main-content-wrap .main-content.col-lg-12, body.single-post #main .row.main-content-wrap .main-content.col-lg-12, body.blog #main .row.main-content-wrap .main-content.col-lg-12 {
   padding: 0;
 }
 body .kategorie-1 .last-visible,
@@ -1296,6 +1365,7 @@ body ._ .frame-22 {
   transition: 0.33s ease-in-out all;
 }
 body ._ .frame-22.active {
+  transition: 0.33s ease-in-out all;
   background-color: #234431;
 }
 @media screen and (min-width: 768px) {
@@ -2273,9 +2343,13 @@ body ._ .frame-21 {
 }
 body ._ .frame-22 {
   row-gap: 1.43vw;
-  padding-bottom: 2.278vw;
+  padding: 0;
   padding-left: 1.748vw;
   padding-right: 15.466vw;
+}
+body ._ .frame-22.active {
+  padding-bottom: 2.278vw;
+  transition: 0.33s all ease-in-out;
   padding-top: 2.331vw;
 }
 body ._ .tt-frame-156nasza-bi-uteria-tworzona-jest-zmiedzi-najwy-szej-pr-by-a99masy-stopu-kt-ry-stosujemy-stanowi-mied-co-nadaje-mu-wyj-tkowe-waciwo-ci-funkcjonalne-ienergetyczne-tna-temat-miedzi-swokilka-wi-cej-wed-ug-danych-statystycznych-na-milion-atom-wskorupy-ziemskiej-60to-atomy-miedzi-00060nieprzypadkowe-miejsce-na-tablicy-mendelejewa-mo-na-interpretowa-jako-wskaz-wk-zasian-jak-ziarno-6marca-1869roku-czyli-dok-adnie-150lat-temu-mied-podobnie-jak-srebro-izoto-znajduje-si-w11grupie-uk-adu-okresowego-co-symbolizuje-jej-wyj-tkowe-waciwo-ci-wtowarzystwie-metali-szlachetnych-wspierana-doskona-ym-przewodnictwem-elektrycznym-miedzi-nasza-bi-uteria-ceniona-jest-za-energetyczne-waciwo-ci-wspieraj-charmoni-cia-aiumys-uclose_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
@@ -5256,13 +5330,17 @@ body ._ .hero-hover_best .hover_container {
   text-align: left;
 }
 body ._ .frame-22 {
-  display: none;
+  display: block;
+  min-height: 0;
   opacity: 0;
+  max-height: 0;
   transform: translateY(-1.059vw);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: all 0.33s ease;
 }
 body ._ .frame-22.active {
+  min-height: 29vw;
   display: block;
+  max-height: 30vw;
   opacity: 1;
   transform: translateY(0);
 }

@@ -2361,31 +2361,27 @@ body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categori
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(1),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(1) {
-  max-width: 42vw;
+  width: 42vw !important;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(2),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(2) {
-  max-width: 27vw;
+  width: 27vw !important;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(3),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(3) {
-  max-width: 25vw;
+  width: 25vw !important;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(4),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(4) {
-  max-width: 23vw;
+  width: 23vw !important;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(5),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(5) {
-  max-width: 19vw;
+  width: 19vw !important;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(6),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(6) {
-  max-width: 21vw;
-}
-body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(7),
-body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(7) {
-  max-width: 22vw;
+  width: 24vw !important;
 }
 body #mobile_app .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki,
 body .mobile_nav_container .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki {

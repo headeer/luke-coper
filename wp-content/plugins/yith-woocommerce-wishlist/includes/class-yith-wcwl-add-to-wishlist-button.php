@@ -7,13 +7,14 @@
  * @since   4.0
  */
 
-defined( 'YITH_WCWL' ) || exit; // Exit if accessed directly
+defined('YITH_WCWL') || exit; // Exit if accessed directly
 
-if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
+if (!class_exists('YITH_WCWL_Add_To_Wishlist_Button')) {
 	/**
 	 * @class YITH_WCWL_Add_To_Wishlist_Button
 	 */
-	class YITH_WCWL_Add_To_Wishlist_Button extends Abstract_YITH_WCWL_Block_Object {
+	class YITH_WCWL_Add_To_Wishlist_Button extends Abstract_YITH_WCWL_Block_Object
+	{
 
 		static protected $object_type = 'add_to_wishlist_button';
 
@@ -22,47 +23,47 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 */
 		protected static $options = array(
 			'wishlist_disabled_for_unauthenticated_users' => array(
-				'name'    => 'yith_wcwl_disable_wishlist_for_unauthenticated_users',
+				'name' => 'yith_wcwl_disable_wishlist_for_unauthenticated_users',
 				'default' => 'no',
 			),
-			'loop_position'                               => array(
+			'loop_position' => array(
 				'name' => 'yith_wcwl_loop_position',
 			),
-			'ajax_loading'                                => array(
+			'ajax_loading' => array(
 				'name' => 'yith_wcwl_ajax_enable',
 			),
-			'icon_type'                                   => array(
-				'name'    => 'yith_wcwl_add_to_wishlist_icon_type',
+			'icon_type' => array(
+				'name' => 'yith_wcwl_add_to_wishlist_icon_type',
 				'default' => 'default',
 			),
-			'icon'                                        => array(
-				'name'    => 'yith_wcwl_add_to_wishlist_icon',
+			'icon' => array(
+				'name' => 'yith_wcwl_add_to_wishlist_icon',
 				'default' => 'heart-outline',
 			),
-			'custom_icon'                                 => array(
+			'custom_icon' => array(
 				'name' => 'yith_wcwl_add_to_wishlist_custom_icon',
 			),
-			'added_icon_type'                             => array(
-				'name'    => 'yith_wcwl_added_to_wishlist_icon_type',
+			'added_icon_type' => array(
+				'name' => 'yith_wcwl_added_to_wishlist_icon_type',
 				'default' => 'default',
 			),
-			'added_icon'                                  => array(
-				'name'    => 'yith_wcwl_added_to_wishlist_icon',
+			'added_icon' => array(
+				'name' => 'yith_wcwl_added_to_wishlist_icon',
 				'default' => 'heart',
 			),
-			'custom_added_icon'                           => array(
+			'custom_added_icon' => array(
 				'name' => 'yith_wcwl_added_to_wishlist_custom_icon',
 			),
-			'custom_icon_alt'                             => array(
+			'custom_icon_alt' => array(
 				'value' => '',
 			),
-			'custom_icon_width'                           => array(
+			'custom_icon_width' => array(
 				'value' => '25',
 			),
-			'behaviour'                                   => array(
+			'behaviour' => array(
 				'name' => 'yith_wcwl_after_add_to_wishlist_behaviour',
 			),
-			'style'                                       => array(
+			'style' => array(
 				'name' => 'yith_wcwl_add_to_wishlist_style',
 			),
 		);
@@ -73,21 +74,21 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 * @var array
 		 */
 		protected $data = array(
-			'product_id'        => false,
+			'product_id' => false,
 			'parent_product_id' => false,
-			'icon_type'         => '',
-			'icon'              => '',
-			'added_icon_type'   => '',
-			'added_icon'        => '',
-			'custom_icon'       => '',
+			'icon_type' => '',
+			'icon' => '',
+			'added_icon_type' => '',
+			'added_icon' => '',
+			'custom_icon' => '',
 			'custom_added_icon' => '',
-			'wishlist'          => false,
-			'label'             => '',
-			'added_label'       => '',
-			'browse_label'      => '',
-			'already_in_label'  => '',
-			'is_single'         => null,
-			'ajax_loading'      => null,
+			'wishlist' => false,
+			'label' => '',
+			'added_label' => '',
+			'browse_label' => '',
+			'already_in_label' => '',
+			'is_single' => null,
+			'ajax_loading' => null,
 		);
 
 		/**
@@ -95,10 +96,11 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param array $data The button data.
 		 */
-		public function __construct( $data = array() ) {
+		public function __construct($data = array())
+		{
 			parent::__construct();
-			if ( is_array( $data ) ) {
-				$this->populate( $data );
+			if (is_array($data)) {
+				$this->populate($data);
 			}
 		}
 
@@ -109,9 +111,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $icon The icon.
 		 */
-		public function set_icon( $icon ) {
-			if ( in_array( $icon, array( 'fa-heart-o', 'fa-heart', 'custom', 'none' ) ) ) {
-				$this->set_prop( 'icon', $icon );
+		public function set_icon($icon)
+		{
+			if (in_array($icon, array('fa-heart-o', 'fa-heart', 'custom', 'none'))) {
+				$this->set_prop('icon', $icon);
 			}
 		}
 
@@ -120,9 +123,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $icon The added_icon.
 		 */
-		public function set_added_icon( $icon ) {
-			if ( in_array( $icon, array( 'fa-heart-o', 'fa-heart', 'custom', 'none' ) ) ) {
-				$this->set_prop( 'added_icon', $icon );
+		public function set_added_icon($icon)
+		{
+			if (in_array($icon, array('fa-heart-o', 'fa-heart', 'custom', 'none'))) {
+				$this->set_prop('added_icon', $icon);
 			}
 		}
 
@@ -131,8 +135,9 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $custom_icon The custom_icon.
 		 */
-		public function set_custom_icon( $custom_icon ) {
-			$this->set_prop( 'custom_icon', $custom_icon );
+		public function set_custom_icon($custom_icon)
+		{
+			$this->set_prop('custom_icon', $custom_icon);
 		}
 
 		/**
@@ -140,8 +145,9 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $custom_icon The custom_added_icon.
 		 */
-		public function set_custom_added_icon( $custom_icon ) {
-			$this->set_prop( 'custom_added_icon', $custom_icon );
+		public function set_custom_added_icon($custom_icon)
+		{
+			$this->set_prop('custom_added_icon', $custom_icon);
 		}
 
 		/**
@@ -149,16 +155,17 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param int $product_id The product_id.
 		 */
-		public function set_product_id( $product_id ) {
-			if ( $product_id instanceof WC_Product ) {
+		public function set_product_id($product_id)
+		{
+			if ($product_id instanceof WC_Product) {
 				$product_id = $product_id->get_id();
-			} elseif ( $product_id instanceof WP_Post ) {
+			} elseif ($product_id instanceof WP_Post) {
 				$product_id = $product_id->ID;
 			}
 
-			$product_id = absint( $product_id );
+			$product_id = absint($product_id);
 
-			$this->set_prop( 'product_id', $product_id );
+			$this->set_prop('product_id', $product_id);
 		}
 
 		/**
@@ -166,9 +173,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $label The label.
 		 */
-		public function set_label( $label ) {
-			if ( is_string( $label ) ) {
-				$this->set_prop( 'add_label', $label );
+		public function set_label($label)
+		{
+			if (is_string($label)) {
+				$this->set_prop('add_label', $label);
 			}
 		}
 
@@ -177,9 +185,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $label The added_label.
 		 */
-		public function set_added_label( $label ) {
-			if ( is_string( $label ) ) {
-				$this->set_prop( 'added_label', $label );
+		public function set_added_label($label)
+		{
+			if (is_string($label)) {
+				$this->set_prop('added_label', $label);
 			}
 		}
 
@@ -188,9 +197,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $label The browse_label.
 		 */
-		public function set_browse_label( $label ) {
-			if ( is_string( $label ) ) {
-				$this->set_prop( 'browse_label', $label );
+		public function set_browse_label($label)
+		{
+			if (is_string($label)) {
+				$this->set_prop('browse_label', $label);
 			}
 		}
 
@@ -199,9 +209,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $label The already_in_label.
 		 */
-		public function set_already_in_label( $label ) {
-			if ( is_string( $label ) ) {
-				$this->set_prop( 'already_in_label', $label );
+		public function set_already_in_label($label)
+		{
+			if (is_string($label)) {
+				$this->set_prop('already_in_label', $label);
 			}
 		}
 
@@ -210,8 +221,9 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $is_single Whether it's single page or loop.
 		 */
-		public function set_is_single( $is_single ) {
-			$this->set_prop( 'is_single', ! ! $is_single );
+		public function set_is_single($is_single)
+		{
+			$this->set_prop('is_single', !!$is_single);
 		}
 
 		/**
@@ -219,8 +231,9 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @param string $ajax_loading Whether load the content in ajax or not.
 		 */
-		public function set_ajax_loading( $ajax_loading ) {
-			$this->set_prop( 'ajax_loading', wc_string_to_bool( $ajax_loading ) );
+		public function set_ajax_loading($ajax_loading)
+		{
+			$this->set_prop('ajax_loading', wc_string_to_bool($ajax_loading));
 		}
 
 		/* === GETTERS === */
@@ -232,13 +245,14 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_icon( $context = 'view' ) {
+		public function get_icon($context = 'view')
+		{
 			$icon = 'custom';
-			if ( 'custom' !== self::get_option( 'icon_type' ) ) {
-				$icon = $this->get_prop( 'icon', $context );
+			if ('custom' !== self::get_option('icon_type')) {
+				$icon = $this->get_prop('icon', $context);
 			}
 
-			return $icon ?: self::get_option( 'icon' );
+			return $icon ?: self::get_option('icon');
 		}
 
 		/**
@@ -248,10 +262,11 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_added_icon_type( $context = 'view' ) {
-			$icon_type = $this->get_prop( 'added_icon_type', $context );
+		public function get_added_icon_type($context = 'view')
+		{
+			$icon_type = $this->get_prop('added_icon_type', $context);
 
-			return $icon_type ?: self::get_option( 'added_icon_type' );
+			return $icon_type ?: self::get_option('added_icon_type');
 		}
 
 		/**
@@ -261,19 +276,20 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_added_icon( $context = 'view' ) {
-			$icon_type = $this->get_added_icon_type( $context );
-			switch ( $icon_type ) {
+		public function get_added_icon($context = 'view')
+		{
+			$icon_type = $this->get_added_icon_type($context);
+			switch ($icon_type) {
 				case 'same':
 				case 'custom':
 					$icon = $icon_type;
 					break;
 				default:
-					$icon = $this->get_prop( 'added_icon', $context );
+					$icon = $this->get_prop('added_icon', $context);
 					break;
 			}
 
-			return $icon ?: self::get_option( 'added_icon' );
+			return $icon ?: self::get_option('added_icon');
 		}
 
 		/**
@@ -283,9 +299,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_custom_icon( $context = 'view' ) {
-			$custom_icon = $this->get_prop( 'custom_icon', $context );
-			return $custom_icon ?: self::get_option( 'custom_icon' );
+		public function get_custom_icon($context = 'view')
+		{
+			$custom_icon = $this->get_prop('custom_icon', $context);
+			return $custom_icon ?: self::get_option('custom_icon');
 		}
 
 		/**
@@ -295,15 +312,16 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_custom_added_icon( $context = 'view' ) {
-			$added_icon = $this->get_added_icon( $context );
-			if ( 'same' === $added_icon ) {
-				$custom_icon = $this->get_custom_icon( $context );
+		public function get_custom_added_icon($context = 'view')
+		{
+			$added_icon = $this->get_added_icon($context);
+			if ('same' === $added_icon) {
+				$custom_icon = $this->get_custom_icon($context);
 			} else {
-				$custom_icon = $this->get_prop( 'custom_added_icon', $context );
+				$custom_icon = $this->get_prop('custom_added_icon', $context);
 			}
 
-			return $custom_icon ?: self::get_option( 'custom_added_icon' );
+			return $custom_icon ?: self::get_option('custom_added_icon');
 		}
 
 		/**
@@ -313,13 +331,14 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return int
 		 */
-		public function get_product_id( $context = 'view' ) {
-			$product_id = $this->get_prop( 'product_id', $context );
-			if ( ! $product_id ) {
-				$product    = wc_get_product();
+		public function get_product_id($context = 'view')
+		{
+			$product_id = $this->get_prop('product_id', $context);
+			if (!$product_id) {
+				$product = wc_get_product();
 				$product_id = $product ? $product->get_id() : false;
-				if ( $product_id ) {
-					$this->set_product_id( $product_id );
+				if ($product_id) {
+					$this->set_product_id($product_id);
 				}
 			}
 			return $product_id;
@@ -330,8 +349,9 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return false|WC_Product|null
 		 */
-		public function get_product() {
-			return wc_get_product( $this->get_product_id() );
+		public function get_product()
+		{
+			return wc_get_product($this->get_product_id());
 		}
 
 		/**
@@ -341,7 +361,8 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return int
 		 */
-		public function get_parent_product_id( $context = 'view' ) {
+		public function get_parent_product_id($context = 'view')
+		{
 			$product = $this->get_product();
 
 			return $product ? $product->get_parent_id() : false;
@@ -354,9 +375,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_add_label( $context = 'view' ) {
-			$label = $this->get_prop( 'add_label', $context );
-			return $label ?: self::get_option( 'add_label' );
+		public function get_add_label($context = 'view')
+		{
+			$label = $this->get_prop('add_label', $context);
+			return $label ?: self::get_option('add_label');
 		}
 
 		/**
@@ -366,9 +388,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_added_label( $context = 'view' ) {
-			$label = $this->get_prop( 'added_label', $context );
-			return $label ?: self::get_option( 'added_label' );
+		public function get_added_label($context = 'view')
+		{
+			$label = $this->get_prop('added_label', $context);
+			return $label ?: self::get_option('added_label');
 		}
 
 		/**
@@ -378,9 +401,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_browse_label( $context = 'view' ) {
-			$label = $this->get_prop( 'browse_label', $context );
-			return $label ?: self::get_option( 'browse_label' );
+		public function get_browse_label($context = 'view')
+		{
+			$label = $this->get_prop('browse_label', $context);
+			return $label ?: self::get_option('browse_label');
 		}
 
 		/**
@@ -390,9 +414,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_already_in_label( $context = 'view' ) {
-			$label = $this->get_prop( 'already_in_label', $context );
-			return $label ?: self::get_option( 'already_in_label' );
+		public function get_already_in_label($context = 'view')
+		{
+			$label = $this->get_prop('already_in_label', $context);
+			return $label ?: self::get_option('already_in_label');
 		}
 
 		/**
@@ -402,10 +427,11 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return bool
 		 */
-		public function get_is_single( $context = 'view' ) {
-			$is_single = $this->get_prop( 'is_single', $context );
+		public function get_is_single($context = 'view')
+		{
+			$is_single = $this->get_prop('is_single', $context);
 
-			return ! ! ( is_null( $is_single ) ? yith_wcwl_is_single() : $is_single );
+			return !!(is_null($is_single) ? yith_wcwl_is_single() : $is_single);
 		}
 
 		/**
@@ -415,10 +441,11 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return bool
 		 */
-		public function get_ajax_loading( $context = 'view' ) {
-			$ajax_loading = $this->get_prop( 'ajax_loading', $context );
+		public function get_ajax_loading($context = 'view')
+		{
+			$ajax_loading = $this->get_prop('ajax_loading', $context);
 
-			return ! ! ( is_bool( $ajax_loading ) ? $ajax_loading : 'yes' === self::get_option( 'ajax_loading' ) );
+			return !!(is_bool($ajax_loading) ? $ajax_loading : 'yes' === self::get_option('ajax_loading'));
 		}
 
 		/* === CONDITIONALS === */
@@ -428,13 +455,14 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return bool
 		 */
-		public function is_in_a_wishlist() {
+		public function is_in_a_wishlist()
+		{
 			$product_id = $this->get_product_id();
-			if ( ! $product_id ) {
+			if (!$product_id) {
 				return false;
 			}
 
-			return ! ! yith_wcwl_wishlists()->get_wishlist_for_product( $product_id );
+			return !!yith_wcwl_wishlists()->get_wishlist_for_product($product_id);
 		}
 
 		/**
@@ -442,13 +470,14 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return bool
 		 */
-		public function is_in_default_wishlist() {
+		public function is_in_default_wishlist()
+		{
 			$product_id = $this->get_product_id();
-			if ( ! $product_id ) {
+			if (!$product_id) {
 				return false;
 			}
 
-			return yith_wcwl_wishlists()->is_product_in_wishlist( $product_id );
+			return yith_wcwl_wishlists()->is_product_in_wishlist($product_id);
 		}
 
 		/**
@@ -456,7 +485,8 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return false|YITH_WCWL_Wishlist
 		 */
-		public function get_wishlist() {
+		public function get_wishlist()
+		{
 			return $this->is_in_a_wishlist() ? yith_wcwl_get_wishlist() : false;
 		}
 
@@ -465,9 +495,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return false|YITH_WCWL_Wishlist
 		 */
-		public function get_wishlist_item() {
+		public function get_wishlist_item()
+		{
 			$wishlist = $this->get_wishlist();
-			return $wishlist ? $wishlist->get_product( $this->get_product_id() ) : false;
+			return $wishlist ? $wishlist->get_product($this->get_product_id()) : false;
 		}
 
 		/**
@@ -475,13 +506,14 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_template_kind() {
-			$behaviour      = self::get_option( 'behaviour', 'view' );
+		public function get_template_kind()
+		{
+			$behaviour = self::get_option('behaviour', 'view');
 			$is_in_wishlist = $this->is_in_default_wishlist();
-			$template_part  = $is_in_wishlist && 'add' !== $behaviour ? 'browse' : 'button';
-			$template_part  = $is_in_wishlist ? 'added' : $template_part;
+			$template_part = $is_in_wishlist && 'add' !== $behaviour ? 'browse' : 'button';
+			$template_part = $is_in_wishlist ? 'added' : $template_part;
 
-			if ( $is_in_wishlist && in_array( $template_part, array( 'browse', 'added' ), true ) && 'remove' === $behaviour ) {
+			if ($is_in_wishlist && in_array($template_part, array('browse', 'added'), true) && 'remove' === $behaviour) {
 				$template_part = 'remove';
 			}
 
@@ -496,9 +528,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return  string
 		 */
-		public function get_label_for_display( $template_kind = null ) {
+		public function get_label_for_display($template_kind = null)
+		{
 			$template_kind = $this->get_template_kind();
-			switch ( $template_kind ) {
+			switch ($template_kind) {
 				case 'browse':
 					$label = $this->get_browse_label();
 					break;
@@ -506,7 +539,7 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 					$label = $this->get_added_label();
 					break;
 				case 'remove':
-					$label = $this->get_option( 'remove_label' );
+					$label = $this->get_option('remove_label');
 					break;
 				default:
 					$label = $this->get_add_label();
@@ -522,36 +555,37 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return array|false
 		 */
-		protected function get_render_data() {
+		protected function get_render_data()
+		{
 			$product = $this->get_product();
 
-			if ( ! $product ) {
+			if (!$product) {
 				return array();
 			}
 
 			// get wishlist url.
 			$wishlist_url = YITH_WCWL()->get_wishlist_url();
-			$exists       = $this->is_in_a_wishlist();
+			$exists = $this->is_in_a_wishlist();
 
 			// get product type.
 
 			$data = array(
-				'add_label'        => $this->get_add_label(),
-				'added_label'      => $this->get_added_label(),
-				'is_single'        => $this->get_is_single(),
-				'exists'           => $exists,
-				'kind'             => $this->get_template_kind(),
-				'show_view'        => yith_wcwl_is_single(),
-				'browse_label'     => $this->get_browse_label(),
+				'add_label' => $this->get_add_label(),
+				'added_label' => $this->get_added_label(),
+				'is_single' => $this->get_is_single(),
+				'exists' => $exists,
+				'kind' => $this->get_template_kind(),
+				'show_view' => yith_wcwl_is_single(),
+				'browse_label' => $this->get_browse_label(),
 				'already_in_label' => $this->get_already_in_label(),
-				'icon'             => $this->get_prop( 'icon' ),
-				'added_icon'       => $this->get_prop( 'added_icon' ),
-				'loop_position'    => self::get_option( 'loop_position' ),
+				'icon' => $this->get_prop('icon'),
+				'added_icon' => $this->get_prop('added_icon'),
+				'loop_position' => self::get_option('loop_position'),
 			);
 
 			// TODO: Add filter
 
-			return array_filter( $data );
+			return array_filter($data);
 		}
 
 		/**
@@ -559,10 +593,11 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return array|false
 		 */
-		protected function get_legacy_php_template_render_data() {
+		protected function get_legacy_php_template_render_data()
+		{
 			$product = $this->get_product();
 
-			if ( ! $product ) {
+			if (!$product) {
 				return false;
 			}
 
@@ -570,30 +605,30 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 			$wishlist_url = YITH_WCWL()->get_wishlist_url();
 
 			$data = array(
-				'label'                     => $this->get_label_for_display(),
-				'base_url'                  => yith_wcwl_get_current_url(),
-				'wishlist_url'              => $wishlist_url,
-				'container_classes'         => $this->get_container_classes(),
-				'product_id'                => $product->get_id(),
-				'parent_product_id'         => $product->get_parent_id(),
-				'product_type'              => $product->get_type(), // TODO: check if needed.
-				'link_classes'              => $this->get_button_classes(),
-				'is_single'                 => $this->get_is_single(),
-				'in_default_wishlist'       => $this->is_in_default_wishlist(), // Always true if it exists in the free version
-				'exists'                    => $this->is_in_a_wishlist(),
-				'found_in_list'             => $this->get_wishlist(),
-				'found_item'                => $this->get_wishlist_item(),
-				'template_part'             => $this->get_template_kind(),
-				'show_view'                 => yith_wcwl_is_single(),
-				'browse_wishlist_text'      => $this->get_browse_label(),
+				'label' => $this->get_label_for_display(),
+				'base_url' => yith_wcwl_get_current_url(),
+				'wishlist_url' => $wishlist_url,
+				'container_classes' => $this->get_container_classes(),
+				'product_id' => $product->get_id(),
+				'parent_product_id' => $product->get_parent_id(),
+				'product_type' => $product->get_type(), // TODO: check if needed.
+				'link_classes' => $this->get_button_classes(),
+				'is_single' => $this->get_is_single(),
+				'in_default_wishlist' => $this->is_in_default_wishlist(), // Always true if it exists in the free version
+				'exists' => $this->is_in_a_wishlist(),
+				'found_in_list' => $this->get_wishlist(),
+				'found_item' => $this->get_wishlist_item(),
+				'template_part' => $this->get_template_kind(),
+				'show_view' => yith_wcwl_is_single(),
+				'browse_wishlist_text' => $this->get_browse_label(),
 				'already_in_wishslist_text' => $this->get_already_in_label(),
-				'product_added_text'        => $this->get_added_label(),
-				'icon'                      => $this->get_icon_to_display(),
-				'available_multi_wishlist'  => false,
-				'disable_wishlist'          => false,
-				'show_count'                => false, // Always false in free version
-				'ajax_loading'              => $this->get_ajax_loading(),
-				'loop_position'             => self::get_option( 'loop_position' ),
+				'product_added_text' => $this->get_added_label(),
+				'icon' => $this->get_icon_to_display(),
+				'available_multi_wishlist' => false,
+				'disable_wishlist' => false,
+				'show_count' => false, // Always false in free version
+				'ajax_loading' => $this->get_ajax_loading(),
+				'loop_position' => self::get_option('loop_position'),
 			);
 
 			/**
@@ -606,13 +641,13 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 			 *
 			 * @return array
 			 */
-			$data = apply_filters( 'yith_wcwl_add_to_wishlist_params', $data, $data );
+			$data = apply_filters('yith_wcwl_add_to_wishlist_params', $data, $data);
 
 			// set fragment options.
-			$data[ 'fragment_options' ] = YITH_WCWL_Frontend()->format_fragment_options( $data, 'add_to_wishlist' );
+			$data['fragment_options'] = YITH_WCWL_Frontend()->format_fragment_options($data, 'add_to_wishlist');
 
 			// Updating icon and heading icon HTML
-			$data = array_merge( $data, $this->get_icons_html() );
+			$data = array_merge($data, $this->get_icons_html());
 
 			return $data;
 		}
@@ -624,23 +659,24 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string|null
 		 */
-		public function render( $return_html = false ) {
-			if ( 'php-templates' === self::get_rendering_method() ) {
-				return $this->legacy_php_template_render( $return_html );
+		public function render($return_html = false)
+		{
+			if ('php-templates' === self::get_rendering_method()) {
+				return $this->legacy_php_template_render($return_html);
 			}
 
 			$global_options = static::get_global_options();
 
 			$attributes = array_filter(
 				$this->get_render_data(),
-				function ( $value, $name ) use ( $global_options ) {
-					return $value !== ( $global_options[ $name ] ?? null );
+				function ($value, $name) use ($global_options) {
+					return $value !== ($global_options[$name] ?? null);
 				},
 				ARRAY_FILTER_USE_BOTH
 			);
 
-			$button_html = '<div class="' . $this->get_component_container_classes() . '" data-product-id="' . absint( $this->get_product_id() ) . '" data-attributes="' . esc_attr( wp_json_encode( $attributes ) ) . '"></div>';
-			if ( ! $return_html ) {
+			$button_html = '<div class="' . $this->get_component_container_classes() . '" data-product-id="' . absint($this->get_product_id()) . '" data-attributes="' . esc_attr(wp_json_encode($attributes)) . '"></div>';
+			if (!$return_html) {
 				echo $button_html;
 			}
 
@@ -653,14 +689,15 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 * @param bool $return_html Whether to print or return the button HTML.
 		 * @return string|null
 		 */
-		protected function legacy_php_template_render( $return_html = false ) {
+		protected function legacy_php_template_render($return_html = false)
+		{
 			$data = $this->get_legacy_php_template_render_data();
 
-			if ( ! $data ) {
+			if (!$data) {
 				return '';
 			}
 
-			$template = yith_wcwl_get_template( 'add-to-wishlist.php', $data, $return_html );
+			$template = yith_wcwl_get_template('add-to-wishlist.php', $data, $return_html);
 
 			// enqueue scripts.
 			YITH_WCWL_Frontend()->register_styles();
@@ -681,7 +718,7 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 			 *
 			 * @return string
 			 */
-			return apply_filters( 'yith_wcwl_add_to_wishlist_button_html', $template, $data[ 'wishlist_url' ], $data[ 'product_type' ], $data[ 'exists' ], $data );
+			return apply_filters('yith_wcwl_add_to_wishlist_button_html', $template, $data['wishlist_url'], $data['product_type'], $data['exists'], $data);
 		}
 
 		/**
@@ -690,29 +727,30 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 * @param array $data The button data.
 		 * @return string
 		 */
-		protected function get_icon_to_display() {
-			$icon       = $this->get_icon();
+		protected function get_icon_to_display()
+		{
+			$icon = $this->get_icon();
 			$added_icon = $this->get_added_icon();
 
-			$icon       = 'none' !== $icon ? $icon : '';
+			$icon = 'none' !== $icon ? $icon : '';
 			$added_icon = 'none' !== $added_icon ? $added_icon : '';
 
-			$custom_icon       = 'custom' === $icon ? $this->get_custom_icon() : '';
-			$custom_added_icon = 'custom' === $added_icon || ( 'same' === $added_icon && $custom_icon ) ? $this->get_custom_added_icon() : '';
+			$custom_icon = 'custom' === $icon ? $this->get_custom_icon() : '';
+			$custom_added_icon = 'custom' === $added_icon || ('same' === $added_icon && $custom_icon) ? $this->get_custom_added_icon() : '';
 
-			$is_single              = $this->get_is_single();
-			$is_on_top_of_the_image = 'before_image' === $this->get_option( 'loop_position' );
+			$is_single = $this->get_is_single();
+			$is_on_top_of_the_image = 'before_image' === $this->get_option('loop_position');
 
-			if ( ! $is_single && $is_on_top_of_the_image && ( ! $icon || ( 'custom' === $icon && ! $custom_icon && ! $custom_added_icon ) ) ) {
+			if (!$is_single && $is_on_top_of_the_image && (!$icon || ('custom' === $icon && !$custom_icon && !$custom_added_icon))) {
 				$icon = 'heart-outline';
 			}
 
 			// Change icon when item exists in wishlist.
-			if ( $this->is_in_a_wishlist() ) {
-				if ( $added_icon && 'same' !== $added_icon && ( 'custom' !== $added_icon || $custom_added_icon || $custom_icon ) ) {
+			if ($this->is_in_a_wishlist()) {
+				if ($added_icon && 'same' !== $added_icon && ('custom' !== $added_icon || $custom_added_icon || $custom_icon)) {
 					$icon = $added_icon;
-				} elseif ( strpos( $icon, '-outline' ) !== false ) {
-					$icon = str_replace( '-outline', '', $icon );
+				} elseif (strpos($icon, '-outline') !== false) {
+					$icon = str_replace('-outline', '', $icon);
 				}
 			}
 
@@ -724,23 +762,24 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string[]
 		 */
-		protected function get_icons_html() {
+		protected function get_icons_html()
+		{
 			$icon = $this->get_icon_to_display();
 
-			if ( 'custom' === $icon ) {
-				$custom_icon       = $this->get_custom_icon();
+			if ('custom' === $icon) {
+				$custom_icon = $this->get_custom_icon();
 				$custom_added_icon = $this->get_custom_added_icon();
-				$custom_icon_alt   = self::get_option( 'custom_icon_alt' );
-				$custom_icon_width = self::get_option( 'custom_icon_width' );
-				if ( $this->is_in_a_wishlist() && $custom_added_icon ) {
-					$icon_html         = '<img class="yith-wcwl-icon" src="' . esc_url( $custom_added_icon ) . '" alt="' . esc_attr( $custom_icon_alt ) . '" width="' . esc_attr( $custom_icon_width ) . '" />';
-					$heading_icon_html = ! empty( $custom_icon ) ? '<img class="yith-wcwl-icon" src="' . esc_url( $custom_icon ) . '" alt="' . esc_attr( $custom_icon_alt ) . '" width="' . esc_attr( $custom_icon_width ) . '" />' : '';
-				} elseif ( $custom_icon ) {
-					$icon_html         = '<img class="yith-wcwl-icon" src="' . esc_url( $custom_icon ) . '" alt="' . esc_attr( $custom_icon_alt ) . '" width="' . esc_attr( $custom_icon_width ) . '" />';
+				$custom_icon_alt = self::get_option('custom_icon_alt');
+				$custom_icon_width = self::get_option('custom_icon_width');
+				if ($this->is_in_a_wishlist() && $custom_added_icon) {
+					$icon_html = '<img class="yith-wcwl-icon" src="' . esc_url($custom_added_icon) . '" alt="' . esc_attr($custom_icon_alt) . '" width="' . esc_attr($custom_icon_width) . '" />';
+					$heading_icon_html = !empty($custom_icon) ? '<img class="yith-wcwl-icon" src="' . esc_url($custom_icon) . '" alt="' . esc_attr($custom_icon_alt) . '" width="' . esc_attr($custom_icon_width) . '" />' : '';
+				} elseif ($custom_icon) {
+					$icon_html = '<img class="yith-wcwl-icon" src="' . esc_url($custom_icon) . '" alt="' . esc_attr($custom_icon_alt) . '" width="' . esc_attr($custom_icon_width) . '" />';
 					$heading_icon_html = $icon_html;
 				}
 			} else {
-				$icon_html         = ! empty( $icon ) ? yith_wcwl_get_icon( $icon ) : '';
+				$icon_html = !empty($icon) ? yith_wcwl_get_icon($icon) : '';
 				$heading_icon_html = $icon_html;
 			}
 
@@ -754,7 +793,7 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 			 *
 			 * @return string
 			 */
-			$icon_html = apply_filters( 'yith_wcwl_add_to_wishlist_icon_html', $icon_html, $this->data );
+			$icon_html = apply_filters('yith_wcwl_add_to_wishlist_icon_html', $icon_html, $this->data);
 
 			/**
 			 * APPLY_FILTERS: yith_wcwl_add_to_wishlist_heading_icon_html
@@ -766,10 +805,10 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 			 *
 			 * @return string
 			 */
-			$heading_icon_html = apply_filters( 'yith_wcwl_add_to_wishlist_heading_icon_html', $heading_icon_html, $this->data );
+			$heading_icon_html = apply_filters('yith_wcwl_add_to_wishlist_heading_icon_html', $heading_icon_html, $this->data);
 
 			return array(
-				'icon'         => $icon_html,
+				'icon' => $icon_html,
 				'heading_icon' => $heading_icon_html,
 			);
 		}
@@ -779,49 +818,51 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_button_classes() {
+		public function get_button_classes()
+		{
 			$classes = array();
 
 			$template_part = $this->get_template_kind();
-			$style         = self::get_option( 'style' );
-			$loop_position = self::get_option( 'loop_position' );
-			$is_single     = $this->get_is_single();
+			$style = self::get_option('style');
+			$loop_position = self::get_option('loop_position');
+			$is_single = $this->get_is_single();
 
-			if ( 'remove' !== $template_part ) {
+			if ('remove' !== $template_part) {
 				$classes = array(
 					'add_to_wishlist',
 					'single_add_to_wishlist',
 				);
 			}
 
-			if ( in_array( $style, array( 'button_custom', 'button_default' ), true ) ) {
+			if (in_array($style, array('button_custom', 'button_default'), true)) {
 				$classes[] = 'alt';
 
 				// Prevent button appearance when we're in loop, over image.
-				if ( $is_single || 'before_image' !== $loop_position ) {
+				if ($is_single || 'before_image' !== $loop_position) {
 					$classes[] = 'button';
 				}
 			}
 
-			if ( 'button_default' === $style ) {
+			if ('button_default' === $style) {
 				$classes[] = 'theme-button-style';
-				$classes[] = wc_wp_theme_get_element_class_name( 'button' );
+				$classes[] = wc_wp_theme_get_element_class_name('button');
 			}
 
-			return apply_filters( 'yith_wcwl_add_to_wishlist_button_classes', implode( ' ', $classes ) );
+			return apply_filters('yith_wcwl_add_to_wishlist_button_classes', implode(' ', $classes));
 		}
 
 
-		public function get_component_container_classes() {
+		public function get_component_container_classes()
+		{
 			$classes = array(
 				'yith-add-to-wishlist-button-block',
 			);
 
-			if ( $this->get_is_single() ) {
+			if ($this->get_is_single()) {
 				$classes[] = 'yith-add-to-wishlist-button-block--single';
 			}
 
-			return implode( ' ', $classes );
+			return implode(' ', $classes);
 		}
 
 		/**
@@ -829,65 +870,67 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return string
 		 */
-		public function get_container_classes() {
+		public function get_container_classes()
+		{
 			$classes = array(
-				'yith-wcwl-add-to-wishlist--' . self::get_option( 'style' ) . '-style',
+				'yith-wcwl-add-to-wishlist--' . self::get_option('style') . '-style',
 			);
 
-			if ( $this->is_in_a_wishlist() ) {
+			if ($this->is_in_a_wishlist()) {
 				$classes[] = 'exists';
 			}
 
-			if ( $this->get_is_single() ) {
+			if ($this->get_is_single()) {
 				$classes[] = 'yith-wcwl-add-to-wishlist--single';
 			}
 
-			if ( $this->get_is_single() && ! $this->get_icon() ) { // TODO: check when this happen (no-icon displayed)
+			if ($this->get_is_single() && !$this->get_icon()) { // TODO: check when this happen (no-icon displayed)
 				$classes[] = 'no-icon';
 			}
 
-			return implode( ' ', $classes );
+			return implode(' ', $classes);
 		}
 
 		/**
 		 * Initialize static options
 		 */
-		static protected function maybe_init_static_options() {
+		static protected function maybe_init_static_options()
+		{
 			static $initialized = false;
 
-			if ( ! $initialized ) {
+			if (!$initialized) {
 				static::$options = array_merge(
 					static::$options,
 					array(
-						'popup_title'           => array( 'value' => __( 'Select a wishlist', 'yith-woocommerce-wishlist' ) ),
-						'move_popup_title'      => array( 'value' => __( 'Move to another wishlist', 'yith-woocommerce-wishlist' ) ),
-						'add_label'             => array(
-							'name'    => 'yith_wcwl_add_to_wishlist_text',
-							'default' => __( 'Add to wishlist', 'yith-woocommerce-wishlist' ),
+						'popup_title' => array('value' => __('Select a wishlist', 'yith-woocommerce-wishlist')),
+						'move_popup_title' => array('value' => __('Move to another wishlist', 'yith-woocommerce-wishlist')),
+						'add_label' => array(
+							'name' => 'yith_wcwl_add_to_wishlist_text',
+							'default' => __('Add to wishlist', 'yith-woocommerce-wishlist'),
 						),
-						'added_label'           => array(
-							'name'    => 'yith_wcwl_product_added_text',
-							'default' => __( 'Product added!', 'yith-woocommerce-wishlist' ),
+						'added_label' => array(
+							'name' => 'yith_wcwl_product_added_text',
+							'default' => __('Product added!', 'yith-woocommerce-wishlist'),
 						),
-						'remove_label'          => array(
-							'name'    => 'yith_wcwl_remove_from_wishlist_text',
-							'default' => __( 'Remove from list', 'yith-woocommerce-wishlist' ),
+						'remove_label' => array(
+							'name' => 'yith_wcwl_remove_from_wishlist_text',
+							'default' => __('Remove from list', 'yith-woocommerce-wishlist'),
 						),
-						'browse_label'          => array(
-							'name'    => 'yith_wcwl_browse_wishlist_text',
-							'default' => __( 'Remove from list', 'yith-woocommerce-wishlist' ),
+						'browse_label' => array(
+							'name' => 'yith_wcwl_browse_wishlist_text',
+							'default' => __('Remove from list', 'yith-woocommerce-wishlist'),
 						),
-						'already_in_label'      => array(
-							'name'    => 'yith_wcwl_already_in_wishlist_text',
-							'default' => __( 'The product is already in your wishlist!', 'yith-woocommerce-wishlist' ),
+						'already_in_label' => array(
+							'name' => 'yith_wcwl_already_in_wishlist_text',
+							'default' => __('The product is already in your wishlist!', 'yith-woocommerce-wishlist'),
 						),
 						'default_wishlist_name' => array(
-							'name'    => 'yith_wcwl_wishlist_title',
-							'default' => __( 'My wishlist', 'yith-woocommerce-wishlist' ),
+							'name' => 'yith_wcwl_wishlist_title',
+							'default' => __('My wishlist', 'yith-woocommerce-wishlist'),
 						),
 					)
 				);
-				$initialized     = true;
+				$initialized = true;
 			}
 
 			parent::maybe_init_static_options();
@@ -896,14 +939,15 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		/**
 		 * Register scripts and style and localize scripts
 		 */
-		public static function maybe_register_scripts() {
-			if ( ! self::is_php_templates_mode() ) {
+		public static function maybe_register_scripts()
+		{
+			if (!self::is_php_templates_mode()) {
 				static $registered = false;
 
-				if ( ! $registered ) {
+				if (!$registered) {
 					$asset_file = include YITH_WCWL_ASSETS . 'js/dist/components/add-to-wishlist/index.asset.php';
-					wp_register_style( 'yith-wcwl-add-to-wishlist', YITH_WCWL_ASSETS_CSS_URL . 'frontend/add-to-wishlist.css', array(), YITH_WCWL_VERSION );
-					wp_register_script( 'yith-wcwl-add-to-wishlist', YITH_WCWL_ASSETS_JS_URL . 'dist/components/add-to-wishlist/index.js', $asset_file[ 'dependencies' ], $asset_file[ 'version' ], true ); // TODO: minify the script and enqueue the in .min.js when not in debug mode
+					wp_register_style('yith-wcwl-add-to-wishlist', YITH_WCWL_ASSETS_CSS_URL . 'frontend/add-to-wishlist.css', array(), YITH_WCWL_VERSION);
+					wp_register_script('yith-wcwl-add-to-wishlist', YITH_WCWL_ASSETS_JS_URL . 'dist/components/add-to-wishlist/index.js', $asset_file['dependencies'], $asset_file['version'], true); // TODO: minify the script and enqueue the in .min.js when not in debug mode
 
 					wp_localize_script(
 						'yith-wcwl-add-to-wishlist',
@@ -920,15 +964,16 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		 *
 		 * @return array
 		 */
-		protected static function get_data_to_localize() {
+		protected static function get_data_to_localize()
+		{
 			return array(
-				'isUserLoggedIn'     => is_user_logged_in(),
-				'globalOptions'      => static::get_global_options(),
-				'buttonClasses'      => wc_wp_theme_get_element_class_name( 'button' ),
-				'feedback_duration'  => yith_wcwl_get_feedback_duration(),
-				'wishlist_url'       => YITH_WCWL()->get_wishlist_url(),
-				'containerSelectors'   => array(
-					'productContainer'   => apply_filters(
+				'isUserLoggedIn' => is_user_logged_in(),
+				'globalOptions' => static::get_global_options(),
+				'buttonClasses' => wc_wp_theme_get_element_class_name('button'),
+				'feedback_duration' => yith_wcwl_get_feedback_duration(),
+				'wishlist_url' => YITH_WCWL()->get_wishlist_url(),
+				'containerSelectors' => array(
+					'productContainer' => apply_filters(
 						'yith_wcwl_product_container_selectors',
 						array(
 							'.wc-block-grid__product',
@@ -958,11 +1003,11 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 						'wishlist_notice' => 'true',
 						'add_to_wishlist' => '%product_id%',
 					),
-					get_permalink( wc_get_page_id( 'myaccount' ) )
+					get_permalink(wc_get_page_id('myaccount'))
 				),
-				'i18n'               => array(
+				'i18n' => array(
 					'feedbacks' => array(
-						'added'   => __( '{{product_name}} has been added to your {{wishlist_name}} list!', 'yith-woocommerce-wishlist' ),
+						'added' => __('{{product_name}} został dodany do twojej {{wishlist_name}} listy!', 'yith-woocommerce-wishlist'),
 						'removed' => '{{product_name}} has been removed from your {{wishlist_name}} list!',
 					),
 				),
@@ -972,15 +1017,16 @@ if ( ! class_exists( 'YITH_WCWL_Add_To_Wishlist_Button' ) ) {
 		/**
 		 * Enqueue style and scripts fot the add to wishlist.
 		 */
-		public static function enqueue_style() {
+		public static function enqueue_style()
+		{
 			static $enqueued = false;
 
-			if ( ! $enqueued ) {
-				wp_enqueue_script( 'yith-wcwl-add-to-wishlist' );
-				wp_enqueue_style( 'yith-wcwl-add-to-wishlist' );
-				wp_set_script_translations( 'yith-wcwl-add-to-wishlist', 'yith-woocommerce-wishlist', YITH_WCWL_DIR . 'languages/js' );
+			if (!$enqueued) {
+				wp_enqueue_script('yith-wcwl-add-to-wishlist');
+				wp_enqueue_style('yith-wcwl-add-to-wishlist');
+				wp_set_script_translations('yith-wcwl-add-to-wishlist', 'yith-woocommerce-wishlist', YITH_WCWL_DIR . 'languages/js');
 
-				YITH_WCWL_Frontend::get_instance()->enqueue_custom_style( 'yith-wcwl-add-to-wishlist' );
+				YITH_WCWL_Frontend::get_instance()->enqueue_custom_style('yith-wcwl-add-to-wishlist');
 
 				$enqueued = true;
 			}
