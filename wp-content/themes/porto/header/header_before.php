@@ -164,10 +164,6 @@
 					<div
 						class="mobile_ttt-ico_menu-tdzie-dobry-dobrze-ejeste-frame-166ttframe-21ico_fav-ico_profile-ico_bag-frame">
 						<div class="mobile_tt-ico_menu-tdzie-dobry-dobrze-ejeste-frame">
-							<div class="mobile_t-ico_menu">
-								<object data="<?php echo get_template_directory_uri(); ?>/assets/Ico_menu.svg"
-									class="mobile_ico_menu"></object>
-							</div>
 							<div class="mobile_t-dzie-dobry-dobrze-ejeste-frame">
 								<div class="mobile_dzie-dobry-dobrze-ejeste">
 									<span>
@@ -226,19 +222,19 @@
 								<a href="/shop">Miedziane NOWOŚCI</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/kategoria-produktu/bransoletki/">Bransoletki</a>
+								<a href="/kategoria-produktu/bransoletki/">Bransoletki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/kategoria-produktu/pierscionki/">Pierścionki</a>
+								<a href="/kategoria-produktu/pierscionki/">Pierścionki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/kategoria-produktu/naszyjniki/">Naszyjniki</a>
+								<a href="/kategoria-produktu/naszyjniki/">Naszyjniki</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/kategoria-produktu/kolczyki/">Kolczyki</a>
+								<a href="/kategoria-produktu/prezenty-i-wiecej">Prezenty i więcej</a>
 							</div>
 							<div class="swiper-slide mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki">
-								<a href="https://lukecopper.com/kategoria-produktu/akcesoria">Akcesoria</a>
+								<a href="/kategoria-produktu/swiateczne-promocje">Świąteczne promocje</a>
 							</div>
 						</div>
 					</div>

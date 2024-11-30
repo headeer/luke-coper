@@ -556,7 +556,7 @@ function porto_css()
 	}
 
 	/*
-													 register styles */
+														register styles */
 	// plugins styles
 	wp_deregister_style('porto-plugins');
 	$optimized_suffix = '';
@@ -651,9 +651,9 @@ function porto_css()
 				do_action('elementor/frontend/after_enqueue_styles');
 
 				/*$kit_id = \Elementor\Plugin::$instance->kits_manager->get_active_id();
-																																																				if ( $kit_id ) {
-																																																					wp_enqueue_style( 'elementor-post-' . $kit_id, wp_upload_dir()['baseurl'] . '/elementor/css/post-' . $kit_id . '.css' );
-																																																				}*/
+																																																							if ( $kit_id ) {
+																																																								wp_enqueue_style( 'elementor-post-' . $kit_id, wp_upload_dir()['baseurl'] . '/elementor/css/post-' . $kit_id . '.css' );
+																																																							}*/
 			}
 
 			if (isset(\Elementor\Plugin::$instance)) {
@@ -758,10 +758,10 @@ function porto_css()
 			$inline_styles = wp_styles()->get_data('elementor-frontend', 'after');
 			if (is_array($inline_styles) && !empty($inline_styles)) {
 				/*$post_css = array_pop( $inline_styles );
-																																																				if ( $post_css ) {
-																																																					wp_styles()->add_data( 'elementor-frontend', 'after', $inline_styles );
-																																																					wp_add_inline_style( 'porto-style', $post_css );
-																																																				}*/
+																																																							if ( $post_css ) {
+																																																								wp_styles()->add_data( 'elementor-frontend', 'after', $inline_styles );
+																																																								wp_add_inline_style( 'porto-style', $post_css );
+																																																							}*/
 				foreach ($inline_styles as $index => $post_css) {
 					if (0 === strpos(trim($post_css), '.elementor-' . get_the_ID() . ' ')) {
 						array_splice($inline_styles, $index, 1);
@@ -1563,46 +1563,3 @@ function update_wishlist()
 add_action('wp_ajax_update_wishlist', 'update_wishlist');
 add_action('wp_ajax_nopriv_update_wishlist', 'update_wishlist');
 
-function submit_newsletter()
-{
-	// Check if data is set
-	if (!isset($_POST['data'])) {
-		wp_send_json_error('No data received.');
-		return;
-	}
-
-	$data = json_decode(stripslashes($_POST['data']), true);
-
-	// Validate and sanitize input data
-	$email = isset($data['your-email']) ? sanitize_email($data['your-email']) : '';
-	$unisex = isset($data['your-category-unisex']) ? sanitize_text_field($data['your-category-unisex']) : '';
-	$women = isset($data['your-category-women']) ? sanitize_text_field($data['your-category-women']) : '';
-	$men = isset($data['your-category-men']) ? sanitize_text_field($data['your-category-men']) : '';
-	$privacyConsent = isset($data['privacy-consent']) ? sanitize_text_field($data['privacy-consent']) : '';
-
-	if (empty($email) || !is_email($email)) {
-		wp_send_json_error('Invalid email address.');
-		return;
-	}
-
-	if (empty($privacyConsent)) {
-		wp_send_json_error('Privacy consent is required.');
-		return;
-	}
-
-	// Here you can use the Contact Form 7 API to submit the form data
-	// For example:
-	$submission = WPCF7_Submission::get_instance();
-	$submission->set_posted_data(array(
-		'your-email' => $email,
-		'your-category-unisex' => $unisex,
-		'your-category-women' => $women,
-		'your-category-men' => $men,
-		'privacy-consent' => $privacyConsent
-	));
-
-	wp_send_json_success('Form submitted successfully.');
-}
-add_action('wp_ajax_submit_newsletter', 'submit_newsletter');
-add_action('wp_ajax_nopriv_submit_newsletter', 'submit_newsletter');
-add_filter('doing_it_wrong_trigger_error', '__return_false');

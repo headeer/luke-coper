@@ -346,7 +346,7 @@ get_header();
 						<div class="t-ju-od-1">
 							<div class="ju-od-1">już od</div>
 						</div>
-						<div class="z-19">33 zł</div>
+						<div class="z-19">55 zł</div>
 						<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 								class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-4"></img>
@@ -483,13 +483,13 @@ get_header();
 			<div class="t-hero-hero-hero-1">
 				<a href="/kategoria-produktu/pierscionki/" class="hero-12">
 					<div class="background-image"></div>
-					<div class="pier-cionki-unisex">pierścionki unisex</div>
+					<div class="pier-cionki-unisex">PIERŚCIONKI UNISEX</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
 							<div class="t-ju-od-2">
-								<div class="ju-od-2">już od</div>
+								<div class="ju-od-2">WYBIERZ</div>
 							</div>
-							<div class="z-25">33 zł</div>
+							<div class="z-25"> PIERŚCIONEK</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-6"></img>
@@ -499,13 +499,13 @@ get_header();
 				</a>
 				<a href="/kategoria-produktu/prezenty-i-wiecej" class="hero-13">
 					<div class="background-image"></div>
-					<div class="prezenty-iwi-cej-1">prezenty i więcej</div>
+					<div class="prezenty-iwi-cej-1">PREZENTY I WIĘCEJ</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
-							<div class="t-ju-od-3">
-								<div class="ju-od-3">już od</div>
+							<div class="t-ju-od-2">
+								<div class="ju-od-2">ZOBACZ</div>
 							</div>
-							<div class="z-26">33 zł</div>
+							<div class="z-26">WIĘCEJ</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-7"></img>
@@ -517,16 +517,15 @@ get_header();
 					<div class="background-image"></div>
 					<div class="wi-teczne-promocje-1">
 						<span>
-							<p class="para-77">Świąteczne</p>
-							<p class="para-78">promocje</p>
+							<p class="para-77">ŚWIĄTECZNE PROMOCJE</p>
 						</span>
 					</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3">
-							<div class="t-ju-od-4">
-								<div class="ju-od-4">już od</div>
+							<div class="t-ju-od-2">
+								<div class="ju-od-2">ZŁAP</div>
 							</div>
-							<div class="z-27">33 zł</div>
+							<div class="z-27">PROMOCJE</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-8">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-8"></img>
@@ -627,10 +626,10 @@ get_header();
 					<div class="nowo-ci-1 text_content">NOWOŚCI</div>
 					<div class="ttt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz btn_green">
 						<button class="tt-ju-od-55tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
-							<div class="t-ju-od-5">
-								<div class="ju-od-5">już od</div>
+							<div class="t-ju-od-7">
+								<div class="ju-od-7">POZNAJ</div>
 							</div>
-							<div class="component-11">55</div>
+							<div class="component-11">NOWOŚCI</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-11">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz5.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-11"></img>
@@ -640,13 +639,13 @@ get_header();
 				</a>
 				<a href="/kategoria-produktu/bransoletki/" class="hero-19">
 					<div class="background-image"></div>
-					<div class="bransoletki-1 text_content">Bransoletki</div>
+					<div class="bransoletki-1 text_content">BRANSOLETKI</div>
 					<div class="ttt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1 btn_green">
 						<button class="tt-ju-od-88ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
-							<div class="t-ju-od-6">
-								<div class="ju-od-6">już od</div>
+							<div class="t-ju-od-7">
+								<div class="ju-od-7">ZOBACZ</div>
 							</div>
-							<div class="z-33">88 zł</div>
+							<div class="z-33">BRANSOLETKI</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-12">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-12"></img>
@@ -656,13 +655,13 @@ get_header();
 				</a>
 				<a href="/kategoria-produktu/naszyjniki/" class="hero-20">
 					<div class="background-image"></div>
-					<div class="zawieszki-1 text_content">Zawieszki</div>
+					<div class="zawieszki-1 text_content">ZAWIESZKI</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4">
 							<div class="t-ju-od-7">
-								<div class="ju-od-7">już od</div>
+								<div class="ju-od-7">SPRAWDŹ</div>
 							</div>
-							<div class="z-34">33 zł</div>
+							<div class="z-34">NASZYJNIKI</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-13">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz5.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-13"></img>
@@ -672,13 +671,13 @@ get_header();
 				</a>
 				<a href="/kategoria-produktu/pierscionki/" class="hero-21">
 					<div class="background-image"></div>
-					<div class="pier-cionki-1 text_content">Pierścionki</div>
+					<div class="pier-cionki-1 text_content">pIERŚCIONKI</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-5">
 							<div class="t-ju-od-8">
-								<div class="ju-od-8">już od</div>
+								<div class="ju-od-8">WYBIERZ</div>
 							</div>
-							<div class="z-35">33 zł</div>
+							<div class="z-35">PIERŚCIONEK</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-14">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-14"></img>
@@ -688,13 +687,13 @@ get_header();
 				</a>
 				<a href="/shop" class="hero-22">
 					<div class="background-image"></div>
-					<div class="prezenty-iwi-cej-4 text_content">Prezenty i więcej</div>
+					<div class="prezenty-iwi-cej-4 text_content">PREZENTY I WIĘCEJ</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6">
 							<div class="t-ju-od-9">
-								<div class="ju-od-9">już od</div>
+								<div class="ju-od-9">PRZEGLĄDAJ</div>
 							</div>
-							<div class="z-36">33 zł</div>
+							<div class="z-36">PREZENTY I WIĘCEJ</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-15">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz5.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-15"></img>
@@ -706,16 +705,16 @@ get_header();
 					<div class="background-image"></div>
 					<div class="wi-teczne-promocje-2 text_content">
 						<span>
-							<p class="para-97">Świąteczne</p>
-							<p class="para-98">promocje</p>
+							<p class="para-97">ŚWIĄTECZNE</p>
+							<p class="para-98">PROMOCJE</p>
 						</span>
 					</div>
 					<div class="ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7 btn_green">
 						<button class="tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7">
 							<div class="t-ju-od-10">
-								<div class="ju-od-10">już od</div>
+								<div class="ju-od-10">ZŁAP OKAZJE</div>
 							</div>
-							<div class="z-37">33 zł</div>
+							<div class="z-37">PROMOCYJNE</div>
 							<div class="t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-16">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz4.svg"
 									class="arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-16"></img>
@@ -1087,7 +1086,7 @@ get_header();
 					class="ttt-frame-51ttbransoletka-holistic-energy-tframe-51ttbransoletka-miedziana-mindfulness-tframe-51ttzawieszka-miedziana-elegans-natura-tframe-51ttzawieszka-miedziana-apertis-oculis-ttframe-51frame-51ttzawieszka-miedziana-apertis-oculis">
 					<div class="slider-container splide splide5">
 						<div class="swiper new_products5 splide__track"><?php
-						include get_template_directory() . '/products-arrow-slider.php';
+						include get_template_directory() . '/products-arrow-slider_2.php';
 						?>
 						</div>
 					</div>
@@ -1336,7 +1335,7 @@ get_header();
 						<div class="mobile_tt-pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze-hero">
 							<div class="mobile_pi-kno-natury-kt-re-wp-ywa-na-twoje-wn-trze">
 								<span>
-									<p>– piękno natury, które wpływa</p>
+									<p>– piękno natury,<br /> które wpływa</p>
 									<p>na Twoje wnętrze</p>
 								</span>
 							</div>
@@ -1368,7 +1367,7 @@ get_header();
 									</p>
 								</span>
 							</div>
-							<a href="/bizuteria-kwantowa" class="mobile_frame-27">
+							<a href="/wiedza" class="mobile_frame-27">
 								<div
 									class="mobile_ttt-zobacz-bi-uteria-kwantowa-tarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 									<div
@@ -1426,18 +1425,19 @@ get_header();
 					<div class="mobile_miedziane-pier-cionki">
 						<p>miedziane Pierścionki</p>
 					</div>
-					<div class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
+					<a href="/kategoria-produktu/pierscionki"
+						class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 						<div class="mobile_tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz">
 							<div class="mobile_t-ju-od-1">
 								<div class="mobile_ju-od-1">już od</div>
 							</div>
-							<div class="mobile_z-9">33 zł</div>
+							<div class="mobile_z-9">55 zł</div>
 							<div class="mobile_t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-4">
 								<object data="<?php echo get_template_directory_uri(); ?>/assets/arrow_white_right.svg"
 									class="mobile_arrow_forward_24dp_5f6368_fill0_wght-400_grad0_opsz-4"></object>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="mobile_wrapper-7">
 					<div class="mobile_frame-37">
@@ -1503,13 +1503,11 @@ get_header();
 				</div>
 				<a href="/kategoria-produktu/pierscionki/" class="mobile_t-hero">
 					<div class="mobile_hero-8">
-						<div class="mobile_pier-cionki-unisex">pierścionki unisex</div>
+						<div class="mobile_pier-cionki-unisex">PIERŚCIONKI UNISEX</div>
 						<div class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
 							<div class="mobile_tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-1">
-								<div class="mobile_t-ju-od-2">
-									<div class="mobile_ju-od-2">już od</div>
-								</div>
-								<div class="mobile_z-12">33 zł</div>
+
+								<div class="mobile_z-12">WYBIERZ pierścionEK</div>
 								<div class="mobile_t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-6">
 									<object
 										data="<?php echo get_template_directory_uri(); ?>/assets/arrow_white_right.svg"
@@ -1521,13 +1519,11 @@ get_header();
 				</a>
 				<a href="/kategoria-produktu/prezenty-i-wiecej" class="mobile_t-hero-1">
 					<div class="mobile_hero-9">
-						<div class="mobile_prezenty-iwi-cej">prezenty i więcej</div>
+						<div class="mobile_prezenty-iwi-cej">PREZENTY I WIĘCEJ</div>
 						<div class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
 							<div class="mobile_tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-2">
-								<div class="mobile_t-ju-od-3">
-									<div class="mobile_ju-od-3">już od</div>
-								</div>
-								<div class="mobile_z-13">33 zł</div>
+
+								<div class="mobile_z-13">ZOBACZ WIĘCEJ</div>
 								<div class="mobile_t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-7">
 									<object
 										data="<?php echo get_template_directory_uri(); ?>/assets/arrow_white_right.svg"
@@ -1541,16 +1537,13 @@ get_header();
 					<div class="mobile_hero-10">
 						<div class="mobile_wi-teczne-promocje">
 							<span>
-								<p class="mobile_para-50">Świąteczne</p>
-								<p class="mobile_para-51">promocje</p>
+								<p class="mobile_para-50">ŚWIĄTECZNE PROMOCJE</p>
 							</span>
 						</div>
 						<div class="mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3">
 							<div class="mobile_tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-3">
-								<div class="mobile_t-ju-od-4">
-									<div class="mobile_ju-od-4">już od</div>
-								</div>
-								<div class="mobile_z-14">33 zł</div>
+
+								<div class="mobile_z-14">ZŁAP promocje</div>
 								<div class="mobile_t-arrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-8">
 									<object
 										data="<?php echo get_template_directory_uri(); ?>/assets/arrow_white_right.svg"
@@ -1614,9 +1607,62 @@ get_header();
 						zrozumieć, jak działa na naszą świadomość i harmonię wewnętrzną.
 					</p>
 				</div>
-				<?php
-				include get_template_directory() . '/blogs_mobile.php';
-				?>
+				<div class="mobile_frame swiper mobile_blog_2">
+					<div class="swiper-wrapper smaller_wishlist">
+						<?php
+						// Custom query to fetch the recent blog posts
+						$args = array(
+							'post_type' => 'post',
+							'posts_per_page' => 3, // Number of posts to display
+							'orderby' => 'date',
+							'order' => 'DESC'
+						);
+						$recent_posts = new WP_Query($args);
+
+						if ($recent_posts->have_posts()):
+							while ($recent_posts->have_posts()):
+								$recent_posts->the_post();
+								$post_link = get_permalink();
+								$post_title = get_the_title();
+								$post_excerpt = get_the_excerpt();
+								$post_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
+								?>
+								<a href="<?php echo esc_url($post_link); ?>" target="_blank"
+									class="swiper-slide mobile_t-3kategorie">
+									<div class="mobile_wrapper-9">
+										<div class="mobile_kategorie-1">
+											<div class="mobile_t-hero-frame">
+												<div class="mobile_hero-11"
+													style="background-image: url('<?php echo esc_url($post_image); ?>');">
+
+													<div
+														class="mobile_mied-ijej-wp-yw-na-energi-yciow-jak-ona-dzia-ana-cia-oiumys">
+														<p><?php echo esc_html($post_title); ?></p>
+													</div>
+													<div
+														class="mobile_t-czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn">
+														<div
+															class="mobile_czy-wiesz-emied-od-wiek-wby-auywana-do-wzmacniania-energii-yciowej-dowiedz-si-jak-noszenie-miedzianej-bi-uterii-mo-ewspiera-twoje-zdrowie-witalno-irwnowag-wewn-trzn">
+															<p><?php echo esc_html($post_excerpt); ?></p>
+														</div>
+													</div>
+													<div class="mobile_frame-54">
+														<div class="mobile_czytaj-wi-cej">czytaj więcej</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							<?php endwhile;
+							wp_reset_postdata();
+						else: ?>
+							<p><?php esc_html_e('No recent posts found.', 'text-domain'); ?></p>
+						<?php endif; ?>
+					</div>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/arrow_slider.png"
+						class="fixed-arrow" />
+				</div>
 
 				<div class="mobile_t-frame-7">
 					<div class="mobile_frame-56">
@@ -1955,45 +2001,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/basic_slider.js"></script>
 <script>
-	document.getElementById('newsletter-submit').addEventListener('click', function (event) {
-		event.preventDefault();
-
-		var email = document.getElementById('email').value;
-		var unisex = document.getElementById('unisex').checked ? 'unisex' : '';
-		var women = document.getElementById('women').checked ? 'women' : '';
-		var men = document.getElementById('men').checked ? 'men' : '';
-		var privacyConsent = document.getElementById('privacy-consent').checked;
-		var messageElement = document.getElementById('form-message');
-
-		if (!privacyConsent) {
-			messageElement.textContent = 'Musisz wyrazić zgodę na przetwarzanie danych osobowych.';
-			messageElement.style.color = 'red';
-			return;
-		}
-
-		var data = new FormData();
-		data.append('email', email);
-		data.append('unisex', unisex);
-		data.append('women', women);
-		data.append('men', men);
-		data.append('privacyConsent', privacyConsent);
-
-		var xhr = new XMLHttpRequest();
-		xhr.open('POST', '<?php echo get_template_directory_uri(); ?>/newsletter-submit.php', true);
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4) {
-				var response = JSON.parse(xhr.responseText);
-				if (xhr.status === 200 && response.status === 'success') {
-					messageElement.textContent = response.message;
-					messageElement.style.color = 'green';
-				} else {
-					messageElement.textContent = response.message;
-					messageElement.style.color = 'red';
-				}
-			}
-		};
-		xhr.send(data);
-	});
 	document.getElementById('cos-dla-siebie').addEventListener('click', function () {
 		document.getElementById('nature').scrollIntoView({ behavior: 'smooth' });
 	});

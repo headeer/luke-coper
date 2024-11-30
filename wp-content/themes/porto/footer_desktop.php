@@ -19,7 +19,7 @@
 						<div class="zapisz-si-do-newslettera-iotrzymaj-a24rabatu-na-jeszcze-lepsze-zakupy">
 							<span>
 								<p>Zapisz się do newslettera</p>
-								<p>i otrzymaj aż 24% rabatu</p>
+								<p>i otrzymaj aż 22% rabatu</p>
 								<p>na jeszcze lepsze zakupy!</p>
 							</span>
 						</div>
@@ -32,7 +32,7 @@
 											<p>zniżkę</p>
 										</span>
 									</div>
-									<div class="component-14">24%</div>
+									<div class="component-14">22%</div>
 								</div>
 							</div>
 						</div>
@@ -45,8 +45,7 @@
 					</div>
 				</div>
 			</div>
-			<div
-				class="tbd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-wtwpisz-adres-email-frame">
+			<div class="form">
 				<div
 					class="bd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w">
 					<p>
@@ -54,79 +53,12 @@
 						tylko dla subskrybentów.
 					</p>
 				</div>
-				<div class="t-wpisz-adres-email-frame">
-					<div class="frame-116">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-							class="mail_24dp_5f6368_fill0_wght-400_grad0_opsz"></img>
-						<input type="email" id="email" class="wpisz-adres-email" placeholder="Twój adres @ e-mail"
-							aria-label="Wpisz adres e-mail" required />
-					</div>
-					<div id="form-message" class="form-message"></div>
-				</div>
-				<!-- Message element -->
+
+				<?php echo do_shortcode('[contact-form-7 id="ea1ab20" title="Nienazwane"]'); ?>
 			</div>
-			<div
-				class="ttt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet-frame">
-				<div
-					class="tt-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet">
-					<div
-						class="t-wybierz-co-ci-interesuje-tttcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-unisex-tcheck_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-kobiet">
-						<div class="wybierz-co-ci-interesuje">
-							Wybierz co Cię interesuje
-						</div>
-						<div class="checkbox-container">
-							<div class="checkbox-item">
-								<input type="checkbox" id="unisex" name="category" value="unisex" />
-								<label for="unisex">
-									<span class="custom-checkbox"></span>
-									Biżuteria UNISEX
-								</label>
-							</div>
-							<div class="checkbox-item">
-								<input type="checkbox" id="women" name="category" value="women" />
-								<label for="women">
-									<span class="custom-checkbox"></span>
-									Biżuteria dla Kobiet
-								</label>
-							</div>
-							<div class="checkbox-item">
-								<input type="checkbox" id="men" name="category" value="men" />
-								<label for="men">
-									<span class="custom-checkbox"></span>
-									Biżuteria dla Mężczyzn
-								</label>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="frame-117">
-					<div class="checkbox-item">
-						<input type="checkbox" id="privacy-consent" name="privacy-consent" required />
-						<label for="privacy-consent">
-							<span class="custom-checkbox"></span>
-							<div class="checkbox-text">
-								<p>Wyrażam zgodę na przetwarzanie</p>
-								<p>danych osobowych, zgodnie</p>
-								<p class="para-124">
-									<span class="text-1">z </span><a href="#">Polityką prywatności</a><span
-										class="text-2">.</span>
-								</p>
-							</div>
-						</label>
-					</div>
-					<button class="t-frame-21" id="newsletter-submit">
-						<div class="frame-118">
-							<div class="frame-119">
-								<div class="zapisz-do-newslettera">
-									Zapisz do newslettera
-								</div>
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz1.svg"
-									class="mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1"></img>
-							</div>
-						</div>
-					</button>
-				</div>
-			</div>
+
+
+
 			<div
 				class="tt-check_24dp_5f-6368_fill-0_wght-400_grad-0_opsz-241bi-uteria-dla-mczyzn-tmo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
 
@@ -164,7 +96,7 @@
 									<ul>
 										<li class="underline"><a href="/">Strona Główna</a></li>
 										<li class="underline"><a href="/shop">Sklep</a></li>
-										<li class="underline"><a href="/blog">Wiedza</a></li>
+										<li class="underline"><a href="/wiedza">Wiedza</a></li>
 										<li class="underline"><a href="/contact">Kontakt</a></li>
 									</ul>
 								</div>
@@ -180,8 +112,12 @@
 										</li>
 										<li class="underline"><a href="/kategoria-produktu/naszyjniki/">Zawieszki</a>
 										</li>
-										<li class="underline"><a href="/shop">Prezenty i więcej</a></li>
-										<li class="underline"><a href="/shop">Świąteczne Promocje</a></li>
+										<li class="underline"><a href="/kategoria-produktu/prezenty-i-wiecej">Prezenty i
+												więcej</a></li>
+										<li class="underline"><a
+												href="/kategoria-produktu/swiateczne-promocje">Świąteczne
+												Promocje</a>
+										</li>
 									</ul>
 								</div>
 
@@ -189,10 +125,13 @@
 								<div class="menu-column" style="max-width: 289vw;">
 									<h3>Informacje</h3>
 									<ul>
-										<li class="underline"><a href="#">Płatności i Dostawa</a></li>
+										<li class="underline"><a href="/platnosc-i-dostawa">Płatności i Dostawa</a>
+										</li>
 										<li class="underline"><a href="/regulamin">Regulamin sklepu</a></li>
-										<li class="underline"><a href="#">Polityka cookies</a></li>
-										<li class="underline"><a href="#">Polityka prywatności</a></li>
+										<li class="underline"><a href="/polityka-cookies">Polityka cookies</a></li>
+										<li class="underline"><a href="/polityka-prywatnosci">Polityka
+												prywatności</a>
+										</li>
 									</ul>
 								</div>
 								<div class="dostawca menu-column">

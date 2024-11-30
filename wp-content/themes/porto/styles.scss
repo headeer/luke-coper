@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Helvetica Neue LT Pro:wght@400;700");
 @import url("https://api.fontshare.com/css?f[]=helvetica neue lt pro@400,700&display=swap");
+@import "mixins";
 body {
   #geodir-wrapper [type="button"],
   #geodir-wrapper [type="submit"],
@@ -85,8 +86,159 @@ body {
   .blog_page_content {
     margin: 0 auto;
   }
+  &.post-template-default.single-post {
+    main {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui,
+          sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      p,
+      li,
+      a {
+        font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui,
+          sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+    .wp-block-cover__inner-container {
+      max-width: 80vw;
+    }
+    .wp-block-cover,
+    .wp-block-cover-image {
+      justify-content: flex-start;
+    }
+    .post-meta {
+      display: none;
+    }
+  }
+  .wpcf7 form.sent .wpcf7-response-output {
+    margin: 6px 0;
+  }
+  .post-4524.mailpoet_page.type-mailpoet_page.status-publish.hentry p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding: 0 get-fmvw(11px);
+    }
+  }
   .post-image.single {
     display: none;
+  }
+  .type-mailpoet_page {
+    .mailpoet-manage-subscription {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      font-family: Arial, sans-serif;
+    }
+
+    .mailpoet-manage-subscription p,
+    .mailpoet-manage-subscription div {
+      margin-bottom: 15px;
+    }
+
+    .mailpoet-manage-subscription label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .mailpoet-manage-subscription input[type="text"],
+    .mailpoet-manage-subscription select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      transition: border-color 0.3s ease;
+    }
+
+    .mailpoet-manage-subscription input[type="text"]:focus,
+    .mailpoet-manage-subscription select:focus {
+      border-color: #f49974;
+    }
+
+    .mailpoet-manage-subscription .mailpoet_checkbox_label {
+      display: flex;
+      align-items: center;
+      font-weight: normal;
+      font-size: 14px;
+    }
+
+    .mailpoet-manage-subscription input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .mailpoet-manage-subscription .mailpoet_submit {
+      display: inline-block;
+      width: 100%;
+      padding: 10px;
+      background-color: #f49974;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: #f4997480;
+      }
+    }
+
+    .mailpoet-manage-subscription .mailpoet_submit:hover {
+      background-color: #f4997480;
+    }
+
+    .mailpoet-manage-subscription .mailpoet-error {
+      color: #d9534f;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+    .mailpoet-manage-subscription .mailpoet_paragraph span {
+      font-size: 12px;
+      color: #666;
+    }
+
+    .mailpoet-manage-subscription legend {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .mailpoet-manage-subscription fieldset {
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+      background: #fff;
+    }
   }
   .wp-block-cover__inner-container h1 {
     font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
@@ -150,7 +302,8 @@ body {
     display: none;
   }
   .woocommerce-message,
-  .woocommerce-error {
+  .woocommerce-error,
+  .porto-free-shipping {
     margin-bottom: 30px;
     background: #fbf7ed !important;
     padding: 20px;
@@ -182,6 +335,198 @@ body {
   #newsletter-submit {
     background: black;
   }
+  .form {
+    padding-left: get-vw(20px);
+    [data-name="cf_interests"] span {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: get-vw(2px);
+      span label {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        input[type="checkbox"] {
+          display: none; /* Hide the native checkbox */
+        }
+
+        label {
+          display: flex;
+          align-items: center;
+          font-size: 0.847vw;
+          color: #333;
+          cursor: pointer;
+        }
+
+        input[type="checkbox"] {
+          display: inline-block;
+          width: 1.271vw;
+          height: 1.324vw;
+          margin-right: 0.424vw;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3C/g%3E%3C/svg%3E"); /* Inactive SVG */
+        }
+
+        /* Active state */
+        input[type="checkbox"]:checked + label::before {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' fill='%23231F20'/%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3Cpath id='Vector' d='M9.54961 18.1109L3.84961 12.4109L5.27461 10.9859L9.54961 15.2609L18.7246 6.08594L20.1496 7.51094L9.54961 18.1109Z' fill='white'/%3E%3C/g%3E%3C/svg%3E"); /* Active SVG */
+        }
+      }
+    }
+    [data-name="email-792"] {
+      position: absolute;
+      top: 50%;
+      width: get-vw(573px);
+      height: get-vw(42px);
+      background: white;
+      left: 51.3%;
+      input {
+        font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui,
+          sans-serif;
+        font-size: get-vw(13px);
+        font-weight: 400;
+        line-height: get-vw(19px);
+        height: 100%;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+        letter-spacing: 0.05em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        &::placeholder {
+          font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui,
+            sans-serif;
+          font-size: get-vw(13px);
+          font-weight: 400;
+          line-height: get-vw(19px);
+          letter-spacing: 0.05em;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+      }
+    }
+    .privacy_policy {
+      position: absolute;
+      top: 76%;
+      left: 51.36%;
+      color: black;
+      font-weight: 700;
+      text-decoration: underline;
+      cursor: pointer;
+      @media screen and (max-width: 1638px) {
+        top: 77.4%;
+        left: 56.36%;
+      }
+    }
+    width: 100%;
+    [data-name="privacy-consent"] {
+      position: absolute;
+      top: 65%;
+      left: 51.4%;
+      max-width: 18vw;
+      @media screen and (max-width: 1638px) {
+      }
+      input[type="checkbox"] {
+        display: none; /* Hide the native checkbox */
+      }
+      input[name="privacy-consent[]"] {
+        top: get-vw(6px);
+        position: relative;
+      }
+
+      label {
+        display: flex;
+        align-items: center;
+        font-size: 0.847vw;
+        color: #333;
+        cursor: pointer;
+        //styleName: Small text;
+        font-size: get-vw(13px);
+        font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui,
+          sans-serif;
+        font-weight: 400;
+        line-height: get-vw(19px);
+        letter-spacing: 0.05em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+
+      input[type="checkbox"] {
+        display: inline-block;
+        width: 1.271vw;
+        height: 1.324vw;
+        margin-right: 0.424vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3C/g%3E%3C/svg%3E"); /* Inactive SVG */
+      }
+
+      /* Active state */
+      // input[type="checkbox"]:checked + .wpcf7-list-item-label {
+      //   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' fill='%23231F20'/%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3Cpath id='Vector' d='M9.54961 18.1109L3.84961 12.4109L5.27461 10.9859L9.54961 15.2609L18.7246 6.08594L20.1496 7.51094L9.54961 18.1109Z' fill='white'/%3E%3C/g%3E%3C/svg%3E"); /* Active SVG */
+      // }
+    }
+    label[for="email"] {
+      position: absolute;
+      top: 46%;
+      left: 51.2%;
+      z-index: 1;
+    }
+    label[for="email"],
+    label[for="interests"] {
+      font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+      font-size: get-vw(11px);
+      font-weight: 700;
+      color: #231f20;
+      text-transform: uppercase;
+      line-height: get-vw(21px);
+      letter-spacing: 0.11em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .newsletter-submit {
+      position: absolute;
+      top: 67%;
+      left: 67%;
+      width: get-vw(275px);
+      background: #f49974;
+      color: white;
+      font-size: get-vw(13px);
+      font-weight: 700;
+      line-height: get-vw(22px);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-align: center;
+      border: none;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+
+  .wpcf7-not-valid-tip {
+    margin-top: get-vw(18px);
+  }
+  .bd-na-bie-co-znajnowszymi-kolekcjami-inspiruj-cymi-historiami-ispecjalnymi-ofertami-tylko-dla-subskrybent-w {
+    margin: get-vw(28px) 0 get-vw(14px);
+    p {
+      font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+      font-size: get-vw(13px);
+      font-weight: 400;
+      line-height: get-vw(19px);
+      letter-spacing: 0.05em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
   .mailpoet_form {
     .mailpoet_paragraph {
       display: none;
@@ -211,7 +556,11 @@ body {
   .woocommerce-customer-details .woocommerce-button.button {
     background: var(--porto-gray-3) !important;
   }
-
+  .wpcf7 form.sent .wpcf7-response-output {
+  }
+  .wpcf7 form .wpcf7-response-output {
+    margin: 0;
+  }
   .woocommerce-customer-details .woocommerce-button.button:hover {
     background: #f4f4f4ce !important;
   }
@@ -230,6 +579,7 @@ body {
       color: black;
     }
   }
+  &.single-mailpoet_page #main .row.main-content-wrap,
   &.page-template-default #main .row.main-content-wrap,
   &.page-id-4340 #main .row.main-content-wrap,
   &.page-id-4321 #main .row.main-content-wrap,
@@ -252,6 +602,21 @@ body {
   .t-na-grstrony-arrow_upward_alt_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
     opacity: 0;
   }
+  &.single-post {
+    .breadcrumb {
+    }
+    [itemprop="itemListElement"] {
+      display: none;
+    }
+    .home {
+      display: block;
+    }
+    .wpb-post-author,
+    .porto-separator,
+    .wpb-post-comments {
+      display: none;
+    }
+  }
   &.search #main .row.main-content-wrap #content,
   &.woocommerce-checkout #main .row.main-content-wrap #content {
     margin: 0 auto;
@@ -266,6 +631,11 @@ body {
   header .compare-count {
     background: #f49974;
   }
+  &.page-id-1590 .container-fluid {
+    padding: 0;
+  }
+  &.page-id-1590 #main .row.main-content-wrap,
+  &.single-mailpoet_page #main .row.main-content-wrap,
   &.page-template-default #main .row.main-content-wrap,
   &.page-id-4340 #main .row.main-content-wrap,
   &.page-id-4321 #main .row.main-content-wrap,
@@ -1452,7 +1822,7 @@ body ._ {
   .hero-16,
   .hero-17 {
     display: flex;
-    width: 32.945vw;
+    width: 32.345vw;
   }
 
   .common-7,
@@ -3699,8 +4069,17 @@ body ._ {
     padding-top: 1.748vw;
     font-weight: 700;
     text-transform: uppercase;
+    a div button div {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
   }
-
+  .t-hero-hero-hero-hero-hero-hero {
+    a div button div {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
   .hero-12 {
     background-image: url(https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg);
     row-gap: 9.746vw;
@@ -4200,6 +4579,13 @@ body ._ {
     column-gap: 0.583vw;
     padding-top: 3.125vw;
     font-weight: 700;
+    @media screen and (min-width: 768px) {
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
   }
 
   .hero-15 {
@@ -5780,7 +6166,7 @@ body ._ {
       flex-wrap: nowrap;
     }
     .t-hero-hero-hero-2 {
-      flex-wrap: nowrap;
+      // flex-wrap: nowrap;
     }
     .t-hero-hero-hero-hero-hero-hero {
       flex-wrap: nowrap;
@@ -6568,7 +6954,7 @@ a:hover::after {
 
   .new_products2 .fixed-arrow {
     top: 35%;
-    right: 14.7vw;
+    right: 15.3vw;
   }
   .new_products3 .fixed-arrow {
     top: 36%;
@@ -6749,6 +7135,7 @@ a:hover::after {
     align-items: center;
     justify-content: center;
   }
+
   .footer .menu-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6901,6 +7288,9 @@ body {
     .new_products .swiper-slide,
     .new_products2 .swiper-slide {
       min-height: 18vw;
+    }
+    .new_products2 {
+      position: relative;
     }
     .new_products5 .swiper-slide .product-image-container,
     .new_products3 .swiper-slide .product-image-container,

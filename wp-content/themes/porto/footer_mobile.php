@@ -50,71 +50,11 @@
 				</p>
 			</div>
 		</div>
-		<div class="mobile_t-wpisz-adres-email">
-			<div class="mobile_wpisz-adres-email">wpisz adres e-mail</div>
-		</div>
-		<div class="mobile_t-frame-13">
-			<div class="mobile_frame-84">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz.svg"
-					class="mobile_mail_24dp_5f6368_fill0_wght-400_grad0_opsz"></img>
-				<input type="email" id="email" class="mobile_tw-jadres-email wpisz-adres-email-mobile"
-					placeholder="Twój adres @ e-mail" aria-label="Wpisz adres e-mail" />
-			</div>
-		</div>
-		<div class="mobile_t-frame-14">
-			<div class="mobile_frame-85">
-				<div class="mobile_wybierz-co-ci-interesuje">Wybierz co Cię interesuje</div>
-				<div class="checkbox-container">
-					<div class="checkbox-item">
-						<input type="checkbox" id="unisex" name="category" value="unisex" />
-						<label for="unisex">
-							<span class="custom-checkbox"></span>
-							Biżuteria UNISEX
-						</label>
-					</div>
-					<div class="checkbox-item">
-						<input type="checkbox" id="women" name="category" value="women" />
-						<label for="women">
-							<span class="custom-checkbox"></span>
-							Biżuteria dla Kobiet
-						</label>
-					</div>
-					<div class="checkbox-item">
-						<input type="checkbox" id="men" name="category" value="men" />
-						<label for="men">
-							<span class="custom-checkbox"></span>
-							Biżuteria dla Mężczyzn
-						</label>
-					</div>
-				</div>
-				<div class="checkbox-item">
-					<input type="checkbox" id="privacy-consent" name="privacy-consent" />
-					<label for="privacy-consent">
-						<span class="custom-checkbox"></span>
-						<div class="checkbox-text">
-							<p>Wyrażam zgodę na przetwarzanie</p>
-							<p>danych osobowych, zgodnie</p>
-							<p class="para-124">
-								<span class="text-1">z </span><a href="#">Polityką prywatności</a><span
-									class="text-2">.</span>
-							</p>
-						</div>
-					</label>
-				</div>
-				<button class="mobile_t-frame-15" id="newsletter-submit">
-					<div class="mobile_frame-86">
-						<div class="mobile_frame-87">
-							<div class="mobile_zapisz-do-newslettera">Zapisz do newslettera</div>
-							<object
-								data="<?php echo get_template_directory_uri(); ?>/assets/Mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz1.svg"
-								class="mobile_mail_24dp_5f6368_fill0_wght-400_grad0_opsz-1"></object>
-						</div>
-					</div>
-				</button>
-				<div id="form-message" class="form-message"></div>
 
-			</div>
+		<div class="form-mobile">
+			<?php echo do_shortcode('[contact-form-7 id="ea1ab20" title="Nienazwane"]'); ?>
 		</div>
+
 		<div class="mobile_t-mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
 			<div class="mobile_mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-momencie-bez-adnych-koszt-w">
 				<p>
@@ -158,7 +98,7 @@
 				<a href="<?php echo home_url('/shop'); ?>" class="mobile_sklep">Sklep</a>
 			</div>
 			<div class="mobile_t-wiedza">
-				<a href="<?php echo home_url('/blog'); ?>" class="mobile_wiedza-1">Wiedza</a>
+				<a href="<?php echo home_url('/wiedza'); ?>" class="mobile_wiedza-1">Wiedza</a>
 			</div>
 			<div class="mobile_t-kontakt">
 				<a href="<?php echo home_url('/contact'); ?>" class="mobile_kontakt">Kontakt</a>

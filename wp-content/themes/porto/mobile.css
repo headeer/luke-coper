@@ -2357,7 +2357,7 @@ body .mobile_nav_container .mobile_bar_categories {
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories,
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories {
-  max-width: 190vw;
+  max-width: 255vw;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(1),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(1) {
@@ -2377,11 +2377,11 @@ body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categori
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(5),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(5) {
-  width: 19vw !important;
+  width: 37vw !important;
 }
 body #mobile_app .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(6),
 body .mobile_nav_container .mobile_wrapper-2 .swiper-wrapper.mobile_bar_categories .swiper-slide:nth-child(6) {
-  width: 24vw !important;
+  width: 46vw !important;
 }
 body #mobile_app .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki,
 body .mobile_nav_container .mobile_t-miedziane-nowo-ci-bransoletki-pier-cionki {
@@ -3439,7 +3439,7 @@ body .mobile_nav_container .mobile_arrow_forward_24dp_5f6368_fill0_wght-400_grad
 }
 body #mobile_app .mobile_hero-5,
 body .mobile_nav_container .mobile_hero-5 {
-  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-5.jpeg");
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-5 copy.jpeg");
   row-gap: 29.1666666667vw;
   padding-bottom: 7.2222222222vw;
   padding-top: 31.1111111111vw;
@@ -3459,6 +3459,34 @@ body .mobile_nav_container .mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill
   padding-right: 3.0555555556vw;
   padding-top: 0.8333333333vw;
   padding-bottom: 1.1111111111vw;
+}
+body #mobile_app .mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz div,
+body .mobile_nav_container .mobile_ttt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz div {
+  color: white;
+}
+body #mobile_app .mobile_blog_2 a,
+body .mobile_nav_container .mobile_blog_2 a {
+  max-width: 92vw;
+}
+body #mobile_app .mobile_blog_2 .fixed-arrow,
+body .mobile_nav_container .mobile_blog_2 .fixed-arrow {
+  position: absolute;
+  top: 45%;
+  right: 18vw;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  right: 2vw;
+}
+body #mobile_app .mobile_blog_2 .mobile_t-hero-frame,
+body .mobile_nav_container .mobile_blog_2 .mobile_t-hero-frame {
+  justify-content: flex-start;
+}
+body #mobile_app .mobile_blog_2 .mobile_hero-11,
+body .mobile_nav_container .mobile_blog_2 .mobile_hero-11 {
+  width: 100%;
 }
 body #mobile_app .mobile_tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz,
 body .mobile_nav_container .mobile_tt-ju-od-33ztarrow_forward_24dp_5f-6368_fill-0_wght-400_grad-0_opsz {
@@ -3661,7 +3689,7 @@ body .mobile_nav_container .mobile_t-hero {
 }
 body #mobile_app .mobile_hero-8,
 body .mobile_nav_container .mobile_hero-8 {
-  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-8.jpeg");
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-8 copy.jpeg");
   row-gap: 51.1111111111vw;
   flex-grow: 1;
   padding-bottom: 7.2222222222vw;
@@ -3718,7 +3746,7 @@ body .mobile_nav_container .mobile_t-hero-1 {
 }
 body #mobile_app .mobile_hero-9,
 body .mobile_nav_container .mobile_hero-9 {
-  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-9.jpeg");
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-9 copy.jpeg");
   row-gap: 51.1111111111vw;
   padding-bottom: 7.2222222222vw;
   padding-top: 53.0555555556vw;
@@ -3774,7 +3802,7 @@ body .mobile_nav_container .mobile_t-hero-2 {
 }
 body #mobile_app .mobile_hero-10,
 body .mobile_nav_container .mobile_hero-10 {
-  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-10.jpeg");
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-10 copy.jpeg");
   row-gap: 47.2222222222vw;
   padding-bottom: 7.2222222222vw;
   padding-top: 49.1666666667vw;
@@ -4179,6 +4207,66 @@ body .mobile_nav_container .mobile_hero-12 {
   align-self: stretch;
   padding-bottom: 7.2222222222vw;
   padding-top: 53.0555555556vw;
+  flex-shrink: 0;
+}
+body #mobile_app .mobile_hero-tmp-1,
+body .mobile_nav_container .mobile_hero-tmp-1 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-19.jpeg");
+  row-gap: 51.1111111111vw;
+  width: 100%;
+  align-self: stretch;
+  padding-bottom: 7.2222222222vw;
+  padding-top: 53.0555555556vw;
+  flex-shrink: 0;
+}
+body #mobile_app .mobile_hero-tmp-3,
+body .mobile_nav_container .mobile_hero-tmp-3 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-18.jpeg");
+  row-gap: 51.1111111111vw;
+  width: 100%;
+  align-self: stretch;
+  padding-bottom: 7.2222222222vw;
+  padding-top: 53.0555555556vw;
+  flex-shrink: 0;
+}
+body #mobile_app .mobile_hero-tmp-2,
+body .mobile_nav_container .mobile_hero-tmp-2 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-20.jpeg");
+  row-gap: 51.1111111111vw;
+  width: 100%;
+  align-self: stretch;
+  padding-bottom: 7.2222222222vw;
+  padding-top: 53.0555555556vw;
+  flex-shrink: 0;
+}
+body #mobile_app .mobile_hero-tmp-4,
+body .mobile_nav_container .mobile_hero-tmp-4 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-12.jpeg");
+  row-gap: 51.1111111111vw;
+  width: 100%;
+  align-self: stretch;
+  padding-bottom: 7.2222222222vw;
+  padding-top: 53.0555555556vw;
+  flex-shrink: 0;
+}
+body #mobile_app .mobile_hero-tmp-5,
+body .mobile_nav_container .mobile_hero-tmp-5 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-22.jpg");
+  row-gap: 51.1111111111vw;
+  width: 100%;
+  align-self: stretch;
+  padding-bottom: 7.2222222222vw;
+  padding-top: 53.0555555556vw;
+  flex-shrink: 0;
+}
+body #mobile_app .mobile_hero-tmp-6,
+body .mobile_nav_container .mobile_hero-tmp-6 {
+  background-image: url("https://lukecopper.com/wp-content/themes/porto/assets/hero-23.jpeg");
+  row-gap: 51.1111111111vw;
+  width: 100%;
+  align-self: stretch;
+  padding-bottom: 7.2222222222vw;
+  padding-top: 45.5555555556vw;
   flex-shrink: 0;
 }
 body #mobile_app .mobile_nowo-ci-2,
@@ -5058,7 +5146,6 @@ body .mobile_nav_container .mobile_mo-esz-zrezygnowa-zsubskrypcji-wdowolnym-mome
 body #mobile_app .mobile_frame-88,
 body .mobile_nav_container .mobile_frame-88 {
   row-gap: 2.5vw;
-  padding-bottom: 13.0555555556vw;
   padding-left: 3.0555555556vw;
   padding-right: 3.0555555556vw;
   padding-top: 9.1666666667vw;
@@ -5492,10 +5579,22 @@ body .mobile_nav_container .t-frame-67frame-1 .qa-item-outside .question div {
 }
 body #mobile_app .t-frame-67frame-1 .qa-item-outside .answer,
 body .mobile_nav_container .t-frame-67frame-1 .qa-item-outside .answer {
-  padding: 6.1111111111vw 7.5vw;
+  padding: 7.5vw 6.1111111111vw;
   background: #f4f3f3;
   max-height: 100%;
   opacity: 1;
+}
+body #mobile_app .mobile_zapisz-si-do-newslettera-iotrzymaj-a2rabatu-na-jeszcze-lepsze-zakupy span p,
+body .mobile_nav_container .mobile_zapisz-si-do-newslettera-iotrzymaj-a2rabatu-na-jeszcze-lepsze-zakupy span p {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 6.9444444444vw;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 body #mobile_app .t-frame-67frame,
 body #mobile_app .t-frame-67frame-1,
@@ -5811,6 +5910,10 @@ body .mobile_nav_container .hover_container {
 body #mobile_app .mobile_frame-57 a,
 body .mobile_nav_container .mobile_frame-57 a {
   width: 100%;
+}
+body #mobile_app .slider_mobile_8,
+body .mobile_nav_container .slider_mobile_8 {
+  padding-left: 0;
 }
 body #mobile_app .slider_mobile_8 img,
 body .mobile_nav_container .slider_mobile_8 img {
@@ -6269,9 +6372,246 @@ body #mobile_app .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny
 body .mobile_nav_container .readmore .tt-cu-99_lukecopper-1najwy-szy-potencja-energetyczny-ttbi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe-frame .bi-uteria-luke-copper-tworzona-jest-zmiedzi-najwy-szej-jako-ci-dzi-ki-czemu-zachowuje-komplementarne-waciwo-ci-energetyczno-kwantowe span p .text {
   font-weight: 700;
 }
+body #mobile_app .form-mobile,
+body .mobile_nav_container .form-mobile {
+  padding: 7.5vw 3.0555555556vw;
+  width: 100%;
+}
+body #mobile_app .form-mobile .privacy_policy,
+body .mobile_nav_container .form-mobile .privacy_policy {
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 700;
+  color: #231f20;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  cursor: pointer;
+}
+body #mobile_app .form-mobile [data-name=privacy-consent],
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] {
+  max-width: 18vw;
+  /* Active state */
+}
+body #mobile_app .form-mobile [data-name=privacy-consent] span,
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] span {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile [data-name=privacy-consent] input[type=checkbox],
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] input[type=checkbox] {
+  display: none; /* Hide the native checkbox */
+}
+body #mobile_app .form-mobile [data-name=privacy-consent] input[name="privacy-consent[]"],
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] input[name="privacy-consent[]"] {
+  top: 1.6666666667vw;
+  position: relative;
+}
+body #mobile_app .form-mobile [data-name=privacy-consent] label,
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] label {
+  display: flex;
+  align-items: center;
+  font-size: 0.847vw;
+  color: #333;
+  cursor: pointer;
+  font-size: 3.6111111111vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile [data-name=privacy-consent] input[type=checkbox],
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] input[type=checkbox] {
+  display: inline-block;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+  margin-right: 1.6666666667vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3C/g%3E%3C/svg%3E"); /* Inactive SVG */
+}
+body #mobile_app .form-mobile [data-name=privacy-consent] input[type=checkbox]:checked + label,
+body .mobile_nav_container .form-mobile [data-name=privacy-consent] input[type=checkbox]:checked + label {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' fill='%23231F20'/%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3Cpath id='Vector' d='M9.54961 18.1109L3.84961 12.4109L5.27461 10.9859L9.54961 15.2609L18.7246 6.08594L20.1496 7.51094L9.54961 18.1109Z' fill='white'/%3E%3C/g%3E%3C/svg%3E"); /* Active SVG */
+}
+body #mobile_app .form-mobile label[for=email],
+body .mobile_nav_container .form-mobile label[for=email] {
+  z-index: 1;
+}
+body #mobile_app .form-mobile label[for=email],
+body #mobile_app .form-mobile label[for=interests],
+body .mobile_nav_container .form-mobile label[for=email],
+body .mobile_nav_container .form-mobile label[for=interests] {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.0555555556vw;
+  font-weight: 700;
+  color: #231f20;
+  text-transform: uppercase;
+  line-height: 5.8333333333vw;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile .newsletter-submit,
+body .mobile_nav_container .form-mobile .newsletter-submit {
+  width: 100%;
+  color: white;
+  font-size: 3.6111111111vw;
+  font-weight: 700;
+  line-height: 6.1111111111vw;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin: 8.8888888889vw 0 0;
+  background-color: #231f20;
+}
+body #mobile_app .form-mobile [data-name=cf_interests],
+body .mobile_nav_container .form-mobile [data-name=cf_interests] {
+  margin: 20px 0;
+  display: block;
+}
+body #mobile_app .form-mobile [data-name=cf_interests] span,
+body .mobile_nav_container .form-mobile [data-name=cf_interests] span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2.2222222222vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile [data-name=cf_interests] span span label,
+body .mobile_nav_container .form-mobile [data-name=cf_interests] span span label {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  /* Active state */
+}
+body #mobile_app .form-mobile [data-name=cf_interests] span span label input[type=checkbox],
+body .mobile_nav_container .form-mobile [data-name=cf_interests] span span label input[type=checkbox] {
+  display: none; /* Hide the native checkbox */
+}
+body #mobile_app .form-mobile [data-name=cf_interests] span span label label,
+body .mobile_nav_container .form-mobile [data-name=cf_interests] span span label label {
+  display: flex;
+  align-items: center;
+  font-size: 0.847vw;
+  color: #333;
+  cursor: pointer;
+}
+body #mobile_app .form-mobile [data-name=cf_interests] span span label input[type=checkbox],
+body .mobile_nav_container .form-mobile [data-name=cf_interests] span span label input[type=checkbox] {
+  display: inline-block;
+  width: 6.6666666667vw;
+  height: 6.6666666667vw;
+  margin-right: 1.6666666667vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg id='check_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1'%3E%3Crect x='0.5' y='0.609375' width='23' height='23' stroke='%23231F20'/%3E%3C/g%3E%3C/svg%3E"); /* Inactive SVG */
+}
+body #mobile_app .form-mobile [data-name=email-792],
+body .mobile_nav_container .form-mobile [data-name=email-792] {
+  height: 11.6666666667vw;
+  background: white;
+  display: block;
+  position: relative;
+  margin: 0 0 6.1111111111vw;
+}
+body #mobile_app .form-mobile [data-name=email-792] span,
+body .mobile_nav_container .form-mobile [data-name=email-792] span {
+  gap: 0.5555555556vw;
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.11em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile [data-name=email-792] input,
+body .mobile_nav_container .form-mobile [data-name=email-792] input {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.0555555556vw;
+  font-weight: 400;
+  line-height: 5.8333333333vw;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile [data-name=email-792] input::-moz-placeholder, body .mobile_nav_container .form-mobile [data-name=email-792] input::-moz-placeholder {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 400;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+body #mobile_app .form-mobile [data-name=email-792] input::placeholder,
+body .mobile_nav_container .form-mobile [data-name=email-792] input::placeholder {
+  font-family: "Helvetica Neue LT Pro", ui-sans-serif, system-ui, sans-serif;
+  font-size: 3.6111111111vw;
+  font-weight: 400;
+  line-height: 5.2777777778vw;
+  letter-spacing: 0.05em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
 
 body .mobile_frame-82 {
   padding-bottom: 0 !important;
+}
+body .mobile_frame-45 .slider_mobile_3 .product-image-container {
+  min-height: 65vw;
+}
+body .mobile_frame-45 .slider_mobile_3 .fixed-arrow {
+  right: 23%;
 }
 body .slider_mobile_1,
 body .slider_mobile_2,

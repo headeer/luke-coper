@@ -17,6 +17,24 @@
       },
     });
   }
+  var swiperContainerBlog2 = document.querySelector(".mobile_blog_2");
+  var slidesBlog2 = document.querySelectorAll(".mobile_blog_2 .swiper-slide");
+  if (swiperContainerBlog2 && slidesBlog2.length > 0) {
+    // Initialize Swiper only if elements are present
+    var swiper = new Swiper(".mobile_blog_2", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        prevEl: ".fixed-arrow",
+      },
+      breakpoints: {
+        768: {
+          enabled: false, // Disables Swiper on screens >= 768px
+        },
+      },
+    });
+  }
   var splide3 = new Splide(".splide3", {
     perPage: 5,
     next: "splide3 splide__arrow--next fixed-arrow",
@@ -56,7 +74,6 @@
   document
     .querySelector(".splide2 .fixed-arrow")
     .addEventListener("click", () => {
-      console.log("clicked 2");
       splide2.go("+1"); // Trigger the next slide
     });
   splide2.on("mounted moved", () => {
@@ -301,7 +318,6 @@
     var swiper12 = new Swiper(".slider_mobile_8", {
       slidesPerView: "auto",
       spaceBetween: 30,
-      speed: 1000,
       navigation: {
         prevEl: ".fixed-arrow",
       },

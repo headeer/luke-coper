@@ -14,7 +14,7 @@ get_header(); ?>
                     // Custom query to fetch the recent blog posts
                     $args = array(
                         'post_type' => 'post',
-                        'posts_per_page' => 3, // Number of posts to display
+                        'posts_per_page' => 10, // Number of posts to display
                         'orderby' => 'date',
                         'order' => 'DESC'
                     );
@@ -65,7 +65,7 @@ get_header(); ?>
                         // Custom query to fetch the recent blog posts
                         $args = array(
                             'post_type' => 'post',
-                            'posts_per_page' => 3, // Number of posts to display
+                            'posts_per_page' => 10, // Number of posts to display
                             'orderby' => 'date',
                             'order' => 'DESC'
                         );
